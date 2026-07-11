@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetToolKit 宠小算 — 一站式宠物实用工具套件</title>
+  <meta name="description" content="PetToolKit 宠小算提供免费在线宠物计算工具：人宠年龄换算、喂食量计算器、宠物预产期推算、驱虫周期计算器、疫苗时间表查询。科学养宠，精准测算猫狗日常养护数据。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://你的域名/">
+  <meta property="og:title" content="PetToolKit 宠小算 — 一站式宠物实用工具套件">
+  <meta property="og:description" content="科学养宠，精准测算猫狗日常养护数据。人宠年龄、喂食量、预产期、驱虫、疫苗一站搞定。">
+  <meta property="og:type" content="website">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap" as="style">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/pet-manager.js"></script>
+  <script src="assets/js/calculators.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "PetToolKit 宠小算",
+    "url": "https://你的域名/",
+    "description": "一站式宠物实用工具套件，科学养宠精准测算。",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://你的域名/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <a href="/" class="nav-brand">
+    <img src="assets/img/logo.svg" alt="PetToolKit" class="nav-logo" width="28" height="28">
+    <span>PetToolKit 宠小算</span>
+  </a>
+  <div class="nav-links">
+    <a href="/" class="active">首页</a>
+    <a href="blog/">养宠知识</a>
+  </div>
+</nav>
+
+<!-- localStorage warning (hidden by default) -->
+<div id="storageWarning" class="alert-bar hidden">
+  当前浏览器不支持本地存储，宠物档案将无法保存。不影响计算器正常使用。
+  <button class="alert-close" onclick="this.parentElement.remove()">&times;</button>
+</div>
+
+<!-- Main Content -->
+<div class="container">
+  <!-- Pet Sidebar -->
+  <div class="pet-sidebar-wrap">
+    <button class="pet-sidebar-toggle" id="petSidebarToggle" onclick="togglePetPanel()">
+      🐾 我的宠物 <span id="petCountBadge"></span>
+      <span class="pet-sidebar-toggle-icon">▾</span>
+    </button>
+    <div class="pet-list-panel" id="petListPanel">
+      <div id="petList"></div>
+      <button class="pet-add-btn" onclick="openAddPetModal()">
+        + 添加新宠物
+      </button>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>一站式宠物实用工具套件</h1>
+      <p>科学养宠，精准测算猫狗日常养护数据</p>
+      <div class="hero-actions">
+        <a href="#tools" class="btn btn-primary">直达工具集合</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/img/hero-dog.jpg" alt="快乐的金毛寻回犬" width="340" height="453">
+    </div>
+  </section>
+
+  <!-- Tool Cards -->
+  <section class="tool-grid" id="tools">
+    <a href="tools/age-calculator.html" class="card">
+      <div class="card-icon">📅</div>
+      <div class="card-body"><h3>人宠年龄换算</h3><p>科学换算猫狗年龄至人类等效年龄</p></div>
+      <span class="btn btn-primary">→</span>
+    </a>
+    <a href="tools/feeding-calculator.html" class="card">
+      <div class="card-icon">🍖</div>
+      <div class="card-body"><h3>喂食量计算器</h3><p>精确计算每日喂食克数</p></div>
+      <span class="btn btn-primary">→</span>
+    </a>
+    <a href="tools/pregnancy-calculator.html" class="card">
+      <div class="card-icon">🤰</div>
+      <div class="card-body"><h3>宠物预产期推算</h3><p>推算预产日期和关键时间节点</p></div>
+      <span class="btn btn-primary">→</span>
+    </a>
+    <a href="tools/deworming-calculator.html" class="card">
+      <div class="card-icon">💊</div>
+      <div class="card-body"><h3>驱虫周期计算器</h3><p>自动生成体内外驱虫计划</p></div>
+      <span class="btn btn-primary">→</span>
+    </a>
+    <a href="tools/vaccine-calculator.html" class="card">
+      <div class="card-icon">💉</div>
+      <div class="card-body"><h3>疫苗时间表查询</h3><p>生成犬猫核心疫苗完整时间表</p></div>
+      <span class="btn btn-primary">→</span>
+    </a>
+  </section>
+</div>
+
+<!-- AD_PLACEHOLDER -->
+<div class="ad-placeholder">广告位</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-links">
+    <a href="about.html">关于我们</a>
+    <a href="contact.html">联系我们</a>
+    <a href="privacy-policy.html">隐私政策</a>
+    <a href="terms.html">服务条款</a>
+  </div>
+  <p class="footer-copy">© 2026 PetToolKit 宠小算 | 科学养宠工具 · 所有计算在浏览器本地完成，数据不会上传至任何服务器</p>
+</footer>
+
+<!-- Add Pet Modal -->
+<div class="modal-overlay hidden" id="petModal">
+  <div class="modal">
+    <h2 id="petModalTitle">添加新宠物</h2>
+    <input type="hidden" id="petEditId">
+
+    <div class="input-group">
+      <label for="petName">宠物名字 <span style="color:#e74c3c">*</span></label>
+      <input type="text" class="input" id="petName" placeholder="如：豆包" maxlength="20">
+    </div>
+
+    <div class="input-group">
+      <label>宠物类型 <span style="color:#e74c3c">*</span></label>
+      <div class="toggle-tabs" id="petTypeTabs">
+        <button class="toggle-tab active" data-type="dog">🐕 狗狗</button>
+        <button class="toggle-tab" data-type="cat">🐈 猫咪</button>
+      </div>
+      <input type="hidden" id="petType" value="dog">
+    </div>
+
+    <div class="input-group">
+      <label for="petBreed">品种</label>
+      <input type="text" class="input" id="petBreed" placeholder="如：金毛、英短" maxlength="30">
+    </div>
+
+    <div class="input-group">
+      <label for="petBirthday">出生日期（精确到月）</label>
+      <input type="month" class="input" id="petBirthday">
+    </div>
+
+    <div class="input-group">
+      <label for="petWeight">体重（kg）</label>
+      <input type="number" class="input" id="petWeight" placeholder="例：28.5" min="0.1" max="200" step="0.1">
+    </div>
+
+    <div class="input-group">
+      <label for="petNeutered">是否已绝育</label>
+      <select class="input" id="petNeutered">
+        <option value="0">否</option>
+        <option value="1">是</option>
+      </select>
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn btn-secondary" onclick="closePetModal()">取消</button>
+      <button class="btn btn-primary" id="petSaveBtn" onclick="savePet()">保存</button>
+    </div>
+
+    <div id="petDeleteArea" class="hidden" style="margin-top:16px;border-top:1px solid var(--border);padding-top:16px;">
+      <button class="btn btn-secondary btn-sm" onclick="deletePetConfirm()" style="color:#e74c3c;border-color:#e74c3c;">删除此宠物档案</button>
+    </div>
+  </div>
+</div>
+
+<!-- Pet action menu popup -->
+<div class="modal-overlay hidden" id="petActionMenu">
+  <div class="modal" style="max-width:240px;padding:var(--space-sm);">
+    <button class="btn btn-secondary btn-sm" style="width:100%;margin-bottom:8px;" id="petActionEdit">✏️ 编辑</button>
+    <button class="btn btn-secondary btn-sm" style="width:100%;color:#e74c3c;border-color:#e74c3c;" id="petActionDelete">🗑️ 删除</button>
+  </div>
+</div>
+
+<script>
+// ===== Init =====
+(function() {
+  // Check localStorage
+  if (!PetManager.isStorageAvailable()) {
+    document.getElementById('storageWarning').classList.remove('hidden');
+  }
+
+  renderPetList();
+
+  // Desktop: auto-open panel
+  if (window.innerWidth >= 1024) {
+    document.getElementById('petListPanel').classList.add('open');
+  }
+})();
+
+// ===== Pet List UI =====
+function renderPetList() {
+  const list = document.getElementById('petList');
+  const pets = PetManager.getAllPets();
+  const activeId = PetManager.getActivePet() ? PetManager.getActivePet().id : null;
+  const badge = document.getElementById('petCountBadge');
+
+  if (pets.length === 0) {
+    badge.textContent = '';
+    list.innerHTML = '<p style="font-size:0.8125rem;color:var(--text-muted);padding:8px 12px;">还没有宠物档案，点击下方按钮创建</p>';
+    return;
+  }
+
+  badge.textContent = '(' + pets.length + ')';
+
+  list.innerHTML = pets.map(p => {
+    const emoji = p.type === 'dog' ? '🐕' : '🐈';
+    const breed = p.breed || (p.type === 'dog' ? '狗狗' : '猫咪');
+    const weight = PetManager.getWeightNum(p);
+    const weightStr = weight ? weight + 'kg' : '';
+    const detail = [breed, weightStr].filter(Boolean).join(' · ') || '未填写详细信息';
+
+    return `
+      <div class="pet-item ${p.id === activeId ? 'active' : ''}" data-pet-id="${p.id}">
+        <div style="display:flex;align-items:center;flex:1;min-width:0;" onclick="PetManager.switchPet('${p.id}');renderPetList();">
+          <span class="pet-item-emoji">${emoji}</span>
+          <div class="pet-item-info">
+            <div class="pet-item-name">${escapeHtml(p.name)}</div>
+            <div class="pet-item-detail">${escapeHtml(detail)}</div>
+          </div>
+        </div>
+        <button class="pet-item-menu" onclick="event.stopPropagation();openPetActions('${p.id}')" aria-label="更多操作">⋯</button>
+      </div>
+    `;
+  }).join('');
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function togglePetPanel() {
+  const panel = document.getElementById('petListPanel');
+  const toggle = document.getElementById('petSidebarToggle');
+  panel.classList.toggle('open');
+  toggle.classList.toggle('open');
+}
+
+// ===== Pet Actions =====
+let actionPetId = null;
+
+function openPetActions(petId) {
+  actionPetId = petId;
+  document.getElementById('petActionEdit').onclick = function() {
+    closePetActions();
+    openEditPetModal(petId);
+  };
+  document.getElementById('petActionDelete').onclick = function() {
+    closePetActions();
+    deletePetConfirmById(petId);
+  };
+  document.getElementById('petActionMenu').classList.remove('hidden');
+}
+
+function closePetActions() {
+  document.getElementById('petActionMenu').classList.add('hidden');
+  actionPetId = null;
+}
+
+document.getElementById('petActionMenu').addEventListener('click', function(e) {
+  if (e.target === this) closePetActions();
+});
+
+// ===== Pet Modal =====
+let editingPetId = null;
+
+function openAddPetModal() {
+  editingPetId = null;
+  document.getElementById('petModalTitle').textContent = '添加新宠物';
+  document.getElementById('petEditId').value = '';
+  document.getElementById('petName').value = '';
+  document.getElementById('petType').value = 'dog';
+  document.getElementById('petBreed').value = '';
+  document.getElementById('petBirthday').value = '';
+  document.getElementById('petWeight').value = '';
+  document.getElementById('petNeutered').value = '0';
+  document.getElementById('petDeleteArea').classList.add('hidden');
+  updateTypeTabs('dog');
+  document.getElementById('petModal').classList.remove('hidden');
+  document.getElementById('petName').focus();
+}
+
+function openEditPetModal(petId) {
+  const pet = PetManager.getPet(petId);
+  if (!pet) return;
+  editingPetId = petId;
+  document.getElementById('petModalTitle').textContent = '编辑宠物档案';
+  document.getElementById('petEditId').value = petId;
+  document.getElementById('petName').value = pet.name;
+  document.getElementById('petType').value = pet.type;
+  document.getElementById('petBreed').value = pet.breed || '';
+  document.getElementById('petBirthday').value = pet.birthday || '';
+  document.getElementById('petWeight').value = pet.weight || '';
+  document.getElementById('petNeutered').value = pet.neutered ? '1' : '0';
+  updateTypeTabs(pet.type);
+  document.getElementById('petDeleteArea').classList.remove('hidden');
+  document.getElementById('petModal').classList.remove('hidden');
+}
+
+function closePetModal() {
+  document.getElementById('petModal').classList.add('hidden');
+  editingPetId = null;
+}
+
+function updateTypeTabs(type) {
+  document.querySelectorAll('#petTypeTabs .toggle-tab').forEach(tab => {
+    tab.classList.toggle('active', tab.dataset.type === type);
+  });
+}
+
+function savePet() {
+  const name = document.getElementById('petName').value.trim();
+  const type = document.getElementById('petType').value;
+  const breed = document.getElementById('petBreed').value.trim();
+  const birthday = document.getElementById('petBirthday').value;
+  const weight = document.getElementById('petWeight').value;
+  const neutered = document.getElementById('petNeutered').value === '1';
+
+  if (!name) {
+    document.getElementById('petName').classList.add('input-error');
+    document.getElementById('petName').focus();
+    return;
+  }
+  document.getElementById('petName').classList.remove('input-error');
+
+  if (!PetManager.isStorageAvailable()) {
+    alert('当前浏览器不支持本地存储，无法创建宠物档案。');
+    closePetModal();
+    return;
+  }
+
+  if (editingPetId) {
+    PetManager.updatePet(editingPetId, { name, type, breed, birthday, weight, neutered });
+  } else {
+    PetManager.createPet({ name, type, breed, birthday, weight, neutered });
+  }
+
+  closePetModal();
+  renderPetList();
+}
+
+function deletePetConfirmById(petId) {
+  if (!confirm('确定要删除这个宠物档案吗？此操作不可撤销。')) return;
+  PetManager.deletePet(petId);
+  renderPetList();
+}
+
+function deletePetConfirm() {
+  const petId = document.getElementById('petEditId').value;
+  if (!petId) return;
+  if (!confirm('确定要删除这个宠物档案吗？此操作不可撤销。')) return;
+  PetManager.deletePet(petId);
+  closePetModal();
+  renderPetList();
+}
+
+// ===== Type tabs click =====
+document.getElementById('petTypeTabs').addEventListener('click', function(e) {
+  if (e.target.classList.contains('toggle-tab') || e.target.closest('.toggle-tab')) {
+    const tab = e.target.classList.contains('toggle-tab') ? e.target : e.target.closest('.toggle-tab');
+    document.getElementById('petType').value = tab.dataset.type;
+    updateTypeTabs(tab.dataset.type);
+  }
+});
+
+// ===== Close modals on overlay click =====
+document.getElementById('petModal').addEventListener('click', function(e) {
+  if (e.target === this) closePetModal();
+});
+
+// ===== Keyboard =====
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    closePetModal();
+    closePetActions();
+  }
+});
+</script>
+
+</body>
+</html>

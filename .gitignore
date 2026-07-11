@@ -1,0 +1,17 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Screenshots (temporary)
+screenshot-*.png
+
+# Node (if any later)
+node_modules/

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>驱虫周期计算器 — 犬猫体内外驱虫时间表 | PetToolKit 宠小算</title>
+  <meta name="description" content="根据WSAVA和CAPC驱虫指南，输入宠物生活环境和上次驱虫日期，自动生成未来12个月体内外驱虫计划。支持幼犬/幼猫高频驱虫方案。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://你的域名/tools/deworming-calculator.html">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/pet-manager.js"></script>
+  <script src="../assets/js/calculators.js"></script>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="../" class="nav-brand">
+    <img src="../assets/img/logo.svg" alt="PetToolKit" class="nav-logo" width="28" height="28">
+    <span>PetToolKit 宠小算</span>
+  </a>
+  <div class="nav-links"><a href="../">首页</a><a href="../blog/">养宠知识</a></div>
+</nav>
+
+<div class="container">
+  <div class="breadcrumb"><a href="../">首页</a> <span>›</span> 驱虫周期计算器</div>
+
+  <h1>驱虫周期计算器</h1>
+  <p class="text-muted">基于 WSAVA 寄生虫控制指南和 CAPC 建议，根据宠物的生活环境、年龄和饮食情况，自动生成体内外驱虫计划。</p>
+
+  <div class="card" style="margin-top:var(--space-md);">
+    <div class="input-group">
+      <label>宠物类型</label>
+      <div class="toggle-tabs" id="wormTypeTabs">
+        <button class="toggle-tab active" data-type="dog">🐕 狗狗</button>
+        <button class="toggle-tab" data-type="cat">🐈 猫咪</button>
+      </div>
+      <input type="hidden" id="wormType" value="dog">
+    </div>
+
+    <div class="input-group">
+      <label>生活环境</label>
+      <select class="input" id="wormEnv">
+        <option value="mixed" selected>偶尔外出（每天遛弯）</option>
+        <option value="indoor">纯室内</option>
+        <option value="outdoor">户外散养</option>
+      </select>
+    </div>
+
+    <div class="input-group">
+      <label>是否吃生食</label>
+      <select class="input" id="wormRaw">
+        <option value="0" selected>否</option>
+        <option value="1">是</option>
+      </select>
+      <div class="input-hint">吃生骨肉/生食的宠物体内驱虫频率需提高到每3个月</div>
+    </div>
+
+    <div class="input-group">
+      <label for="lastInternal">上次体内驱虫日期</label>
+      <input type="date" class="input" id="lastInternal">
+      <div class="input-hint">不填则默认从今天开始计算计划</div>
+    </div>
+
+    <div class="input-group">
+      <label for="lastExternal">上次体外驱虫日期</label>
+      <input type="date" class="input" id="lastExternal">
+      <div class="input-hint">不填则默认从今天开始计算计划</div>
+    </div>
+
+    <button class="btn btn-primary" onclick="calcWorm()" style="width:100%;">生成驱虫计划</button>
+
+    <div id="wormResult" class="result-panel hidden">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;text-align:center;">
+        <div style="background:var(--bg-card);border-radius:8px;padding:12px;">
+          <div style="font-size:0.75rem;color:var(--text-muted);">体内驱虫</div>
+          <div style="font-size:1.5rem;font-weight:700;" id="wormIntFreq">—</div>
+          <div style="font-size:0.75rem;color:var(--text-muted);">每X个月</div>
+          <div style="margin-top:4px;font-size:0.8125rem;" id="wormIntNext">—</div>
+        </div>
+        <div style="background:var(--bg-card);border-radius:8px;padding:12px;">
+          <div style="font-size:0.75rem;color:var(--text-muted);">体外驱虫</div>
+          <div style="font-size:1.5rem;font-weight:700;" id="wormExtFreq">—</div>
+          <div style="font-size:0.75rem;color:var(--text-muted);">每X个月</div>
+          <div style="margin-top:4px;font-size:0.8125rem;" id="wormExtNext">—</div>
+        </div>
+      </div>
+      <div id="wormWarning" class="hidden" style="margin-top:8px;padding:8px;background:#fef8f7;border-radius:6px;font-size:0.8125rem;color:#e74c3c;"></div>
+      <div id="wormDefaultNote" class="hidden" style="margin-top:4px;font-size:0.75rem;color:var(--text-muted);">以上计划从今天起算。如已知上次驱虫日期，请填写以获得更准确结果。</div>
+
+      <div style="margin-top:var(--space-md);text-align:left;">
+        <div style="font-weight:600;margin-bottom:8px;">📅 未来12个月驱虫日历</div>
+        <div class="table-wrap" id="wormSchedule"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AD_PLACEHOLDER --><div class="ad-placeholder">广告位</div>
+
+  <section class="content-section">
+    <h2>如何使用驱虫周期计算器</h2>
+    <ol>
+      <li><strong>选择宠物类型和环境</strong>：室内猫驱虫频率最低，户外犬需要最频繁的驱虫。</li>
+      <li><strong>填入上次驱虫日期</strong>（可选）：如果记得上次体内/体外驱虫的具体日期，填上可获得精确的下次驱虫日期。不填则系统从今天起算。</li>
+      <li><strong>查看驱虫计划和日历</strong>：系统自动计算推荐频率和未来12个月的驱虫日期表。</li>
+    </ol>
+  </section>
+
+  <section class="content-section">
+    <h2>驱虫的科学依据</h2>
+    <h3>为什么需要定期驱虫？</h3>
+    <p>驱虫药只对给药时已经存在的寄生虫有效，不具备持续的预防作用。因此需要按固定周期重复给药。跳蚤从卵到成虫的生命周期约3-4周，所以体外驱虫至少每月一次。体内寄生虫（如蛔虫、钩虫）的潜伏期通常为2-4周，所以幼年宠物需要高频驱虫。</p>
+    <h3>不同生活环境的驱虫策略</h3>
+    <p>根据WSAVA和CAPC指南：<strong>纯室内宠物</strong>感染风险最低，体内驱虫可放宽到每6个月，体外驱虫每3个月。<strong>有外出习惯的宠物</strong>接触土壤、草地、其他动物排泄物的机会增加，体内驱虫每3个月，体外驱虫每月。<strong>吃生食的宠物</strong>无论生活环境如何，体内驱虫至少每3个月一次。</p>
+  </section>
+
+  <!-- AD_PLACEHOLDER --><div class="ad-placeholder">广告位</div>
+
+  <section class="content-section">
+    <h2>常见问题</h2>
+    <div class="faq-item"><summary>狗狗多久驱虫一次？</summary><div class="faq-answer">成年狗狗：纯室内每6个月体内驱虫+每3个月体外驱虫；偶尔外出/户外散养每3个月体内驱虫+每月体外驱虫。幼犬（<6个月）体内驱虫每2周一次直到12周龄，体外驱虫每月一次。</div></div>
+    <div class="faq-item"><summary>猫咪不出门还需要驱虫吗？</summary><div class="faq-answer"><strong>需要，但频率可以降低。</strong>纯室内猫的体内驱虫建议每6个月一次，体外驱虫每3个月一次。即使不出门，主人外出带回的虫卵、家里其他宠物、或者偶尔出现的蚊虫都可能带来寄生虫风险。</div></div>
+    <div class="faq-item"><summary>体内外同驱和分开用药哪个好？</summary><div class="faq-answer">体内外同驱产品（如大宠爱/爱沃克/超可信）方便省事，一次用药覆盖体内外。但体内外驱虫频率不同——体外通常需要每月一次，体内可能每3-6个月一次。如果采用分开用药方案，可以根据实际需求灵活调整频率，成本也可能更低。</div></div>
+    <div class="faq-item"><summary>吃生骨肉的宠物驱虫频率要更高吗？</summary><div class="faq-answer"><strong>是的。</strong>生肉可能携带弓形虫、绦虫、沙门氏菌等病原体。无论宠物生活在室内还是户外，只要吃生食，体内驱虫频率应至少每3个月一次。建议与兽医讨论针对弓形虫和绦虫的特定驱虫方案。</div></div>
+  </section>
+
+  <section>
+    <h2>相关工具</h2>
+    <div class="related-tools">
+      <a href="age-calculator.html" class="card"><h4>📅 人宠年龄换算</h4></a>
+      <a href="feeding-calculator.html" class="card"><h4>🍖 喂食量计算器</h4></a>
+      <a href="pregnancy-calculator.html" class="card"><h4>🤰 宠物预产期推算</h4></a>
+      <a href="vaccine-calculator.html" class="card"><h4>💉 疫苗时间表查询</h4></a>
+    </div>
+  </section>
+
+  <p class="disclaimer">免责声明：驱虫频率建议基于WSAVA/CAPC通用指南，仅供参考。不同地区寄生虫流行病学存在差异，具体方案请咨询当地执业兽医。</p>
+</div>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="../about.html">关于我们</a><a href="../contact.html">联系我们</a>
+    <a href="../privacy-policy.html">隐私政策</a><a href="../terms.html">服务条款</a>
+  </div>
+  <p class="footer-copy">© 2026 PetToolKit 宠小算</p>
+</footer>
+
+<script>
+(function(){
+  const pet=PetManager.getActivePet();
+  if(pet){
+    document.getElementById('wormType').value=pet.type;
+    document.querySelectorAll('#wormTypeTabs .toggle-tab').forEach(t=>t.classList.toggle('active',t.dataset.type===pet.type));
+  }
+})();
+
+document.getElementById('wormTypeTabs').addEventListener('click',function(e){
+  const t=e.target.closest('.toggle-tab');if(!t)return;
+  this.querySelectorAll('.toggle-tab').forEach(b=>b.classList.remove('active'));
+  t.classList.add('active');document.getElementById('wormType').value=t.dataset.type;
+});
+
+function calcWorm(){
+  const type=document.getElementById('wormType').value;
+  const env=document.getElementById('wormEnv').value;
+  const rawFood=document.getElementById('wormRaw').value==='1';
+  const lastInt=document.getElementById('lastInternal').value||null;
+  const lastExt=document.getElementById('lastExternal').value||null;
+
+  const pet=PetManager.getActivePet();
+  const ageMonths=pet?PetManager.getAgeMonths(pet):null;
+
+  const result=Calculators.calcDeworming(type,ageMonths,env,rawFood,lastInt,lastExt);
+
+  document.getElementById('wormIntFreq').textContent='每 '+result.internalFreqMonths+' 个月';
+  document.getElementById('wormExtFreq').textContent='每 '+result.externalFreqMonths+' 个月';
+  document.getElementById('wormIntNext').textContent='下次：'+(result.nextInternal?Calculators.formatDate(result.nextInternal):'—');
+  document.getElementById('wormExtNext').textContent='下次：'+(result.nextExternal?Calculators.formatDate(result.nextExternal):'—');
+
+  document.getElementById('wormWarning').classList.add('hidden');
+  let warnings=[];
+  if(result.internalOverdue&&result.lastInternalFilled)warnings.push('🔴 体内驱虫已过期！请尽快安排。');
+  if(result.externalOverdue&&result.lastExternalFilled)warnings.push('🔴 体外驱虫已过期！请尽快安排。');
+  if(result.lastInternalTooOld)warnings.push('⚠️ 距上次体内驱虫已超过2年，建议先驱虫后再使用本计划。');
+  if(warnings.length){document.getElementById('wormWarning').classList.remove('hidden');document.getElementById('wormWarning').textContent=warnings.join(' ');}
+
+  document.getElementById('wormDefaultNote').classList.toggle('hidden',!!(lastInt&&lastExt));
+
+  // Merge and sort schedule
+  const allEvents=[...result.internalSchedule,...result.externalSchedule];
+  allEvents.sort((a,b)=>a.date-b.date);
+
+  const months=['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+  const byMonth={};
+  allEvents.forEach(e=>{
+    const key=e.date.getFullYear()+'-'+e.date.getMonth();
+    if(!byMonth[key])byMonth[key]=[];
+    byMonth[key].push(e.label);
+  });
+
+  const sortedKeys=Object.keys(byMonth).sort();
+  if(sortedKeys.length===0){
+    document.getElementById('wormSchedule').innerHTML='<p style="color:var(--text-muted);padding:12px;">暂无计划数据，请检查输入</p>';
+  }else{
+    document.getElementById('wormSchedule').innerHTML='<table><thead><tr><th>日期</th><th>体内驱虫</th><th>体外驱虫</th></tr></thead><tbody>'+
+      sortedKeys.map(k=>{
+        const d=new Date(k.split('-')[0],parseInt(k.split('-')[1]),1);
+        const yy=d.getFullYear(),mm=d.getMonth();
+        const labels=byMonth[k]||[];
+        const hasInt=labels.includes('体内'),hasExt=labels.includes('体外');
+        return '<tr><td>'+yy+'年'+months[mm]+'</td><td>'+(hasInt?'✅':'—')+'</td><td>'+(hasExt?'✅':'—')+'</td></tr>';
+      }).join('')+'</tbody></table>';
+  }
+
+  document.getElementById('wormResult').classList.remove('hidden');
+}
+</script>
+</body>
+</html>

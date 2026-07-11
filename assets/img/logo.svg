@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Cat silhouette (left) -->
+  <g transform="translate(80, 140)" fill="none" stroke="#3D3D3D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cat body -->
+    <ellipse cx="30" cy="80" rx="22" ry="30"/>
+    <!-- Cat head -->
+    <circle cx="30" cy="40" r="18"/>
+    <!-- Cat ears -->
+    <polygon points="14,28 12,12 24,24"/>
+    <polygon points="46,28 48,12 36,24"/>
+    <!-- Cat tail -->
+    <path d="M50,90 Q75,75 70,50" stroke-width="4"/>
+    <!-- Cat eyes -->
+    <circle cx="24" cy="40" r="3" fill="#3D3D3D" stroke="none"/>
+    <circle cx="36" cy="40" r="3" fill="#3D3D3D" stroke="none"/>
+    <!-- Cat whiskers -->
+    <line x1="10" y1="38" x2="20" y2="40" stroke-width="2"/>
+    <line x1="10" y1="42" x2="20" y2="41" stroke-width="2"/>
+    <line x1="40" y1="40" x2="50" y2="38" stroke-width="2"/>
+    <line x1="40" y1="41" x2="50" y2="42" stroke-width="2"/>
+  </g>
+
+  <!-- Dog silhouette (right, facing left) -->
+  <g transform="translate(310, 130) scale(-1,1) translate(-60,0)" fill="none" stroke="#3D3D3D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Dog body -->
+    <ellipse cx="30" cy="85" rx="24" ry="32"/>
+    <!-- Dog head -->
+    <circle cx="30" cy="42" r="20"/>
+    <!-- Dog ear (floppy) -->
+    <path d="M16,32 Q12,55 20,52" stroke-width="4"/>
+    <!-- Dog snout -->
+    <ellipse cx="38" cy="48" rx="10" ry="7" stroke-width="2"/>
+    <circle cx="38" cy="46" r="2" fill="#3D3D3D" stroke="none"/>
+    <!-- Dog eye -->
+    <circle cx="25" cy="42" r="3" fill="#3D3D3D" stroke="none"/>
+    <!-- Dog tail -->
+    <path d="M50,95 Q70,75 65,55" stroke-width="4"/>
+    <!-- Dog legs -->
+    <line x1="18" y1="110" x2="14" y2="130" stroke-width="5"/>
+    <line x1="30" y1="112" x2="30" y2="130" stroke-width="5"/>
+    <line x1="42" y1="110" x2="46" y2="130" stroke-width="5"/>
+  </g>
+
+  <!-- Decorative line -->
+  <line x1="160" y1="180" x2="240" y2="180" stroke="#C4A882" stroke-width="1" opacity="0.5"/>
+</svg>

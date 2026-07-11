@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人宠年龄换算 — 科学计算猫狗人类等效年龄 | PetToolKit 宠小算</title>
+  <meta name="description" content="基于UC San Diego表观遗传学研究，科学换算狗狗猫咪年龄至人类等效年龄。支持小型犬/中型犬/大型犬体型调整，精准了解你的宠物相当于人类几岁。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://你的域名/tools/age-calculator.html">
+  <meta property="og:title" content="人宠年龄换算 — PetToolKit 宠小算">
+  <meta property="og:description" content="基于UC San Diego科学研究，精准换算猫狗年龄至人类等效年龄。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/pet-manager.js"></script>
+  <script src="../assets/js/calculators.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "人宠年龄换算",
+    "description": "基于UC San Diego表观遗传学研究，科学换算猫狗年龄至人类等效年龄。",
+    "applicationCategory": "LifestyleApplication",
+    "operatingSystem": "All",
+    "offers": { "@type": "Offer", "price": "0" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question", "name": "狗狗1岁等于人类几岁？",
+        "acceptedAnswer": { "@type": "Answer", "text": "根据UC San Diego发表于Cell Systems的研究，狗狗1岁约等于人类31岁。狗狗在生命的前两年快速老化，之后老化速度放缓。大型犬比小型犬老得更快。" }
+      },
+      {
+        "@type": "Question", "name": "猫的年龄怎么换算人类年龄？",
+        "acceptedAnswer": { "@type": "Answer", "text": "猫的第1年约等于人类15岁，第2年加9岁（即2岁=24岁），之后每1年增加4人类年。比如一只5岁的猫，约等于人类15+9+4+4+4=36岁。" }
+      },
+      {
+        "@type": "Question", "name": "传统狗龄×7的算法错了吗？",
+        "acceptedAnswer": { "@type": "Answer", "text": "是的，传统的「1狗年=7人年」过于简化且不准确。研究显示狗狗在第一年就能达到人类31岁左右的成熟度，之后老化速度因体型而异。科学公式为16×ln(实际年龄)+31。" }
+      },
+      {
+        "@type": "Question", "name": "大型犬和小型犬的老化速度一样吗？",
+        "acceptedAnswer": { "@type": "Answer", "text": "不一样。小型犬（<10kg）寿命更长，老化更慢；大型犬（>25kg）老化加速约10-15%。比如5岁的小型犬相当于人类约52岁，而5岁的大型犬相当于人类约56岁。" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="../" class="nav-brand">
+    <img src="../assets/img/logo.svg" alt="PetToolKit" class="nav-logo" width="28" height="28">
+    <span>PetToolKit 宠小算</span>
+  </a>
+  <div class="nav-links">
+    <a href="../">首页</a>
+    <a href="../blog/">养宠知识</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="breadcrumb">
+    <a href="../">首页</a> <span>›</span> 人宠年龄换算
+  </div>
+
+  <h1>人宠年龄换算</h1>
+  <p class="text-muted">基于 UC San Diego 2020 年发表于 <em>Cell Systems</em> 的表观遗传学研究，科学换算猫狗实际年龄至人类等效年龄。大型犬和小型犬的老化速度不同，本工具已考虑体型因素。</p>
+
+  <!-- Calculator Core -->
+  <div class="card" style="margin-top:var(--space-md);">
+    <!-- Type Toggle -->
+    <div class="input-group">
+      <label>宠物类型</label>
+      <div class="toggle-tabs" id="ageTypeTabs">
+        <button class="toggle-tab active" data-type="dog">🐕 狗狗</button>
+        <button class="toggle-tab" data-type="cat">🐈 猫咪</button>
+      </div>
+      <input type="hidden" id="ageType" value="dog">
+    </div>
+
+    <!-- Age Input -->
+    <div class="input-group">
+      <label for="ageYears">实际年龄</label>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <input type="number" class="input" id="ageYears" placeholder="年" min="0" max="30" step="0.1" style="flex:1;">
+        <span style="color:var(--text-secondary);">年</span>
+        <input type="number" class="input" id="ageMonths" placeholder="月" min="0" max="11" step="1" style="flex:1;">
+        <span style="color:var(--text-secondary);">月</span>
+      </div>
+      <div class="input-hint">输入实际年龄，或滑动下方滑块快速调整</div>
+      <input type="range" id="ageSlider" min="0" max="300" value="0" step="1" style="width:100%;margin-top:8px;" oninput="onSliderChange()">
+    </div>
+
+    <!-- Size (dog only) -->
+    <div class="input-group" id="dogSizeGroup">
+      <label>体型（仅狗狗需要选择）</label>
+      <div id="sizeError" class="input-error-text hidden">请选择体型以获得更精确结果</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button class="btn btn-secondary btn-sm size-btn active" data-size="medium" onclick="selectSize('medium', this)">中型犬 (10-25kg)</button>
+        <button class="btn btn-secondary btn-sm size-btn" data-size="small" onclick="selectSize('small', this)">小型犬 (&lt;10kg)</button>
+        <button class="btn btn-secondary btn-sm size-btn" data-size="large" onclick="selectSize('large', this)">大型犬 (&gt;25kg)</button>
+      </div>
+    </div>
+
+    <!-- Calculate Button -->
+    <button class="btn btn-primary" onclick="calculateAge()" style="width:100%;margin-top:8px;">计算人类等效年龄</button>
+
+    <!-- Result -->
+    <div id="ageResult" class="result-panel hidden">
+      <div style="font-size:1rem;color:var(--text-secondary);">相当于人类</div>
+      <div class="result-value" id="ageHumanYears">—</div>
+      <div class="result-label" id="ageStage">—</div>
+      <div id="ageAdvice" style="font-size:0.875rem;color:var(--text-primary);margin-top:8px;"></div>
+      <div class="result-detail hidden" id="ageDetail" style="margin-top:12px;">
+        <hr style="border:none;border-top:1px solid var(--border);margin:12px 0;">
+        <p style="font-size:0.8125rem;color:var(--text-muted);">📐 计算公式：<span id="ageFormula"></span></p>
+        <p style="font-size:0.8125rem;color:var(--text-muted);">📚 传统 ×7 法结果：约 <span id="ageOldRule"></span> 人类年（此方法已被科学界淘汰）</p>
+        <p style="font-size:0.75rem;color:var(--text-muted);">数据来源：UC San Diego <em>Cell Systems</em> (2020) · AAHA/AAFP 指南</p>
+      </div>
+    </div>
+    <div id="ageError" class="result-panel hidden" style="background:#fef8f7;">
+      <p id="ageErrorMsg" style="color:#e74c3c;"></p>
+    </div>
+  </div>
+
+  <!-- Ad Placeholder -->
+  <!-- AD_PLACEHOLDER -->
+  <div class="ad-placeholder">广告位</div>
+
+  <!-- How to Use -->
+  <section class="content-section">
+    <h2>如何使用人宠年龄换算工具</h2>
+    <ol>
+      <li><strong>选择宠物类型</strong>：点击"狗狗"或"猫咪"切换Tab。如果你已创建宠物档案，类型会自动读取。</li>
+      <li><strong>输入实际年龄</strong>：填写年数和月数，或直接拖拽滑块快速调整。建议精确到月以获得更准确结果。</li>
+      <li><strong>选择体型</strong>（仅狗狗）：选择小型犬/中型犬/大型犬。体型越大老化越快，本工具已考虑此因素。</li>
+      <li><strong>查看结果</strong>：点击计算按钮，即可看到人类等效年龄、生命阶段标签和养护建议。</li>
+    </ol>
+  </section>
+
+  <!-- Science -->
+  <section class="content-section">
+    <h2>狗狗年龄换算的科学原理</h2>
+    <h3>为什么"1狗年=7人年"是错的？</h3>
+    <p>传统的"乘以7"规则过度简化了犬类老化过程。实际上，狗在生命的前两年老化极快——1岁的狗已经性成熟，相当于人类青春期后期。之后老化速度放缓，且因体型而异。</p>
+    <h3>UC San Diego 表观遗传学研究</h3>
+    <p>2020年，加州大学圣地亚哥分校的研究团队在 <em>Cell Systems</em> 期刊发表了里程碑式研究。他们比较了104只拉布拉多寻回犬与人类的DNA甲基化模式，推导出公式：<strong>人类年龄 = 16 × ln(狗龄) + 31</strong>。这一定量模型首次从分子层面解释了犬类与人类老化的对应关系。</p>
+    <h3>猫的年龄换算</h3>
+    <p>根据美国动物医院协会（AAHA）和美国猫科医师协会（AAFP）的指南：猫的第一年约等于人类15岁，第二年增加9岁（24岁），此后每年增加4人类年。这一规则在兽医临床中被广泛使用。</p>
+  </section>
+
+  <!-- Ad Placeholder 2 -->
+  <!-- AD_PLACEHOLDER -->
+  <div class="ad-placeholder">广告位</div>
+
+  <!-- FAQ -->
+  <section class="content-section">
+    <h2>常见问题</h2>
+    <div class="faq-item">
+      <summary>狗狗1岁等于人类几岁？</summary>
+      <div class="faq-answer">根据UC San Diego发表于Cell Systems的研究，狗狗1岁约等于<strong>人类31岁</strong>。狗狗在生命的前两年快速老化，之后老化速度放缓。大型犬比小型犬老得更快——所以同样是5岁，吉娃娃可能相当于人类约50岁，而大丹犬可能接近60岁。</div>
+    </div>
+    <div class="faq-item">
+      <summary>猫的年龄怎么换算人类年龄？</summary>
+      <div class="faq-answer">猫的第1年约等于人类15岁，第2年加9岁（即2岁猫=24人类岁），之后每1年增加4人类年。比如一只5岁的猫，约等于人类15+9+4+4+4=<strong>36岁</strong>。7岁的猫约为44岁，10岁约为56岁。</div>
+    </div>
+    <div class="faq-item">
+      <summary>为什么大型犬比小型犬老得快？</summary>
+      <div class="faq-answer">这是犬类生物学中一个有趣的现象。大型犬的生长发育速度更快、细胞分裂次数更多，同时体内自由基和氧化应激水平更高，这些因素加速了老化过程。此外，大型犬更高的癌症发病率和更快的端粒缩短速度也导致了它们的"快进式"衰老。</div>
+    </div>
+    <div class="faq-item">
+      <summary>如何判断我的狗狗/猫咪处于哪个生命阶段？</summary>
+      <div class="faq-answer">根据AAHA生命阶段指南：<strong>幼年期</strong>（0-1岁）需要特别的成长营养；<strong>青少年期</strong>（1-2岁）精力旺盛；<strong>壮年期</strong>（2-7岁小型犬/2-5岁大型犬）是体能巅峰；<strong>中年期</strong>开始需要关注体重和关节；<strong>老年期</strong>（小型犬11岁+/大型犬7岁+）需调整饮食和增加体检频率。</div>
+    </div>
+  </section>
+
+  <!-- Related Tools -->
+  <section>
+    <h2 style="margin-bottom:var(--space-sm);">相关工具</h2>
+    <div class="related-tools">
+      <a href="feeding-calculator.html" class="card"><h4>🍖 喂食量计算器</h4></a>
+      <a href="pregnancy-calculator.html" class="card"><h4>🤰 宠物预产期推算</h4></a>
+      <a href="deworming-calculator.html" class="card"><h4>💊 驱虫周期计算器</h4></a>
+      <a href="vaccine-calculator.html" class="card"><h4>💉 疫苗时间表查询</h4></a>
+    </div>
+  </section>
+
+  <p class="disclaimer">免责声明：本工具提供的年龄换算基于已发表的科学研究，仅供参考。不同品种、个体之间存在差异，具体健康问题请咨询执业兽医。</p>
+</div>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="../about.html">关于我们</a>
+    <a href="../contact.html">联系我们</a>
+    <a href="../privacy-policy.html">隐私政策</a>
+    <a href="../terms.html">服务条款</a>
+  </div>
+  <p class="footer-copy">© 2026 PetToolKit 宠小算 | 所有计算在浏览器本地完成</p>
+</footer>
+
+<script>
+let selectedSize = 'medium';
+
+// Initialize from pet profile
+(function() {
+  const pet = PetManager.getActivePet();
+  if (pet) {
+    document.getElementById('ageType').value = pet.type;
+    document.getElementById('ageTypeTabs').querySelectorAll('.toggle-tab').forEach(t => {
+      t.classList.toggle('active', t.dataset.type === pet.type);
+    });
+    document.getElementById('dogSizeGroup').style.display = pet.type === 'dog' ? '' : 'none';
+
+    const ageYears = PetManager.getAgeYears(pet);
+    if (ageYears !== null) {
+      const years = Math.floor(ageYears);
+      const months = Math.round((ageYears - years) * 12);
+      document.getElementById('ageYears').value = years;
+      document.getElementById('ageMonths').value = months;
+      document.getElementById('ageSlider').value = Math.round(ageYears * 12);
+    }
+  }
+})();
+
+document.getElementById('ageTypeTabs').addEventListener('click', function(e) {
+  const tab = e.target.closest('.toggle-tab');
+  if (!tab) return;
+  document.getElementById('ageTypeTabs').querySelectorAll('.toggle-tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  document.getElementById('ageType').value = tab.dataset.type;
+  document.getElementById('dogSizeGroup').style.display = tab.dataset.type === 'dog' ? '' : 'none';
+});
+
+function selectSize(size, btn) {
+  selectedSize = size;
+  document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('sizeError').classList.add('hidden');
+}
+
+function onSliderChange() {
+  const totalMonths = parseInt(document.getElementById('ageSlider').value);
+  document.getElementById('ageYears').value = Math.floor(totalMonths / 12);
+  document.getElementById('ageMonths').value = totalMonths % 12;
+}
+
+// Sync numeric inputs → slider
+document.getElementById('ageYears').addEventListener('input', syncToSlider);
+document.getElementById('ageMonths').addEventListener('input', syncToSlider);
+function syncToSlider() {
+  const y = parseInt(document.getElementById('ageYears').value) || 0;
+  const m = parseInt(document.getElementById('ageMonths').value) || 0;
+  document.getElementById('ageSlider').value = y * 12 + m;
+}
+
+function calculateAge() {
+  const type = document.getElementById('ageType').value;
+  const yrs = parseFloat(document.getElementById('ageYears').value) || 0;
+  const mos = (parseFloat(document.getElementById('ageMonths').value) || 0) / 12;
+  const ageYears = yrs + mos;
+
+  document.getElementById('ageResult').classList.add('hidden');
+  document.getElementById('ageError').classList.add('hidden');
+
+  // Validation
+  if (ageYears <= 0 || ageYears > 30) {
+    document.getElementById('ageError').classList.remove('hidden');
+    document.getElementById('ageErrorMsg').textContent = ageYears <= 0
+      ? '太小啦！建议至少满 1 个月再使用此工具。'
+      : '请确认年龄是否正确，通常犬猫寿命不超过 30 年。';
+    if (ageYears <= 0) return;
+  }
+
+  if (type === 'dog' && !selectedSize) {
+    document.getElementById('sizeError').classList.remove('hidden');
+    return;
+  }
+
+  const result = Calculators.ageToHuman(type, ageYears, type === 'dog' ? selectedSize : null);
+  if (!result) return;
+
+  document.getElementById('ageHumanYears').textContent = '约 ' + result.humanAge + ' 岁';
+  document.getElementById('ageStage').textContent = result.stageIcon + ' ' + result.stage;
+  document.getElementById('ageAdvice').textContent = result.stageAdvice;
+  document.getElementById('ageFormula').textContent = result.formula + ' = ' + result.humanAge;
+  document.getElementById('ageOldRule').textContent = result.oldRule;
+  document.getElementById('ageResult').classList.remove('hidden');
+  document.getElementById('ageDetail').classList.remove('hidden');
+
+  // Update slider
+  document.getElementById('ageSlider').value = Math.round(ageYears * 12);
+}
+</script>
+
+</body>
+</html>

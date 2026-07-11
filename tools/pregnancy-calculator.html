@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>宠物预产期推算 — 犬猫孕期计算器 | PetToolKit 宠小算</title>
+  <meta name="description" content="输入配种日期，一键推算狗狗（63天）和猫咪（65天）的预产期。标记孕期关键节点：B超时间、X光时间、准备产房时间。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://你的域名/tools/pregnancy-calculator.html">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/pet-manager.js"></script>
+  <script src="../assets/js/calculators.js"></script>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="../" class="nav-brand">
+    <img src="../assets/img/logo.svg" alt="PetToolKit" class="nav-logo" width="28" height="28">
+    <span>PetToolKit 宠小算</span>
+  </a>
+  <div class="nav-links"><a href="../">首页</a><a href="../blog/">养宠知识</a></div>
+</nav>
+
+<div class="container">
+  <div class="breadcrumb"><a href="../">首页</a> <span>›</span> 宠物预产期推算</div>
+
+  <h1>宠物预产期推算</h1>
+  <p class="text-muted">输入配种日期，推算母犬（63天）或母猫（65天）的预产日期，标记孕期每个关键时间节点。</p>
+
+  <div class="card" style="margin-top:var(--space-md);">
+    <div class="input-group">
+      <label>宠物类型</label>
+      <div class="toggle-tabs" id="pregTypeTabs">
+        <button class="toggle-tab active" data-type="dog">🐕 狗狗（孕期63天）</button>
+        <button class="toggle-tab" data-type="cat">🐈 猫咪（孕期65天）</button>
+      </div>
+      <input type="hidden" id="pregType" value="dog">
+    </div>
+
+    <div class="input-group">
+      <label for="matingDate">配种日期 <span style="color:#e74c3c">*</span></label>
+      <input type="date" class="input" id="matingDate">
+      <div class="input-error-text hidden" id="matingError">请选择配种日期</div>
+    </div>
+
+    <button class="btn btn-primary" onclick="calculatePreg()" style="width:100%;">推算预产期</button>
+
+    <div id="pregResult" class="result-panel hidden">
+      <div style="font-size:1rem;color:var(--text-secondary);">预产日期</div>
+      <div class="result-value" id="pregDue">—</div>
+      <div class="result-label" id="pregWindow">—</div>
+      <div style="margin-top:12px;">
+        <div class="progress-bar"><div class="progress-fill" id="pregProgress" style="width:0%;"></div></div>
+        <div style="font-size:0.8125rem;color:var(--text-secondary);text-align:center;">孕期第 <strong id="pregDay">—</strong> 天 / <span id="pregTotal">—</span> 天（<span id="pregPercent">—</span>）</div>
+      </div>
+      <div style="margin-top:8px;font-size:1rem;font-weight:600;color:var(--accent);" id="pregCountdown"></div>
+
+      <div style="margin-top:16px;text-align:left;">
+        <div style="font-weight:600;margin-bottom:8px;">📅 关键节点时间线</div>
+        <ul class="timeline" id="pregTimeline"></ul>
+      </div>
+    </div>
+    <div id="pregError" class="result-panel hidden" style="background:#fef8f7;">
+      <p id="pregErrorMsg" style="color:#e74c3c;"></p>
+    </div>
+  </div>
+
+  <!-- AD_PLACEHOLDER --><div class="ad-placeholder">广告位</div>
+
+  <section class="content-section">
+    <h2>如何使用预产期推算工具</h2>
+    <ol>
+      <li><strong>选择宠物类型</strong>：狗狗孕期平均63天，猫咪平均65天。</li>
+      <li><strong>选择配种日期</strong>：记录母宠交配的日期。如果不确定确切日期，选择一个大致日期作为参考。</li>
+      <li><strong>查看预产期和时间线</strong>：系统自动计算预产期和孕期每个关键节点。</li>
+    </ol>
+  </section>
+
+  <section class="content-section">
+    <h2>犬猫孕期的科学知识</h2>
+    <h3>狗狗的孕期</h3>
+    <p>狗狗的平均孕期为<strong>63天</strong>（从排卵日算起），范围在58-68天之间。如果从配种日期算起，由于精子可在母犬生殖道内存活数日，实际孕期范围可能扩大到57-72天。小型犬窝产仔数通常较少（1-4只），大型犬较多（6-12只）。</p>
+    <h3>猫咪的孕期</h3>
+    <p>猫咪的平均孕期为<strong>65天</strong>（从排卵日算起），范围在63-67天。猫是诱导排卵动物——交配行为刺激排卵，因此配种日期与排卵日期基本同步，预产期推算比狗更准确。猫咪每窝通常3-5只。</p>
+    <h3>孕期各阶段变化</h3>
+    <p>第3-4周：可能出现"孕吐"和食欲下降。第4-5周：腹部开始隆起。第6-7周：胎动明显。第8-9周：乳腺发育，开始分泌初乳。分娩前24小时：体温下降约1°C，食欲减退，不安、筑巢行为出现。</p>
+  </section>
+
+  <!-- AD_PLACEHOLDER --><div class="ad-placeholder">广告位</div>
+
+  <section class="content-section">
+    <h2>常见问题</h2>
+    <div class="faq-item"><summary>狗狗怀孕多久生产？</summary><div class="faq-answer">狗狗平均怀孕<strong>63天</strong>（约2个月），范围58-68天。小型犬品种（如吉娃娃）孕期可能略短（58-63天），大型犬（如金毛）可能略长（63-68天）。</div></div>
+    <div class="faq-item"><summary>猫怀孕多久生产？</summary><div class="faq-answer">猫咪平均怀孕<strong>65天</strong>（约2个月多一点），范围63-67天。暹罗猫等部分品种可能孕期略长（可达71天）。</div></div>
+    <div class="faq-item"><summary>什么时候能通过B超确认怀孕？</summary><div class="faq-answer">配种后<strong>25-30天</strong>，兽医可通过B超检测到胎囊和胎心搏动，这是最早能确认怀孕的时间点。在此之后，X光可在第45天左右清晰看到胎儿骨骼，同时可以准确计数胎儿数量。</div></div>
+    <div class="faq-item"><summary>产前需要准备什么？</summary><div class="faq-answer">第58天（预产期前5-7天）开始准备：<strong>①产箱</strong>——铺干净毛巾或尿垫，放在安静、温暖、避风的角落；<strong>②接生工具</strong>——干净的剪刀、碘伏消毒液、一次性手套、吸水毛巾；<strong>③应急联系</strong>——提前存好24小时动物医院的电话。母宠出现不安、刨窝、频繁舔舐等行为时，通常预示24小时内将生产。</div></div>
+  </section>
+
+  <section>
+    <h2>相关工具</h2>
+    <div class="related-tools">
+      <a href="age-calculator.html" class="card"><h4>📅 人宠年龄换算</h4></a>
+      <a href="feeding-calculator.html" class="card"><h4>🍖 喂食量计算器</h4></a>
+      <a href="deworming-calculator.html" class="card"><h4>💊 驱虫周期计算器</h4></a>
+      <a href="vaccine-calculator.html" class="card"><h4>💉 疫苗时间表查询</h4></a>
+    </div>
+  </section>
+
+  <p class="disclaimer">免责声明：本工具推算仅供参考。实际预产期可能因品种、个体、环境等因素有偏差。如宠物有健康问题或孕期异常，请立即咨询兽医。</p>
+</div>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="../about.html">关于我们</a><a href="../contact.html">联系我们</a>
+    <a href="../privacy-policy.html">隐私政策</a><a href="../terms.html">服务条款</a>
+  </div>
+  <p class="footer-copy">© 2026 PetToolKit 宠小算</p>
+</footer>
+
+<script>
+(function(){
+  const pet=PetManager.getActivePet();
+  if(pet){
+    document.getElementById('pregType').value=pet.type;
+    document.querySelectorAll('#pregTypeTabs .toggle-tab').forEach(t=>t.classList.toggle('active',t.dataset.type===pet.type));
+  }
+})();
+
+document.getElementById('pregTypeTabs').addEventListener('click',function(e){
+  const t=e.target.closest('.toggle-tab');if(!t)return;
+  this.querySelectorAll('.toggle-tab').forEach(b=>b.classList.remove('active'));
+  t.classList.add('active');document.getElementById('pregType').value=t.dataset.type;
+});
+
+function calculatePreg(){
+  const type=document.getElementById('pregType').value;
+  const dateStr=document.getElementById('matingDate').value;
+
+  document.getElementById('pregResult').classList.add('hidden');
+  document.getElementById('pregError').classList.add('hidden');
+  document.getElementById('matingError').classList.add('hidden');
+
+  if(!dateStr){document.getElementById('matingError').classList.remove('hidden');return;}
+  const matingDate=new Date(dateStr+'T00:00:00');
+  if(matingDate>new Date()){document.getElementById('pregError').classList.remove('hidden');document.getElementById('pregErrorMsg').textContent='配种日期不能是未来日期';return;}
+
+  const result=Calculators.calcPregnancy(type,dateStr);
+  if(!result)return;
+
+  if(result.isOverdue){
+    document.getElementById('pregError').classList.remove('hidden');
+    document.getElementById('pregErrorMsg').textContent='预产期已过 '+result.daysSinceMating+' 天。如果母宠尚未生产，请立即联系兽医。';
+    document.getElementById('pregResult').classList.remove('hidden');
+  }
+
+  document.getElementById('pregDue').textContent=Calculators.formatDate(result.dueDate);
+  document.getElementById('pregWindow').textContent='预产窗口：'+Calculators.formatDate(result.rangeStart)+' ~ '+Calculators.formatDate(result.rangeEnd);
+  document.getElementById('pregTotal').textContent=result.gestationDays;
+  document.getElementById('pregDay').textContent=Math.min(result.daysSinceMating,result.gestationDays);
+
+  const pct=Math.min(100,Math.round(result.daysSinceMating/result.gestationDays*100));
+  document.getElementById('pregProgress').style.width=pct+'%';
+  document.getElementById('pregPercent').textContent=pct+'%';
+
+  if(result.daysUntilDue>0){
+    document.getElementById('pregCountdown').textContent='距预产期还有 '+result.daysUntilDue+' 天';
+  }else if(result.daysUntilDue===0){
+    document.getElementById('pregCountdown').textContent='🎯 就是今天！密切观察临产征兆！';
+  }else{
+    document.getElementById('pregCountdown').textContent='预产期已过 '+Math.abs(result.daysUntilDue)+' 天';
+  }
+
+  document.getElementById('pregTimeline').innerHTML=result.milestones.map(m=>{
+    let cls='timeline-pending';let symbol='⏳';
+    if(m.status==='done'){cls='timeline-checked';symbol='✅';}
+    else if(m.status==='warning'){cls='timeline-warning';symbol='⚠️';}
+    else if(m.day===result.daysSinceMating||(result.daysSinceMating===result.gestationDays&&m.day===result.gestationDays)){cls='timeline-active';symbol='📍';}
+    return '<li><span class="timeline-icon '+cls+'">'+symbol+'</span><span>'+m.label+'</span></li>';
+  }).join('');
+
+  document.getElementById('pregResult').classList.remove('hidden');
+}
+</script>
+</body>
+</html>
