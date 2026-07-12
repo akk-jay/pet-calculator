@@ -81,7 +81,8 @@
       <h2>体型效应：独立于表观遗传公式的补充研究</h2>
       <p><strong>Wang 2020的表观遗传公式仅基于拉布拉多（中型犬）。</strong>该研究团队在讨论中明确指出："不同品种的犬寿命差异巨大，可能产生不同的年龄转换函数"<sup>[1]</sup>。要校正体型差异，需要借助独立的大规模流行病学研究。</p>
       <p>Kraus等人（2013）在《The American Naturalist》发表的研究，分析了74个犬种、56,637只个体的死亡率数据，发现体型是犬类寿命的最强预测因子——大型犬的<strong>老化速率</strong>显著快于小型犬<sup>[3]</sup>。这一发现被da Silva & Cross（2023）进一步确认：在使用系统发育对照后，体型-寿命的反比关系依然成立，且主要原因是大型犬更高的<strong>年龄依赖性癌症死亡率</strong><sup>[4]</sup>。</p>
-      <p>基于上述两项独立于Wang 2020的研究，我们在计算工具中对不同体型做了如下估算（非Wang原文数据）：</p>
+      <p>2024年，McMillan等人在《Scientific Reports》发表了迄今为止最大规模的犬类寿命研究<sup>[5]</sup>——基于英国 584,734 只犬的兽医记录，覆盖 155 个品种。研究确认了体型-寿命的负相关关系：小型犬中位生存 12.7 年，大型犬死亡加速 1.28 倍。这一大规模独立验证与 Kraus 2013 和 da Silva 2023 的结论高度一致，为我们的体型修正提供了坚实的数据支撑。</p>
+      <p>基于上述三项独立研究，我们在计算工具中对不同体型采用预期寿命缩放法——小型犬（13年）和大型犬（10年）分别以拉布拉多（12年）为基准，按比例缩放实际年龄后再代入表观遗传公式。具体换算结果如下（非Wang原文数据）：</p>
       <div class="table-wrap">
         <table>
           <thead><tr><th>狗狗年龄</th><th>小型犬（<10kg）</th><th>中型犬（10–25kg）</th><th>大型犬（>25kg）</th></tr></thead>
@@ -122,13 +123,14 @@
         <li><strong>da Silva J, Cross B.</strong> Dog Life Spans and the Evolution of Aging. <em>The American Naturalist</em>. 2023;201(6):E140-E152. <a href="https://doi.org/10.1086/724384" target="_blank" rel="noopener">DOI:10.1086/724384</a> · 系统发育对照验证体型-寿命关系</li>
         <li><strong>AAHA/AAFP.</strong> Feline Life Stage Guidelines. <em>J Feline Med Surg</em>. 2010;12:43-54. <a href="https://doi.org/10.1016/j.jfms.2009.12.006" target="_blank" rel="noopener">DOI:10.1016/j.jfms.2009.12.006</a></li>
         <li><strong>Squires RA, Crawford C, Marcondes M, Whitley N (WSAVA VGG).</strong> 2024 Guidelines for the Vaccination of Dogs and Cats. <em>J Small Anim Pract</em>. 2024;65(5):277-316. <a href="https://doi.org/10.1111/jsap.13718" target="_blank" rel="noopener">DOI:10.1111/jsap.13718</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/38568777/" target="_blank" rel="noopener">PMID:38568777</a> · 2024年重大更新版</li>
-        <li><strong>Salt C, Morris PJ, Wilson D, Lund EM, German AJ.</strong> Association between life span and body condition in neutered client-owned dogs. <em>J Vet Intern Med</em>. 2019;33(1):89-99. <a href="https://doi.org/10.1111/jvim.15367" target="_blank" rel="noopener">DOI:10.1111/jvim.15367</a></li>
+        <li><strong>Salt C, Morris PJ, Wilson D, Lund EM, German AJ.</strong> Association between life span and body condition in neutered client-owned dogs. <em>J Vet Intern Med</em>. 2019;33(1):89-99. <a href="https://doi.org/10.1111/jvim.15367" target="_blank" rel="noopener">DOI:10.1111/jvim.15367</a> · 超重犬寿命缩短2.5年</li>
+        <li><strong>McMillan KM, Bielby J, Williams CL, et al.</strong> Longevity of companion dog breeds. <em>Scientific Reports</em>. 2024;14:531. <a href="https://doi.org/10.1038/s41598-023-50458-w" target="_blank" rel="noopener">DOI:10.1038/s41598-023-50458-w</a> · 58万只犬/155品种寿命数据（独立验证）</li>
       </ol>
 
       <h3>交叉验证与来源透明说明</h3>
       <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:0;">
         <strong>表观遗传公式（16×ln+31）：</strong>来源于Wang等人2020年发表于Cell Press子刊《Cell Systems》（IF: 9.4）的同行评审原著论文，基于104只拉布拉多寻回犬的DNA甲基化数据，已被PubMed Central全文收录、被引>500次（截至2026.7），并在小鼠中成功验证。<br><br>
-        <strong>体型修正（小型犬/大型犬调整）：</strong>非Wang原文数据，而是基于Kraus等人（2013, 74犬种/56,637只犬）和da Silva & Cross（2023, 系统发育对照）两项独立大规模研究的科学推断。Wang本人明确指出拉布拉多数据可能与其它品种不同。<br><br>
+        <strong>体型修正（小型犬/大型犬调整）：</strong>非Wang原文数据，而是基于Kraus等人（2013, 74犬种/5.6万只犬）、da Silva & Cross（2023, 系统发育对照）和McMillan等人（2024, 58万只犬/155品种）三项独立大规模研究的科学推断。三项研究结论高度一致：小型犬寿命更长、老化更慢；大型犬寿命更短、老化更快。Wang本人明确指出拉布拉多数据可能与其它品种不同。<br><br>
         <strong>生命阶段划分：</strong>参考AAHA犬类生命阶段指南和WSAVA 2024最新疫苗指南。<br><br>
         ⚠️ 猫的年龄换算基于AAHA/AAFP临床指南（2010），目前尚无猫的公开表观遗传时钟研究。本文所有内容均为截至2026年7月的最新版本。
       </p>
