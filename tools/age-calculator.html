@@ -72,37 +72,40 @@
   <p class="text-muted">核心公式基于 UC San Diego 2020 年发表于 <em>Cell Systems</em> 的表观遗传学研究（104只拉布拉多）。体型修正参考 Kraus (2013) 和 da Silva & Cross (2023) 的品种-寿命独立研究。<a href="../blog/article-dog-age.html">详见科学依据 →</a></p>
 
   <!-- Calculator Core -->
-  <div class="card" style="margin-top:var(--space-md);">
-    <div class="input-group">
-      <label>宠物类型</label>
-      <div class="toggle-tabs" id="ageTypeTabs">
-        <button class="toggle-tab active" data-type="dog">🐕 狗狗</button>
-        <button class="toggle-tab" data-type="cat">🐈 猫咪</button>
+  <div class="card" style="margin-top:var(--space-md);display:flex;flex-direction:column;gap:20px;">
+
+    <div class="calc-block">
+      <div class="calc-label">宠物类型</div>
+      <div class="type-btns">
+        <button class="type-btn active" data-type="dog" onclick="selectType('dog', this)">🐕 狗狗</button>
+        <button class="type-btn" data-type="cat" onclick="selectType('cat', this)">🐈 猫咪</button>
       </div>
       <input type="hidden" id="ageType" value="dog">
     </div>
 
-    <div class="input-group">
-      <label for="ageYears">实际年龄</label>
-      <div class="input-row">
-        <input type="number" class="input" id="ageYears" placeholder="年" min="0" max="30" step="0.1">
-        <span class="input-suffix">年</span>
-        <input type="number" class="input" id="ageMonths" placeholder="月" min="0" max="11" step="1">
-        <span class="input-suffix">月</span>
+    <div class="calc-block">
+      <div class="calc-label">实际年龄</div>
+      <div class="age-inputs">
+        <div class="age-field">
+          <input type="number" class="input input-lg" id="ageYears" placeholder="0" min="0" max="30" step="0.1">
+          <span class="age-unit">年</span>
+        </div>
+        <div class="age-field">
+          <input type="number" class="input input-lg" id="ageMonths" placeholder="0" min="0" max="11" step="1">
+          <span class="age-unit">月</span>
+        </div>
       </div>
       <input type="range" class="input-slider" id="ageSlider" min="0" max="360" value="12" step="1" oninput="onSliderChange()">
     </div>
 
-    <div class="input-group" id="dogSizeGroup">
-      <label>体型（仅狗狗需要选择）</label>
-      <div class="size-btn-group">
-        <button class="size-btn active" data-size="medium" onclick="selectSize('medium', this)">中型犬 10–25kg</button>
-        <button class="size-btn" data-size="small" onclick="selectSize('small', this)">小型犬 &lt;10kg</button>
-        <button class="size-btn" data-size="large" onclick="selectSize('large', this)">大型犬 &gt;25kg</button>
-      </div>
+    <div class="calc-block" id="dogSizeGroup">
+      <div class="calc-label">体型（仅狗狗需要选择）</div>
+      <button class="size-btn active" data-size="medium" onclick="selectSize('medium', this)">中型犬 10–25kg</button>
+      <button class="size-btn" data-size="small" onclick="selectSize('small', this)">小型犬 &lt;10kg</button>
+      <button class="size-btn" data-size="large" onclick="selectSize('large', this)">大型犬 &gt;25kg</button>
     </div>
 
-    <button class="btn btn-primary" style="width:100%;min-height:48px;font-size:1rem;font-weight:600;" onclick="calculateAge()">计算人类等效年龄</button>
+    <button class="btn btn-primary btn-calc" onclick="calculateAge()">计算人类等效年龄</button>
 
     <div id="ageResult" class="result-panel hidden">
       <div style="font-size:1rem;color:var(--text-secondary);">相当于人类</div>
@@ -206,7 +209,7 @@ let selectedSize = 'medium';
   if (pet) {
     // Auto-fill type
     document.getElementById('ageType').value = pet.type;
-    document.getElementById('ageTypeTabs').querySelectorAll('.toggle-tab').forEach(t => {
+    document.querySelectorAll('.type-btn').forEach(t => {
       t.classList.toggle('active', t.dataset.type === pet.type);
     });
     document.getElementById('dogSizeGroup').style.display = pet.type === 'dog' ? '' : 'none';
@@ -220,7 +223,6 @@ let selectedSize = 'medium';
       document.getElementById('ageMonths').value = months;
       document.getElementById('ageSlider').value = Math.round(ageYears * 12);
     } else {
-      // No birthday in profile — pre-fill with common default (1 year)
       document.getElementById('ageYears').value = 1;
       document.getElementById('ageMonths').value = 0;
       document.getElementById('ageSlider').value = 12;
@@ -237,21 +239,22 @@ let selectedSize = 'medium';
       });
     }
   } else {
-    // No pet profile — default to dog, 1 year
     document.getElementById('ageYears').value = 1;
     document.getElementById('ageMonths').value = 0;
     document.getElementById('ageSlider').value = 12;
   }
 })();
 
-document.getElementById('ageTypeTabs').addEventListener('click', function(e) {
-  const tab = e.target.closest('.toggle-tab');
-  if (!tab) return;
-  document.getElementById('ageTypeTabs').querySelectorAll('.toggle-tab').forEach(t => t.classList.remove('active'));
-  tab.classList.add('active');
-  document.getElementById('ageType').value = tab.dataset.type;
-  document.getElementById('dogSizeGroup').style.display = tab.dataset.type === 'dog' ? '' : 'none';
-});
+function selectType(type, btn) {
+  document.getElementById('ageType').value = type;
+  document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('dogSizeGroup').style.display = type === 'dog' ? '' : 'none';
+  // Reset size to medium when switching to dog
+  if (type === 'dog') {
+    selectSize('medium', document.querySelector('.size-btn[data-size="medium"]'));
+  }
+}
 
 function selectSize(size, btn) {
   selectedSize = size;

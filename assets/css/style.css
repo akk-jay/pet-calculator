@@ -956,16 +956,77 @@ tr:last-child td { border-bottom: none; }
   border: none;
 }
 
-/* --- Size buttons (vertical stack, rounded, orange highlight) --- */
-.size-btn-group {
+/* --- Vertical form blocks --- */
+.calc-block {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.size-btn {
+.calc-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+/* Type buttons (vertical) */
+.type-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.type-btn {
   display: block;
   width: 100%;
   padding: 12px 16px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  min-height: 48px;
+  transition: all 0.15s ease;
+}
+.type-btn.active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Age inputs (vertical) */
+.age-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.age-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.age-field .input {
+  flex: 1;
+  min-width: 0;
+}
+.age-unit {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  min-width: 24px;
+}
+.input-lg {
+  font-size: 1.25rem;
+  padding: 14px 16px;
+  min-height: 52px;
+}
+
+/* Size buttons (vertical) */
+.size-btn {
+  display: block;
+  width: 100%;
+  padding: 14px 16px;
   border: 2px solid var(--border);
   border-radius: var(--radius-sm);
   background: var(--bg-card);
@@ -978,9 +1039,7 @@ tr:last-child td { border-bottom: none; }
   text-align: center;
   min-height: 48px;
 }
-.size-btn:hover {
-  border-color: var(--accent);
-}
+.size-btn:hover { border-color: var(--accent); }
 .size-btn.active {
   border-color: var(--accent);
   background: var(--accent);
@@ -988,7 +1047,15 @@ tr:last-child td { border-bottom: none; }
   font-weight: 600;
 }
 
-/* --- Toggle tabs --- */
+/* Calculate button */
+.btn-calc {
+  width: 100%;
+  min-height: 52px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/* --- Toggle tabs (horizontal, kept for other pages) --- */
 .toggle-tabs {
   display: flex;
   gap: 0;
