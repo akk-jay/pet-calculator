@@ -11,7 +11,7 @@
   <meta property="og:description" content="基于UC San Diego科学研究，精准换算猫狗年龄至人类等效年龄。">
   <meta property="og:type" content="website">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css?v=2">
   <script src="../assets/js/pet-manager.js"></script>
   <script src="../assets/js/calculators.js"></script>
   <script type="application/ld+json">
@@ -71,53 +71,60 @@
   <h1>人宠年龄换算</h1>
   <p class="text-muted">核心公式基于 UC San Diego 2020 年发表于 <em>Cell Systems</em> 的表观遗传学研究（104只拉布拉多）。体型修正参考 Kraus (2013) 和 da Silva & Cross (2023) 的品种-寿命独立研究。<a href="../blog/article-dog-age.html">详见科学依据 →</a></p>
 
-  <!-- Calculator Core -->
-  <div class="card" style="margin-top:var(--space-md);display:flex;flex-direction:column;gap:20px;">
+  <!-- Calculator -->
+  <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
 
-    <div class="calc-block">
-      <div class="calc-label">宠物类型</div>
-      <div class="type-btns">
-        <button class="type-btn active" data-type="dog" onclick="selectType('dog', this)">🐕 狗狗</button>
-        <button class="type-btn" data-type="cat" onclick="selectType('cat', this)">🐈 猫咪</button>
+    <!-- Card 1: 宠物类型 -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">宠物类型</div>
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <button id="typeBtnDog" onclick="selectType('dog')" style="width:100%;padding:14px 16px;border:2px solid #E8915C;border-radius:6px;background:#E8915C;color:#fff;font-size:1rem;font-weight:600;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐕 狗狗</button>
+        <button id="typeBtnCat" onclick="selectType('cat')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:1rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐈 猫咪</button>
       </div>
       <input type="hidden" id="ageType" value="dog">
     </div>
 
-    <div class="calc-block">
-      <div class="calc-label">实际年龄</div>
-      <div class="age-inputs">
-        <div class="age-field">
-          <input type="number" class="input input-lg" id="ageYears" placeholder="0" min="0" max="30" step="0.1">
-          <span class="age-unit">年</span>
+    <!-- Card 2: 实际年龄 -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">实际年龄</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="display:flex;align-items:center;gap:8px;">
+          <input type="number" class="input" id="ageYears" placeholder="0" min="0" max="30" step="0.1" style="flex:1;font-size:1.25rem;padding:14px;min-height:52px;">
+          <span style="font-size:1rem;color:#8C8C8C;">年</span>
         </div>
-        <div class="age-field">
-          <input type="number" class="input input-lg" id="ageMonths" placeholder="0" min="0" max="11" step="1">
-          <span class="age-unit">月</span>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <input type="number" class="input" id="ageMonths" placeholder="0" min="0" max="11" step="1" style="flex:1;font-size:1.25rem;padding:14px;min-height:52px;">
+          <span style="font-size:1rem;color:#8C8C8C;">月</span>
         </div>
       </div>
-      <input type="range" class="input-slider" id="ageSlider" min="0" max="360" value="12" step="1" oninput="onSliderChange()">
+      <input type="range" id="ageSlider" min="0" max="360" value="12" step="1" oninput="onSliderChange()" style="width:100%;margin-top:12px;height:6px;accent-color:#E8915C;">
     </div>
 
-    <div class="calc-block" id="dogSizeGroup">
-      <div class="calc-label">体型（仅狗狗需要选择）</div>
-      <button class="size-btn active" data-size="medium" onclick="selectSize('medium', this)">中型犬 10–25kg</button>
-      <button class="size-btn" data-size="small" onclick="selectSize('small', this)">小型犬 &lt;10kg</button>
-      <button class="size-btn" data-size="large" onclick="selectSize('large', this)">大型犬 &gt;25kg</button>
+    <!-- Card 3: 体型 -->
+    <div id="dogSizeGroup" style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">体型（仅狗狗需要选择）</div>
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <button id="sizeMedium" onclick="selectSize('medium')" style="width:100%;padding:14px 16px;border:2px solid #E8915C;border-radius:6px;background:#E8915C;color:#fff;font-size:0.9375rem;font-weight:600;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">中型犬 10–25kg</button>
+        <button id="sizeSmall" onclick="selectSize('small')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">小型犬 &lt;10kg</button>
+        <button id="sizeLarge" onclick="selectSize('large')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">大型犬 &gt;25kg</button>
+      </div>
     </div>
 
-    <button class="btn btn-primary btn-calc" onclick="calculateAge()">计算人类等效年龄</button>
+    <!-- Card 4: Submit -->
+    <button onclick="calculateAge()" style="width:100%;padding:16px;border:none;border-radius:6px;background:#E8915C;color:#fff;font-size:1.125rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;min-height:52px;">计算人类等效年龄</button>
 
+    <!-- Card 5: Result -->
     <div id="ageResult" class="result-panel hidden">
-      <div style="font-size:1rem;color:var(--text-secondary);">相当于人类</div>
+      <div style="font-size:1rem;color:#8C8C8C;">相当于人类</div>
       <div class="result-value" id="ageHumanYears">—</div>
       <div class="result-label" id="ageStage">—</div>
-      <div style="font-size:0.875rem;color:var(--text-primary);margin-top:8px;" id="ageAdvice"></div>
+      <div id="ageAdvice" style="font-size:0.875rem;color:#3D3D3D;margin-top:8px;"></div>
       <div class="result-detail hidden" id="ageDetail" style="margin-top:12px;">
-        <hr style="border:none;border-top:1px solid var(--border);margin:12px 0;">
-        <p style="font-size:0.8125rem;color:var(--text-muted);margin-bottom:4px;">📐 计算公式：<span id="ageFormula"></span></p>
-        <p style="font-size:0.8125rem;color:var(--text-muted);margin-bottom:4px;">📚 传统 ×7 法：约 <span id="ageOldRule"></span> 人类年 · 已淘汰</p>
-        <p style="font-size:0.8125rem;color:var(--text-muted);margin-bottom:4px;">🔬 体型修正：<span id="ageAdjustNote"></span></p>
-        <p style="font-size:0.75rem;color:var(--text-muted);">Wang et al. Cell Systems (2020) · Kraus et al. Am Nat (2013) · McMillan et al. Sci Rep (2024)</p>
+        <hr style="border:none;border-top:1px solid #E5E0DA;margin:12px 0;">
+        <p style="font-size:0.8125rem;color:#B0B0B0;margin-bottom:4px;">📐 计算公式：<span id="ageFormula"></span></p>
+        <p style="font-size:0.8125rem;color:#B0B0B0;margin-bottom:4px;">📚 传统 ×7 法：约 <span id="ageOldRule"></span> 人类年 · 已淘汰</p>
+        <p style="font-size:0.8125rem;color:#B0B0B0;margin-bottom:4px;">🔬 体型修正：<span id="ageAdjustNote"></span></p>
+        <p style="font-size:0.75rem;color:#B0B0B0;">Wang 2020 · Kraus 2013 · McMillan 2024</p>
       </div>
     </div>
     <div id="ageError" class="result-panel hidden" style="background:#fef8f7;">
@@ -207,36 +214,26 @@ let selectedSize = 'medium';
 (function() {
   const pet = PetManager.getActivePet();
   if (pet) {
-    // Auto-fill type
-    document.getElementById('ageType').value = pet.type;
-    document.querySelectorAll('.type-btn').forEach(t => {
-      t.classList.toggle('active', t.dataset.type === pet.type);
-    });
-    document.getElementById('dogSizeGroup').style.display = pet.type === 'dog' ? '' : 'none';
-
-    // Auto-fill age from birthday
-    const ageYears = PetManager.getAgeYears(pet);
+    // Auto-set type
+    if (pet.type === 'cat') selectType('cat');
+    else selectType('dog');
+    // Auto-fill age
+    var ageYears = PetManager.getAgeYears(pet);
     if (ageYears !== null && ageYears > 0) {
-      const years = Math.floor(ageYears);
-      const months = Math.round((ageYears - years) * 12);
-      document.getElementById('ageYears').value = years;
-      document.getElementById('ageMonths').value = months;
+      document.getElementById('ageYears').value = Math.floor(ageYears);
+      document.getElementById('ageMonths').value = Math.round((ageYears - Math.floor(ageYears)) * 12);
       document.getElementById('ageSlider').value = Math.round(ageYears * 12);
     } else {
       document.getElementById('ageYears').value = 1;
       document.getElementById('ageMonths').value = 0;
       document.getElementById('ageSlider').value = 12;
     }
-
-    // Auto-guess size from weight
-    const w = PetManager.getWeightNum(pet);
+    // Auto-guess size
+    var w = PetManager.getWeightNum(pet);
     if (w !== null && pet.type === 'dog') {
-      if (w < 10) selectedSize = 'small';
-      else if (w > 25) selectedSize = 'large';
-      else selectedSize = 'medium';
-      document.querySelectorAll('.size-btn').forEach(b => {
-        b.classList.toggle('active', b.dataset.size === selectedSize);
-      });
+      if (w < 10) selectSize('small');
+      else if (w > 25) selectSize('large');
+      else selectSize('medium');
     }
   } else {
     document.getElementById('ageYears').value = 1;
@@ -245,22 +242,33 @@ let selectedSize = 'medium';
   }
 })();
 
-function selectType(type, btn) {
+function selectType(type) {
   document.getElementById('ageType').value = type;
-  document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById('dogSizeGroup').style.display = type === 'dog' ? '' : 'none';
-  // Reset size to medium when switching to dog
+  var dogBtn = document.getElementById('typeBtnDog');
+  var catBtn = document.getElementById('typeBtnCat');
   if (type === 'dog') {
-    selectSize('medium', document.querySelector('.size-btn[data-size="medium"]'));
+    dogBtn.style.borderColor = '#E8915C'; dogBtn.style.background = '#E8915C'; dogBtn.style.color = '#fff'; dogBtn.style.fontWeight = '600';
+    catBtn.style.borderColor = '#E5E0DA'; catBtn.style.background = '#fff'; catBtn.style.color = '#3D3D3D'; catBtn.style.fontWeight = '500';
+    document.getElementById('dogSizeGroup').style.display = '';
+    selectSize('medium');
+  } else {
+    catBtn.style.borderColor = '#E8915C'; catBtn.style.background = '#E8915C'; catBtn.style.color = '#fff'; catBtn.style.fontWeight = '600';
+    dogBtn.style.borderColor = '#E5E0DA'; dogBtn.style.background = '#fff'; dogBtn.style.color = '#3D3D3D'; dogBtn.style.fontWeight = '500';
+    document.getElementById('dogSizeGroup').style.display = 'none';
   }
 }
 
-function selectSize(size, btn) {
+function selectSize(size) {
   selectedSize = size;
-  document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById('sizeError').classList.add('hidden');
+  var sizes = {small:'sizeSmall',medium:'sizeMedium',large:'sizeLarge'};
+  Object.keys(sizes).forEach(function(k){
+    var el = document.getElementById(sizes[k]);
+    if (k === size) {
+      el.style.borderColor = '#E8915C'; el.style.background = '#E8915C'; el.style.color = '#fff'; el.style.fontWeight = '600';
+    } else {
+      el.style.borderColor = '#E5E0DA'; el.style.background = '#fff'; el.style.color = '#3D3D3D'; el.style.fontWeight = '500';
+    }
+  });
 }
 
 function onSliderChange() {
