@@ -956,6 +956,38 @@ tr:last-child td { border-bottom: none; }
   border: none;
 }
 
+/* --- Size buttons (vertical stack, rounded, orange highlight) --- */
+.size-btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.size-btn {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: center;
+  min-height: 48px;
+}
+.size-btn:hover {
+  border-color: var(--accent);
+}
+.size-btn.active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
 /* --- Toggle tabs --- */
 .toggle-tabs {
   display: flex;
