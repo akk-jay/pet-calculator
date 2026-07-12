@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>宠物预产期推算 — 犬猫孕期计算器 | PetToolKit 宠小算</title>
   <meta name="description" content="输入配种日期，一键推算狗狗（63天）和猫咪（65天）的预产期。标记孕期关键节点：B超时间、X光时间、准备产房时间。">
   <meta name="robots" content="index, follow">
@@ -28,50 +31,53 @@
   <h1>宠物预产期推算</h1>
   <p class="text-muted">输入配种日期，推算母犬（63天）或母猫（65天）的预产日期，标记孕期每个关键时间节点。</p>
 
-  <div class="card" style="margin-top:var(--space-md);">
-    <div class="input-group">
-      <label>宠物类型</label>
-      <div class="toggle-tabs" id="pregTypeTabs">
-        <button class="toggle-tab active" data-type="dog">🐕 狗狗（孕期63天）</button>
-        <button class="toggle-tab" data-type="cat">🐈 猫咪（孕期65天）</button>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+
+    <!-- Card: Type -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">宠物类型</div>
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <button id="pregTypeBtnDog" onclick="selectPregType('dog')" style="width:100%;padding:14px 16px;border:2px solid #E8915C;border-radius:6px;background:#E8915C;color:#fff;font-size:1rem;font-weight:600;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐕 狗狗（孕期63天）</button>
+        <button id="pregTypeBtnCat" onclick="selectPregType('cat')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:1rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐈 猫咪（孕期65天）</button>
       </div>
       <input type="hidden" id="pregType" value="dog">
     </div>
 
-    <div class="input-group">
-      <label for="matingDate">配种日期 <span style="color:#e74c3c">*</span></label>
-      <input type="date" class="input" id="matingDate">
-      <div class="input-error-text hidden" id="matingError">请选择配种日期</div>
+    <!-- Card: Mating Date -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">配种日期 <span style="color:#e74c3c">*</span></div>
+      <input type="date" class="input" id="matingDate" style="width:100%;font-size:1.25rem;padding:14px;min-height:52px;box-sizing:border-box;">
+      <div class="input-error-text hidden" id="matingError" style="font-size:0.8125rem;color:#e74c3c;margin-top:4px;">请选择配种日期</div>
     </div>
 
-    <!-- Cat breed (only for cats, Romagnoli 2019) -->
-    <div class="input-group" id="catBreedGroup" style="display:none;">
-      <label for="catBreed">猫咪品种</label>
-      <select class="input" id="catBreed">
+    <!-- Card: Cat breed (only for cats) -->
+    <div id="catBreedGroup" style="display:none;background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">猫咪品种</div>
+      <select class="input" id="catBreed" style="width:100%;font-size:1rem;padding:14px;min-height:52px;box-sizing:border-box;">
         <option value="other">不确定 / 其他品种（默认65天）</option>
         <option value="norwegian">挪威森林猫（约65.7天）</option>
         <option value="mainecoon">缅因猫（约64.8天）</option>
         <option value="persian">波斯猫（约64.6天）</option>
         <option value="bengal">孟加拉猫（约64.2天）</option>
       </select>
-      <div class="input-hint">Romagnoli et al. 2019, JFMS</div>
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-top:4px;">Romagnoli et al. 2019, JFMS</div>
     </div>
 
-    <!-- Dog size (for dogs, Siena 2021) -->
-    <div class="input-group" id="dogSizeGroup">
-      <label for="dogSize">母犬体型</label>
-      <select class="input" id="dogSize">
+    <!-- Card: Dog size (only for dogs) -->
+    <div id="dogSizeGroup" style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">母犬体型</div>
+      <select class="input" id="dogSize" style="width:100%;font-size:1rem;padding:14px;min-height:52px;box-sizing:border-box;">
         <option value="medium" selected>中型犬 (10-25kg，默认)</option>
         <option value="small">小型犬 (&lt;10kg)</option>
         <option value="large">大型犬 (&gt;25kg)</option>
       </select>
-      <div class="input-hint">Siena & Milani 2021, Animals — 大型犬小窝产孕期可能延长1天</div>
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-top:4px;">Siena & Milani 2021, Animals — 大型犬小窝产孕期可能延长1天</div>
     </div>
 
-    <!-- Litter size (Siena 2021, Beccaglia 2016) -->
-    <div class="input-group">
-      <label for="litterSize">预估窝产仔数（选填）</label>
-      <select class="input" id="litterSize">
+    <!-- Card: Litter size -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">预估窝产仔数（选填）</div>
+      <select class="input" id="litterSize" style="width:100%;font-size:1rem;padding:14px;min-height:52px;box-sizing:border-box;">
         <option value="0">不确定 / 不调整</option>
         <option value="1">1-2 只（孕期可能延长 ~1.5 天）</option>
         <option value="3">3-4 只</option>
@@ -79,20 +85,22 @@
         <option value="8">8-10 只</option>
         <option value="11">11+ 只（孕期可能缩短 ~1 天）</option>
       </select>
-      <div class="input-hint">Siena & Milani 2021 / Beccaglia et al. 2016 — 每偏离平均1只调整约0.25天</div>
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-top:4px;">Siena & Milani 2021 / Beccaglia et al. 2016 — 每偏离平均1只调整约0.25天</div>
     </div>
 
-    <button class="btn btn-primary" onclick="calc<button class="btn btn-primary" onclick="calculatePreg()" style="width:100%;">" style="width:100%;min-height:48px;font-size:1rem;font-weight:600;">推算预产期</button>
+    <!-- Calculate Button -->
+    <button onclick="calculatePreg()" style="width:100%;padding:16px;border:none;border-radius:6px;background:#E8915C;color:#fff;font-size:1.125rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;min-height:52px;">推算预产期</button>
 
+    <!-- Result -->
     <div id="pregResult" class="result-panel hidden">
-      <div style="font-size:1rem;color:var(--text-secondary);">预产日期</div>
+      <div style="font-size:1rem;color:#8C8C8C;">预产日期</div>
       <div class="result-value" id="pregDue">—</div>
       <div class="result-label" id="pregWindow">—</div>
       <div style="margin-top:12px;">
         <div class="progress-bar"><div class="progress-fill" id="pregProgress" style="width:0%;"></div></div>
-        <div style="font-size:0.8125rem;color:var(--text-secondary);text-align:center;">孕期第 <strong id="pregDay">—</strong> 天 / <span id="pregTotal">—</span> 天（<span id="pregPercent">—</span>）</div>
+        <div style="font-size:0.8125rem;color:#3D3D3D;text-align:center;">孕期第 <strong id="pregDay">—</strong> 天 / <span id="pregTotal">—</span> 天（<span id="pregPercent">—</span>）</div>
       </div>
-      <div style="margin-top:8px;font-size:1rem;font-weight:600;color:var(--accent);" id="pregCountdown"></div>
+      <div style="margin-top:8px;font-size:1rem;font-weight:600;color:#E8915C;" id="pregCountdown"></div>
 
       <div style="margin-top:16px;text-align:left;">
         <div style="font-weight:600;margin-bottom:8px;">📅 关键节点时间线</div>
@@ -100,7 +108,7 @@
       </div>
     </div>
     <div id="pregError" class="result-panel hidden" style="background:#fef8f7;">
-      <p id="pregErrorMsg" style="color:#e74c3c;"></p>
+      <p id="pregErrorMsg" style="color:#e74c3c;margin:0;"></p>
     </div>
   </div>
 
@@ -160,17 +168,24 @@
 (function(){
   const pet=PetManager.getActivePet();
   if(pet){
-    document.getElementById('pregType').value=pet.type;
-    document.querySelectorAll('#pregTypeTabs .toggle-tab').forEach(t=>t.classList.toggle('active',t.dataset.type===pet.type));
+    if(pet.type === 'cat') selectPregType('cat');
+    else selectPregType('dog');
   }
 })();
 
-document.getElementById('pregTypeTabs').addEventListener('click',function(e){
-  const t=e.target.closest('.toggle-tab');if(!t)return;
-  this.querySelectorAll('.toggle-tab').forEach(b=>b.classList.remove('active'));
-  t.classList.add('active');document.getElementById('pregType').value=t.dataset.type;
-  toggleBreedInputs(t.dataset.type);
-});
+function selectPregType(type){
+  document.getElementById('pregType').value = type;
+  var dogBtn = document.getElementById('pregTypeBtnDog');
+  var catBtn = document.getElementById('pregTypeBtnCat');
+  if(type === 'dog'){
+    dogBtn.style.borderColor = '#E8915C'; dogBtn.style.background = '#E8915C'; dogBtn.style.color = '#fff'; dogBtn.style.fontWeight = '600';
+    catBtn.style.borderColor = '#E5E0DA'; catBtn.style.background = '#fff'; catBtn.style.color = '#3D3D3D'; catBtn.style.fontWeight = '500';
+  } else {
+    catBtn.style.borderColor = '#E8915C'; catBtn.style.background = '#E8915C'; catBtn.style.color = '#fff'; catBtn.style.fontWeight = '600';
+    dogBtn.style.borderColor = '#E5E0DA'; dogBtn.style.background = '#fff'; dogBtn.style.color = '#3D3D3D'; dogBtn.style.fontWeight = '500';
+  }
+  toggleBreedInputs(type);
+}
 
 function toggleBreedInputs(type){
   document.getElementById('catBreedGroup').style.display=type==='cat'?'':'none';

@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>喂食量计算器 — 科学计算犬猫每日喂食克数 | PetToolKit 宠小算</title>
   <meta name="description" content="基于RER/MER公式和AAHA营养指南，精确计算狗狗猫咪每日所需热量和喂食克数。支持干粮/湿粮换算、体况评分BCS调整、活动水平修正。">
   <meta name="robots" content="index, follow">
@@ -48,92 +51,94 @@
   <h1>喂食量计算器</h1>
   <p class="text-muted">基于 RER/MER 公式和 AAHA 营养指南，根据宠物体重、体况、活动量精确计算每日所需热量和喂食克数。支持干粮和湿粮换算。</p>
 
-  <div class="card" style="margin-top:var(--space-md);">
-    <!-- Type -->
-    <div class="input-group">
-      <label>宠物类型</label>
-      <div class="toggle-tabs" id="feedTypeTabs">
-        <button class="toggle-tab active" data-type="dog">🐕 狗狗</button>
-        <button class="toggle-tab" data-type="cat">🐈 猫咪</button>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+
+    <!-- Card: Type -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">宠物类型</div>
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <button id="feedTypeBtnDog" onclick="selectFeedType('dog')" style="width:100%;padding:14px 16px;border:2px solid #E8915C;border-radius:6px;background:#E8915C;color:#fff;font-size:1rem;font-weight:600;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐕 狗狗</button>
+        <button id="feedTypeBtnCat" onclick="selectFeedType('cat')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:1rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐈 猫咪</button>
       </div>
       <input type="hidden" id="feedType" value="dog">
     </div>
 
-    <!-- Weight -->
-    <div class="input-group">
-      <label for="feedWeight">体重（kg）</label>
-      <input type="number" class="input" id="feedWeight" placeholder="例：28.5" min="0.1" max="200" step="0.1">
-      <div class="input-error-text hidden" id="feedWeightError">请填写体重</div>
+    <!-- Card: Weight -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">体重（kg）</div>
+      <input type="number" class="input" id="feedWeight" placeholder="例：28.5" min="0.1" max="200" step="0.1" style="width:100%;font-size:1.25rem;padding:14px;min-height:52px;box-sizing:border-box;">
+      <div class="input-error-text hidden" id="feedWeightError" style="font-size:0.8125rem;color:#e74c3c;margin-top:4px;">请填写体重</div>
     </div>
 
-    <!-- BCS -->
-    <div class="input-group">
-      <label>体况评分 BCS（1-9分）</label>
-      <div class="input-hint" style="margin-bottom:4px;">1=极瘦，5=标准，9=极胖。选中间值4-5为理想体况。</div>
-      <div style="display:flex;gap:4px;flex-wrap:wrap;">
-        <button class="btn btn-secondary btn-sm bcs-btn" data-bcs="1" onclick="selectBcs(1, this)">1</button>
-        <button class="btn btn-secondary btn-sm bcs-btn" data-bcs="2" onclick="selectBcs(2, this)">2</button>
-        <button class="btn btn-secondary btn-sm bcs-btn" data-bcs="3" onclick="selectBcs(3, this)">3</button>
-        <button class="btn btn-secondary btn-sm bcs-btn" data-bcs="4" onclick="selectBcs(4, this)">4</button>
-        <button class="btn btn-secondary btn-sm bcs-btn active" data-bcs="5" onclick="selectBcs(5, this)">5</button>
-        <button class="btn btn-secondary btn-sm bcs-btn" data-bcs="6" onclick="selectBcs(6, this)">6</button>
-        <button class="btn btn-secondary btn-sm bcs-btn" data-bcs="7" onclick="selectBcs(7, this)">7</button>
-        <button class="btn btn-secondary btn-sm bcs-btn" data-bcs="8" onclick="selectBcs(8, this)">8</button>
-        <button class="btn btn-secondary btn-sm bcs-btn" data-bcs="9" onclick="selectBcs(9, this)">9</button>
+    <!-- Card: BCS -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:4px;">体况评分 BCS（1-9分）</div>
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-bottom:8px;">1=极瘦，5=标准，9=极胖。选中间值4-5为理想体况。</div>
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <button id="bcsBtn1" onclick="selectBcs(1)" style="width:100%;padding:12px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">1 — 极瘦</button>
+        <button id="bcsBtn2" onclick="selectBcs(2)" style="width:100%;padding:12px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">2 — 很瘦</button>
+        <button id="bcsBtn3" onclick="selectBcs(3)" style="width:100%;padding:12px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">3 — 偏瘦</button>
+        <button id="bcsBtn4" onclick="selectBcs(4)" style="width:100%;padding:12px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">4 — 略瘦</button>
+        <button id="bcsBtn5" onclick="selectBcs(5)" style="width:100%;padding:12px 16px;border:2px solid #E8915C;border-radius:6px;background:#E8915C;color:#fff;font-size:0.9375rem;font-weight:600;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">5 — 标准</button>
+        <button id="bcsBtn6" onclick="selectBcs(6)" style="width:100%;padding:12px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">6 — 略胖</button>
+        <button id="bcsBtn7" onclick="selectBcs(7)" style="width:100%;padding:12px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">7 — 偏胖</button>
+        <button id="bcsBtn8" onclick="selectBcs(8)" style="width:100%;padding:12px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">8 — 很胖</button>
+        <button id="bcsBtn9" onclick="selectBcs(9)" style="width:100%;padding:12px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">9 — 极胖</button>
       </div>
-      <div class="input-hint" id="bcsLabel">BCS 5：标准体型，肋骨可摸到但不可见，腰部收窄明显</div>
+      <div id="bcsLabel" style="font-size:0.8125rem;color:#8C8C8C;margin-top:8px;">BCS 5：标准体型，肋骨可摸到但不可见，腰部收窄明显</div>
     </div>
 
-    <!-- Activity -->
-    <div class="input-group">
-      <label>活动水平</label>
-      <div style="display:flex;gap:8px;">
-        <button class="btn btn-secondary btn-sm act-btn" data-activity="low" onclick="selectActivity('low', this)">低（宅家型）</button>
-        <button class="btn btn-secondary btn-sm act-btn active" data-activity="medium" onclick="selectActivity('medium', this)">中（日常散步）</button>
-        <button class="btn btn-secondary btn-sm act-btn" data-activity="high" onclick="selectActivity('high', this)">高（大量运动）</button>
+    <!-- Card: Activity -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">活动水平</div>
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <button id="actLow" onclick="selectActivity('low')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">低（宅家型）</button>
+        <button id="actMedium" onclick="selectActivity('medium')" style="width:100%;padding:14px 16px;border:2px solid #E8915C;border-radius:6px;background:#E8915C;color:#fff;font-size:0.9375rem;font-weight:600;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">中（日常散步）</button>
+        <button id="actHigh" onclick="selectActivity('high')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:0.9375rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">高（大量运动）</button>
       </div>
     </div>
 
-    <!-- Food kcal -->
-    <div class="input-group">
-      <label for="foodKcal">食物热量密度（kcal/100g）</label>
-      <input type="number" class="input" id="foodKcal" placeholder="380" min="1" max="600" value="380">
-      <div class="input-hint">包装袋背面可查到。常见干粮 350-420，常见湿粮 100-130。</div>
-      <div class="input-error-text hidden" id="foodKcalError">热量密度必须大于 0</div>
+    <!-- Card: Food kcal -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">食物热量密度（kcal/100g）</div>
+      <input type="number" class="input" id="foodKcal" placeholder="380" min="1" max="600" value="380" style="width:100%;font-size:1.25rem;padding:14px;min-height:52px;box-sizing:border-box;">
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-top:4px;">包装袋背面可查到。常见干粮 350-420，常见湿粮 100-130。</div>
+      <div class="input-error-text hidden" id="foodKcalError" style="font-size:0.8125rem;color:#e74c3c;margin-top:4px;">热量密度必须大于 0</div>
     </div>
 
-    <button class="btn btn-primary" onclick="calculateFeeding()" style="width:100%;min-height:48px;font-size:1rem;font-weight:600;">计算每日喂食量</button>
+    <!-- Calculate Button -->
+    <button onclick="calculateFeeding()" style="width:100%;padding:16px;border:none;border-radius:6px;background:#E8915C;color:#fff;font-size:1.125rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;min-height:52px;">计算每日喂食量</button>
 
     <!-- Result -->
     <div id="feedResult" class="result-panel hidden">
-      <div style="font-size:1rem;color:var(--text-secondary);">每日所需热量</div>
+      <div style="font-size:1rem;color:#8C8C8C;">每日所需热量</div>
       <div class="result-value" id="feedMer">—</div>
       <div class="result-label">kcal / 天</div>
       <div style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
-        <div style="background:var(--bg-card);border-radius:8px;padding:12px;text-align:center;">
-          <div style="font-size:0.75rem;color:var(--text-muted);">干粮约</div>
-          <div style="font-size:1.25rem;font-weight:700;color:var(--accent);" id="feedDry">—</div>
-          <div style="font-size:0.75rem;color:var(--text-muted);">克/天</div>
+        <div style="background:#f9f6f2;border-radius:8px;padding:12px;text-align:center;">
+          <div style="font-size:0.75rem;color:#B0B0B0;">干粮约</div>
+          <div style="font-size:1.25rem;font-weight:700;color:#E8915C;" id="feedDry">—</div>
+          <div style="font-size:0.75rem;color:#B0B0B0;">克/天</div>
         </div>
-        <div style="background:var(--bg-card);border-radius:8px;padding:12px;text-align:center;">
-          <div style="font-size:0.75rem;color:var(--text-muted);">湿粮约</div>
-          <div style="font-size:1.25rem;font-weight:700;color:var(--accent);" id="feedWet">—</div>
-          <div style="font-size:0.75rem;color:var(--text-muted);">克/天</div>
+        <div style="background:#f9f6f2;border-radius:8px;padding:12px;text-align:center;">
+          <div style="font-size:0.75rem;color:#B0B0B0;">湿粮约</div>
+          <div style="font-size:1.25rem;font-weight:700;color:#E8915C;" id="feedWet">—</div>
+          <div style="font-size:0.75rem;color:#B0B0B0;">克/天</div>
         </div>
       </div>
-      <div style="margin-top:8px;font-size:0.8125rem;color:var(--text-secondary);">
+      <div style="margin-top:8px;font-size:0.8125rem;color:#3D3D3D;">
         💧 每日建议饮水：<strong id="feedWater">—</strong> | 建议分 <strong id="feedMeals">—</strong> 餐喂食
       </div>
       <div class="result-detail" id="feedDetail" style="margin-top:12px;">
-        <hr style="border:none;border-top:1px solid var(--border);margin:12px 0;">
-        <p style="font-size:0.75rem;color:var(--text-muted);">📐 RER = 70 × <span id="feedWeightVal"></span>^0.75 = <span id="feedRerVal"></span> kcal</p>
-        <p style="font-size:0.75rem;color:var(--text-muted);">📐 MER = <span id="feedRerVal2"></span> × <span id="feedK1"></span>（生命阶段）× <span id="feedK2"></span>（活动）× <span id="feedBcsMod"></span>（BCS）= <span id="feedMerVal"></span> kcal</p>
-        <p style="font-size:0.75rem;color:var(--text-muted);">🍖 干粮克数 = <span id="feedMerVal2"></span> ÷ <span id="feedKcalVal"></span> × 100</p>
+        <hr style="border:none;border-top:1px solid #E5E0DA;margin:12px 0;">
+        <p style="font-size:0.75rem;color:#B0B0B0;">📐 RER = 70 × <span id="feedWeightVal"></span>^0.75 = <span id="feedRerVal"></span> kcal</p>
+        <p style="font-size:0.75rem;color:#B0B0B0;">📐 MER = <span id="feedRerVal2"></span> × <span id="feedK1"></span>（生命阶段）× <span id="feedK2"></span>（活动）× <span id="feedBcsMod"></span>（BCS）= <span id="feedMerVal"></span> kcal</p>
+        <p style="font-size:0.75rem;color:#B0B0B0;">🍖 干粮克数 = <span id="feedMerVal2"></span> ÷ <span id="feedKcalVal"></span> × 100</p>
       </div>
-      <div id="bcsWarning" class="hidden" style="font-size:0.8125rem;color:var(--accent);margin-top:8px;padding:8px;background:var(--accent-light);border-radius:6px;"></div>
+      <div id="bcsWarning" class="hidden" style="font-size:0.8125rem;color:#E8915C;margin-top:8px;padding:8px;background:#fef8f7;border-radius:6px;"></div>
     </div>
     <div id="feedError" class="result-panel hidden" style="background:#fef8f7;">
-      <p id="feedErrorMsg" style="color:#e74c3c;"></p>
+      <p id="feedErrorMsg" style="color:#e74c3c;margin:0;"></p>
     </div>
   </div>
 
@@ -201,27 +206,51 @@ const bcsLabels = {
 (function(){
   const pet = PetManager.getActivePet();
   if(pet){
-    document.getElementById('feedType').value = pet.type;
-    document.querySelectorAll('#feedTypeTabs .toggle-tab').forEach(t=>t.classList.toggle('active',t.dataset.type===pet.type));
+    if(pet.type === 'cat') selectFeedType('cat');
+    else selectFeedType('dog');
     const w = PetManager.getWeightNum(pet);
     if(w) document.getElementById('feedWeight').value = w;
     if(pet.neutered){}
   }
 })();
 
-document.getElementById('feedTypeTabs').addEventListener('click',function(e){
-  const t=e.target.closest('.toggle-tab');if(!t)return;
-  this.querySelectorAll('.toggle-tab').forEach(b=>b.classList.remove('active'));
-  t.classList.add('active');document.getElementById('feedType').value=t.dataset.type;
-});
-
-function selectBcs(bcs,btn){
-  selectedBcs=bcs;document.querySelectorAll('.bcs-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');document.getElementById('bcsLabel').textContent='BCS '+bcs+'：'+bcsLabels[bcs];
+function selectFeedType(type){
+  document.getElementById('feedType').value = type;
+  var dogBtn = document.getElementById('feedTypeBtnDog');
+  var catBtn = document.getElementById('feedTypeBtnCat');
+  if(type === 'dog'){
+    dogBtn.style.borderColor = '#E8915C'; dogBtn.style.background = '#E8915C'; dogBtn.style.color = '#fff'; dogBtn.style.fontWeight = '600';
+    catBtn.style.borderColor = '#E5E0DA'; catBtn.style.background = '#fff'; catBtn.style.color = '#3D3D3D'; catBtn.style.fontWeight = '500';
+  } else {
+    catBtn.style.borderColor = '#E8915C'; catBtn.style.background = '#E8915C'; catBtn.style.color = '#fff'; catBtn.style.fontWeight = '600';
+    dogBtn.style.borderColor = '#E5E0DA'; dogBtn.style.background = '#fff'; dogBtn.style.color = '#3D3D3D'; dogBtn.style.fontWeight = '500';
+  }
 }
-function selectActivity(act,btn){
-  selectedActivity=act;document.querySelectorAll('.act-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
+
+function selectBcs(bcs){
+  selectedBcs = bcs;
+  for(var i=1;i<=9;i++){
+    var el = document.getElementById('bcsBtn'+i);
+    if(i === bcs){
+      el.style.borderColor = '#E8915C'; el.style.background = '#E8915C'; el.style.color = '#fff'; el.style.fontWeight = '600';
+    } else {
+      el.style.borderColor = '#E5E0DA'; el.style.background = '#fff'; el.style.color = '#3D3D3D'; el.style.fontWeight = '500';
+    }
+  }
+  document.getElementById('bcsLabel').textContent='BCS '+bcs+'：'+bcsLabels[bcs];
+}
+
+function selectActivity(act){
+  selectedActivity = act;
+  var acts = {low:'actLow',medium:'actMedium',high:'actHigh'};
+  Object.keys(acts).forEach(function(k){
+    var el = document.getElementById(acts[k]);
+    if(k === act){
+      el.style.borderColor = '#E8915C'; el.style.background = '#E8915C'; el.style.color = '#fff'; el.style.fontWeight = '600';
+    } else {
+      el.style.borderColor = '#E5E0DA'; el.style.background = '#fff'; el.style.color = '#3D3D3D'; el.style.fontWeight = '500';
+    }
+  });
 }
 
 function calculateFeeding(){

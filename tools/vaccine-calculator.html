@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>疫苗时间表查询 — 犬猫疫苗接种计划 | PetToolKit 宠小算</title>
   <meta name="description" content="基于WSAVA 2024和AAHA指南，输入宠物出生日期自动生成犬猫核心疫苗完整接种时间表。支持中国/美国/欧洲地区方案调整。">
   <meta name="robots" content="index, follow">
@@ -28,46 +31,54 @@
   <h1>疫苗时间表查询</h1>
   <p class="text-muted">基于 WSAVA 2024 犬猫疫苗接种指南和 AAHA 2022 犬疫苗指南，根据出生日期自动生成核心疫苗完整时间表，标注加强针和下次接种日期。</p>
 
-  <div class="card" style="margin-top:var(--space-md);">
-    <div class="input-group">
-      <label>宠物类型</label>
-      <div class="toggle-tabs" id="vaxTypeTabs">
-        <button class="toggle-tab active" data-type="dog">🐕 狗狗</button>
-        <button class="toggle-tab" data-type="cat">🐈 猫咪</button>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+
+    <!-- Card: Type -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">宠物类型</div>
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <button id="vaxTypeBtnDog" onclick="selectVaxType('dog')" style="width:100%;padding:14px 16px;border:2px solid #E8915C;border-radius:6px;background:#E8915C;color:#fff;font-size:1rem;font-weight:600;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐕 狗狗</button>
+        <button id="vaxTypeBtnCat" onclick="selectVaxType('cat')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:1rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐈 猫咪</button>
       </div>
       <input type="hidden" id="vaxType" value="dog">
     </div>
 
-    <div class="input-group">
-      <label>生活环境</label>
-      <select class="input" id="vaxEnv">
+    <!-- Card: Environment -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">生活环境</div>
+      <select class="input" id="vaxEnv" style="width:100%;font-size:1rem;padding:14px;min-height:52px;box-sizing:border-box;">
         <option value="mixed" selected>偶尔外出（每天遛弯）</option>
         <option value="indoor">纯室内</option>
         <option value="outdoor">户外散养</option>
       </select>
     </div>
 
-    <div class="input-group">
-      <label>所在地区</label>
-      <select class="input" id="vaxRegion">
+    <!-- Card: Region -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">所在地区</div>
+      <select class="input" id="vaxRegion" style="width:100%;font-size:1rem;padding:14px;min-height:52px;box-sizing:border-box;">
         <option value="china" selected>中国</option>
         <option value="us">美国</option>
         <option value="europe">欧洲</option>
       </select>
-      <div class="input-hint">影响狂犬病疫苗补强周期：中国部分城市要求每年接种</div>
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-top:4px;">影响狂犬病疫苗补强周期：中国部分城市要求每年接种</div>
     </div>
 
-    <div class="input-group">
-      <label>已接种的疫苗</label>
-      <div id="vaxCheckList" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
+    <!-- Card: Vaccinated checklist -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">已接种的疫苗</div>
+      <div id="vaxCheckList" style="display:flex;flex-direction:column;gap:6px;"></div>
     </div>
 
-    <button class="btn btn-primary" onclick="calc<button class="btn btn-primary" onclick="calcVax()" style="width:100%;">" style="width:100%;min-height:48px;font-size:1rem;font-weight:600;">生成疫苗接种计划</button>
+    <!-- Calculate Button -->
+    <button onclick="calcVax()" style="width:100%;padding:16px;border:none;border-radius:6px;background:#E8915C;color:#fff;font-size:1.125rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;min-height:52px;">生成疫苗接种计划</button>
 
+    <!-- No Birthday -->
     <div id="vaxNoBirthday" class="result-panel hidden" style="background:#fff3cd;">
-      <p style="color:#856404;">⚠️ 请先在<a href="../">首页</a>的宠物档案中补充出生日期，才能生成完整的幼年接种计划。以下仅展示成年补强周期。</p>
+      <p style="color:#856404;margin:0;">⚠️ 请先在<a href="../">首页</a>的宠物档案中补充出生日期，才能生成完整的幼年接种计划。以下仅展示成年补强周期。</p>
     </div>
 
+    <!-- Result -->
     <div id="vaxResult" class="result-panel hidden">
       <div style="text-align:left;">
         <div style="font-weight:600;margin-bottom:8px;">📋 疫苗接种计划</div>
@@ -78,7 +89,7 @@
           </table>
         </div>
       </div>
-      <div id="vaxUrgent" class="hidden" style="margin-top:8px;padding:8px;background:var(--accent-light);border-radius:6px;font-size:0.875rem;color:var(--accent);font-weight:600;"></div>
+      <div id="vaxUrgent" class="hidden" style="margin-top:8px;padding:8px;background:#fef8f7;border-radius:6px;font-size:0.875rem;color:#E8915C;font-weight:600;"></div>
       <div id="vaxAllDone" class="hidden" style="margin-top:8px;padding:8px;background:#e8f5e9;border-radius:6px;font-size:0.875rem;color:#4CAF50;font-weight:600;">🎉 当前所有疫苗均在有效期内，暂无待办！</div>
 
       <!-- Copy button -->
@@ -145,18 +156,25 @@ let vaxResultCache=null;
 (function(){
   const pet=PetManager.getActivePet();
   if(pet){
-    document.getElementById('vaxType').value=pet.type;
-    document.querySelectorAll('#vaxTypeTabs .toggle-tab').forEach(t=>t.classList.toggle('active',t.dataset.type===pet.type));
+    if(pet.type === 'cat') selectVaxType('cat');
+    else selectVaxType('dog');
   }
   renderVaxChecklist();
 })();
 
-document.getElementById('vaxTypeTabs').addEventListener('click',function(e){
-  const t=e.target.closest('.toggle-tab');if(!t)return;
-  this.querySelectorAll('.toggle-tab').forEach(b=>b.classList.remove('active'));
-  t.classList.add('active');document.getElementById('vaxType').value=t.dataset.type;
+function selectVaxType(type){
+  document.getElementById('vaxType').value = type;
+  var dogBtn = document.getElementById('vaxTypeBtnDog');
+  var catBtn = document.getElementById('vaxTypeBtnCat');
+  if(type === 'dog'){
+    dogBtn.style.borderColor = '#E8915C'; dogBtn.style.background = '#E8915C'; dogBtn.style.color = '#fff'; dogBtn.style.fontWeight = '600';
+    catBtn.style.borderColor = '#E5E0DA'; catBtn.style.background = '#fff'; catBtn.style.color = '#3D3D3D'; catBtn.style.fontWeight = '500';
+  } else {
+    catBtn.style.borderColor = '#E8915C'; catBtn.style.background = '#E8915C'; catBtn.style.color = '#fff'; catBtn.style.fontWeight = '600';
+    dogBtn.style.borderColor = '#E5E0DA'; dogBtn.style.background = '#fff'; dogBtn.style.color = '#3D3D3D'; dogBtn.style.fontWeight = '500';
+  }
   renderVaxChecklist();
-});
+}
 
 function renderVaxChecklist(){
   const type=document.getElementById('vaxType').value;

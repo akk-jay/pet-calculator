@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>驱虫周期计算器 — 犬猫体内外驱虫时间表 | PetToolKit 宠小算</title>
   <meta name="description" content="根据WSAVA和CAPC驱虫指南，输入宠物生活环境和上次驱虫日期，自动生成未来12个月体内外驱虫计划。支持幼犬/幼猫高频驱虫方案。">
   <meta name="robots" content="index, follow">
@@ -28,67 +31,75 @@
   <h1>驱虫周期计算器</h1>
   <p class="text-muted">基于 WSAVA 寄生虫控制指南和 CAPC 建议，根据宠物的生活环境、年龄和饮食情况，自动生成体内外驱虫计划。</p>
 
-  <div class="card" style="margin-top:var(--space-md);">
-    <div class="input-group">
-      <label>宠物类型</label>
-      <div class="toggle-tabs" id="wormTypeTabs">
-        <button class="toggle-tab active" data-type="dog">🐕 狗狗</button>
-        <button class="toggle-tab" data-type="cat">🐈 猫咪</button>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px;">
+
+    <!-- Card: Type -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">宠物类型</div>
+      <div style="display:flex;flex-direction:column;gap:6px;">
+        <button id="wormTypeBtnDog" onclick="selectWormType('dog')" style="width:100%;padding:14px 16px;border:2px solid #E8915C;border-radius:6px;background:#E8915C;color:#fff;font-size:1rem;font-weight:600;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐕 狗狗</button>
+        <button id="wormTypeBtnCat" onclick="selectWormType('cat')" style="width:100%;padding:14px 16px;border:2px solid #E5E0DA;border-radius:6px;background:#fff;color:#3D3D3D;font-size:1rem;font-weight:500;cursor:pointer;text-align:center;font-family:Inter,sans-serif;">🐈 猫咪</button>
       </div>
       <input type="hidden" id="wormType" value="dog">
     </div>
 
-    <div class="input-group">
-      <label>生活环境</label>
-      <select class="input" id="wormEnv">
+    <!-- Card: Environment -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">生活环境</div>
+      <select class="input" id="wormEnv" style="width:100%;font-size:1rem;padding:14px;min-height:52px;box-sizing:border-box;">
         <option value="mixed" selected>偶尔外出（每天遛弯）</option>
         <option value="indoor">纯室内</option>
         <option value="outdoor">户外散养</option>
       </select>
     </div>
 
-    <div class="input-group">
-      <label>是否吃生食</label>
-      <select class="input" id="wormRaw">
+    <!-- Card: Raw food -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">是否吃生食</div>
+      <select class="input" id="wormRaw" style="width:100%;font-size:1rem;padding:14px;min-height:52px;box-sizing:border-box;">
         <option value="0" selected>否</option>
         <option value="1">是</option>
       </select>
-      <div class="input-hint">吃生骨肉/生食的宠物体内驱虫频率需提高到每3个月</div>
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-top:4px;">吃生骨肉/生食的宠物体内驱虫频率需提高到每3个月</div>
     </div>
 
-    <div class="input-group">
-      <label for="lastInternal">上次体内驱虫日期</label>
-      <input type="date" class="input" id="lastInternal">
-      <div class="input-hint">不填则默认从今天开始计算计划</div>
+    <!-- Card: Last internal -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">上次体内驱虫日期</div>
+      <input type="date" class="input" id="lastInternal" style="width:100%;font-size:1.25rem;padding:14px;min-height:52px;box-sizing:border-box;">
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-top:4px;">不填则默认从今天开始计算计划</div>
     </div>
 
-    <div class="input-group">
-      <label for="lastExternal">上次体外驱虫日期</label>
-      <input type="date" class="input" id="lastExternal">
-      <div class="input-hint">不填则默认从今天开始计算计划</div>
+    <!-- Card: Last external -->
+    <div style="background:#fff;border-radius:12px;border:1px solid #E5E0DA;padding:16px;">
+      <div style="font-size:0.875rem;font-weight:500;color:#3D3D3D;margin-bottom:8px;">上次体外驱虫日期</div>
+      <input type="date" class="input" id="lastExternal" style="width:100%;font-size:1.25rem;padding:14px;min-height:52px;box-sizing:border-box;">
+      <div style="font-size:0.8125rem;color:#8C8C8C;margin-top:4px;">不填则默认从今天开始计算计划</div>
     </div>
 
-    <button class="btn btn-primary" onclick="calc<button class="btn btn-primary" onclick="calcWorm()" style="width:100%;">" style="width:100%;min-height:48px;font-size:1rem;font-weight:600;">生成驱虫计划</button>
+    <!-- Calculate Button -->
+    <button onclick="calcWorm()" style="width:100%;padding:16px;border:none;border-radius:6px;background:#E8915C;color:#fff;font-size:1.125rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;min-height:52px;">生成驱虫计划</button>
 
+    <!-- Result -->
     <div id="wormResult" class="result-panel hidden">
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;text-align:center;">
-        <div style="background:var(--bg-card);border-radius:8px;padding:12px;">
-          <div style="font-size:0.75rem;color:var(--text-muted);">体内驱虫</div>
+        <div style="background:#f9f6f2;border-radius:8px;padding:12px;">
+          <div style="font-size:0.75rem;color:#B0B0B0;">体内驱虫</div>
           <div style="font-size:1.5rem;font-weight:700;" id="wormIntFreq">—</div>
-          <div style="font-size:0.75rem;color:var(--text-muted);">每X个月</div>
+          <div style="font-size:0.75rem;color:#B0B0B0;">每X个月</div>
           <div style="margin-top:4px;font-size:0.8125rem;" id="wormIntNext">—</div>
         </div>
-        <div style="background:var(--bg-card);border-radius:8px;padding:12px;">
-          <div style="font-size:0.75rem;color:var(--text-muted);">体外驱虫</div>
+        <div style="background:#f9f6f2;border-radius:8px;padding:12px;">
+          <div style="font-size:0.75rem;color:#B0B0B0;">体外驱虫</div>
           <div style="font-size:1.5rem;font-weight:700;" id="wormExtFreq">—</div>
-          <div style="font-size:0.75rem;color:var(--text-muted);">每X个月</div>
+          <div style="font-size:0.75rem;color:#B0B0B0;">每X个月</div>
           <div style="margin-top:4px;font-size:0.8125rem;" id="wormExtNext">—</div>
         </div>
       </div>
       <div id="wormWarning" class="hidden" style="margin-top:8px;padding:8px;background:#fef8f7;border-radius:6px;font-size:0.8125rem;color:#e74c3c;"></div>
-      <div id="wormDefaultNote" class="hidden" style="margin-top:4px;font-size:0.75rem;color:var(--text-muted);">以上计划从今天起算。如已知上次驱虫日期，请填写以获得更准确结果。</div>
+      <div id="wormDefaultNote" class="hidden" style="margin-top:4px;font-size:0.75rem;color:#B0B0B0;">以上计划从今天起算。如已知上次驱虫日期，请填写以获得更准确结果。</div>
 
-      <div style="margin-top:var(--space-md);text-align:left;">
+      <div style="margin-top:16px;text-align:left;">
         <div style="font-weight:600;margin-bottom:8px;">📅 未来12个月驱虫日历</div>
         <div class="table-wrap" id="wormSchedule"></div>
       </div>
@@ -149,16 +160,23 @@
 (function(){
   const pet=PetManager.getActivePet();
   if(pet){
-    document.getElementById('wormType').value=pet.type;
-    document.querySelectorAll('#wormTypeTabs .toggle-tab').forEach(t=>t.classList.toggle('active',t.dataset.type===pet.type));
+    if(pet.type === 'cat') selectWormType('cat');
+    else selectWormType('dog');
   }
 })();
 
-document.getElementById('wormTypeTabs').addEventListener('click',function(e){
-  const t=e.target.closest('.toggle-tab');if(!t)return;
-  this.querySelectorAll('.toggle-tab').forEach(b=>b.classList.remove('active'));
-  t.classList.add('active');document.getElementById('wormType').value=t.dataset.type;
-});
+function selectWormType(type){
+  document.getElementById('wormType').value = type;
+  var dogBtn = document.getElementById('wormTypeBtnDog');
+  var catBtn = document.getElementById('wormTypeBtnCat');
+  if(type === 'dog'){
+    dogBtn.style.borderColor = '#E8915C'; dogBtn.style.background = '#E8915C'; dogBtn.style.color = '#fff'; dogBtn.style.fontWeight = '600';
+    catBtn.style.borderColor = '#E5E0DA'; catBtn.style.background = '#fff'; catBtn.style.color = '#3D3D3D'; catBtn.style.fontWeight = '500';
+  } else {
+    catBtn.style.borderColor = '#E8915C'; catBtn.style.background = '#E8915C'; catBtn.style.color = '#fff'; catBtn.style.fontWeight = '600';
+    dogBtn.style.borderColor = '#E5E0DA'; dogBtn.style.background = '#fff'; dogBtn.style.color = '#3D3D3D'; dogBtn.style.fontWeight = '500';
+  }
+}
 
 function calcWorm(){
   const type=document.getElementById('wormType').value;
