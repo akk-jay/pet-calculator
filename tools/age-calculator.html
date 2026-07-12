@@ -120,7 +120,8 @@
         <hr style="border:none;border-top:1px solid var(--border);margin:12px 0;">
         <p style="font-size:0.8125rem;color:var(--text-muted);">📐 计算公式：<span id="ageFormula"></span></p>
         <p style="font-size:0.8125rem;color:var(--text-muted);">📚 传统 ×7 法结果：约 <span id="ageOldRule"></span> 人类年（此方法已被科学界淘汰）</p>
-        <p style="font-size:0.75rem;color:var(--text-muted);">数据来源：UC San Diego <em>Cell Systems</em> (2020) · AAHA/AAFP 指南</p>
+        <p style="font-size:0.8125rem;color:var(--text-muted);">🔬 体型修正来源：<span id="ageAdjustNote"></span></p>
+        <p style="font-size:0.75rem;color:var(--text-muted);">核心数据来源：Wang et al. <em>Cell Systems</em> (2020) · Kraus et al. <em>Am Nat</em> (2013) · McMillan et al. <em>Sci Rep</em> (2024)</p>
       </div>
     </div>
     <div id="ageError" class="result-panel hidden" style="background:#fef8f7;">
@@ -289,6 +290,7 @@ function calculateAge() {
   document.getElementById('ageAdvice').textContent = result.stageAdvice;
   document.getElementById('ageFormula').textContent = result.formula + ' = ' + result.humanAge;
   document.getElementById('ageOldRule').textContent = result.oldRule;
+  document.getElementById('ageAdjustNote').textContent = result.adjustmentNote || '中型犬/拉布拉多（Wang 2020 原始数据，无体型修正）';
   document.getElementById('ageResult').classList.remove('hidden');
   document.getElementById('ageDetail').classList.remove('hidden');
 

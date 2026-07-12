@@ -8,21 +8,33 @@ const Calculators = (() => {
   // ==========================================
   // 工具 1：人宠年龄换算
   // ==========================================
+  // Expected lifespan by size category (McMillan 2024, Kraus 2013, Montoya 2023)
+  const DOG_LIFESPAN = { small: 13, medium: 12, large: 10 };
+  const LABRADOR_LIFESPAN = 12;
+
   function ageToHuman(type, ageYears, sizeCategory) {
     if (ageYears === null || ageYears === undefined || ageYears < 0) return null;
 
     let humanAge;
     let formula;
+    let adjustmentNote = '';
 
     if (type === 'dog') {
-      // UC San Diego 2020, Cell Systems
-      const baseAge = 16 * Math.log(ageYears) + 31;
-      // Size adjustment: large dogs age faster, small dogs slower
-      let sizeModifier = 0;
-      if (sizeCategory === 'small') sizeModifier = -2;
-      else if (sizeCategory === 'large') sizeModifier = 2;
-      humanAge = Math.max(0, baseAge + sizeModifier);
-      formula = '16 × ln(' + ageYears.toFixed(1) + ') + 31' + (sizeModifier !== 0 ? ' + (' + sizeModifier + ')' : '');
+      // Base formula: Wang et al. 2020, Cell Systems — for Labrador retrievers (~12yr lifespan)
+      const expectedLifespan = DOG_LIFESPAN[sizeCategory] || LABRADOR_LIFESPAN;
+      const effectiveAge = ageYears * (LABRADOR_LIFESPAN / expectedLifespan);
+      humanAge = Math.max(0, 16 * Math.log(effectiveAge) + 31);
+
+      // Show the scaling in formula
+      if (sizeCategory === 'small') {
+        formula = '16 × ln(' + ageYears.toFixed(1) + ' × 12/13) + 31 (小型犬老化更慢，Kraus 2013 + McMillan 2024)';
+        adjustmentNote = '基于 McMillan 2024 (58万只犬) 和 Kraus 2013 (5.6万只犬)：小型犬寿命约13年，等效年龄按比例缩放。';
+      } else if (sizeCategory === 'large') {
+        formula = '16 × ln(' + ageYears.toFixed(1) + ' × 12/10) + 31 (大型犬老化更快，Kraus 2013 + McMillan 2024)';
+        adjustmentNote = '基于 McMillan 2024 (58万只犬) 和 Kraus 2013 (5.6万只犬)：大型犬寿命约10年，老化速率显著加快。';
+      } else {
+        formula = '16 × ln(' + ageYears.toFixed(1) + ') + 31 (Wang 2020, 拉布拉多/中型犬)';
+      }
     } else {
       // Cat: AAHA/AAFP
       if (ageYears < 1) {
@@ -60,6 +72,8 @@ const Calculators = (() => {
       stage, stageIcon, stageAdvice, formula,
       oldRule: Math.round(oldRule),
       type,
+      sizeCategory,
+      adjustmentNote,
     };
   }
 
