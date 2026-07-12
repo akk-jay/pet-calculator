@@ -264,9 +264,19 @@ function calculateFeeding(){
   document.getElementById('feedMerVal2').textContent=result.mer;
   document.getElementById('feedKcalVal').textContent=result.foodKcalPer100g;
   document.getElementById('feedResult').classList.remove('hidden');
-  if(selectedBcs<=2||selectedBcs>=8){
+  if(selectedBcs>=8){
     document.getElementById('bcsWarning').classList.remove('hidden');
-    document.getElementById('bcsWarning').textContent='当前体况评分偏低/偏高，建议咨询兽医制定专属饮食计划。';
+    var breedSize='中型犬';
+    if(result.weightKg<10)breedSize='小型犬';
+    if(result.weightKg>25)breedSize='大型犬';
+    var impact='';
+    if(result.weightKg<10)impact='研究数据显示，小型犬超重可使中位寿命缩短高达2.5年（Salt et al. 2019, 50,787只犬）。';
+    else if(result.weightKg>25)impact='研究数据显示，超重与全品种寿命缩短相关（Salt et al. 2019）。大型犬减重需在兽医指导下进行。';
+    else impact='研究数据显示，超重与全品种寿命缩短相关（Salt et al. 2019, 50,787只犬/12品种）。';
+    document.getElementById('bcsWarning').textContent=impact+' 建议以理想体重（而非当前体重）计算喂食量（AAHA 2021营养指南）。';
+  }else if(selectedBcs<=2){
+    document.getElementById('bcsWarning').classList.remove('hidden');
+    document.getElementById('bcsWarning').textContent='当前体况评分偏低。如需增重，建议咨询兽医排除潜在疾病后制定增重方案。';
   }
 }
 </script>
