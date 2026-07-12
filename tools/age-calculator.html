@@ -211,20 +211,43 @@ let selectedSize = 'medium';
 (function() {
   const pet = PetManager.getActivePet();
   if (pet) {
+    // Auto-fill type
     document.getElementById('ageType').value = pet.type;
     document.getElementById('ageTypeTabs').querySelectorAll('.toggle-tab').forEach(t => {
       t.classList.toggle('active', t.dataset.type === pet.type);
     });
     document.getElementById('dogSizeGroup').style.display = pet.type === 'dog' ? '' : 'none';
 
+    // Auto-fill age from birthday
     const ageYears = PetManager.getAgeYears(pet);
-    if (ageYears !== null) {
+    if (ageYears !== null && ageYears > 0) {
       const years = Math.floor(ageYears);
       const months = Math.round((ageYears - years) * 12);
       document.getElementById('ageYears').value = years;
       document.getElementById('ageMonths').value = months;
       document.getElementById('ageSlider').value = Math.round(ageYears * 12);
+    } else {
+      // No birthday in profile — pre-fill with common default (1 year)
+      document.getElementById('ageYears').value = 1;
+      document.getElementById('ageMonths').value = 0;
+      document.getElementById('ageSlider').value = 12;
     }
+
+    // Auto-guess size from weight
+    const w = PetManager.getWeightNum(pet);
+    if (w !== null && pet.type === 'dog') {
+      if (w < 10) selectedSize = 'small';
+      else if (w > 25) selectedSize = 'large';
+      else selectedSize = 'medium';
+      document.querySelectorAll('.size-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.size === selectedSize);
+      });
+    }
+  } else {
+    // No pet profile — default to dog, 1 year
+    document.getElementById('ageYears').value = 1;
+    document.getElementById('ageMonths').value = 0;
+    document.getElementById('ageSlider').value = 12;
   }
 })();
 
