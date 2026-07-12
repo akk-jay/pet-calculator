@@ -1,0 +1,1102 @@
+https://doi.org/10.1177/1098612X18824181
+Journal of Feline Medicine and Surgery
+2019, Vol. 21(12) 1188­–1197
+© The Author(s) 2019
+Article reuse guidelines:
+sagepub.com/journals-permissions
+DOI: 10.1177/1098612X18824181
+journals.sagepub.com/home/jfm
+This paper was handled and processed 
+by the European Editorial Office (ISFM) 
+for publication in JFMS
+Introduction
+Cat breeding in Italy is attracting increasing interest 
+around the world, and therefore cat breeders are paying 
+more attention to breeding management practices in an 
+effort to increase queen fertility and kitten survival. Most 
+of what is known on cat reproduction is derived from 
+studies performed in North America, Australia and 
+Northern Europe in climatic and photoperiodic condi-
+tions typical of continental climates.1–10 Little, if anything, 
+is known about specific reproductive patterns of these 
+animals in temperate climates with longer photoperiods 
+such as in Southern Europe. The purpose of our study 
+Fertility parameters and reproductive 
+management of Norwegian Forest 
+Cats, Maine Coon, Persian and 
+Bengal cats raised in Italy:  
+a questionnaire-based study
+Stefano Romagnoli1, Chiara Bensaia2, Lluis Ferré-Dolcet3
+, 
+Hasan Besim Sontas4 and Calogero Stelletta1
+Abstract
+Objectives  Fertility and reproductive management were investigated, via questionnaires, in breeding establishments 
+of Norwegian Forest Cats, Maine Coon, Persian and Bengal cats in Italy.
+Methods  Six Bengal, five Maine Coon, eight Norwegian Forest Cat and seven Persian breeders responded for a 
+total of 128 queens, 565 heats, 337 litters and 1424 kittens spanning the period 1998–2012. The mean number of 
+queens per cattery was 4.9 ± 2.3, with primiparous queens constituting 20.5%. Of the catteries, 61.5% were indoor, 
+with 50% of them having access to a fenced balcony. Fifteen percent of the catteries were outdoor with cat runs. No 
+light supplementation was used in any of the catteries.
+Results  Queens showed oestrous cycles throughout the year, although 67% of oestrous cycles occurred from 
+January–June. Puberty occurred, on average, at 12.3 ± 7.4 months. Pregnancy diagnosis was performed routinely 
+in only 30% of catteries. Both pregnancy length (average 64.7 ± 2.4 days, range 59–76 days) and litter size 
+(average 4.2 ± 1.8 kittens, with 11.8% of kittens stillborn) showed some breed-specific differences; in Norwegian 
+Forest Cats larger litter size was associated with shorter pregnancy length. Kitten mortality between birth and 
+weaning was, on average, 14%. Stillborn kittens (P <0.01) and kitten mortality (0.01 <P <0.05) increased with litter 
+size. In Maine Coons and Persians, a total of 3% of parturitions occurred via caesarean section (CS); litters born via 
+CS were larger and characterised by a greater number of stillborn kittens and kitten mortality.
+Conclusions and relevance  No previous data concerning reproductive patterns of pedigree cats raised in Southern 
+Europe are available. Feline reproductive management should be adjusted for latitude owing to different climate 
+and daylight patterns that may have an impact on feline reproduction.
+Keywords: Queen; breeding management; fertility; oestrus cycle; pregnancy; litter size; stillborn kittens
+Accepted: 18 December 2018
+1Department of Animal Medicine, Production and Health, 
+Veterinary College, University of Padova, Legnaro, Italy
+2Private practitioner, Mestre, Italy
+3Department of Animal Medicine and Surgery, Veterinary College, 
+Autonomous University of Barcelona, Bellaterra, Spain
+4Tierambulanz Vorchdorf, Vorchdorf, Austria
+Corresponding author:
+Stefano Romagnoli DVM, MS, PhD, Dipl ECAR, Animal Medicine, 
+Production and Health Department, Veterinary College,  
+University of Padova, Legnaro 35020, Italy 
+Email: stefano.romagnoli@unipd.it
+824181 JFM
+Journal of Feline Medicine and SurgeryRomagnoli et al
+Original Article
+Romagnoli et al	
+1189
+was to investigate fertility, reproductive parameters and 
+reproductive management of the four most important 
+breeds of pedigree cats in Italy – Norwegian Forest Cat, 
+Maine Coon, Persian and Bengal cats – through a ques-
+tionnaire in order to ascertain whether or not there are 
+breed peculiarities of reproductive patterns of any of 
+these breeds that might justify breed-specific counselling 
+of cat owners in this climate.
+Materials and methods
+Selection of catteries
+The study was conducted in the Veneto region of North 
+Italy (45°30’0.00” N 11°45’0.00” E). Breeders of Bengal, 
+Maine Coon, Norwegian Forest Cats and Persian breeds 
+registered with the Italian Cat Breeder’s Association were 
+contacted at cat shows, or by telephone or e-mail. 
+Following the initial contact, 110 breeders received two 
+‘.doc’ files, containing a questionnaire to investigate  
+breeding management of their catteries and a table to col-
+lect the reproductive data of queens to be returned by 
+e-mail. As it was considered a survey study where animals 
+were not manipulated, no approval from any ethical com-
+mittee was required for data collection. Catteries were 
+managed with a natural light regime and were maintained 
+at room temperature. Commercial diets were used in all 
+catteries. Retrospective data were collected between 
+January 2011 and December 2012. Prior to the survey, the 
+breeders were informed about the aim, methodology and 
+the voluntary nature of the study. Any personal informa-
+tion, as well as the survey forms, were confidential.
+The survey consisted of questions that required either 
+categorical or numeric answers and, in a few instances, 
+comments divided into the following three sections: (1) 
+demographic information; (2) practices of breeding man-
+agement, including questions on how heat was identi-
+fied and monitored, how mating was managed (how 
+long cats were left together at each mating, how many 
+times cats were allowed to mate, whether and how the 
+occurrence of mating was checked), and whether and 
+when pregnancy diagnosis was performed; (3) repro-
+ductive information, including age at first breeding,  
+gestation length (calculated from the day of the first 
+breeding), yearly distribution of heats and parturitions, 
+age at first parturition, caesarean sections (CSs), number 
+of kittens born alive, number of stillbirths, litter size, 
+total number of kittens weaned, kitten death between 
+parturition and weaning.
+Once questionnaires were received by e-mail, they 
+were thoroughly analysed and the breeder was contacted 
+by phone to verify reproductive data and obtain missing 
+information, thus ensuring a sound interpretation of the 
+information obtained. Breeders that bred more than one 
+breed were included in the study as just one breeder 
+because all cats were housed in the same facility.
+The age of the queens included in the study varied 
+from puberty to 10 years old, in order to discard varia-
+tions in reproductive physiology.
+Puberty and heat were detected based on vocalisa-
+tion, crouching with the forequarters pressed to the 
+ground and hyperextension of the back, causing lordo-
+sis, increased affection and head rubbing.
+Data analysis
+Differences in reproductive patterns and performance 
+were analysed by ANOVA using the GLM procedure 
+(SigmaStat 2.03) and Tukey test (P <0.05). Independent 
+variables were breed, age (<18 months, 18–36 months, 
+>36 months), litter size (⩽3, 4–5, ⩾6), season (January–
+March, April–June, July–September, October–December) 
+and type of parturition (spontaneous vs CS), while 
+dependent variables were time intervals (intervals between 
+heats, age at first heat and gestation length) and number of 
+kittens (kittens born alive, stillbirths, number of kittens 
+weaned). Significant differences obtained with ANOVA 
+were further evaluated using the Tukey test. Correlation 
+coefficients for all parameters among breeds, as well as 
+within each breed, were calculated using Pearson’s test.
+Results
+Only 26/110 breeders (six Bengal, five Maine Coon, eight 
+Norwegian Forest Cat, seven Persian) successfully 
+passed steps 1, 2 and 3 (Table 1). The main reason for 
+exclusion of a questionnaire was lack of accurate records, 
+as in most catteries not all heats were recorded, or age at 
+puberty was not recorded, and/or litter size or incidence 
+or stillbirth were not appropriately recorded. Data 
+Table 1  Reproductive data on four breeds of purebred cats raised in Italy
+Breed
+Number of 
+breeders
+Mean number 
+of queens per 
+cattery
+Mean age of 
+queen (years)
+% of 
+primiparous 
+queens
+Mean number 
+of litters per 
+cattery
+Total number 
+of litters
+% litters 
+delivered  
+by CS
+Bengal
+6
+5.6
+1.9
+25
+10.4
+52
+0
+MC
+5
+4.8
+3.1
+16.7
+11.2
+56
+7.8
+NFC
+8
+3.5
+2.3
+35.7
+7.1
+50
+0
+Persian
+7
+6
+4.7
+9.5
+25.6
+179
+3.5
+Total ± SD
+26
+4.9 ± 2.3
+3.3 ± 2
+20.5
+13 ± 14.2
+337
+3
+CS = caesarean section; MC = Maine Coon; NFC = Norwegian Forest Cat
+1190	
+Journal of Feline Medicine and Surgery 21(12)
+included the information of 128 Norwegian Forest Cat  
+(n = 24), Maine Coon (n = 24), Bengal (n = 28) and 
+Persian queens (n = 52), a total of 565 heats, 337 litters 
+and 1424 kittens over the period 1998–2012.
+Most catteries bred a single breed, with only three 
+(11.5%) breeding two breeds. The mean ± SD number of 
+queens per cattery was 4.9 ± 2.3; 20.5% of queens were 
+primiparous. Breeders of Persian cats had more cats than 
+those of other breeds. Most catteries (61.5%) were indoor 
+and 50% provided free access to a fenced balcony. Four 
+catteries (15%) were outdoor in cat runs.
+Oestrous cycles
+Mean age at puberty was 12.3 ± 7.4 months when all 
+four breeds were combined, and about 10 months in 
+Bengal, Maine Coon and Norwegian Forest Cat queens, 
+and 16.8 months in Persians (P >0.05) (Table 2, Figure 1). 
+There was no effect of season of birth of the queen on age 
+at puberty. Queens were reported to be in heat every 
+month of the year, but 67% of the oestrous cycles occurred 
+during periods of increasing day length (January–June) 
+(Figure 2).
+A few questionnaires reported an interval between 
+consecutive heats of 75 or more days. While going 
+through the data review process with the breeder (step 
+3) it became clear that in a few of these cases a heat 
+might have not been recorded. Therefore, it was arbi-
+trarily decided to only consider as valid those inter-
+oestrus intervals <60 days. As a result, the calculation 
+of the interoestrous interval was based on 18/26 ques-
+tionnaires and on a total of 205 queens (58 Bengals, 51 
+Maine Coons, 27 Norwegian Forest Cats and 69 
+Persians). The mean interoestrous interval of these 
+animals was 39.3 ± 17 days with no significant differ-
+ence among breeds. There was no effect of season of 
+birth of the queen on the duration of interoestrus.
+Breeding management
+Oestrous queens were placed with a tom cat as soon as 
+signs of oestrus were observed, and given multiple 
+chances to breed for periods of 2–10 days. The total num-
+ber of breedings/oestrus varied from 2–5 to >10. The 
+breeder was present to observe the breeding in 35% of 
+the cases, although in the majority of cases breeding was 
+confirmed through listening to the postcoital reaction 
+from an adjacent room.
+Pregnancies
+Pregnancy was diagnosed only by 31% (n = 8/26) of breed-
+ers by ultrasonography (n = 5/8) or manual palpation (n = 
+2/8) at 15–28 days from breeding or abdominal radiogra-
+phy at the end of pregnancy (n = 1/8). Six of 26 breeders 
+(23%) requested radiography at the end of pregnancy only 
+for primiparous queens or queens with a history of 
+Table 2  Reproductive data on four breeds of purebred 
+cats raised in Italy
+Breed
+Mean age  
+at puberty  
+(months ± SD)
+Gestation 
+length  
+(days ± SEM)
+Mean age  
+of the queen 
+at delivery 
+(years ± SD)
+Bengal
+10.3 ± 5.8
+64.2 ± 0.5
+0.9 ± 0.5
+MC
+9.6 ± 2.1
+64.8 ± 0.4
+1.0 ± 0.6
+NFC
+9.7 ± 3.2
+65.7 ± 0.4
+1.0 ± 0.5
+Persian
+16.8 ± 9.7
+64.6 ± 0.2
+0.9 ± 0.5
+Total ± SD 12.3 ± 7.4
+64.7 ± 2.4
+1.5 ± 0.5
+MC = Maine Coon; NFC = Norwegian Forest Cat
+Figure 1  Average age (± SD) at puberty for 122 purebred queens raised in Italy. NFC = Norwegian Forest Cat
+Romagnoli et al	
+1191
+dystocia. Average gestation length was 64.7 ± 2.4 days 
+(range 59–76 days), 57% of gestations lasted 64–66 days, 
+while 94% were 61–69 days in duration. There were only 13 
+gestations ⩽60 days or ⩾70 days in length. Pregnancy was 
+significantly longer in Norwegian Forest Cats than in 
+Bengals, while there was no significant difference among 
+the other breeds (Table 2, Figure 3). A moderately negative 
+correlation (r = −0.44) between gestation length and litter 
+size was observed in Norwegian Forest Cats (P <0.01).
+Parturitions
+Litters were distributed throughout the year, although 
+67% of kittens were born between April and September 
+(Figure 4). The average age of the queens at first parturi-
+tion was 1.5 ± 0.5 years (range 0.9–3.7 years, median 1.4 
+years) (Table 2).
+Litter size
+Mean litter size for Bengal and Norwegian Forest Cats 
+was 4.2 ± 1.8 kittens, while the mean litter size of Maine 
+Coons (5.5 ± 2.3) was significantly higher than in other 
+breeds (P <0.01) (Table 3, Figure 5). Litter size distribu-
+tion in Bengals and Norwegian Forest Cats was quite 
+regular, with litters of 4–5 kittens reported in 44% of 
+Bengal pregnancies and 50% of Norwegian Forest Cat 
+pregnancies. Litter size was higher in Maine Coons (with 
+Figure 2  Distribution during the year of the oestrous cycles of 128 queens of four breeds (24 Norwegian Forest Cats, 24 Maine 
+Coons, 28 Bengals and 52 Persians) raised in Italy. Data collected through questionnaires
+Figure 3  Average (± SD) duration of gestation in purebred queens raised in Italy. Data collected through questionnaires.  
+NFC = Norwegian Forest Cat
+1192	
+Journal of Feline Medicine and Surgery 21(12)
+at least 50% having six-kitten litters) and lower in 
+Persians (with 48% of litters having a maximum of three 
+kittens) (Figure 6). In breeds with an incidence of CS, the 
+average size of litters born naturally was 4.1 ± 1.8, while 
+the average size of litters born through CS was 5.9 ± 2.4.
+Stillbirths
+Stillbirths averaged 11.8% across the four breeds: their 
+incidence in Maine Coon (0.87 ± 0.2) was significantly 
+higher than in other breeds (P <0.05). Approximately 
+74% of the litters had no report of stillbirth, while at 
+least three stillbirths were reported in 3.3% of the litters 
+(Table 2). The number of stillborn kittens was positively 
+correlated (r = 0.32) with litter size (P <0.01): 9% of still-
+born kittens were reported in litters with <seven kit-
+tens, while an incidence of 22% of stillborn kittens was 
+reported in litters with >eight kittens (Figure 7). Litters 
+born through CS were characterised by a greater num-
+ber of stillborn kittens (32%) than in natural queenings 
+(11%) (Table 4).
+Pre-weaning mortality
+Mortality between birth and weaning averaged 14%: it 
+was lowest in Norwegian Forest Cats (6%) and highest 
+in Persians (20%) (Table 2). It was positively correlated  
+(r = 0.14) with increasing litter size (P <0.05), being 12% 
+in litters with <five kittens, and 21% in litters with >six 
+kittens (Figure 8).
+Caesarean sections
+Ten of 337 births (3%) occurred via CS. They were 
+reported in eight queens: four Maine Coons and four 
+Persians; one of these gave birth via CS three times. Data 
+about CSs and the comparison between CS and natural 
+deliveries are shown in Table 4.
+Statistics
+Significant differences obtained with ANOVA and fur-
+ther confirmed with the Tukey’s test are reported in 
+Table 5 (all queens), Table 6 (Bengal and Norwegian 
+Forest Cat breeds) and Table 7 (Maine Coon and Persian 
+breeds).
+Discussion
+This is the first retrospective study documenting repro-
+ductive patterns of pedigree cats in Southern Europe. 
+Although the number of questionnaires that could be 
+used was only 26 (23.6%), and we used a convenience 
+sampling technique, the total number of queens  
+(n = 128), heats (n = 565), litters (n = 337) and kittens  
+(n = 1424) and the statistical significance of our results 
+justifies the drawing of some considerations on reproduc-
+tive patterns of Norwegian Forest Cats, Maine Coon, 
+Bengal and Persian cats in a temperate Mediterranean cli-
+mate (45° latitude north) and a comparison with feline 
+reproductive physiology as it occurs at different climates.
+Figure 4  Distribution during the year of 337 litters of 128 queens of four breeds (24 Norwegian Forest Cats, 24 Maine Coons, 
+28 Bengals and 52 Persians) raised in Italy. Data collected through questionnaires
+Table 3  Reproductive data for four breeds of purebred 
+cats raised in Italy
+Breed
+Mean 
+litter size
+Mean % 
+of stillborn 
+kittens
+Mean 
+number of 
+weaned 
+kittens
+% pre-
+weaning 
+kitten 
+mortality
+Bengal
+4.3
+9.2
+3.2
+19
+MC
+5.5
+18.8
+4.3
+8
+NFC
+4.5
+5.2
+4
+6
+Persian
+3.7
+12.1
+2.7
+20
+Total ± SD 4.2 ± 1.8
+11.8
+3.2 ± 1.7
+14
+MC = Maine Coon; NFC = Norwegian Forest Cat
+Romagnoli et al	
+1193
+The mean ± SD age of all queens was 3.3 ± 2.0 years, 
+but was higher for Persian queens (4.7 ± 2.1 years). The 
+average age of Persian queens reported in our study was 
+10 months older than that of Persian queens reported in a 
+Canadian study,3 and 18 months older than the age of 
+Persian queens reported in a UK study.9 A similar differ-
+ence was observed for our Maine Coon queens, for which 
+the average age was approximately 1 year older with 
+respect to the age of Maine Coon queens bred in the UK.9 
+Although age at puberty may play a role in this (see 
+later), a higher average age might indicate a longer breed-
+ing career for the queens in our study, an observation that 
+appears to be confirmed by the difference in percentage 
+of our primiparous queens (20.5%) when compared with 
+the UK study (36.9%).9
+Reasons for increased breeding longevity in the queens 
+of our study are unclear. In production animals, breeding 
+longevity is influenced by various factors such as age at 
+first parturition, nutrition, general management or degree 
+of sanitation of breeding premises. In cat breeding factors 
+such as frequency of queening and incidence of spontane-
+ous ovulation may have an effect. The role of climate and 
+photoperiod in breeding longevity in cats has not been 
+studied. Breeding longevity is also an important trait for 
+Figure 5  Distribution of litters size within each of four breeds of cats raised in Italy. Data collected through questionnaires.  
+NFC = Norwegian Forest Cat
+Figure 6  Number of live born vs stillborn kittens in 337 litters of four breeds of cats raised in Italy. Data collected through 
+questionnaires. NFC = Norwegian Forest Cat
+1194	
+Journal of Feline Medicine and Surgery 21(12)
+cats: careful reproductive management may allow cat 
+breeders to continue to exploit the fertility of their breed-
+ing queens beyond the young and adult age.
+The mean ± SD age at puberty in our study was 12.3 ± 
+7.4 months, slightly older than the age of 9–10 months 
+reported previously.2–4 Heats were observed throughout 
+the year, although 67% of cycles (n = 383/569) occurred 
+between January and June, a feature already reported for 
+queens from North and South America.4,11 The considera-
+ble percentage of cycling queens between July and 
+December in our study (33%) might be due to the small dif-
+ference (7 h) between the amount of daylight during 
+increasing and decreasing daylight periods during the 
+year: at our latitude, 7 h of difference are probably not 
+enough to cause a block in cyclicity but may increase the 
+duration of anoestrus during the months of November and 
+December with respect to the rest of the year, as observed.11
+Mean ± SD duration of interoestrus was 39.3 ± 17 days, 
+which was longer than the 22.1 ± 21.6 days reported by 
+Root et al.8 Our criterion to discard from this calculation 
+intervals ⩾60 days was based on the observation that 
+queens may ovulate spontaneously,12,13 after which they 
+may maintain a luteal phase of approximately 40 days’ 
+duration:8,14–16 the longest normal feline interoestrus (con-
+sidering the maximum duration of oestrus and non-preg-
+nant luteal phase of 19 days8,17,18 and 40 days,12,13 
+respectively) should not exceed 60 days. A long interoes-
+trus interval may also be due to a short phase of anoestrus 
+occurring during the breeding season.
+Spontaneous ovulation has been reported to occur in 
+35–87% cats, depending on how frequently and with what 
+intensity queens are petted or exposed to a tom cat or other 
+visual, tactile or olfactory stimuli.12,13,19 This phenomenon 
+has only been studied in domestic shorthair queens and 
+potential relationships with seasonality have not been 
+investigated. No information is available on the incidence 
+of spontaneous ovulation in any of the breeds investigated 
+in our study. The long duration of interoestrus in the queens 
+of our study may indicate that some of these queens might 
+ovulate spontaneously during certain seasons of the year. 
+Figure 7  Pearson’s correlation between litter size and stillbirths in 337 litters of four breeds of cats raised in Italy. Data 
+collected through questionnaires
+Table 4  Parturition, litter size and kitten mortality in natural vs caesarean section (CS) delivery on four breeds of 
+purebred cats raised in Italy
+Breed
+Mean age of the  
+queen at delivery (years)
+Litter size
+% stillborn kittens
+Pre-weaning  
+kitten mortality (%)
+ 
+Natural delivery
+CS
+Natural delivery
+CS
+Natural delivery CS
+Natural delivery
+CS
+MC
+2.2
+3.5
+5.4
+7
+13
+43
+6
+11
+Persian
+3.5
+2.4
+3.7
+5.2
+10
+23
+17
+39
+Total ± SD
+3.2 ± 1.8
+3.2 ± 1.7
+4.1 ± 1.8
+5.9 ± 2.4
+11
+32
+14
+25
+MC = Maine Coon. Caesarian section was not reported by owners of the Norwegian Forest Cat and Bengal
+Romagnoli et al	
+1195
+Spontaneous ovulation and anoestrus during the breeding 
+season are worth exploring in purebred queens, as a high 
+incidence of these conditions may influence the develop-
+ment of uterine disease due to the prolonged endometrial 
+stimulation, similarly to what occurs in the bitch.
+Gestation length was calculated based on the interval 
+between the first day of breeding and the day of parturi-
+tion. Mean ± SD duration of pregnancy (64.7 ± 2.4 days) 
+and range of gestation length (59–76 days) in the queens 
+in our study were similar to what has previously been 
+reported for domestic cat queens.1,2,5,7–9,11 Gestation 
+length was slightly longer for Norwegian Forest Cats (66 
+days) when compared with cats of the other three breeds 
+(64 days, P <0.05), and shorter with increasing litter size. 
+Our findings on correlations of the duration of preg-
+nancy with breed and litter size are in agreement with 
+what has been reported in larger studies from Northern 
+Europe.9,10 Parturitions occur throughout the year and 
+are concentrated during the months with a longer photo-
+period (April–September), similarly to what has been 
+reported in Sweden,10 where queenings occur mainly 
+from March to July. In an Australian study, Persian cat 
+litters were not recorded during the month of June 
+(equivalent to December in the Northern Hemisphere).5
+The mean ± SD litter size in our study of 4.2 ±1.8 kit-
+tens was in agreement with previous reports of 4.69 and 
+Figure 8  Pearson’s correlation between litter size and pre-weaning mortality in 337 litters of four breeds of cats raised in Italy. 
+Data collected through questionnaires. NFC = Norwegian Forest Cat
+Table 5  Correlations between all the reproductive indexes in the breedings examined
+Queen’s 
+weight
+Queen’s 
+age
+Parity
+Gestation 
+length
+Kittens 
+born
+Kittens 
+born 
+alive
+Stillborn 
+kittens
+Weaned 
+kittens
+Pre-
+weaning 
+kitten 
+mortality
+CS
+Queen’s weight
+–
+–0.122‡
+NS
+NS
+0.32*
+0.1*
+0.242*
+0.26*
+–0.163†
+NS
+Queen’s age
+–
+–
+0.825*
+NS
+–0.187* –0.206* NS
+–0.181*
+NS
+NS
+Parity
+–
+–
+–
+NS
+–0.145* –0.15*
+NS
+–0.126†
+NS
+NS
+Gestation length
+–
+–
+–
+–
+NS
+NS
+NS
+0.161†
+–0.271*
+NS
+Kittens born
+–
+–
+–
+–
+–
+0.857*
+0.318*
+0.628*
+0.136†
+0.165*
+Kittens born alive
+–
+–
+–
+–
+–
+–
+–0.217*
+0.808*
+NS
+NS
+Stillborn kittens
+–
+–
+–
+–
+–
+–
+–
+–0.298*
+0.12†
+0.271*
+Weaned kittens
+–
+–
+–
+–
+–
+–
+–
+–
+–0.462*
+NS
+Pre-weaning kitten 
+mortality
+–
+–
+–
+–
+–
+–
+–
+–
+–
+0.116†
+CS
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+*P <0.01
+†0.01< P <0.05
+‡0.05< P <0.1
+CS = caesarean section; NS = not significant
+1196	
+Journal of Feline Medicine and Surgery 21(12)
+3.7 kittens.2,8,10 Breed had a significant effect on litter size, 
+with Maine Coons producing more kittens (5.5 ± 2.3) 
+than Persians (3.7 ± 1.4).2,5,8–10 Litter size was negatively 
+correlated with the age of the queen, with females 
+younger than 36 months producing larger litters than 
+older queens.
+The incidence of stillbirth was positively correlated 
+with litter size and was, on average, 11.8%, which is 
+in agreement with previously reported values of 
+4.7–11.6%.2,3,8–10 Maine Coons had the highest incidence 
+of stillbirths (18.8%, n = 49/207) and not Persian, as pre-
+viously reported.3,9 The percentage of kittens weaned in 
+our study of 85% (n = 1084/1276) is in line with previ-
+ous reports (71–92%).2,3,8–10 Also our recorded percentage 
+of neonatal death was in agreement with what has 
+already been reported, with slightly lower values in 
+Persian (20%, n = 120/596) and Maine Coon (8%, n = 
+20/261) cats when compared with studies in the UK.3,9 
+Table 6  Correlations between all the reproductive indexes in Bengals and Norwegian Forest Cat queens
+Bengals
+ 
+Queen’s 
+weight
+Queen’s 
+age
+Parity
+Gestation 
+length
+Stillborn 
+kittens
+Kittens 
+born 
+alive
+Stillborn 
+kittens
+Weaned 
+kittens
+Pre-
+weaning 
+kitten 
+mortality
+Queen’s weight
+–
+0.395†
+NS
+NS
+NS
+NS
+NS
+NS
+–0.454†
+Queen’s age
+–0.316‡
+–
+0.7*
+0.314‡
+NS
+NS
+NS
+NS
+NS
+Parity
+NS
+0.701*
+–
+NS
+NS
+NS
+NS
+0.238‡
+NS
+Gestation length
+NS
+NS
+NS
+–
+NS
+NS
+NS
+0.344†
+–0.456*
+Kittens born
+NS
+NS
+NS
+–0.436*
+–
+0.879*
+0.355*
+0.571*
+NS
+Kittens born alive
+NS
+NS
+–0.298* –0.365*
+0.886*
+–
+NS
+0.719*
+NS
+Stillborn kittens
+NS
+NS
+NS
+NS
+NS
+–0.506*
+–
+NS
+NS
+Weaned kittens
+NS
+NS
+–0.334† NS
+0.784*
+0.906*
+–0.493*
+–
+–0.579*
+Pre-weaning kitten 
+mortality
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+–0.247‡
+–
+NFC
+ 
+*P <0.01
+†0.01< P <0.05
+‡0.05< P <0.1
+CS = caesarean section; NS = not significant
+Table 7  Correlations between all the reproductive indexes in Persian and Maine Coon queens
+Persian
+ 
+Queen’s 
+weight
+Queen’s 
+age
+Parity
+Gestation 
+length
+Kittens 
+born
+Kittens 
+born 
+alive
+Stillborn 
+kittens
+Weaned 
+kittens
+Pre-
+weaning 
+kittens 
+mortality
+CS
+Queen’s weight
+–
+0.199†
+NS
+NS
+0.45*
+0.302*
+0.307*
+0.236†
+NS
+NS
+Queen’s age
+NS
+–
+0.839*
+0.161‡
+–0.149† NS
+NS
+NS
+NS
+NS
+Parity
+NS
+0.762*
+–
+NS
+NS
+NS
+NS
+NS
+NS
+NS
+Gestation length
+NS
+0.388†
+0.464†
+–
+NS
+NS
+NS
+0.164‡
+–0.183†
+NS
+Kittens born
+NS
+NS
+NS
+NS
+–
+0.838*
+0.346*
+0.416*
+0.272*
+0.192†
+Kittens born alive
+–0.322†
+NS
+–0.271† NS
+0.825*
+–
+–0.223*
+0.653*
+0.195*
+NS
+Stillborn kittens
+0.344†
+0.237‡
+0.388*
+NS
+0.269†
+–0.323†
+–
+–0.378*
+0.15†
+0.182†
+Weaned kittens
+–0.316†
+NS
+NS
+NS
+0.702*
+0.939*
+–0.424*
+–
+–0.544*
+NS
+Pre-weaning kitten 
+mortality
+NS
+NS
+–0.247‡ NS
+0.404*
+0.267†
+0.223‡
+NS
+–
+0.16†
+CS
+NS
+NS
+0.233‡
+NS
+NS
+NS
+0.428*
+NS
+NS
+–
+Maine Coon
+ 
+*P <0.01
+†0.01< P <0.05
+‡0.05< P <0.1
+CS = caesarean section; NS = not significant
+Romagnoli et al	
+1197
+Similarly to stillbirth, postnatal mortality in our study 
+was positively correlated with litter size, with a signifi-
+cant increase in litters composed of >6 kittens.
+CSs were reported only in 3% (n = 10/337) of parturi-
+tions, which is slightly lower than the 7–8% reported in 
+the UK or Swedish studies.9,10 Unlike British cats in 
+which CSs were in one study reported to be performed 
+only in Persians (incidence of 6.6%),9 in our study CSs 
+were reported in Persians (3.4%, n = 6/179 litters) and 
+also Maine Coons (7.1%, n = 4/56 litters).
+Conclusions
+This study documents the fertility parameters of breed-
+ing cats raised at a latitude of 45° north. The queen is a 
+seasonal animal and, as such, its reproductive cyclicity is 
+influenced by photoperiod, which varies with season. 
+Therefore, feline reproductive management should 
+probably be adjusted for latitude. From this perspective, 
+it is important to have information on fertility parame-
+ters from different parts of the globe as latitude may 
+have an impact on certain aspects of feline reproduc-
+tion.20 In addition, knowing the reproductive character-
+istics of every breed at a different latitude can determine 
+the choice of breeds for cat breeders.
+When comparing reproductive data of queens raised 
+in Northern Italy to Canadian and UK queens, the main 
+differences in our queens were an older age at puberty 
+and a longer duration of interoestrus, while other param-
+eters did not differ greatly. Duration of interoestrus is 
+influenced by the occurrence of spontaneous ovulation, 
+as well as short periods of anoestrus. Spontaneous ovu-
+lation has been studied in domestic shorthair queens but 
+not in different breeds, while the occurrence of short 
+periods of anoestrus during the breeding season has 
+never been investigated in domestic queens. Whether or 
+not both events can occur and how frequently these may 
+happen in different breeds is worth investigating as 
+repeated progesterone stimulations may have an effect 
+from a reproductive health perspective on the uterus 
+and/or mammary glands. Reproductive management 
+might be improved through the identification of a spon-
+taneous luteal phase using serum progesterone assay, 
+thus improving fertility in individual queens.
+Acknowledgements  The authors would like to thank the 
+breeders who participated in this study
+Conflict of interest  The authors declared no potential  
+conflicts of interest with respect to the research, authorship, 
+and/or publication of this article.
+Funding  The authors received no financial support for the 
+research, authorship, and/or publication of this article.
+ORCID iD  Lluis Ferré Dolcet 
+ https://orcid.org/0000-0002- 
+4994-768X
+References
+	 1	 Prescott CW. Reproductive patterns in the domestic cat. 
+Aust Vet J 1973; 49: 126–129.
+	 2	 Jemmet JE and Evans JM. A survey of sexual behavior  
+and reproduction of female cats. J Small Anim Pract 1977; 
+18: 31–37.
+	 3	 Povey RC. Reproduction in the pedigree female cat.  
+A survey of breeders. Can Vet J 1978; 19: 207–213.
+	 4	 Lofstedt RM. The estrous cycle of the domestic cat.  
+Compend Contin Educ Pract Vet 1982; 4: 52–58.
+	 5	 Johnstone I. Reproductive patterns of pedigree cats.  
+Aust Vet J 1978; 64: 197–200.
+	 6	 Gruffydd-Jones TJ. Some aspects of reproduction in cats. 
+Adv Small Anim Pract 1988; 7: 68–77.
+	 7	 Munday HS and Davidson HPB. Normal gestation lengths 
+in the domestic shorthair cat (Felis domesticus). J Reprod 
+Fertil 1993; Suppl 47: 559.
+	 8	 Root MV, Johnston SD and Olson PN. Estrous length, preg-
+nancy rate, gestation and parturition lengths, litter size, 
+and juvenile mortality in the domestic cat. J Am Anim Hosp 
+Assoc 1995; 31: 429–433.
+	 9	 Sparkes AH, Rogers K, Henley WE, et al. A questionnaire-
+based study of gestation, parturition and neonatal mortal-
+ity in pedigree breeding cat in the UK. J Feline Med Surg 
+2006; 8: 145–157.
+	10	 Ström Holst BS and Frössling J. The Swedish breeding cat: 
+population description, infectious disease and reproduc-
+tive performance evaluated by a questionnaire. J Feline 
+Med Surg 2009; 11: 793–802.
+	11	 Faya M, Carranza A, Priotto M, et al. Domestic queens 
+under natural temperate photoperiod do not manifest 
+seasonal anestrus. Anim Reprod Sci 2011; 129: 78–81.
+	12	 Lawler DF, Johnston SD, Hegstad RL, et al. Ovulation 
+without cervical stimulation in domestic cats. J Reprod  
+Fertil Suppl 1993; 47: 57–61.
+	13	 Gudermuth DF, Newton L, Daels P, et al. Incidence of 
+spontaneous ovulation in young, group-housed cats 
+based on serum and faecal concentrations of progester-
+one. J Reprod Fertil Suppl 1997; 51: 177–184.
+	14	 Verhage HG, Beamer NB and Brenner RM. Plasma levels of 
+estradiol and progesterone in the cat during polyestrus, preg-
+nancy and pseudopregnancy. Biol Reprod 1976; 14: 579–585.
+	15	 Paape SR, Shille VM, Seto H, et al. Luteal activity in the 
+pseudopregnant cat. Biol Reprod 1975; 13: 470–474.
+	16	 Shille VM and Stabenfeldt GH. Luteal function in the 
+domestic cat during presudopregnancy and after treat-
+ment with prostaglandin F2alpha. Biol Reprod 1979; 21: 
+1217–1223.
+	17	 Wildt DE, Chan SYW, Seager SWJ, et al. Ovarian activity,  
+circulating hormones, and sexual behavior in the cat. I.  
+Relationships during the coitus-induced luteal phase and 
+the estrous period without mating. Biol Reprod 1981; 25: 15–28.
+	18	 Schmidt PM, Chakraborty PK and Wildt DE. Ovarian activ-
+ity, circulating hormones, and sexual behavior in the cat. 
+II. Relationships during pregnancy, parturition, lactation 
+and the postpartum estrus. Biol Reprod 1983; 28: 657–671.
+	19	 Pelican KM, Brown JL, Wildt DE, et al. Short term suppres-
+sion of follicular recruitment and spontaneous ovulation 
+in the cat using levonorgestrel versus a GnRH antagonist. 
+Gen Comp Endocrin 2005; 144: 110–121.
+	20	 Pereira da Silva TF, Machado da Silva LD, Couto Ochoa 
+D, et al. Sexual characteristics of domestic queens kept in 
+a natural equatorial photoperiod. Theriogenology 2006; 66: 
+1476–1481.

@@ -1,0 +1,1168 @@
+1
+Vol.:(0123456789)
+Scientific Reports |          (2024) 14:531  
+| https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports
+Longevity of companion dog 
+breeds: those at risk from early 
+death
+Kirsten M. McMillan 1*, Jon Bielby 2, Carys L. Williams 1, Melissa M. Upjohn 1, 
+Rachel A. Casey 1 & Robert M. Christley 1
+The companion dog is one of the most phenotypically diverse species. Variability between breeds 
+extends not only to morphology and aspects of behaviour, but also to longevity. Despite this fact, 
+little research has been devoted to assessing variation in life expectancy between breeds or evaluating 
+the potential for phylogenetic characterisation of longevity. Using a dataset of 584,734 unique dogs 
+located within the UK, including 284,734 deceased, we present variation in longevity estimates 
+within the following: parental lineage (purebred = 1 breed, crossbred ≥ 2 breeds), breed (n = 155), body 
+size (large, medium, small), sex (male, female) and cephalic index (brachycephalic, mesocephalic, 
+dolichocephalic). Survival estimates were then partitioned amongst phylogenetic clades: providing 
+evidence that canine evolutionary history (via domestication and associated artificial selection) is 
+associated with breed lifespan. This information provides evidence to inform discussions regarding 
+pedigree health, whilst helping current/prospective owners, breeders, policy makers, funding bodies 
+and welfare organisations improve decision making regarding canine welfare.
+The modern domesticated dog (Canis lupus familiaris) includes over 400 genetically distinct breeds, represent-
+ing considerable variation in morphological, behavioural, and physiological ­phenotypes1,2. However, variability 
+between breeds also extends to life ­expectancy3–5. In spite of this, little research has been devoted to assessing 
+variation in longevity between canine sub-populations or evaluating the potential for phylogenetic characterisa-
+tion of longevity. Providing these estimates would help veterinarians and researchers highlight health and welfare 
+challenges within the field, whilst also managing stakeholder expectations (including current and prospective 
+owners), with regards to future responsibilities and duration of dog-owner relationship.
+Though it is widely accepted that dogs were domesticated from an ancient wolf ­ancestor6,7, findings diverge 
+on the specific timing, location and number of domestication ­sites8–18. However, a date of around 16,000 cal BP 
+(calibrated years before the present) is generally accepted as the timing of domestication, based on robust archae-
+ological and genomic ­evidence6,15,17–19. Despite this ~ 16,000 year timeline, the spectacular phenotypic diversity 
+observed amongst breeds is thought to have originated much more recently, largely through intense artificial 
+selection. This has led to the development of closed breeding populations with limited genetic ­heterogeneity20. 
+The loss of genetic diversity can be attributed to a significant population bottleneck event: the generation of 
+pedigree ­breeds21–23. To ensure the persistence of pedigree diversity, strict breeding practices have been emplaced 
+to restrict gene flow between ­breeds24. These practices include: the repeated use of popular sires, breeding to 
+perpetuate desired physical or behavioural characteristics, promotion of the breed barrier rule (i.e., a dog can only 
+become a registered member of a breed, if both parents are registered members), and population maintenance 
+via inbreeding within closed familial ­lines25–28. Additionally, selection pressure towards phenotypic exaggera-
+tion to achieve breed standards and/or obtain a competitive advantage when judged at show standards, has been 
+associated with hereditary pathology and conformation ­disorders29,30. Breeding practices focussed on physical 
+appearance solely, often result in reduced attention to canine health, welfare, functionality, and ­behaviour31,32.
+Longevity estimates for an average domestic dog varies between 10.0 and 13.7 years of age, with variation 
+depending on populations analysed e.g., country and/or breed ­specific3–5,33–38. However, significant variation 
+in longevity has been reported both within and between purebreds. For example, median estimates for West 
+Highland White Terriers have been reported at 12.7 and 13.5 years of age, while estimates for Rottweilers have 
+been substantially lower at 8.0 and 8.4 years of ­age3,4. Furthermore, variation in longevity has been reported 
+between pure (parental lineage; PL = 1 breed) and crossbred (PL ≥ 2 breeds) dogs, with most research reporting 
+longer life expectancies within ­crossbreeds34,36,39,40 (however see 41). Within a subset of UK and Japanese canine 
+OPEN
+1Dogs Trust, London, UK. 2Liverpool John Moores University, Liverpool, UK. *email: kirsten.mcmillan@
+dogstrust.org.uk
+2
+Vol:.(1234567890)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+populations, a crossbred survival advantage of 1.2 and 1.3 years was reported in comparison with their purebred 
+counterparts, ­respectively3,36. Consequently, it has been hypothesised that the longevity advantage presented in 
+crossbred dogs may be due to the reduction in homozygous deleterious genes, along with non-genetic differ-
+ences between and within pure and crossbred populations e.g., management ­styles31. The former would suggest 
+the presence of ‘hybrid vigor’ within canine ­populations42. Hybrid vigor, or heterosis, is the increase in stature, 
+biomass, and fertility that characterizes the progeny of crosses between diverse parents, such that the progeny is 
+superior to the better of the two ­parents43. Inbreeding depression describes the converse effect, i.e., the decline 
+in quantitative measures of fitness upon homozygosis of alleles (i.e., inbreeding)43. At present, there is little 
+evidence to support the existence of either evolutionary process (i.e., hybrid vigor or inbreeding depression) 
+within domestic ­dogs3,28,42. However, nearly 700 inherited disorders and traits have been described in the domes-
+tic ­dog44, including hip dysplasia, brachycephalic obstructive airway syndrome, cardiomyopathies, endocrine 
+dysfunctions, and blood ­disorders11,29,45,46. As a result, the burden of disease within most purebred populations 
+has become one of the most important issues in canine welfare. It is imperative that future discussions are open 
+and multidisciplinary, as they have significant implications on the ethics of breeding practices, along with the 
+quality of life and longevity of canine breeds.
+In addition to breed status, body size, sex, and cephalic index (the ratio between the width and length of skull), 
+have previously been associated with canine ­longevity33,47,48. Mammalian lifespan varies strongly with body size, 
+such that large species tend to outlive smaller ­species49,50. However, within species, small body size is generally 
+associated with greater ­longevity51. The domesticated dog aligns with this latter trend and body size is generally 
+considered to be the greatest predictor of their ­lifespan28,35,47,48,52–59. Despite this fact, substantial survival differ-
+ences are frequently reported between breeds of similar ­size56,60–62, with larger dogs reported to have the highest 
+­morbidity3,33,52,63. Female survival advantage is also well documented in mammalian species. A recent study 
+compiling demographic data from 134 mammal populations (encompassing 101 species), reported an average 
+18.6% longer median lifespan in females, in comparison with conspecific ­males64. In spite of this, previous studies 
+have suggested that sex bears little influence on canine ­longevity38,65. Popularity of brachycephalic (flat-faced) 
+breeds has been increasing internationally, despite increasing scientific evidence highlighting the significant 
+health and welfare challenges associated with this conformation, in comparison with mesocephalic (medium 
+proportions) or dolichocephalic (long-faced) ­breeds66–68. By identifying and comparing differences in longevity 
+between canine populations e.g., parental lineage (PL), breed, size, sex, and cephalic index, future studies can 
+start to disentangle mechanisms linked to risk of early death. However, very little research attention has been 
+dedicated to: (1) assessing variation in life expectancy between subsets of the canine populations, and (2) the 
+phylogenetic characterisation of canine longevity. This knowledge gap is due, in part, to a lack of informative, 
+comparable, and accessible datasets regarding canine mortality.
+To address this shortcoming, we developed a research project involving 18 participants, including rehoming 
+and welfare organisations, breed registries, pet insurance companies, veterinary corporations, and university 
+based veterinary archives. This wealth of data allowed us to partition heterogeneity of survival estimates between 
+populations, to compare estimated longevities, and identify those most at risk from early death. Improving 
+our knowledge of canine survivorship provides an important welfare opportunity for the estimated 12 million 
+companion dogs in the ­UK69. This information will assist current/prospective owners, breeders, policy makers, 
+funding bodies and welfare organisations in decision-making to improve the welfare of companion dogs, while 
+also contributing evidence to the canine pedigree health debate.
+Results
+Merged, cleaned and deduplicated data included 584,734 individual dogs located within the United Kingdom 
+(UK), including 284,734 deceased, from 18 sources (see ‘Methods: Data sources, cleaning and subsetting’ for fur-
+ther details). Individuals within data ranged from 0–24 years of age (x̃ = 12.2, μ = 8.56), consisting of the following 
+demographics: 1.6% Puppies ( n = 9298), 2.3% Juveniles ( n = 13,226), 6.2% Young Adults ( n = 36,269), 29.2% 
+Mature Adults ( n = 170,522), 34.0% Senior Adults ( n = 198,963) and 26.7% Geriatric ( n = 156,456). Distribution 
+of deaths within age group, per sex, are shown in Fig. 1.
+There was a 1.1:1 ratio of male ­(n♂ = 300,380) to female dogs ­(n♀= 284,354), and a 4.3:1 ratio of pure ( nE = 
+473,423) to cross breeds ( nX = 111,311). Within pure breeds, 20.9% were categorised as brachycephalic ­(n♂:n♀ 
+1.1:1), 63.4% were mesocephalic ­(n♂:n♀ 1.1:1) and 15.6% were dolichocephalic ­(n♂:n♀ 1.1:1). Over 50% of pure 
+breeds were reported as one of the following twelve breeds: Labrador Retriever (9.14%), Staffordshire Bull 
+Terrier (7.73%), English Cocker Spaniel (5.57%), German Shepherd Dog (4.21%), Jack Russel Terrier (4.06%), 
+English Springer Spaniel (3.75%), Yorkshire Terrier (3.05%), Cavalier King Charles Spaniel (2.92%), Border Collie 
+(2.75%), Shih Tzu (2.57%), West Highland White Terrier (2.52%) and French Bulldog (2.44%). Frequency of all 
+purebreds in dataset are listed in Fig. S1.
+Small dogs contributed 53.1% of the purebred dataset ­(n♂:n♀ 1:1, nbreeds = 62), whilst medium and large 
+sized dogs made up the remaining 17.6% ­(n♂:n♀ 1.1:1, nbreeds = 44) and 29.3% ­(n♂:n♀ 1.1:1, nbreeds = 49), respec-
+tively. Within small breeds, 27.4% were brachycephalic ( n = 60,723, nbreeds = 11), 63.7% were mesocephalic ( n 
+= 141,024, nbreeds = 38) and 8.9% were dolichocephalic ( n = 19,605, nbreeds = 13). Within medium breeds, 13.3% 
+were brachycephalic ( n = 9709, nbreeds = 1), 68.7% were mesocephalic ( n = 50,030, nbreeds = 30) and 18.0% were 
+dolichocephalic ( n = 13,072, nbreeds = 13). Within large breeds, 14.4% were brachycephalic ( n = 17,671, nbreeds = 
+7), 62.6% were mesocephalic ( n = 76,699, nbreeds = 32) and 23.0% were dolichocephalic ( n = 28,114, nbreeds = 10).
+3
+Vol.:(0123456789)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+Survival analysis
+Percentage of total population expiring within each age grouping, θ{Xi} , are listed within Table 1: highlight-
+ing that survival probability is greatest for Juveniles, similar amongst Puppies and Young Adults, and least for 
+Geriatrics.
+Averaging across all individuals, i.e., pure ( E ) and crossbred ( X ), median survival was estimated at 12.5 years 
+(12.5–12.6, n = 584,734, events = 284,734). However, variation was evident between pure and crossbred individu-
+als (p < 0.001). Median survival for pure breeds was 12.7 years (12.6–12.7, n = 473,681, events = 212,289), whilst 
+median survival for crossbreds was 12.0 years (12.0–12.1, n = 111,053, events = 72,445, HR 1.1, 1.1–1.1, p < 0.001). 
+Probability of purebred and crossbred survival per decimal year are presented in Supplementary Table 1. This 
+table highlights 95% of purebred and crossbred individuals are deceased by 18.3 and 18.2 years, respectively.
+Median survival for any (i.e., E and X ) female (♀) was 12.7 years (12.6–12.7, n = 283,984, events = 136,910), 
+whilst median survival for any male (♂) was 12.4 years (12.4–12.4, n = 300,750, events = 147,824, HR 1.06, 
+1.06–1.07, p < 0.001). Probability of female and male survival per decimal year are presented in Supplementary 
+Table 2, which highlight that 95% of both sexes are deceased by 18.3 years of age. Female survival advantage was 
+apparent within both pure and cross bred individuals (x̃Ε = 12.8, 12.7–12.8, x̃Χ = 12.3, 12.2–12.3), in comparison 
+with their male counterparts (x̃Ε = 12.5, 12.5–12.6, x̃Χ = 11.9, 11.8–12.0, p < 0.001; Fig. 2).
+Longevity estimates for 155 recognised purebreds versus the crossbred group (x̃ = 12.0) are presented in in 
+Supplementary Table 3. In comparison with the crossbred group, 47.1% ( nbreeds = 73) of purebreds presented 
+Figure 1.   Distribution of deaths from the raw data, within age group, per sex (superimposed). Note higher 
+density of deaths within ‘Puppies’ in comparison with ‘Juveniles’, and male skewed ratios for all age groupings 
+excluding ‘Geriatric’, where ratio is 1:1.
+Table 1.   Percentage of total population expiring, θ, per age group Xi where i represents age grouping 
+i.e., XP, XJ, XY . . . calculated as: θ{Xi} =
+
+ND{Xi}
+N
+
+∗100 . Includes the following statistics: Ni i.e., total sub-
+population size; NDi i.e., total number of deaths per sub-population; θ{Xi} i.e., % total population expiring per 
+age group. ND (= 284,734) does not equate to N (= 584,734) as the dataset includes subjects alive at point of 
+completion. Thus, θ{XG} calculation incorporates remaining subjects.
+Age grouping
+Ni (sub-population)
+NDi (total no. of deaths, per sub-population)
+θ{Xi} (% total population expiring per age 
+group)
+Puppies {XP}
+9285
+6675
+1.14
+Juveniles 
+
+XJ
+
+13,316
+4,770
+0.82
+Young adults {XY}
+36,433
+9,426
+1.61
+Mature adults {XM}
+170,427
+49,289
+8.43
+Senior adults {XS}
+198,853
+99,729
+17.06
+Geriatric {XG}
+156,420
+114,845
+70.95
+Total
+N = 584,734
+ND = 284,734
+–
+4
+Vol:.(1234567890)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+longer median estimates, 25.8% ( nbreeds = 40) presented shorter median estimates, and the remaining 27.1% 
+( nbreeds = 42) did not vary significantly from the crossbred group.
+Longevity estimates for a subset of purebreds are visualised in Fig. 3. Significant variation in longevity was 
+evident between breeds (p < 0.001): those most at risk from early death included Caucasian Shepherd Dog 
+(x̃ = 5.4, HR 2.4, 1.6–3.7), Presa Canario (x̃ = 7.7, HR 3.0, 2.5–3.7), Cane Corso (x̃ = 8.1, HR 2.4, 2.0–3.0), Mastiff 
+(x̃ = 9.0, HR 2.3, 2.2–2.4), St Bernard (x̃ = 9.3, HR 1.7, 1.5–1.8), Bloodhound (x̃ = 9.3, HR 1.7, 1.3–2.1), Affenpin-
+scher (x̃ = 9.3, HR 1.7, 1.5–1.9), Neapolitan Mastiff (x̃ = 9.3, HR 1.8, 1.6–2.0), Bulldog (x̃ = 9.8, HR 1.8, 1.7–1.8) 
+and French Bulldog (x̃ = 9.8, HR 2.2, 2.1–2.3). Those least at risk from early death included Lancashire Heeler 
+(x̃ = 15.4, HR 0.5, 0.4–0.6), Tibetan Spaniel (x̃ = 15.2, HR 0.5, 0.4–0.5), Shiba Inu (x̃ = 14.6, HR 0.5, 0.4–0.6), 
+Papillon (x̃ = 14.5, HR 0.6, 0.5–0.6), Lakeland Terrier (x̃ = 14.2, HR 0.7, 0.6–0.7), Schipperke (x̃ = 14.2, HR 0.6, 
+0.4–0.9), Border Terrier (x̃ = 14.2, HR 0.5, 0.5–0.6), Italian Greyhound (x̃ = 14.0, HR 0.7, 0.6–0.9) and Miniature 
+Dachshund (x̃ = 14.0, HR 0.7, 0.6–0.7).
+Longevity differed between purebreds of varying size (p < 0.001): median survival for small and medium 
+sized breeds were 12.7 (12.7–12.8, n = 223,222, events = 112,063, HR 0.83, 0.82–0.84) and 12.5 years (12.4–12.6, 
+n = 73,532, events = 35,787, HR 0.88, 0.87–0.89) respectively, with an accelerated time to death for large sized 
+breeds at 11.9 years (11.9–11.9, n = 123,072, events = 61,976). Probability of survival per decimal year for small, 
+medium, and large individuals are presented in Supplementary Table 4: highlighting that 95% of are deceased 
+by 18.1, 18.3 and 17.9 respectively.
+Lower survival estimates within large purebreds were apparent within both male and female individuals 
+(x̃♂ = 11.8, 11.7–11.8; x̃♀ = 12.0, 12.0–12.1), in comparison with their small (x̃♂ = 12.7, 12.6–12.7; x̃♀ = 12.8, 
+12.7–12.8) and medium sized counterparts (x̃♂ = 12.3, 12.3–12.4; x̃♀ = 12.7, 12.6–12.8, p < 0.001). Large males 
+and females presented a 1.28 (1.26–1.29) and 1.17 (1.15–1.18) fold faster time to death, respectively, than the 
+longest living small sized females (p < 0.001). Variation in longevity between the three sizes are more apparent 
+within males (Fig. S2).
+Median survival for mesocephalic purebreds was 12.8 years (12.7–12.8, n = 267,753, events = 138,357), with an 
+accelerated time to death for brachycephalic and dolichocephalic purebreds at 11.2 years (11.2–11.3, n = 88,103, 
+events = 40,644, HR 1.4, 1.4–1.4, p < 0.001) and 12.1 years (12.0–12.1, n = 66,369, events = 33,224, HR 1.1, 1.1–1.1, 
+p < 0.001), respectively. An interaction was evident between cephalic index and size. In comparison with longest 
+living small-dolichocephalic breeds (x̃ = 13.3, 13.2–13.4), brachycephalic-medium and brachycephalic-large sized 
+breeds presented a 2.69 (2.59–2.79, x̃ = 9.4, 9.3–9.5, p < 0.001) and 1.92 (1.87–1.98, x̃ = 10.7, 10.6–10.8, p < 0.001) 
+fold faster time to death, respectively (Fig. S3). However, a further interaction was noted, between cephalic index, 
+size, and sex (Fig. 4). Similar to previous findings, in comparison with longest living small-dolichocephalic-female 
+breeds (x̃ = 13.3, 13.2–13.4), medium-brachycephalic male and female breeds presented a 2.85 (2.71–2.3, x̃ = 9.1, 
+9.0–9.3, p < 0.001) and 2.69 (2.54–2.83, x̃ = 9.6, 9.4–9.8, p < 0.001) fold faster time to death, respectively. Further-
+more, variation in longevity between the three cephalic indices were most apparent within medium sized dogs.
+Figure 2.   Survival curves of pure (yellow) and cross (blue) bred individuals, faceted by sex. Survival functions 
+based on Kaplan–Meier estimates by log rank test (p-value).
+5
+Vol.:(0123456789)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+Phylogenetic analyses
+Pagel’s lambda value of 0.808 was obtained, suggesting that median lifespan exhibited a strong phylogenetic 
+signal across the dog breeds included in these analyses. Distribution of median lifespan was strongly related to 
+evolutionary history: with breeds within clades exhibiting closer lifespans than would be expected by chance 
+(Fig. 5, see Fig. S4 for flat phylogeny).
+Figure 6 presents the median lifespans of the lowest quartile of breeds plotted onto the breed phylogeny. 
+Clusters with lower median lifespans are localised within three clades: the first including breeds such as the 
+Caucasian Shepherd Dog, the second containing the Mastiffs and Bulldogs, and the third including the Presa 
+Canario, Neapolitan Mastiff and Cane Corso.
+Discussion
+Our study investigated variation in longevity estimates for dogs located within the UK, based on parental lineage, 
+breed, body size, sex, cephalic index, and phylogeny. Our results partition heterogeneity of survival estimates 
+across these populations: identifying groups most at risk from early death. More specifically, we provide lon-
+gevity estimates for: (1) pure (PL = 1 breed) versus crossbred (PL ≥ 2 breeds) groupings, providing evidence to 
+inform discussions regarding pedigree health; (2) 155 purebreds, representing a large range of morphological, 
+behavioural, and physiological phenotypes; (3) varying body size, providing support for a negative correlation 
+between size and ­longevity3,35,47,52,59; (4) sex, reinforcing documented female survival advantage within mam-
+malian ­species64; and (5) cephalic index, expanding upon the brachycephalic health and welfare debate, regard-
+ing problems associated with ­conformation66,67. Furthermore, this is one of the first studies to map longevity 
+estimates against evolutionary history (via domestication and associated artificial selection), providing evidence 
+that canine ancestral lineage is associated with breed lifespan (however, see 41,59,70).
+Breed specific estimates of survival are not only informative to veterinarians and researchers, but also to 
+current and prospective owners, looking to fully understand their future responsibilities, and potential duration 
+of dog-owner relationship. Whilst this study provides evidence to inform discussions around canine pedigree 
+health, it is important to note that unbiased lifespan data necessarily requires the inclusion of live dogs whose 
+cause of death is yet unknown, and furthermore, for those deceased—reason for death is not included within our 
+dataset. Death may be due to euthanasia (based on physiological or behavioural concerns), trauma, disease, or 
+natural causes. Thus, we cannot identify direct risk factors for early death. Instead, by comparing survivorship 
+across parental lineage, breed, body size, sex, cephalic index, and phylogeny, we can identify groupings and/or 
+lineages that demand further consideration.
+Figure 3.   Survival curves for 8 purebreds: Border Collie (dark blue, x̃ = 13.1), Border Terrier (light blue, 
+x̃ = 14.2), Bulldog (green, x̃ = 9.8), French Bulldog (red, x̃ = 9.8), Labrador Retriever (orange, x̃ = 13.1), 
+Mastiff (purple, x̃ = 9.0), Miniature Dachshund (pink, x̃ = 14.0) and Pug (brown, x̃ = 11.6). All purebreds vary 
+significantly from crossbreds (light purple, x̃ = 12.0, p < 0.001). Survival functions based on Kaplan–Meier 
+estimates by log rank test (p-value). Longevity estimates for 155 recognised purebreds versus the crossbred 
+group are presented in in Supplementary Table 3.
+6
+Vol:.(1234567890)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+Previous studies have reported significantly lower life expectancies for purebreds, in comparison with their 
+crossbred ­counterparts34,36,40,71, leading to widespread belief that crossbred dogs are substantially healthier than 
+­purebreds72,73. We found that 47.1% of purebreds present a greater median survival estimate than crossbreds, 
+only 25.8% present a shorter life expectancy than crossbreds, and 27.1% did not vary significantly. Consequently, 
+our results are not in agreement with previous findings. However, due to methodological limitations, we do not 
+reject the existence of hybrid vigour within the population. Within our data, purebreds and crossbreds are evalu-
+ated as a binary variable. This may be problematic as crossbreds are heterogenous: presenting differing degrees 
+of between-breed genetic diversity. For example, the crossbred group ranges from individuals produced from a 
+complex line of unknown hybrids to purebred hybrids, often labelled as ‘designer crossbreeds’ e.g., ‘Labradoodle’, 
+Size
+Cephalic Index
+Sex
+Median 
+Survival
+Lower 
+95% CI
+Upper 
+95% CI
+HR (95% CI)
+p-value
+Medium
+Brachycephalic
+Male
+5072
+2541
+9.1
+9
+9.3
+2.85 (2.71, 3.00)
+<0.001
+Medium
+Brachycephalic
+Female
+4637
+2202
+9.6
+9.4
+9.8
+2.68 (2.54, 2.83)
+<0.001
+Large
+Brachycephalic
+Male
+9317
+5289
+10.6
+10.5
+10.7
+2.01 (1.93, 2.10)
+<0.001
+Large
+Brachycephalic
+Female
+8354
+4761
+10.8
+10.6
+10.9
+1.95 (1.87, 2.04)
+<0.001
+Large
+Dolichocephalic
+Male
+14278
+8641
+10.8
+10.8
+11
+1.92 (1.85, 2.00)
+<0.001
+Large
+Dolichocephalic
+Female
+13836
+8263
+11.3
+11.3
+11.4
+1.72 (1.65, 1.78)
+<0.001
+Small
+Brachycephalic
+Male
+30888
+13228
+11.8
+11.8
+11.9
+1.56 (1.50, 1.62)
+<0.001
+Small
+Brachycephalic
+Female
+29835
+12623
+11.9
+11.8
+12
+1.54 (1.49, 1.60)
+<0.001
+Medium
+Dolichocephalic
+Male
+6656
+3440
+12.2
+12
+12.3
+1.35 (1.28, 1.41)
+<0.001
+Large
+Mesocephalic
+Male
+39588
+18656
+12.3
+12.2
+12.3
+1.42 (1.37, 1.47)
+<0.001
+Medium
+Dolichocephalic
+Female
+6416
+3249
+12.5
+12.3
+12.6
+1.27 (1.21, 1.34)
+<0.001
+Large
+Mesocephalic
+Female
+37111
+16366
+12.7
+12.6
+12.7
+1.25 (1.21, 1.30)
+<0.001
+Medium
+Mesocephalic
+Male
+26188
+13046
+12.8
+12.7
+12.8
+1.27 (1.22, 1.32)
+<0.001
+Small
+Mesocephalic
+Male
+72189
+40531
+12.8
+12.8
+12.9
+1.24 (1.19, 1.28)
+<0.001
+Small
+Mesocephalic
+Female
+68835
+38449
+12.9
+12.8
+12.9
+1.20 (1.16, 1.24)
+<0.001
+Medium
+Mesocephalic
+Female
+23842
+11309
+13
+13
+13.1
+1.16 (1.12, 1.21)
+<0.001
+Small
+Dolichocephalic
+Male
+9958
+3728
+13.3
+13.2
+13.4
+1.06 (1.01, 1.11)
+0.013
+Small
+Dolichocephalic
+Female
+9647
+3504
+13.3
+13.2
+13.4
+NA
+NA
+Figure 4.   Survival curves of brachycephalic (red), mesocephalic (blue) and dolichocephalic (yellow) purebred 
+individuals, faceted by size and sex, along with associated table. Survival functions based on Kaplan–Meier 
+estimates by log rank test (p-value). Table reports Kaplan–Meier survival estimates and cox proportional hazards 
+regression model outputs for size, by sex. All groupings are compared with small-dolichocephalic-female 
+individuals, as these represent the longest living group. Includes the following statistics: NA i.e., total number 
+of individuals still alive; ND i.e., total number of deaths; Median Survival i.e., median age of death; Lower 95% 
+Confidence Interval (CI) and Upper 95% CI; Hazards Ratio (Lower 95% CI and Upper 95% CI) and p-value.
+7
+Vol.:(0123456789)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+Labrador Retriever x Poodle or ‘Jack-Chi’, Jack Russell Terrier x Chihuahua. Within purebred hybrids, while the 
+first filial (F1) generation may benefit from hybrid ­vigor43 and display fewer inbreeding depression effects than 
+their ancestral ­purebreds63,74,75, subsequent generations i.e., F2, F3…Fx, are likely to return a higher inbreed-
+ing co-efficient. Thus, they lose the health benefits from the initial purebred hybrid ­cross42. As we do not have 
+access to detailed information regarding individual lineage, we cannot assess the presence of hybrid vigor, or 
+inbreeding depression, within a quantitative context. However, given the growing popularity of specific ’designer 
+cross’ breeding ­programs76,77, along with the proposed strategy to abandon or ‘outcross’ purebred populations 
+significantly affected by inherited disorders and/or extreme ­characteristics20,28,78,79, it is important that future 
+studies partition heterogeneity of survival estimates amongst mixed (PL > 2 breeds or unknown), known cross-
+bred (PL = 2 breeds e.g., ’designer cross’) and ancestral purebred lineages. Furthermore, as mixed breeds have 
+been reported to live 1.2 years longer than size-matched purebred dogs, and individual breeding level has been 
+negatively associated with juvenile survival and adult ­lifespan28, future studies should consider incorporating 
+individual-level phenotype i.e., lifespan, body size and PL, from genotyped dogs, to disentangle the effect of breed 
+and body size upon longevity. Such research would help establishing the true extent of any suggested hybrid 
+Bernese Mountain Dog
+St Bernard
+Leonberger
+Cane Corso
+Neapolitan Mastiff
+Presa Canario
+Bull Terrier
+Miniature Bull Terrier
+Staffordshire Bull Terrier
+American Staffordshire Terrier
+Boxer
+Bulldog
+Dogue de Bordeaux
+Boston Terrier
+French Bulldog
+Mastiff
+Bullmastiff
+Rhodesian Ridgeback
+Great Dane
+Rottweiler
+Black Russian Terrier
+Giant Schnauzer
+Doberman Pinscher
+Border Collie
+Kelpie
+Bearded Collie
+Cardigan Welsh Corgi
+Pembroke Welsh Corgi
+Shetland Sheepdog
+Collie
+Australian Shepherd
+Australian Cattle Dog
+Old English Sheepdog
+Italian Greyhound
+Greyhound
+Whippet
+Scottish Deerhound
+Irish Wolfhound
+Borzoi
+Belgian Malenois
+Belgian Tervuren
+Bouvier des Flandres
+Briard
+Flat Coated Retriever
+Golden Retriever
+Labrador Retriever
+Newfoundland
+Irish Water Spaniel
+Curly Coated Retriever
+Nova Scotia Duck Tolling Retriever
+Chesapeake Bay Retriever
+Vizsla
+German Shorthaired Pointer
+German Wirehaired Pointer
+Large Munsterlander
+Spinone Italiano
+Gordon Setter
+English Setter
+Irish Setter
+Brittany
+Weimaraner
+Dalmatian
+Field Spaniel
+English Cocker Spaniel
+Welsh Springer Spaniel
+Sussex Spaniel
+American Cocker Spaniel
+Clumber Spaniel
+Cavalier King Charles Spaniel
+English Springer Spaniel
+Beagle
+Bloodhound
+Foxhound
+Basset Hound
+Petite Basset Griffon Vendeen
+Dachshund
+Afghan Hound
+Saluki
+Anatolian Shepherd
+Polish Lowland Sheepdog
+Caucasian Shepherd Dog
+Great Pyrenees
+Spanish Mastiff
+Pharaoh Hound
+German Shepherd Dog
+Yorkshire Terrier
+Silky Terrier
+West Highland White Terrier
+Cairn Terrier
+Scottish Terrier
+Skye Terrier
+Norfolk Terrier
+Norwich Terrier
+Soft Coated Wheaten Terrier
+Irish Terrier
+Glen Of Imaal Terrier
+Kerry Blue Terrier
+Airedale Terrier
+Wire Fox Terrier
+Lakeland Terrier
+Welsh Terrier
+Jack Russell Terrier
+Parson Russell Terrier
+Bedlington Terrier
+Border Terrier
+Toy Manchester Terrier
+Miniature Pinscher
+Toy Fox Terrier
+Chihuahua
+Chinese Crested
+Portuguese Water Dog
+Coton de Tulear
+Bichon Frise
+Maltese
+Havanese
+Poodle
+Puli
+Pomeranian
+American Eskimo Dog
+Papillon
+Brussels Griffon
+Pug
+Schipperke
+German Spitz Mittel
+Japanese Spitz
+Miniature Schnauzer
+Standard Schnauzer
+Norwegian Elkhound
+Keeshond
+Swedish Valhund
+Tibetan Terrier
+Pekingese
+Shih Tzu
+Lhasa Apso
+Tibetan Spaniel
+Japanese Chin
+Samoyed
+Alaskan Malamute
+Siberian Husky
+Chow Chow
+Chinese Shar Pei
+Akita
+Shiba Inu
+Tibetan Mastiff
+ Basenji
+5.4
+15.1
+trait value
+length=7
+Figure 5.   Circular phylogeny representing ancestor‐to‐descendant breed relationship, along with median 
+lifespan (see Fig. S4 for flat phylogeny). Median lifespan for 148 purebreds, of which we had lifespan data, and 
+could be assigned to tips of existing ­phylogenies113,114. Hotter colours represent lower median lifespans. The 
+phylogenetic signal across the entire breed tree was very strong (Pagel’s Lambda = 0.808), suggesting that median 
+lifespan was strongly affected by the evolutionary history of dog breeds.
+8
+Vol:.(1234567890)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+health risks and/or benefits by improving power for detecting subtler effects of inbreeding, as well as specific 
+genetic variants that may affect lifespan.
+This study evaluated 584,734 pure and crossbred dogs (including 284,734 deceased), from 18 organisations, 
+including rehoming and welfare organisations, breed registries, pet insurance companies, veterinary corpora-
+tions, and university based veterinary archives. The greater effective sample size of the aggregated data,  has the 
+potential to improve model ­estimates80, by providing a more comprehensive and representative picture of the 
+study population. However, it is not without its shortcomings. Specific sources may introduce representation 
+bias, providing incomplete information which impacts estimates, or reporting termination/death related statistics 
+that differ from the general canine population. Pet insurance data have previously been used for assessing lon-
+gevity estimates for pet ­populations37,81,82. Despite this fact, their value has been affected by the following biases: 
+older animals are often uninsured; some health conditions are excluded (especially where repeated); presence of 
+financial thresholds on claims; and some policies providing age-limited life cover. Additionally, not all pets will 
+be represented in these data since not all owners are able, or choose, to insure their pet. This can lead to some 
+breeds being under-represented within insurance data: especially those of high disease risk, such as brachyce-
+phalic breeds, due to the elevated cost of ­insurance83. Previous studies have also reported owners of purebreds are 
+more likely to financially invest in their dogs, showing a greater willingness to pursue more extensive veterinary 
+treatment at referral hospitals, than owners of mixed breed ­dogs84–86. This would result in a greater representation 
+of purebred dogs within veterinary datasets (as seen in the present study). Furthermore, the growing popular-
+ity of certain breeds may result in an over overrepresentation of younger individuals within the data, which 
+increases the risk of underestimating their ­lifespan87. Finally, due to the nature of breed registries, it is likely that 
+these data are biased towards pedigree or purebred dogs—despite crossbreds being recorded within ‘separate’/
+alternate ­registries88. With the aim of mitigating some aforementioned biases, we incorporated rehoming and 
+welfare charity datasets, where crossbred dogs have been reported to represent 44–87.8% of the UK rehoming 
+­population68,89. However, we recommend future researchers address biases by checking for breed survival dif-
+ferences between sources (not available here due to restrictions stipulated within data sharing agreements with 
+project participants), and addressing missing data via imputation or other statistical ­techniques90,91.
+Despite previous research reporting a survival advantage for neutered ­animals3,65,92,93 due to data limita-
+tions, we had to omit neuter status from this analysis. Neuter status is a time-dependent variable likely to have a 
+non-linear relationship with age, both with regards to probability of the procedure having been carried out, and 
+the probability of attaining the updated status within multiple data ­sources94,95. As such, the available data was 
+deemed unreliable and excluded from further analysis.
+Whilst these findings provide valuable insight into breed longevity, it is important to acknowledge that 
+purebred dog populations and, thus, their population management are influenced by environment and location. 
+Consequently, these results are representative of the UK canine population only, and should not be used to make 
+assessments within other regions/countries. For example, within certain countries, breed registries have adopted 
+independent policies regarding the importation, breeding, and registration of foreign dogs. Some registries effec-
+tively disallow breeding of imported dogs and prevent recognition of the resulting puppies—whilst others allow 
+Figure 6.   Median lifespan of the lowest quartile of breeds plotted onto the breed phylogeny. Hotter colours 
+represent lower median lifespans.
+9
+Vol.:(0123456789)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+for the controlled importation and breeding of ‘foreign’ animals. The latter policy introduces genetic diversity: 
+potentially impacting the overall longevity of their canine ­population96. Furthermore, variation in public attitude 
+towards dogs (owned or free roaming) and responsible dog ownership practices, will alter population manage-
+ment ­approaches97. Consequently, further research is needed to explore the impact of regional dog population 
+management practices and breed registry policies, upon the lifespan of local purebred dogs.
+Variations in popularity of dog breeds are often evident as large and impulsive fluctuations, that are usually 
+considered the hallmark of fashions and ­fads98,99. An acute increase in breed demand and impulse ­buying100,101 
+have resulted in puppies becoming lucrative commodities in an industry driven by profitability, often at the 
+expense of canine ­welfare102,103. Recent studies have reported an increase in rates of dogs suffering from physi-
+ological and psychological issues caused by inappropriate breeding practices, pre-purchase handling, early 
+life environment and ­husbandry102,104–107. Much of this supply may originate from large-scale, industrial-style 
+operations, in which breeders may attempt to lower overheads through poor husbandry and deficient hygiene 
+standards: operations that are colloquially dubbed ‘puppy farms’102,104. However, puppy welfare issues extend 
+to some regulated and small-scale breeders due to limited regulation and/or the practice of inbreeding to ‘fix’ 
+characteristics associated with breed standards. This can lead to increased risk of hereditary pathology and 
+exaggerated physical ­characteristics20 including orthopaedic ­disorders29,108, skin ­disease29,109, aural ­disease29,46,110, 
+ocular ­disease111,112, and breathing ­difficulties105,106. Gaps in regulation and the inability to reliably quantify supply 
+sources have significant implications on the ‘dog market’, including the ethics of breeding practices. It is therefore 
+imperative that future discussions regarding optimal canine breeding practices are open and multidisciplinary. 
+As such, we hope these findings empower stakeholders, providing evidence required to vocalise opinions and 
+collectively consider the impact of (1) biology e.g., ­genotype113, ­phenotype28, ­conformation66,114, or ­physiology115, 
+and (2) non-biological factors e.g., owner ­demographics116,117, management ­styles31,118, or breed ­function5, upon 
+risk of early death within the UK canine population.
+Methods
+Data sources, cleaning and subsetting
+Dogs Trust data were combined with datasets sourced from 17 external project participants. Data sources 
+included breed registries (45.0%), veterinary corporations (26.5%), pet insurance companies (17.1%), animal 
+welfare charities (5.9%), and academic institutions (5.5%). Project participants who provided data to this pro-
+ject include: Battersea Dogs and Cats Home; Blue Cross; SSPCA; Raystede; Wood Green, The Animals Charity; 
+Edinburgh Dog and Cat Home; PDSA; Mayhew; The Insurance Emporium (The Equine and Livestock Insurance 
+Company Limited); NCI Insurance; Cardif Pinnacle; Agria Pet Insurance Ltd; Direct Line; Medivet; Vets4Pets; 
+Savsnet (Small Animal Veterinary Surveillance Network, University of Liverpool); and The Kennel Club (UK).
+Data requested included: breed (free text), crossbred (Y/N/unknown), sex (M/F/unknown), date of birth 
+(DOB; MM/YYYY), postcode area (i.e., first one or two characters), first three characters of dog name (common, 
+not pedigree name), last six characters of microchip number, last six characters of additional microchip number 
+(if more than one known), status (alive/dead) and termination date (death or end of policy due to death; DD/
+MM/YY). Not all canine-centric variables were sent by project participants and no data were collected regarding 
+owner unique identifiers. Longevity (age of dog in decimal years) reflects the period between DOB and termina-
+tion date (if deceased), or date data were received (if assumed alive).
+Data cleaning included the removal of non-canids, classifying all individuals into (1) The UK Kennel Club 
+(KC)119 and/or Fédération Cynologique Internationale (FCI)120 recognised ‘purebred’ breeds (PL = 1 breed), or 
+(2) ‘crossbred’ breeds (PL ≥ 2 breeds). Breeds within the dataset may be present in one or both KC and FCI lists. 
+Those that are not included in either but appear in the data were used as outgroups for phylogenetic analyses 
+e.g., American Hairless Terrier, Apennine Wolf, Pastore della Lessinia e del Lagorai, Pastor della Sila and Wolf 
+& Golden Jackal (Supplementary Table S5). Forty-four KC and/or FCI breeds were reclassified to match nodes, 
+i.e., breeds, within existing canine ­phylogenies121,122. For example, ‘American Akita’ and ‘Japanese Akita Inu’ 
+were collapsed into ‘Akita’, which is present in both ­KC119 and ­FCI120 breed lists. These changes (listed in Sup-
+plementary Table S5; under ‘Phylogeny Reclassification’), were necessary due to breed inconsistency across the 
+data sources and were instituted via majority agreement by canine behaviour and research experts at Dogs Trust.
+Body size classifications: small, medium, and large, were obtained from ­KC119 and ­FCI120 grey literature. Breed 
+average ratio between the width and length of skull i.e., cephalic index: brachycephalic (flat-faced), mesocephalic 
+(medium proportions) or dolichocephalic (long-faced), were sourced from O’Neill et al., ­2020123. Breeds present 
+within our data, but omitted from the above lists, were assigned body size and cephalic index classification via 
+majority agreement by a group of canine behaviour and research experts at Dogs Trust (Supplementary Table S5). 
+Body size and cephalic index data are only available for purebred individuals, due to phenotypic variation within 
+crossbreds.
+Month and year of birth were routinely recorded by rehoming and welfare centres, breed registries, veteri-
+nary corporations, and pet insurance companies. Unfortunately, the specific date was less commonly reported. 
+Consequently, all age estimates were based on ‘MM/YYYY’ data. Individuals were grouped into one of six age 
+categories: ‘Puppies’ (XP) aged 0 to < 6 months, ‘Juveniles’ 
+
+XJ
+
+ aged 6 to < 12 months, ‘Young Adults’ (XY) aged 
+12 to < 24 months, ‘Mature Adults’ (XM) aged 2 to < 7 years, ‘Senior’ (XS) aged 7 to < 12 years and ‘Geriatric’ 
+(XG) aged ≥ 12. These categories were developed to capture age-related developmental trajectories for most dog 
+­breeds124.
+As data were obtained from multiple sources, duplication of individuals was probable. Deduplication con-
+sisted of a four-phase process outlined in Supplementary Note S1. For the purposes of this study, deduplicated 
+data were then subset to rows where the following variables were complete: crossbred (Y/N); status (alive/
+dead), breed (n = 155), sex (M/F) and age (decimal years). To remove improbably aged dogs, DOB was restricted 
+10
+Vol:.(1234567890)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+to ≤ 24.0 years, based on previously reported maximum canine ­longevity3. Each group (e.g., Affenpinscher or 
+Yorkshire Terrier) within an independent variable (e.g., breed), were only included in analysis, if an adequate 
+number of individuals (and events) were available i.e., > 20 alive and > 20 deceased individuals (Clark et al. 2003). 
+Resulting alive (NA) , deceased (ND) and total (N) sample sizes for each independent variable are listed in Table 2, 
+and associated samples sizes per group within each independent variable, are listed in Supplementary Tables 
+S6–S11.
+Statistical analyses
+All analyses were conducted using the statistical programming software R version 4.0.4 (2021-02-15)125. As the 
+dataset included a large number of subjects alive at point of completion i.e., not all subjects died during the study, 
+this produces censored values. Having a large number of censored values decreases the equivalent number of 
+subjects exposed (at risk) at later times, making survival estimates less reliable than they would be for the same 
+number of subjects with less ­censoring126. Ignoring censored values, or simply equating their observed survival 
+time with the unobserved total survival time (i.e., assuming all censored survival times occur immediately after 
+their censoring times), would bias the ­results127. Fortunately, censoring is common within these data, such that 
+specific statistical methods have been developed for appropriate analysis. Maximum Likelihood Estimation is 
+the most notable method for analysing censored data. This method adjusts for whether the subjects observed 
+were censored or not. It also utilizes all the information available. The statistical approaches that fall within the 
+likelihood method include those used within this ­study128.
+Kaplan–Meier survival ­curves129,130 were estimated per group, within each independent variable i.e., paren-
+tal lineage, breed, size, sex, and cephalic index, using the surviminer ­package131. Median survival estimates are 
+presented in place of mean values, as extreme values from non-normally distributed longevity distributions 
+provide unreliable ­estimates87. Upper and lower 95% confidence intervals immediately follow median survival 
+estimates or hazard ratios, unless otherwise stated. To test for treatment differences between survival curves, 
+pairwise log-rank tests were conducted. Differences in proportional risks of mortality between categories were 
+tested using a Cox proportional hazards model.
+Percentage of total population expiring (Table 1), θ, per age group Xi where i represents age grouping 
+i.e., XP, XJ, XY . . . were calculated as:
+As dataset includes subjects alive at point of completion ( NA ), total number of deaths ( ND ) does not equate 
+with total population ( N ). This produces ‘censored values’ (discussed above)126. Thus, θ{XG} calculation incor-
+porates remaining subjects, as ND would eventually equate to N , as measurements continued:
+Pagel’s ­Lambda132 was calculated using the phylosig function from the phytools133 package, with the aim of 
+determining whether the median lifespan of the purebreds included in the analysis held a phylogenetic signal. 
+The presence of a phylogenetic signal for a given trait suggests clustering of that trait on the phylogeny. Lambda 
+is a metric that quantifies the level to which the similarity of a continuous trait is due to evolutionary history and 
+can take any value within the range 0 to 1. A signal strength of 0 means that there is no phylogenetic signal, i.e., 
+correlations between values of the trait do not reflect the relatedness of the tips of the phylogenetic tree. A signal 
+strength of 1 suggests that the values of the tips are highly dependent upon evolutionary history. The phylogeny 
+of domestic dogs was based on that of Parker et al., (2017)121 and supplemented with extra breeds from Talenti 
+et al., (2018)122. In total 148 purebreds were included, for which we had lifespan data. All branch lengths were 
+set to equal 1 before analysis, as the original tree(s) did not include branch length information. To visualise the 
+variation in median lifespan across the phylogeny of purebreds, specifically those clades in which reduction in 
+median lifespan clustered, we used the contMap function within phytools133. For visualisation we restricted this 
+to purebreds within the lower quartile of median lifespans, i.e., the 34 purebreds with the lowest median lifespan.
+θ{Xi} =
+ND{Xi}
+N
+
+∗100
+θ{XG} = N −
+
+ND
+
+XP, XJ, XY, XM, XS
+
+∗100
+Table 2.   Samples sizes regarding alive (NA) , deceased (ND) and total (N) individuals, per independent variable 
+(post censoring).
+Independent variable
+Sample sizes
+NA
+ND
+N
+Breed
+Parental lineage
+Sex
+Age group
+300,000
+284,734
+584,734
+Body size
+210,000
+209,826
+419,826
+Cephalic index
+210,000
+212,225
+422,225
+11
+Vol.:(0123456789)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+Ethics approval and consent to participate
+Ethical approval for this study was granted by Dogs Trust Ethical Review Board (Reference Number: ERB038). 
+All methods were performed in accordance with the relevant guidelines and regulations.
+Data availability
+Datasets generated and analysed during the current study are not publicly available due to restrictions stipulated 
+within data sharing agreements with project participants. However, the corresponding author will consider 
+facilitating collaborative discussions with all parties involved, on reasonable request.
+Received: 30 September 2022; Accepted: 20 December 2023
+References
+	
+1.	 Neff, M. W. & Rine, J. A fetching model organism. Cell 124, 229–231 (2006).
+	
+2.	 Zeder, M. A. Documenting Domestication: New Genetic and Archaeological Paradigms (University of California Press, 2006).
+	
+3.	 O’Neill, D. G., Church, D. B., McGreevy, P. D., Thomson, P. C. & Brodbelt, D. C. Longevity and mortality of owned dogs in 
+England. Vet. J. 198, 638–643 (2013).
+	
+4.	 Lewis, T. W., Wiles, B. M., Llewellyn-Zaidi, A. M., Evans, K. M. & O’Neill, D. G. Longevity and mortality in Kennel Club regis-
+tered dog breeds in the UK in 2014. Can. Genet. Epidemiol. 5, 10 (2018).
+	
+5.	 Teng, K. T., Brodbelt, D. C., Pegram, C., Church, D. B. & O’Neill, D. G. Life tables of annual life expectancy and mortality for 
+companion dogs in the United Kingdom. Sci. Rep. 12, 6415 (2022).
+	
+6.	 Freedman, A. H. et al. Genome sequencing highlights the dynamic early history of dogs. PLOS Genetics 10, e1004016 (2014).
+	
+7.	 Vilà, C. et al. Multiple and ancient origins of the domestic dog. Science 276, 1687–1689 (1997).
+	
+8.	 Germonpré, M. et al. Fossil dogs and wolves from Palaeolithic sites in Belgium, the Ukraine and Russia: Osteometry, ancient 
+DNA and stable isotopes. J. Archaeol. Sci. 36, 473–490 (2009).
+	
+9.	 Germonpré, M. et al. Palaeolithic dogs and the early domestication of the wolf: A reply to the comments of Crockford and 
+Kuzmin (2012). J. Archaeol. Sci. 40, 786–792 (2013).
+	 10.	 vonHoldt, B. M. et al. Genome-wide SNP and haplotype analyses reveal a rich history underlying dog domestication. Nature 
+464, 898–902 (2010).
+	 11.	 Larson, G. et al. Rethinking dog domestication by integrating genetics, archeology, and biogeography. Proc. Natl. Acad. Sci. 109, 
+8878–8883 (2012).
+	 12.	 Thalmann, O. et al. Complete mitochondrial genomes of ancient canids suggest a European origin of domestic dogs. Science 
+342, 871–874 (2013).
+	 13.	 Larson, G. & Bradley, D. G. How much is that in dog years? The advent of canine population genomics. PLoS Genet 10, e1004093 
+(2014).
+	 14.	 Drake, A. G., Coquerelle, M. & Colombeau, G. 3D morphometric analysis of fossil canid skulls contradicts the suggested 
+domestication of dogs during the late Paleolithic. Sci. Rep. 5, 8299 (2015).
+	 15.	 Morey, D. F. & Jeger, R. Paleolithic dogs: Why sustained domestication then?. J. Archaeol. Sci. Rep. 3, 420–428 (2015).
+	 16.	 Morey, D. F. & Jeger, R. From wolf to dog: Late Pleistocene ecological dynamics, altered trophic strategies, and shifting human 
+perceptions. Histor. Biol. 29, 895–903 (2017).
+	 17.	 Frantz, L. A. F. et al. Genomic and archaeological evidence suggest a dual origin of domestic dogs. Science 352, 1228–1231 
+(2016).
+	 18.	 Perri, A. A wolf in dog’s clothing: Initial dog domestication and Pleistocene wolf variation. J. Archaeol. Sci. 68, 1–4 (2016).
+	 19.	 Axelsson, E. et al. The genomic signature of dog domestication reveals adaptation to a starch-rich diet. Nature 495, 360–364 
+(2013).
+	 20.	 Farrell, L. L., Schoenebeck, J. J., Wiener, P., Clements, D. N. & Summers, K. M. The challenges of pedigree dog health: Approaches 
+to combating inherited disease. Can. Genet. Epidemiol. 2, 3 (2015).
+	 21.	 Cruz, F., Vilà, C. & Webster, M. T. The legacy of domestication: accumulation of deleterious mutations in the dog genome. Mol 
+Biol Evol 25, 2331–2336 (2008).
+	 22.	 Leroy, G. Genetic diversity, inbreeding and breeding practices in dogs: Results from pedigree analyses. Vet. J. 189, 177–182 
+(2011).
+	 23.	 Marsden, C. D. et al. Bottlenecks and selective sweeps during domestication have increased deleterious genetic variation in dogs. 
+Proc. Natl. Acad. Sci. 113, 152–157 (2016).
+	 24.	 Akey, J. M. et al. Tracking footprints of artificial selection in the dog genome. Proc. Natl. Acad. Sci. 107, 1160–1165 (2010).
+	 25.	 Ostrander, E. A. & Wayne, R. K. The canine genome. Genome Res. 15, 1706–1716 (2005).
+	 26.	 Calboli, F. C. F., Sampson, J., Fretwell, N. & Balding, D. J. Population structure and inbreeding from pedigree analysis of purebred 
+dogs. Genetics 179, 593–601 (2008).
+	 27.	 Mellanby, R. J. et al. Population structure and genetic heterogeneity in popular dog breeds in the UK. Vet. J. 196, 92–97 (2013).
+	 28.	 Yordy, J. et al. Body size, inbreeding, and lifespan in domestic dogs. Conserv Genet 21, 137–148 (2020).
+	 29.	 Asher, L., Diesel, G., Summers, J. F., McGreevy, P. D. & Collins, L. M. Inherited defects in pedigree dogs. Part 1: disorders related 
+to breed standards. Vet J 182, 402–411 (2009).
+	 30.	 Lewis, T. W., Woolliams, J. A. & Blott, S. C. Optimisation of breeding strategies to reduce the prevalence of inherited disease in 
+pedigree dogs. Anim. Welf. 19, 93–98 (2010).
+	 31.	 McGreevy, P. D. & Nicholas, F. W. Some practical solutions to welfare problems in dog breeding. Anim. Welf. 8, 329–341 (1999).
+	 32.	 Trees, L. et al. Strengthening legislation around dog breeding. Vet. Rec. 193, 116–117 (2023).
+	 33.	 Michell, A. R. Longevity of British breeds of dog and its relationships with sex, size, cardiovascular variables and disease. Vet. 
+Rec. 145, 625–629 (1999).
+	 34.	 Proschowsky, H. F., Rugbjerg, H. & Ersbøll, A. K. Mortality of purebred and mixed-breed dogs in Denmark. Prevent. Vet. Med. 
+58, 63–74 (2003).
+	 35.	 Adams, V. J., Evans, K. M., Sampson, J. & Wood, J. L. N. Methods and mortality results of a health survey of purebred dogs in 
+the UK. J. Small Anim. Pract. 51, 512–524 (2010).
+	 36.	 Inoue, M., Kwan, N. C. L. & Sugiura, K. Estimating the life expectancy of companion dogs in Japan using pet cemetery data. J. 
+Vet. Med. Sci. 80, 1153–1158 (2018).
+	 37.	 Inoue, M., Hasegawa, A., Hosoi, Y. & Sugiura, K. A current life table and causes of death for insured dogs in Japan. Prevent. Vet. 
+Med. 120, 210–218 (2015).
+	 38.	 Montoya, M. et al. Life expectancy tables for dogs and cats derived from clinical data. Front. Vet. Sci. 10 (2023).
+	 39.	 Patronek, G. J., Waters, D. J. & Glickman, L. T. Comparative longevity of pet dogs and humans: Implications for gerontology 
+research. J. Gerontol. Ser. A 52A, B171–B178 (1997).
+12
+Vol:.(1234567890)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+	 40.	 Wallis, L. J., Szabó, D., Erdélyi-Belle, B. & Kubinyi, E. Demographic change across the lifespan of pet dogs and their impact on 
+health status. Front. Vet. Sci. 5 (2018).
+	 41.	 Urfer, S. R., Kaeberlein, M., Promislow, D. E. L. & Creevy, K. E. Lifespan of companion dogs seen in three independent primary 
+care veterinary clinics in the United States. Can. Med. Genet. 7, 7 (2020).
+	 42.	 Nicholas, F. W., Arnott, E. R. & McGreevy, P. D. Hybrid vigour in dogs?. Vet. J. 214, 77–83 (2016).
+	 43.	 Birchler, J. A., Yao, H. & Chudalayandi, S. Unraveling the genetic basis of hybrid vigor. Proc. Nat. Acad. Sci. 103, 12957–12958 
+(2006).
+	 44.	 Faculty of Veterinary Science, University of Sydney. OMIA—Online Mendelian Inheritance in Animals. https://​www.​omia.​org/ 
+(2021).
+	 45.	 Ackerman, L. J. The Genetic Connection: A Guide to Health Problems in Purebred Dogs. (American Animal Hosp Assoc, 2011).
+	 46.	 Summers, J. F., Diesel, G., Asher, L., McGreevy, P. D. & Collins, L. M. Inherited defects in pedigree dogs Part 2: Disorders that 
+are not related to breed standards. Vet. J. 183, 39–45 (2010).
+	 47.	 Galis, F., Van Der Sluijs, I., Van Dooren, T. J. M., Metz, J. A. J. & Nussbaumer, M. Do large dogs die young?. J. Exp. Zool. B Mol. 
+Dev. Evol. 308B, 119–126 (2007).
+	 48.	 Fleming, J. M., Creevy, K. E. & Promislow, D. E. L. Mortality in North American dogs from 1984 to 2004: an investigation into 
+age-, size-, and breed-related causes of death. J. Vet. Int. Med. 25, 187–198 (2011).
+	 49.	 de Magalhães, J. P., Costa, J. & Church, G. M. An analysis of the relationship between metabolism, developmental schedules, 
+and longevity using phylogenetic independent contrasts. J. Gerontol. Ser. A 62, 149–160 (2007).
+	 50.	 Ricklefs, R. E. Life-history connections to rates of aging in terrestrial vertebrates. Proc. Nat. Acad. Sci. 107, 10314–10319 (2010).
+	 51.	 Blagosklonny, M. V. Big mice die young but large animals live longer. Aging (Albany NY) 5, 227–233 (2013).
+	 52.	 Greer, K. A., Canterberry, S. C. & Murphy, K. E. Statistical analysis regarding the effects of height and weight on life span of the 
+domestic dog. Res. Vet. Sci. 82, 208–214 (2007).
+	 53.	 Kraus, C., Pavard, S. & Promislow, D. E. L. The size-life span trade-off decomposed: Why large dogs die young. Am. Nat. 181, 
+492–505 (2013).
+	 54.	 Salvin, H. E., McGreevy, P. D., Sachdev, P. S. & Valenzuela, M. J. The effect of breed on age-related changes in behavior and 
+disease prevalence in cognitively normal older community dogs, Canis lupus familiaris. J. Vet. Behavior 7, 61–69 (2012).
+	 55.	 Teng, K. T., McGreevy, P. D., Toribio, J.-A.L.M.L. & Dhand, N. K. Trends in popularity of some morphological traits of purebred 
+dogs in Australia. Can. Genet. Epidemiol. 3, 2 (2016).
+	 56.	 Urfer, S. R., Greer, K. & Wolf, N. S. Age-related cataract in dogs: A biomarker for life span and its relation to body size. AGE 33, 
+451–460 (2011).
+	 57.	 Li, Y., Deeb, B., Pendergrass, W. & Wolf, N. Cellular proliferative capacity and life span in small and large dogs. J. Gerontol. Ser. 
+A 51A, B403–B408 (1996).
+	 58.	 Nam, Y. et al. Dog size and patterns of disease history across the canine age spectrum: Results from the dog aging project. https://​
+doi.​org/​10.​1101/​2022.​05.​03.​490110 (2022).
+	 59.	 da Silva, J. & Cross, B. J. Dog life spans and the evolution of aging. Am. Nat. 201, E140–E152 (2023).
+	 60.	 Urfer, S. R., Wang, M., Yang, M., Lund, E. M. & Lefebvre, S. L. Risk factors associated with lifespan in pet dogs evaluated in 
+primary care veterinary hospitals. J. Am. Anim. Hosp. Assoc. 55, 130–137 (2019).
+	 61.	 Bonnett, B. N., Egenvall, A., Hedhammar, A. & Olson, P. Mortality in over 350,000 insured Swedish dogs from 1995–2000: I. 
+Breed-, gender-, age- and cause-specific rates. Acta Vet. Scand. 46, 105–120 (2005).
+	 62.	 Kraus, C., Snyder-Mackler, N. & Promislow, D. E. L. How size and genetic diversity shape lifespan across breeds of purebred 
+dogs. GeroScience 45, 627–643 (2023).
+	 63.	 Bannasch, D. et al. The effect of inbreeding, body size and morphology on health in dog breeds. Can. Med. Genetics 8, 12 (2021).
+	 64.	 Lemaître, J.-F. et al. Sex differences in adult lifespan and aging rates of mortality across wild mammals. Proc. Nat. Acad. Sci. 117, 
+8546–8553 (2020).
+	 65.	 Hoffman, J. M., O’Neill, D. G., Creevy, K. E. & Austad, S. N. Do female dogs age differently than male dogs?. J. Gerontol. Ser. A 
+73, 150–156 (2018).
+	 66.	 Packer, R. M. A., O’Neill, D. G., Fletcher, F. & Farnworth, M. J. Great expectations, inconvenient truths, and the paradoxes of 
+the dog-owner relationship for owners of brachycephalic dogs. PLOS ONE 14, e0219918 (2019).
+	 67.	 Packer, R. & O’Neill, D. Health and Welfare of Brachycephalic (Flat-faced) Companion Animals: A Complete Guide for Veterinary 
+and Animal Professionals (CRC Press, 2021).
+	 68.	 Carter, A. J. & Martin, J. H. Demographic changes in UK rescue centre dog population between 2014 and 2018. J. Appl. Anim. 
+Welf. Sci. 24, 347–356 (2021).
+	 69.	 UK Pet Food. UK Pet Population 2023. https://​www.​ukpet​food.​org/​infor​mation-​centre/​stati​stics/​uk-​pet-​popul​ation.​html (2023).
+	 70.	 Bellumori, T. P., Famula, T. R., Bannasch, D. L., Belanger, J. M. & Oberbauer, A. M. Prevalence of inherited disorders among 
+mixed-breed and purebred dogs: 27,254 cases (1995–2010). J. Am. Vet. Med. Assoc. 242, 1549–1555 (2013).
+	 71.	 Egenvall, A., Hedhammar, A., Bonnett, B. N. & Olson, P. Gender, age, breed and distribution of morbidity and mortality in 
+insured dogs in Sweden during 1995 and 1996. Vet. Rec. 146, 519–525 (2000).
+	 72.	 Starkey, M. P., Scase, T. J., Mellersh, C. S. & Murphy, S. Dogs really are man’s best friend—Canine genomics has applications in 
+veterinary and human medicine!. Brief. Funct. Genomics 4, 112–128 (2005).
+	 73.	 Farrow, T., Keown, A. & Farnworth, M. An exploration of attitudes towards pedigree dogs and their disorders as expressed by 
+a sample of companion animal veterinarians in New Zealand. N. Z. Vet. J. 62, 267–273 (2014).
+	 74.	 Liberg, O. et al. Severe inbreeding depression in a wild wolf (Canis lupus) population. Biol. Lett. 1, 17–20 (2005).
+	 75.	 Ali, M. B. et al. Genetic analysis of the modern Australian labradoodle dog breed reveals an excess of the poodle genome. PLOS 
+Genetics 16, e1008956 (2020).
+	 76.	 Turcsán, B., Miklósi, Á. & Kubinyi, E. Owner perceived differences between mixed-breed and purebred dogs. PLOS ONE 12, 
+e0172720 (2017).
+	 77.	 Burnett, E. et al. How much is that doodle in the window? Exploring motivations and behaviours of UK owners acquiring 
+designer crossbreed dogs (2019–2020). Can. Med. Genet. 9, 8 (2022).
+	 78.	 Jeppsson, S. Purebred dogs and canine wellbeing. J. Agric. Environ. Ethics 27, 417–430 (2014).
+	 79.	 Donner, J. et al. Frequency and distribution of 152 genetic disease variants in over 100,000 mixed breed and purebred dogs. 
+PLOS Genetics 14, e1007361 (2018).
+	 80.	 Goodman, D. Methods for joint inference from multiple data sources for improved estimates of population size and survival 
+rates. Mar. Mammal Sci. 20, 401–423 (2004).
+	 81.	 Egenvall, A. et al. Mortality of life-insured swedish cats during 1999–2006: Age, breed, sex, and diagnosis. J. Vet. Internal Med. 
+23, 1175–1183 (2009).
+	 82.	 Bonnett, B. N. & Egenvall, A. Age patterns of disease and death in insured swedish dogs, cats and horses. J. Comp. Pathol. 142, 
+S33–S38 (2010).
+	 83.	 Chaters, G., Trees, A. J. & Laing, G. Higher insurance premiums revealed for popular brachycephalic BREEDs—The Veterinary 
+Policy Research Foundation. https://​vetpo​licy.​uk/​2020/​07/​09/​higher-​insur​ance-​premi​ums-​revea​led-​for-​popul​ar-​brach​yceph​
+alic-​breeds/ (2020).
+	 84.	 Brown, C. M. The future of the North American Veterinary Teaching Hospital. J. Vet. Med. Educ. 30, 197–202 (2003).
+13
+Vol.:(0123456789)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+	 85.	 Dotson, M. J. & Hyatt, E. M. Understanding dog–human companionship. J. Bus. Res. 61, 457–466 (2008).
+	 86.	 Rooney, N., Pead, M. & Sargan, D. Pedigree dog breeding in the UK: A major welfare concern? 1–78 http://​www.​terri​erman.​com/​
+PDE-​RSPCA-​FULL.​pdf (2009).
+	 87.	 Clark, T. G., Bradburn, M. J., Love, S. B. & Altman, D. G. Survival analysis Part I: Basic concepts and first analyses. Br. J. Cancer 
+89, 232–238 (2003).
+	 88.	 The Kennel Club. Registration Rules and Regulations (B Regulations). https://​www.​theke​nnelc​lub.​org.​uk/​about-​us/​about-​the-​
+kennel-​club/​the-​kennel-​club-​codes/​regis​trati​on-​rules-​and-​regul​ation​s/#:​~:​text=​Dogs%​20reg​ister​ed%​20on%​20the%​20Act​ivity​
+,rally%​20com​petit​ions%​20and%​20can​icross%​20rac​es. (2023).
+	 89.	 Diesel, G., Brodbelt, D. & Pfeiffer, D. U. Characteristics of relinquished dogs and their owners at 14 rehoming centers in the 
+United Kingdom. J. Appl. Animal Welf. Sci. 13, 15–30 (2010).
+	 90.	 Herring, A. H. & Ibrahim, J. G. Likelihood-based methods for missing covariates in the cox proportional hazards model. J. Am. 
+Stat. Assoc. 96, 292–302 (2001).
+	 91.	 Chen, H. & Little, R. A test of missing completely at random for generalised estimating equations with missing data. Biometrika 
+86, 1–13 (1999).
+	 92.	 Joonè, C. J. & Konovalov, D. A. The effect of neuter status on longevity in the Rottweiler dog. Sci. Rep. 13, 17845 (2023).
+	 93.	 Urfer, S. R. & Kaeberlein, M. Desexing dogs: A review of the current literature. Animals 9, 1086 (2019).
+	 94.	 van Hagen, M. A. E., Ducro, B. J., van den Broek, J. & Knol, B. W. Life expectancy in a birth cohort of Boxers followed up from 
+weaning to 10 years of age. Am. J. Vet. Res. 66, 1646–1650 (2005).
+	 95.	 Pegram, C. et al. Associations between neutering and early-onset urinary incontinence in UK bitches under primary veterinary 
+care. J. Small Animal Pract. 60, 723–733 (2019).
+	 96.	 Wade, C. M., Nuttall, R. & Liu, S. Comprehensive analysis of geographic and breed-purpose influences on genetic diversity and 
+inherited disease risk in the Doberman dog breed. Can. Med. Genetics 10, 7 (2023).
+	 97.	 Smith, L. M. et al. Attitudes towards free-roaming dogs and dog ownership practices in Bulgaria, Italy, and Ukraine. PLOS ONE 
+17, e0252368 (2022).
+	 98.	 Herzog, H. Forty-two thousand and one dalmatians: Fads, social contagion, and dog breed popularity. Soc. Animals 14, 383–397 
+(2006).
+	 99.	 Herzog, H. A., Bentley, R. A. & Hahn, M. W. Random drift and large shifts in popularity of dog breeds. Proc. R. Soc. Lond. Ser. 
+B Biol. Sci. 271, S353–S356 (2004).
+	100.	 Morgan, L. et al. Human–dog relationships during the COVID-19 pandemic: Booming dog adoption during social isolation. 
+Humanit. Soc. Sci. Commun. 7, 1–11 (2020).
+	101.	 Ho, J., Hussain, S. & Sparagano, O. Did the COVID-19 pandemic spark a public interest in pet adoption? Front. Vet. Sci. 8 (2021).
+	102.	 Maher, J. & Wyatt, T. European illegal puppy trade and organised crime. Trends Organ Crim 24, 506–525 (2021).
+	103.	 Maher, J. & Wyatt, T. Rural-urban dynamics in the UK illegal puppy trade: Trafficking and trade in ‘man’s best friend’. Int. J. 
+Rural Law Policy 9 (2019).
+	104.	 RSPCA. Sold a pup? Exposing the breeding, trade and sale of puppies. Royal Society for the Prevention of Cruelty to Animals: 
+London, UK, 2016; pp. 26–31. https://​view.​paget​iger.​com/​RSPCA​Puppy​Trade​Report (2016).
+	105.	 Dogs Trust. The puppy smuggling scandal: an investigation into the illegal entry of dogs into Great Britain under the Pets Travel 
+Scheme. https://​www.​dogst​rust.​org.​uk/​downl​oads/​2014%​20Pup​py%​20smu​ggling%​20rep​ort.​pdf (2014).
+	106.	 Dogs Trust. Puppy Smuggling: Puppies still paying as Government delays. https://​www.​dogst​rust.​org.​uk/​downl​oads/​2020%​20Pup​
+py%​20smu​ggling%​20rep​ort.​pdf (2020).
+	107.	 Norman, C., Stavisky, J. & Westgarth, C. Importing rescue dogs into the UK: Reasons, methods and welfare considerations. Vet. 
+Rec. 186, 248–248 (2020).
+	108.	 LaFond, E., Breur, G. J. & Austin, C. C. Breed susceptibility for developmental orthopedic diseases in dogs. J. Am. Animal Hosp. 
+Assoc. 38, 467–477 (2002).
+	109.	 Hodgman, S. F. J. Abnormalities and defects in pedigree dogs–I. An investigation into the existence of abnormalities in pedigree 
+dogs in the British Isles. J. Small Animal Pract. 4, 447–456 (1963).
+	110.	 Hayes, G. M., Friend, E. J. & Jeffery, N. D. Relationship between pharyngeal conformation and otitis media with effusion in 
+Cavalier King Charles spaniels. Vet. Rec. 167, 55–58 (2010).
+	111.	 Packer, R. M. A., Hendricks, A. & Burn, C. C. Impact of facial conformation on canine health: Corneal ulceration. PLOS ONE 
+10, e0123827 (2015).
+	112.	 Hecht, J. & Horowitz, A. Seeing dogs: Human preferences for dog physical attributes. Anthrozoös 28, 153–163 (2015).
+	113.	 Sándor, S. & Kubinyi, E. Genetic pathways of aging and their relevance in the dog as a natural model of human aging. Front. 
+Genet. 10 (2019).
+	114.	 Edmunds, G. L. et al. Dog breeds and body conformations with predisposition to osteosarcoma in the UK: A case-control study. 
+Can. Med. Genet. 8, 2 (2021).
+	115.	 Jimenez, A. G. The physiological conundrum that is the domestic dog. Integr. Comp. Biol. 61, 140–153 (2021).
+	116.	 Shih, H. Y., Paterson, M. B. A. & Phillips, C. J. C. Breed group effects on complaints about canine welfare made to the royal 
+society for the prevention of cruelty to animals (RSPCA) Queensland, Australia. Animals 9, 390 (2019).
+	117.	 McCoy, B. M. et al. Social determinants of health and disease in companion dogs: A cohort study from the Dog Aging Project. 
+Evolut. Med. Public Health 11, 187–201 (2023).
+	118.	 McKenzie, B. A., Chen, F. & LaCroix-Fralish, M. L. The phenotype of aging in the dog: How aging impacts the health and well-
+being of dogs and their caregivers. J. Am. Vet. Med. Assoc. 260, 963–970 (2022).
+	119.	 The Kennel Club. Breeds A to Z. https://​www.​theke​nnelc​lub.​org.​uk/​search/​breeds-​a-​to-z/ (2021).
+	120.	 Fédération Cynologique Internationale. FCI: the largest canine organisation of the world. https://​www.​fci.​be/​en/​FCI-​the-​large​
+st-​canine-​organ​isati​on-​of-​the-​world-​90.​html (2021).
+	121.	 Parker, H. G. et al. Genomic analyses reveal the influence of geographic origin, migration, and hybridization on modern dog 
+breed development. Cell Rep. 19, 697–708 (2017).
+	122.	 Talenti, A. et al. Studies of modern Italian dog populations reveal multiple patterns for domestic breed evolution. Ecol. Evolut. 
+8, 2911–2925 (2018).
+	123.	 O’Neill, D. G. et al. Unravelling the health status of brachycephalic dogs in the UK using multivariable analysis. Sci. Rep. 10, 
+17251 (2020).
+	124.	 Harvey, N. D. How old is my dog? Identification of rational age groupings in pet dogs based upon normative age-linked processes. 
+Front. Vet. Sci. 8 (2021).
+	125.	 Team, R. C. R: A language and environment for statistical computing. Vienna: R foundation for statistical computing. (No Title) 
+(2021).
+	126.	 Moore, D. F. Applied Survival Analysis Using R (Springer, Berlin, 2016). https://​doi.​org/​10.​1007/​978-3-​319-​31245-3.
+	127.	 Schober, P. & Vetter, T. R. Survival analysis and interpretation of time-to-event data: The tortoise and the hare. Anesth. Analg. 
+127, 792–798 (2018).
+	128.	 Turkson, A. J., Ayiah-Mensah, F. & Nimoh, V. Handling censoring and censored data in survival analysis: A standalone systematic 
+literature review. Int. J. Math. Math. Sci. 2021, e9307475 (2021).
+	129.	 Cox, D. R. & Oakes, D. Analysis of survival data (CRC Press, Berlin, 1984).
+14
+Vol:.(1234567890)
+Scientific Reports |          (2024) 14:531  | 
+https://doi.org/10.1038/s41598-023-50458-w
+www.nature.com/scientificreports/
+	130.	 Pollock, K. H., Winterstein, S. R., Bunck, C. M. & Curtis, P. D. Survival analysis in telemetry studies: The staggered entry design. 
+J. Wildl. Manag. 53, 7–15 (1989).
+	131.	 Kassambara A, Kosinski M, Biecek P, & Fabian S. Survminer: Drawing survival curves using ggplot2.
+	132.	 Pagel, M. Inferring the historical patterns of biological evolution. Nature 401, 877–884 (1999).
+	133.	 Revell, L. J. phytools: An R package for phylogenetic comparative biology (and other things). Methods Ecol. Evolut. 3, 217–223 
+(2012).
+Acknowledgements
+We are grateful to the following project participants, who kindly provided data to this project: Battersea Dogs and 
+Cats Home; Blue Cross; SSPCA; Raystede; Wood Green, The Animals Charity; Edinburgh Dog and Cat Home; 
+PDSA; Mayhew; The Insurance Emporium (The Equine and Livestock Insurance Company Limited); NCI Insur-
+ance; Cardif Pinnacle; Agria Pet Insurance Ltd; Direct Line; Medivet; Vets4Pets; Savsnet (Small Animal Veterinary 
+Surveillance Network, University of Liverpool); and The Kennel Club (UK). We are grateful to Dr. David Wong 
+and Dr. Zhibin Zhao at the University of Manchester, for developing the deduplication pipeline; and Dr. Dan 
+O’Neill at the Royal Veterinary College for facilitating communication with veterinary corporations. Internal to 
+Dogs Trust, we are grateful to Kieran Huggan (Operations) for collating Dogs Trust data.
+Author contributions
+K.M.M. collected the data; K.M.M., C.L.W. & J.B. designed methodology; K.M.M. & J.B. analysed the data; 
+K.M.M. led the writing of the manuscript. K.M.M., C.L.W., J.B., M.M.U., R.A.C. and R.M.C. conceived the ideas, 
+contributed critically to the drafts, and gave final approval for publication.
+Funding
+This research received no external funding. All data collection and analyses were supported by Dogs Trust.
+Competing interests 
+The authors declare no competing interests.
+Additional information
+Supplementary Information The online version contains supplementary material available at https://​doi.​org/​
+10.​1038/​s41598-​023-​50458-w.
+Correspondence and requests for materials should be addressed to K.M.M.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access   This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the 
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from 
+the copyright holder. To view a copy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+© The Author(s) 2024, corrected publication 2024

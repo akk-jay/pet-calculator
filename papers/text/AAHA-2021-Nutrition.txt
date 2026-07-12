@@ -1,0 +1,1499 @@
+VETERINARY PRACTICE GUIDELINES
+2021 AAHA Nutrition and Weight Management
+Guidelines for Dogs and Cats*
+Martha G. Cline, DVM, DACVNy, Kara M. Burns, MS, MEd, LVT, VTS (Nutrition), Jason B. Coe, DVM, PhD,
+Robin Downing, DVM, MS (Bioethics), DAAPM, DACVSMR, CVPP, CCRP, Tiffany Durzi, DVM, CVA, CCRT, CVPPx,
+Maryanne Murphy, DVM, PhD, DACVN, Valerie Parker, DVM, DACVIM, DACVN
+ABSTRACT
+The guidelines discuss the components of a systematic approach to nutritional management of dogs and cats. A nutritional
+assessment, including a body condition score and muscle condition score, is a screening evaluation that should ideally be
+performed at every examination. Individualized nutritional recommendations, based on the nutritional assessment, should be
+designed to achieve and maintain an appropriate body weight and meet nutritional requirements. Communicating nutritional
+recommendations to clients is a challenging aspect of nutritional management because pet owners may interpret the
+practice team’s guidance as advocacy for a particular pet food brand or a judgment of the client’s ability to properly
+care for the pet or of the owner’s own nutritional status. The guidelines discuss approaches for effective, nonjudgmental
+communication of dietary recommendations to clients and strategies to increase acceptance of and adherence to
+veterinary nutrition recommendations. Other pet nutrition topics of current interest include recommendations for par-
+ticular pet life stages, breeds, and disease conditions; risk factors for nutritional deﬁciencies and obesity; and consid-
+erations for home-prepared diets. (J Am Anim Hosp Assoc 2021; 57:153–178. DOI 10.5326/JAAHA-MS-7232)
+AFFILIATIONS
+From Red Bank Veterinary Hospital, Tinton Falls, New Jersey (M.G.C.); Academy
+of Veterinary Nutrition Technicians, Lafayette, Indiana (K.M.B.); Department of
+Population Medicine (J.B.C.) and Hill’s Pet Nutrition Primary Healthcare Centre
+(T.D.), Ontario Veterinary College, University of Guelph, Guelph, Ontario, Can-
+ada; The Downing Center for Animal Pain Management, LLC, Windsor, Colo-
+rado (R.D.); Department of Small Animal Clinical Sciences, University of
+Tennessee College of Veterinary Medicine, Knoxville, Tennessee (M.M.); and
+Department of Veterinary Clinical Sciences, The Ohio State University, Colum-
+bus, Ohio (V.P.).
+CONTRIBUTING REVIEWERS
+Angela Rollins, DVM, PhD, DACVN, Small Animal Clinical Sciences, University
+of Tennessee College of Veterinary Medicine, Knoxville, Tennessee
+Megan Shepherd, DVM, PhD, DACVN, Virginia-Maryland College of Veterinary
+Medicine, Blacksburg, Virginia
+Correspondence: marthagcline@gmail.com (M.G.C.)
+* These guidelines are supported by generous educational grants from Hill’s
+Pet Nutrition, Inc., Purina® Pro Plan® Veterinary Diets, and Royal Canin®.
+They were subjected to a formal peer-review process.
+† M. G. Cline is the chair of the AAHA Nutrition and Weight Management
+Guidelines Task Force.
+x T. Durzi is the representative for the Primary Care Veterinary Educators.
+These guidelines were prepared by a Task Force of experts convened by
+the American Animal Hospital Association (AAHA) and were subjected to a
+formal peer-review process. This document is intended as a guideline only,
+not an AAHA standard of care. These guidelines and recommendations
+should not be construed as dictating an exclusive protocol, course of
+treatment, or procedure. Variations in practice may be warranted based on
+the needs of the individual patient, resources, and limitations unique to each
+individual practice setting. Evidence-based support for speciﬁc recom-
+mendations has been cited whenever possible and appropriate.
+Other recommendations are based on practical clinical experience and
+a consensus of expert opinion. Further research is needed to document
+some of these recommendations. Because each case is different, veter-
+inarians must base their decisions on the best available scientiﬁc evidence
+in conjunction with their own knowledge and experience.
+AAFCO (Association of American Feed Control Ofﬁcials); ACVN (American
+College of Veterinary Nutrition); BCS (body condition score); BF% (body
+fat percentage); BW (body weight); CKD (chronic kidney disease); DCM
+(dilated cardiomyopathy); DEXA (dual-energy X-ray absorptiometry); DHF
+(diet history form); HPP (high-pressure processing); MER (maintenance
+energy requirement); MCS (muscle condition score); RER (resting en-
+ergy requirement); WSAVA (World Small Animal Veterinary Association);
+USDA (United States Department of Agriculture)
+The AAHA website (aaha.org/nutrition) contains supporting information
+and resources for practice teams.
+JAAHA.ORG
+153
+Copyright © American Animal Hospital Association
+Guidelines published open access in the Journal of the American Animal Hospital Association (JAAHAV
+R ) using the CC BY-NC-ND license
+https://creativecommons.org/licenses/by-nc-nd/4.0/ may be shared according to the license with appropriate credit.
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+Introduction
+Nutritional management is a central component of a complete
+healthcare plan for canine and feline patients and is integral to a pet’s
+longevity and quality of life. The positive impact of proper nutrition
+on health and morbidities such as chronic kidney disease (CKD),
+diabetes mellitus, and osteoarthritis is well accepted. Thus, a nu-
+tritional assessment of canine and feline patients should be per-
+formed on a regular basis throughout all pet life stages, ideally at
+each exam visit. With that goal in mind, the objectives of these
+guidelines are to:
+· Describe how to perform an individualized, breed-speciﬁc,
+evidence-guided nutritional assessment for canine and feline
+patients.
+· Provide recommendations for diagnosis, treatment, and man-
+agement of under- or overweight pets.
+· Provide a comprehensive list of nutrients of concern for spe-
+ciﬁc health conditions.
+· Offer suggestions on how to effectively communicate and ed-
+ucate owners about nutritional recommendations, including
+for weight control.
+· Provide strategies to increase adherence to pet nutrition rec-
+ommendations.
+· Address several nutrition-related topics of current interest, in-
+cluding raw and home-prepared diets, breed-speciﬁc nutrition,
+and diet-associated dilated cardiomyopathy in dogs.
+This report updates and complements previously published but
+still relevant nutrition-related guidelines produced by the American
+Animal Hospital Association. These include the 2010 AAHA Nu-
+tritional Assessment Guidelines for Dogs and Cats and the 2014 AAHA
+Weight Management Guidelines for Dogs and Cats.1,2 These prior
+guidelines address two essential components of nutritional man-
+agement: assessment and weight control. The 2021 AAHA Nutrition
+and Weight Management Guidelines for Dogs and Cats include other
+important topics necessary for a truly comprehensive approach to
+dietary management in primary-care companion-animal practice.
+These include step-by-step methods for performing a complete
+nutritional assessment and preparing an individualized nutritional
+plan as well as communication tips that promote optimal adherence
+to the dietary recommendations.
+Practitioners have minimal or no control over certain aspects of
+pet health such as the patient’s genetics and home environment.
+Nutrition, on the other hand, can be substantially inﬂuenced by the
+veterinarian’s medical expertise and recommendations. Achieving
+this positive effect requires a partnership between the veterinarian,
+the practice team, and the pet-owner client. More so than many
+other pet healthcare topics, discussing nutrition with clients can
+include sensitive topics such as obesity, pet food choice, feeding
+habits, and food rewards. For that reason, these guidelines include a
+detailed discussion on communicating dietary recommendations to
+clients in a trust-based, nondefensive manner.
+Practice guidelines are consensus statements developed by ex-
+perts with decades of clinical experience, both evidence guided and
+anecdotal. These guidelines support the veterinary medical profes-
+sion’s bioethical obligation to its patients and their owners by giving
+clinicians the practical means to advocate for pets who cannot
+represent themselves. Guidelines such as those contained in this
+report enhance veterinarians’ expertise, which they can leverage on
+behalf of their patients, thus honoring the principles of clinical
+bioethics that are the basis of their client-patient relationships.
+It is worth noting that individualized nutritional assessments
+and dietary management require no specialized equipment and can
+be implemented with little additional time expenditure or cost. Using
+the approach described in these guidelines, practitioners and their
+healthcare teams can ensure that nutrition becomes a foundation of
+good health for their canine and feline patients.
+How to Perform a Complete Nutritional Assessment
+The ﬁve vital assessments of a standard physical exam for small
+animals include temperature, pulse, respiration, pain, and nutritional
+assessment.3 The World Small Animal Veterinary Association
+(WSAVA) recommends nutrition as the ﬁfth vital assessment to
+optimize the health and wellbeing of pets. The AAHA Advisory
+Panel endorses this recommendation.
+The nutritional assessment is an iterative process that requires
+repeated assessment over the animal’s lifetime. The factors evaluated
+included animal- and diet-speciﬁc factors and feeding management
+(Figure 1). Animal-speciﬁc factors refer to the age, physiological
+status, and activity of the pet. Diet-speciﬁc factors include the safety
+and appropriateness of the diet for the speciﬁc patient. Feeding
+management encompasses not only the frequency, timing, location,
+and method of feeding but also the pet’s environment and human-
+related factors. Speciﬁc problems related to each factor should be
+identiﬁed and addressed individually (Table 1).
+Screening Evaluation
+There are two overarching components to a complete nutritional
+assessment: a screening evaluation and an extended evaluation, if
+needed. A nutritional assessment starts with a screening evaluation
+followed by an extended evaluation if nutritional risk factors are
+identiﬁed (Figure 2). A screening evaluation should be performed
+on every pet at every visit. The elements of a screening nutritional
+assessment are not time consuming and are performed as part of a
+154
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+routine history and physical exam. The screening should include an
+evaluation of nutritional history, environment, activity level, body
+weight (BW), body condition score (BCS), and muscle condition
+score (MCS), followed by a complete physical exam. If nutritional
+risk factors are identiﬁed, an extended evaluation is recommended.
+A nutritional history should include not only main meal items
+but also treats, table food, supplements, and foods used for medi-
+cation administration. The American College of Veterinary Nutri-
+tion (ACVN) and the WSAVA publish sample diet history forms
+(DHFs).4,5 Longer examples are also available.6 To improve nutri-
+tional history accuracy, owners can be asked to complete the DHF at
+home. Practice team members can then verify DHF information
+that is incomplete or inaccurate.
+BCS is a physical assessment of body fat mass.7,8 The 9-point
+BCS scale is validated to correlated with body fat percentage (BF%)
+using dual-energy X-ray absorptiometry (DEXA).9,10 Every incre-
+mental increase in BCS is equivalent to a 5% increase in BF% while
+each BCS .5/9 is equivalent to being 10% overweight (Table 2).9–11
+The authors suggest universal use of the 9-point (1–9) BCS scale with
+whole integers for the standardization of medical records, consistency
+of data collection and interpretation for research, and for consistent
+communication from veterinary team members to pet owners.
+MCS is a physical assessment of the patient’s muscle mass,
+which includes visualization and palpation of the musculature over
+the spine, scapulae, skull, and pelvis.12,13 The authors suggest a
+narrative description of MCS that includes normal muscle mass or
+mild, moderate, or severe muscle loss. The MCS has been signiﬁ-
+cantly correlated with ultrasonographic measurements of the epaxial
+musculature (cats and dogs) and DEXA (cats).14–17 The routine use
+of MCS is important to identify patients with muscle loss related to
+cachexia and sarcopenia (see terminology deﬁnitions in Table 3).
+Both cachexia and sarcopenia can adversely affect outcomes in
+veterinary patients.17 BCS and MCS are not causally related and
+should be assessed separately (e.g., an animal may be overweight
+with muscle loss). Underweight patients often have loss of both
+body fat and muscle mass, yet BCS and MCS should still be scored
+separately.
+Although typically not included in the screening evaluation,
+additional tools to be considered are the body fat index (BFI) and
+girth assessments. BFI, like BCS, is a validated scale to correlate with
+BF% in both the dog and cat.18,19 A BCS is limited in its assessment
+of patients with a high BF% (.45%). The BFI system is a useful tool
+in differentiating patients with a higher level of BF%. Morphometric
+measurements to assess lean body mass and fat mass have been
+established in the dog and cat. These measurements in addition to
+BFI are useful for patients with a BCS $8/9.
+Limb girth assessments, an objective measure of muscle mass
+and strength, are an emerging area of investigation and may prove to
+be valuable in speciﬁc patient populations or for speciﬁc patients. For
+example, this could be a tool for an orthopedic patient enrolled in a
+physical rehabilitation program.
+A fecal score can be included in the screening assessment as a
+useful tool to assess stool quality and characteristics.20,21 Various fecal
+scoring systems have been proposed for veterinary patients.20,21 A
+fecal scoring system used repeatedly in a practice can be useful for
+consistent communication between the client and veterinary team
+members and to follow trends in fecal quality.
+Screening Assessment for Hospitalized Patients
+A nutritional assessment should be performed on admission and at
+least daily for hospitalized patients. Historical information should
+establish the patient’s food preferences, unexplained weight change,
+and recent appetite changes including anorexia, hyporexia, and
+dysrexia (see terminology deﬁnitions in Table 3). The physical exam
+should include an assessment of mentation, an examination for the
+presence of ascites or edema, and an assessment of available diag-
+nostics. BW needs to be checked at least daily to assess the hydration
+status of the patient. Speciﬁc feeding orders including calculation of
+resting energy requirement, speciﬁc food(s) to be offered, feeding
+FIGURE 1
+The Circle of Nutrition. Consider these interconnected variables during
+nutritional assessment. Factors speciﬁc to the animal, the diet, and
+feeding management/environment should be assessed. (Reprinted with
+permission from the American College of Veterinary Nutrition.)
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+155
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+amount (based on a percentage of resting energy requirement
+[RER]), and frequency offered should be written and assessed daily.
+Nutritional Risk Factors
+The goal of the screening evaluation is to identify any nutritional risk
+factors from the patient’s life stage, medical/dietary history, or
+physical exam (Table 4). Once a nutritional risk factor(s) is iden-
+tiﬁed, an extended nutritional assessment is recommended. Vul-
+nerable life stages such as growth, gestation, lactation, and
+advancing age alter the patient’s energy and nutrient requirements.
+Previous or chronic medical conditions may have key nutritional
+factors to address when making new recommendations. Owners
+may use foods to administer medications or supplements, and di-
+etary supplements may be a signiﬁcant source of calories. Non-
+complete or unbalanced food calories at .10% of a patient’s daily
+caloric intake dilute essential nutrients and provide excess calories.
+Unconventional diets should be assessed for nutritional adequacy
+and safety. Inadequate or inappropriate housing can contribute to
+stress or barriers that may cause changes in food intake.
+A BCS ,4/9 or .5/9, MCS with any degree of loss, and un-
+explained weight change from the pet’s previous assessment should
+prompt an extended assessment. Dental abnormalities or disease
+may impact food intake, leading to anorexia, hyporexia, or dysrexia.
+Poor skin or hair coat quality may indicate nutrition-related ab-
+normalities. New medical conditions or diseases may beneﬁt from
+speciﬁc nutritional interventions (Table 8).
+Extended Evaluation
+An extended nutritional assessment is an opportunity to gather a
+more comprehensive nutritional history and pursue clinical diag-
+nostics (Table 5). The speciﬁcs of an extended assessment will de-
+pend on abnormal physical exam ﬁndings, the information obtained
+through the screening nutritional history, and identiﬁcation of
+speciﬁc nutritional risk factors. The development of nutritional
+recommendations provides an opportunity for the skills of the en-
+tire veterinary team to be utilized.
+How to Create Individualized
+Nutritional Recommendations
+Feeding Plans for Healthy, Appropriate-Weight Cats and Dogs
+For apparently healthy patients maintaining ideal weight, major diet
+adjustments are likely not required unless a nutritional risk factor is
+identiﬁed. When making new feeding recommendations, the fol-
+lowing factors should be considered:
+· Give speciﬁc feeding plans, including the new diet, feeding
+amount, feeding frequency, recommended daily treat-snack-
+table food-medication food allowance, and supplement adjustments.
+· Diet adjustments over a 4- to 7-day period may reduce the
+occurrence of negative gastrointestinal responses.
+· Even with no physically apparent dietary issues, this is the
+opportunity to help the owner lay a better nutritional founda-
+tion for later in life. Teach owners how to assess BCS and MCS
+so they can recognize an undesirable change and adjust intake
+TABLE 1
+Problems and Management for Animal-Speciﬁc, Diet-Speciﬁc, and Feeding Management Factors
+156
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+as needed. Owner assessment of these parameters should be
+veriﬁed by a member of the veterinary team.
+· Discuss feeding management and other environmental factors (e.g.,
+free-choice feeding, food competition/social hierarchy, outdoor ac-
+cess leading to additional calories from predation, feces, etc.) that
+may negatively inﬂuence their ability to adhere to the feeding plan.
+· Food-dispensing toys or automated feeders are useful to con-
+trol food access and amount. Feeding toys may positively affect
+activity level in dogs, although the beneﬁt in cats is more re-
+lated to enrichment and behavior modiﬁcation.22–25
+When a cat or dog is healthy and maintains an appropriate weight,
+ensure the pet is being fed a complete and balanced diet in a suitable
+amount to avoid future unintended consequences. Although main-
+tenance of ideal BW and BCS is the indicator for how well current
+intake meets energy needs, these parameters do not address the dis-
+tribution of calories from unbalanced food items. The Association of
+American Feed Control Ofﬁcials (AAFCO) nutritional adequacy
+statement indicates whether a commercial diet contains all the required
+nutrients in the correct ratios (i.e., “complete and balanced”) for long-
+term feeding to the speciﬁed life stage. Some foods, including many
+therapeutic diets, have an “intermittent or supplemental” use label
+indicating they do not meet the requirements of being “complete and
+balanced” or that the diet has a special nutritional or dietary purpose.
+Treats, snacks, and supplements do not require a nutritional adequacy
+statement.26 If product packaging is not available, the company’s
+customer service line or website may provide the information.
+Assessing the overall quality of a commercial diet is challenging.
+Speciﬁc questions to consider asking pet food companies and their
+responses to a few of these questions have been published.27,28 The
+FDA also publishes searchable recall and withdrawal information,
+based on brand and reason for recall.29
+To determine if caloric intake is suitable, calculate RER and
+maintenance energy requirement (MER) based on the pet’s activity
+and life stage factor guidelines (Box 1).
+FIGURE 2
+Nutritional assessment screening evaluation.
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+157
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+1. Calculate current caloric intake from all food items. AAFCO
+requires calorie content on dog and cat food labels, including
+snacks and treats; however, this does not include chews, bones,
+or toys.30 The United States Department of Agriculture (USDA)
+FoodData Central system provides caloric content of whole foods.31
+The caloric content of supplements may be listed on the label or
+obtained by contacting the manufacturer.
+2. Compare MER with total caloric intake. Ensure the calories con-
+sumed are within a reasonable level of agreement to MER and that the
+main source of complete and balanced nutrition represents $90% of
+total intake whereas treats and other food items make up #10%.
+3. If there is a signiﬁcant difference between calculated MER
+and reported intake level, review calorie intake, life stage, activ-
+ity level, and MER/RER calculation accuracy.
+4. Consider an extended nutritional assessment, especially in
+overweight or underweight pets (see preceding section on
+How to Perform a Nutritional Assessment).
+Commercial pet foods are required to contain feeding rec-
+ommendations. In an ideal world, the pet owner will perform RER/
+MER calculations rather than relying solely on package guidelines
+because AAFCO does not standardize this process. However, many
+owners will feed a commercial pet food according to the label di-
+rections. In such cases, it is important for the practice team to assess
+the dog’s or cat’s bodyweight, BCS, and MCS on a regular basis to
+ensure that the patient is receiving optimal calories and protein.
+Feeding Plans for Hospitalized Patients
+For hospitalized patients, base feeding calculations on current weight
+if ideal or underweight or on ideal BW if overweight or obese in order
+to provide energy to current lean mass. Support anorexic or
+hyporexic patients by speciﬁc feeding techniques (e.g., various forms
+of food, heating meals, remove E-collars, separate food from litter
+boxes and pee pads). For animals in whom there are no contrain-
+dications, high-fat diets tend to have an increased caloric density,
+minimizing the total food consumption volume needed to meet
+energy requirements. Consider medication support, including ap-
+petite stimulants, antiemetics, and prokinetics. If feeding techniques
+and medications do not improve total voluntary intake, assisted
+FIGURE 3
+Components of a comprehensive
+nutrition history.
+158
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+feeding via enteral tubes (e.g., nasal, esophageal, gastric) is strongly
+recommended within 72 hr of consumption of #1/3 RER including
+the time before hospitalization. Because of the risk of food aversion
+and aspiration, oral syringe feeding is no longer recommended.
+Feeding protocols should promote the delivery of enteral nutrition
+over parenteral nutrition when assisted nutrition support is needed.
+Parenteral nutrition is reserved for select cases, generally in referral
+facilities with 24-hr care.
+Prevention of Obesity
+Prevention of overweight and obesity aid the patient’s overall quality
+of life and may contribute to a lengthened life span.19,21,32–34 It is
+easier to prevent weight gain than it is to treat obesity, adding to the
+advantages of prevention.35,36 Obesity discussions can be challeng-
+ing, as there may be a perception that recommendations are a
+judgment of the owner’s ability to properly care for their pet or a
+judgment of the owner’s own body composition. It is best to enter
+these conversations with compassion and sensitivity, while also
+remaining a steadfast advocate for the pet’s wellbeing (see section on
+Communicating with Clients).
+Obesity comorbidities include osteoarthritis and endocrine diseases
+(e.g., hypothyroidism, diabetes mellitus, hyperadrenocorticism).37–40 In
+some cases (e.g., feline diabetes mellitus), preventing obesity may help
+reduce the risk of developing the comorbidity, whereas in others (e.g.,
+hypothyroidism), the underlying condition will continue to predispose
+to obesity development unless adequately managed.
+In order to successfully prevent obesity, an approach including
+risk factor assessment and mitigation is recommended. Obesity risk
+factors stem from both human-related and animal-related roots
+(Table 6). A main human factor is the ability to overfeed the pri-
+mary diet, and owners ﬁnd it difﬁcult to make subsequent adjust-
+ments. Animals may also overeat if they have access to another pet’s
+food bowl. Compare reported intake against calculated require-
+ments based on ideal BW and make downward recommendations
+accordingly. Reassess and adjust recommendations as needed at each
+subsequent visit.
+Owners also have the ability to overfeed food items that are not
+the primary diet and overestimate their pet’s activity level.41 Advise
+owners to maintain all additional item intake to #10% total daily
+caloric intake to avoid disrupting nutrient balance of the primary
+diet. To increase exercise in cats, consider the use of feather toys, cat
+trees, exercise wheels, or similar devices. Fitness trackers may in-
+crease owner motivation to increase their dog’s physical activity.42
+Animal factors must also be considered to effectively prevent
+obesity (Table 6). Energy requirements are reduced after spaying or
+neutering, necessitating intake reduction.43–45 Certain breeds (e.g.,
+Labrador retrievers, beagles, Norwegian forest cats, Persians) are
+predisposed to weight gain and the owner should be educated re-
+garding obesity risk, even if their pet currently has an ideal BCS.46,47
+Increase in BW through middle age contributes to the preva-
+lence of obesity.46–48 Energy requirements are thought to decrease
+through middle age in the dog, which contributes to this weight
+gain,49,50 although results are not consistent.51 Metabolic rates in the
+dog can also be inﬂuenced by breed and their respective life ex-
+pectancy.52 During senior and geriatric life stages, loss of lean body
+mass and overall weight loss can occur.53 In cats, fat, protein, and
+energy digestibility can decrease with advanced aging.54,55 Energy
+intake can be higher for senior cats to compensate for this decrease
+in digestibility.56 An important aspect of obesity prevention and
+maintenance of ideal BCS and MCS is incorporating the entire
+practice team in client education. Appropriate training is essential to
+ensure that the team speaks with a common voice (see section on
+Leveraging the Value of Proper Nutrition in Your Practice).
+Weight Reduction in the Obese Pet
+In 2014, AAHA published comprehensive weight management
+guidelines, including a detailed protocol for safe weight reduction.2
+Because weight loss is a critical aspect of nutritional management
+for many pets, the 2021 Nutrition and Weight Management
+Guidelines include an abbreviated overview of this topic. We en-
+courage readers to consult the 2014 Weight Management Guidelines
+for more complete information on this essential aspect of nutri-
+tional management.
+TABLE 2
+Summary of BCS Scales and Their Relationship with BF and BW
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+159
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+Once an animal has gained excess weight, the veterinary team
+must appropriately inform the owner, gauge their willingness to
+institute a weight loss program, and offer guidance and support for
+the duration of the program. The overall design process is reviewed in
+the 2014 Weight Management Guidelines. Traditional methods to
+calculate caloric needs are included. Recent data suggest mean caloric
+intake for weight loss over a 12 wk period is 63 6 10.2 kcal/kg0.75 in
+dogs and 52 6 4.9 kcal/kg0.711 in cats.57,58 The same principles re-
+garding feeding plans for healthy, appropriate-weight cats and dogs
+apply for weight loss plans. The major difference is adjusting MER
+calculations to account for necessary reduced calorie intake to in-
+duce weight loss (Box 1). Base these calculations on ideal weight and
+adjust as needed for the individual patient, based on current intake
+and lifestyle needs.
+Although the correct calculations are necessary for a successful
+weight management program, feeding management and activity
+plans are essential parts of the package. Puzzle toys and automated
+feeders continue to be invaluable resources that may be especially
+useful to achieve successful weight loss via improved ease of plan
+implementation by owners.59,60 Consider collaborating with or re-
+ferring to a veterinary rehabilitation practitioner (Table 7) to design
+a comprehensive exercise plan to address desired weight loss while
+maintaining muscle mass based on the pet’s current level of physical
+ﬁtness. Use the 2014 Weight Management Guidelines for things to
+consider with an activity plan.
+Long-term monitoring and maintenance are often the most
+difﬁcult aspects of a weight loss program. Failure to achieve and
+maintain weight loss is common, and owner nonadherence is a
+major factor.61–63 After starting a weight loss program, reach out to
+the owner within the ﬁrst couple days to determine if there are any
+immediate concerns. This can be done via phone or email and may
+help maintain owner adherence and reduce the risk of subsequent
+dropout.64 Because owners often have a strong human-animal
+bond with their pets, these ﬁrst few days may pose the largest
+obstacle as the owner reconciles a “new normal” that does not
+involve a constant show of love and affection via provision of food
+items. Weight management plans should address increasing non–
+food-related interactions (e.g., walks, playtime, brushing). Post-
+appointment contact can be used to reinforce these recommen-
+dations with owners who are struggling with their commitment to
+the feeding restriction aspect of the plan. The 2014 Weight Man-
+agement Guidelines outline monitoring and maintenance op-
+tions.2 The goal is to be an advocate for both the pet and the
+owner, while maintaining a nonjudgmental style of communication
+(see section on Communicating with Clients).
+Use of Therapeutic Diets Designed to Promote Weight Loss
+Therapeutic weight loss diets are recommended for patients un-
+dergoing signiﬁcant calorie restriction (less than or equal to RER) for
+weight loss. These diets are fortiﬁed in nutrients to avoid potential
+nutrient deﬁciencies associated with caloric restriction. High-protein
+diets can spare lean mass with calorie restriction during weight
+loss.65,66 Protein and added ﬁber can promote a satiety effect.37,67
+Added ﬁber to a therapeutic diet will also reduce caloric density.
+High-moisture diets for cats may increase satiety and help promote
+weight loss.68
+FIGURE 4
+A general framework for communi-
+cating a nutrition-related healthcare
+recommendation.
+160
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+Use of Therapeutic Diets Not Related to Weight Loss
+When the nutritional assessment indicates a patient may beneﬁt from
+consuming a purpose-formulated therapeutic diet, the clinician
+needs to focus on speciﬁc nutrients of concern (Table 8). When a
+patient has a single disease condition and no additional nuanced
+feeding or diet requirements, it may be adequate to simply choose a
+therapeutic diet designed for the disease. In diseases in which di-
+agnostics and staging affect nutrients of concern (e.g., CKD) or
+when patients have multiple disease conditions and/or additional
+feeding or diet requirements, consider all nutrients of concern be-
+fore selecting a diet. Otherwise, it is easy to overlook a nutrient of
+concern and inhibit or negate the treatment plan for the patient’s
+condition. For example, if a dog receiving a low-fat diet to manage
+chronic pancreatitis is diagnosed with CKD, a dietary change to
+address the CKD may result in recurrent pancreatitis symptoms if
+both disease conditions are not considered.
+Communicating with Clients
+Communicating about a dog’s or cat’s nutrition can be a complex
+topic for veterinary personnel and pet owners to navigate. Nutrition
+conversations start with the recognition that there are three aspects
+of communication to be considered.69 First is the content, the
+medical or scientiﬁc knowledge that informs a complete and bal-
+anced nutrition recommendation, which is outlined in the majority
+of these guidelines. Second is the process, the approach used to
+engage a client in discussion about their dog’s or cat’s nutrition,
+which is presented throughout this section. Third is the perceptual
+aspect of communication—how the client thinks and feels about pet
+nutrition—which represents the assumptions, beliefs, goals, and
+thought process a person brings to a nutrition conversation. Al-
+though we often focus on the content of communication, it is the
+process and, even more often, the perceptions of staff and clients
+that dictate whether a nutrition conversation is successful.
+What we bring to a nutrition conversation in terms of our own
+ideas, knowledge, and prior experiences is a critical starting point. This
+involves recognizing and managing our own biases and perceptions
+associated with pet nutrition in order to enter the conversation with an
+open mind. When a client’s beliefs, goals, ideas, or perceptions are not
+aligned with our viewpoint, the client is likely to reject our viewpoint
+in favor of their own, regardless of the content we communicate.70
+Nutrition conversations require a curiosity that allows us to be at-
+tentive and responsive to understanding our client’s viewpoint. As a
+result, successfully communicating a nutrition recommendation to a
+client is heavily dependent upon understanding the client’s perspec-
+tive. This is gained through conducting a comprehensive nutritional
+history (Figure 3).
+Gathering a Comprehensive Nutrition History
+The nutrition history is the foundation of a nutrition recommen-
+dation in which an intricate relationship exists between conducting a
+nutrition history and making a relevant nutrition recommendation.
+A comprehensive nutrition history requires exploring all animal-,
+diet-, environment-, and human-related factors associated with a
+dog’s or cat’s nutrition.
+To gather a comprehensive nutrition history, whether using a
+diet-history form or during an in-person interaction, veterinary
+professionals should begin with open-ended questions or state-
+ments that allow clients to share information unhindered by the
+practice’s own goals or agenda. For example, phrases starting with
+“Tell me . . .”, “Describe . . .”, or “Walk me through . . .” allow clients
+to share information that the veterinary professional may not have
+otherwise considered. Using open-ended inquiry during the initial
+screening evaluation increases efﬁciency while also allowing for
+greater detection of nutritional risk factors that can signal the need
+for an extended nutrition evaluation. Veterinary personnel should
+move from these broad exploratory lines of open-ended inquiry to
+more focused lines of open-ended inquiry before using closed-ended
+TABLE 3
+Clinically Relevant Nutrition Terms
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+161
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+TABLE 4
+Nutritional Screening: Risk Factors as Determined by Life Stage, Medical/Dietary History, or Physical Exam
+162
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+inquiry to gather speciﬁc details, that is, questions often answered with
+one-word responses (Table 9).
+When gathering information on diet-related factors, research
+suggests that veterinary personnel should be cautious about starting
+with simple what-prefaced questions (e.g., “What kind of food is
+your pet on?”).71,72 Although a what-prefaced question is commonly
+used by practice team members, when analyzing clients’ responses,
+the question has been found to obtain limited diet information and
+to encourage defensive responses from clients.73 In addition, treats
+that a dog or cat may consume have been identiﬁed as a speciﬁc
+component of the diet-related history that clients are less likely to
+disclose,74,75 warranting more focused questioning or use of differ-
+ent wording (e.g., snacks, rewards, extra foods) to avoid the threat
+directly associated with the word “treat.”
+Communicating a Nutrition Recommendation to the Client
+A common obstacle that often undermines a veterinary professional’s
+nutrition recommendation, when sufﬁcient nutrition history is not
+gathered, is that the recommendation does not align with the client’s
+own goals or beliefs. As part of the nutritional history, when asking
+what the pet is being fed, we should also explore the client’s rationale
+for feeding a speciﬁc food or brand. Exploring the client’s rationale for
+feeding a speciﬁc food or brand gives the practice team an under-
+standing of the pet owner’s dietary viewpoints and will help avoid
+misunderstandings about the practice’s pet nutrition recommenda-
+tions. In developing a nutrition recommendation, equal consideration
+must be given to animal-, diet-, environment-, and human-related
+factors. Similar to the nutritional assessment, developing a nutrition
+recommendation is an iterative rather than linear process in which
+returning to the nutrition history at any point may be required to
+gather additional information to better align a nutrition recommen-
+dation with the goals and beliefs of the client (Figure 4).
+Another potential barrier to a veterinary professional’s nutrition
+recommendation is the client’s suspicion of veterinary practices being
+businesses that make healthcare recommendations.76 This skepticism
+can be fueled when a nutrition recommendation involves a com-
+mercial pet food. In this case, it is important to recognize that there
+are two decisions for clients and, therefore, two separate recommen-
+dations to be made. The ﬁrst recommendation is the nutrition-related
+healthcare recommendation (a nutrition change to manage the health
+of the animal preventively or to address a nutrition-related health
+concern). The second recommendation, when required, is a product-
+speciﬁc commercial diet to support the nutrition-related healthcare
+decision. Separating these recommendations teases apart the question
+of motivation (business versus healthcare) behind an overall nutrition
+recommendation. Here is a step-by-step approach to making a nu-
+trition recommendation to a client:
+1. Initiating a Nutrition-Related Healthcare Recommendation
+The ﬁrst step to a nutrition-related healthcare recommendation is
+initiating the conversation with the client. This should involve some
+form of forewarning to gauge the client’s receptivity to the con-
+versation. Asking permission is one way of respectfully assessing a
+client’s response to a topic (e.g., “Alex, I would like to spend some
+time discussing Harley’s [diet, weight, snacks]. Would you be open
+to this?"). Often, clients accept the invitation and you can move
+directly into the nutrition conversation. Other times, the client
+may show apprehension, providing an opportunity to open up the
+conversation to develop a greater understanding of your client’s
+apprehension. On occasion, a client will explicitly decline this
+request, and nothing is lost because the client would likely not
+have been responsive to moving forward otherwise. By asking
+TABLE 5
+Examples of Clinical Diagnostics for an Extended Nutritional
+Assessment
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+163
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+permission, you show respect, protect your relationship, and provide
+an opportunity to engage with your client’s perspective, all of which
+contribute to greater trust when pursuing a future conversation.
+2. Explore with the Owner All Nutrition- and Non–Nutrition-
+Related Options
+Once a client is on board, you can explore all nutrition- and non–
+nutrition-related healthcare options. Research indicates that 90% of
+pet owners want to be made aware of all healthcare options, regardless
+of cost.77 In contrast, a focus group study found that many veteri-
+narians identiﬁed with presenting clients with only the option the
+veterinarian believed to be best.78 Providing all the healthcare options
+actively involves clients in the decision-making process and ac-
+knowledges their autonomy. It also allows for developing greater
+alignment with the goals and expectations of the client. As options are
+presented to a client, it is not uncommon to need to return period-
+ically to gathering more nutrition history to better align your rec-
+ommendation.
+3. Educate the Client About the Beneﬁts (and Risks) of Each
+Nutrition Option
+Critical to making any nutrition-related healthcare recommendation,
+whether preventive or to address a speciﬁc disease, is educating the
+client about the beneﬁts of each option (or lack thereof) to the health
+and wellbeing of the pet (e.g., longer life, improved quality of life,
+reduced onset of chronic disease, resolution or management of
+a speciﬁc condition).79 Research suggests that veterinarians often
+focus on features (e.g., a product, the time, or a service),80 without
+explaining why an option may or may not provide value to the dog’s
+or cat’s overall health and wellbeing.
+TABLE 6
+Obesity Risk Factors
+164
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+4. Make a Clear Nutrition-Related Recommendation
+Research in veterinary medicine examining clients’ adherence to
+healthcare recommendations found that clients who were provided
+with a clear recommendation were seven times more likely to adhere
+than clients receiving an ambiguous recommendation.81 Once a
+client is made aware of the available options and engaged in the
+decision-making process, it is the veterinarian’s role to use their
+knowledge to make a clear recommendation that takes into con-
+sideration the nutritional assessment as well as the client’s goals.
+5. Check in with the Client to Gain Feedback and Modify the
+Recommendation
+Following a recommendation, it is important to check in with the
+client to see how the information was received before proceeding.
+This approach allows the practice team member to return to gather
+more nutrition history as needed or further tailor their recom-
+mendation to better align with the goals of the client. Once the client
+has arrived at a healthcare decision, if the decision requires a change
+of diet involving a commercial pet food, it is at this point the vet-
+erinary professional should move into a similar decision-making
+process regarding a complete and balanced commercial pet food
+(i.e., gather information, initiate the conversation, present options,
+discuss the value of each option, make a clear recommendation,
+check in with the client).
+6. Plan Appropriate Follow-Up with the Client Once a Dietary
+Change Has Been Implemented
+Plan for a member of the veterinary team to follow up with the client
+within a couple of days after a change to a dog’s or cat’s nutrition has
+been made. This is a great time to answer any additional questions,
+troubleshoot obstacles, or revisit the nutrition recommendation.
+Managing Challenging Nutrition Conversations
+It is important to acknowledge the plethora of potentially sensitive
+topics that exist in relation to pet nutrition. An observational study
+analyzing veterinarians’ conversations with pet owners about pet
+TABLE 6
+Continued
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+165
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+TABLE 7
+Additional Resources
+166
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+nutrition identiﬁed evidence (reﬂected in verbal and nonverbal
+cues) that patient weight, the timing of transition from one life-stage
+diet to another, treats, wet versus dry foods, quality of the main
+commercial food, and use of human foods were subjects about
+which clients, veterinarians, or both demonstrated sensitivity.75
+Other challenging nutrition conversations veterinary professionals
+may encounter include discussing a client’s unconventional food
+choices, preference for or disapproval of certain ingredients (e.g.,
+grain, by-products), or use of various nutraceuticals or supplements.
+Navigating these conversations requires being attentive and re-
+sponsive to clients’ verbal and nonverbal cues that signal sensitivity
+to a line of discussion. Many of these challenging conversations are
+driven by a veterinarian’s or the practice team’s beliefs, goals, ideas,
+or perceptions that do not align with the client’s own viewpoints. In
+response to these challenges, it is important to be aware of our own
+ideas, beliefs, and judgments. Acknowledging the client’s beliefs,
+goals, ideas, or perceptions, which does not mean agreeing with
+them, often provides an opportunity to further explore and un-
+derstand the client’s perspective. This understanding can be used to
+identify common ground, which can be used to bring differences in
+perspective into greater alignment.
+Intrateam Nutrition Communication
+Engaging clients in conversation about pet nutrition is a perfect
+veterinary-team sport, in which information is passed from one team
+member to another as the entire team moves toward a common goal.
+All team members who interact with clients should be equipped with
+the skills needed to perform a comprehensive nutrition history and to
+engage clients in a conversation about their pet’s nutrition. This
+offers the practice team the opportunity to gather nutrition infor-
+mation and share this information with other members of the
+veterinary team who are positioned to develop a nutrition recom-
+mendation. Involving your broader team in nutrition conversations
+increases team engagement, boosts self-efﬁcacy, enhances efﬁciency,
+and emphasizes to clients that the entire practice team is there and
+available to support them.
+How to Navigate the Emotional Connections Between
+Pet Food Recommendations and People
+A person’s personal food choices are complex and inﬂuenced by
+biological, economical, physical, social, psychological,82 and envi-
+ronmental determinants.75 Furthermore, attitudes, beliefs, and
+knowledge about food also affect food choice. People may
+BOX 1
+Energy Requirement Calculations.111
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+167
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+TABLE 8
+Nutrients of Concern for Diseases and Select Speciﬁc Conditions
+168
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+TABLE 8
+Continued
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+169
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+TABLE 8
+Continued
+170
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+TABLE 8
+Continued
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+171
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+anthropomorphize their own nutrition ideas to their pets.83 Across a
+range of studies, common factors that inﬂuence pet food purchasing
+decisions include the ingredients, quality, cost, company reputation,
+veterinary recommendation, and ease of purchasing.75,78,84 Pet
+owners and members of the veterinary team share a common in-
+terest in the health and therapeutic beneﬁts of nutrition. It is ad-
+vantageous for the veterinary team to understand a client’s
+perspective before making nutritional recommendations.
+Emotions such as hesitation, frustration, anxiety, and suspicion
+of the pet owner may dominate conversations about pet nutrition.
+Social media, marketing messages, and pet food recalls may reinforce
+these emotions and support feelings of distrust. Clients may be
+suspicious that nutrition recommendations by the veterinary team
+are primarily inﬂuenced by ﬁnancial incentive rather than health
+beneﬁts for their pet. Some clients may feel uncomfortable or in-
+timidated discussing a topic in which they perceive a conﬂict may
+exist, particularly with unconventional diet strategies. With regard to
+the veterinary team, frustration may exist when clients bring up
+preconceived notions about nutrition and the sources from which
+they have gained these ideas.85
+The veterinary team should focus on discussing nutrition in an
+open, honest, and approachable manner, in which the client feels
+comfortable and respected. Team members should identify the un-
+derlying emotional reaction to these conversations, recognize the impact
+of nonverbal cues, and listen to the client’s concerns.86 It is important to
+understand that validating a client’s concern is different from agreeing
+with the client. The goal is not to reinforce false information but to
+validate concerns and come to a shared understanding.
+The veterinary team must agree that there are different but
+appropriate strategies to optimally feed pets. If the concerns about
+unconventional diets are ignored, clients may turn to less reliable
+sources for nutritional information.87 Although the beneﬁts of con-
+ventional diets include nutritional adequacy and convenience, some
+clients may be concerned or skeptical about processed foods.88 Pet
+food manufacturers should provide transparency and details about
+the contents, research, and beneﬁts of their diet. The veterinary team
+can help build a trusting relationship by alerting clients about pet
+food recalls and public health outbreaks if this is to happen.
+Other Timely Nutrition Topics of Interest
+Diet-Associated Dilated Cardiomyopathy
+Dietary information is an evolving science. Although the Advisory Panel
+has provided current information on nutritional topics of interest,
+practitioners should make note of new developments that postdate these
+guidelines. For example, there has been increased reporting of diet-
+associated dilated cardiomyopathy (DCM) in dogs in the last few
+years.75,83,89 Previously identiﬁed risk factors include lamb and rice diets,
+TABLE 9
+Examples of Open-Ended and Close-Ended Inquiry
+172
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+low-protein diets, and high-ﬁber diets.79 Certain breeds are predisposed
+(e.g., golden retrievers, Newfoundlands, Irish wolfhounds).90–92 Recently,
+more atypical dog breeds have been diagnosed with DCM. Some dogs
+have been documented to have taurine deﬁciency and subsequent DCM,
+whereas many of the dogs have had normal blood taurine concentra-
+tions.75 Some common dietary features in these cases included feeding a
+diet high in lentils or peas or feeding a grain-free diet.93,94
+Research is currently being conducted to determine what is
+contributing to diet-associated DCM in dogs. A few theories in-
+clude:
+1. Inclusion of ingredients that may negatively affect bioavail-
+ability of amino acids and other essential nutrients.
+2. Low caloric intake relative to calculated energy needs, con-
+tributing to a relative decrease of nutrient ingestion.
+3. A possible nutritional excess or toxicity.
+4. A nonnutritional toxicity.
+5. Additionally, as previously identiﬁed, there likely are some
+breed-related factors at play.
+The only way to deﬁnitively diagnose DCM is via an echo-
+cardiogram, but this is an expensive test that may not be readily
+available to all dog owners. If a dog is exhibiting clinical signs of heart
+disease (e.g., new heart murmur, cardiac arrhythmia, exercise in-
+tolerance), thoracic radiographs should be performed. If there is
+suspicion for DCM or evidence of congestive heart failure, then an
+echocardiogram should be performed.
+Many dog owners want guidance on what they should (or
+should not) be feeding their pets. Given currently available evidence,
+the most conservative approach is to avoid feeding grain-free diets or
+diets high in legumes. Because this is an evolving issue, pet owners
+should carefully consider the pros and cons of feeding a speciﬁc type
+of diet with their veterinarians. It is also incumbent upon veterinary
+professionals to stay current in this area of research.
+Home-Prepared Diets
+Home-prepared diets may include cooked or raw foods. Multiple
+veterinary studies of recipes found in books and on websites have
+shown that the majority of these recipes, even those written by
+veterinarians, do not provide complete and balanced nutrition.95–97
+For pet owners who prefer to feed home-prepared diets, a consult
+with a board-certiﬁed veterinary nutritionist is recommended. More
+information about requesting nutrition consults can be found
+online at the ACVN website (acvn.org/nutrition-consults/).
+Once a recipe has been formulated and provided to the pet
+owner, it is imperative that the owner follow the recipe exactly as
+written to ensure that it provides complete and balanced nutrition.
+This is especially important regarding speciﬁc vitamin, mineral,
+and amino acid supplements to ensure that all micronutrient
+requirements are met. It is common for owners to gradually amend
+recipes over time,98 so practitioners should be conﬁrming at ap-
+pointments that owners are still following speciﬁc instructions.
+Supplements can also change over time, so home-prepared diet
+recipes should be updated annually with a board-certiﬁed veteri-
+nary nutritionist.
+Raw Protein Diet
+AAHA does not advocate or endorse feeding pets any raw or
+dehydrated nonsterilized foods, including treats that are of animal
+origin.99 Feeding a raw diet increases the risk of bacterial and pro-
+tozoal pathogen transmission to the pets consuming the diet as well
+as to people and other animals. Several studies have documented the
+presence of pathogens in raw diets for pets and in the feces of dogs
+and cats eating the raw diets.100,101 Importantly, dogs and cats can
+shed Salmonella without exhibiting any clinical signs of dis-
+ease.97,102,103
+Some pet food companies use high-pressure processing (HPP)
+to reduce bacterial numbers in their products. The efﬁcacy of HPP to
+reduce bacterial numbers depends on several factors, including
+bacterial species, number of HPP cycles performed, pH, pressure
+achieved, processing time, and temperature.101 A pet food label claim
+of HPP does not equate to “sterile” food.
+Age-Speciﬁc and Breed-Speciﬁc Diets
+Puppies and kittens should be fed diets appropriate for growth until
+they reach skeletal maturity. For cats and small and medium-size
+dogs, this typically means feeding a diet for growth until approxi-
+mately 1 yr of age. For some large- and giant-breed dogs, skeletal
+maturity may not be achieved until closer to 15–16 mo, and it is
+important to support a giant-breed puppy’s growth accordingly,
+aiming to maintain a lean BCS and avoiding excessive calcium in-
+take.104,105
+Energy requirements can vary as pets age, but there are no
+speciﬁc nutritional requirements set by AAFCO for mature, senior, or
+geriatric pets. Thus, pet owners and veterinarians should not feel
+compelled to automatically change a pet’s diet once it reaches a
+certain age. If an older dog or cat is doing well with its complete and
+balanced adult maintenance diet, it is perfectly appropriate to
+continue feeding that diet until a medical condition prompts oth-
+erwise.
+This becomes especially true when considering that there is no
+consensus among different pet food manufacturers about what
+should constitute a “senior” pet food. Signiﬁcant variability has been
+documented among pet foods marketed for senior dogs.103,106 Al-
+though certain companies have their own standards, this is not true
+across the board. Thus, practitioners should use caution with the
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+173
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+recommendation to feed any senior or mature diet to a cat with
+CKD who will not readily accept a veterinary therapeutic renal diet.
+This may result in unintentionally feeding excessive phosphorus to
+the patient.
+Some pet food companies market breed-speciﬁc diets. These
+diets may be designed to accommodate certain breed predispositions
+(e.g., a lower-calorie food for an overweight-prone dog breed) or the
+kibble may be shaped in a way to help prehension. Ultimately,
+nutritional recommendations should be made based on the indi-
+vidual pet and the speciﬁc nutrient proﬁle of the diet.
+Microbiome, Prebiotics, Postbiotics
+The importance of a healthy gut microbiome has recently received
+more attention in the veterinary community. There are many ways in
+which the gut microbiome inﬂuences organ systems beyond the
+gastrointestinal tract.107 There are several ways to qualify and
+quantify an animal’s microbiome. Although the microbiome is
+routinely evaluated in research settings, its clinical application is
+currently limited.107 Pet owners and veterinary professionals should
+be wary of companies advertising to test a pet’s microbiome, espe-
+cially if supplements are then recommended.
+An animal’s microbiome can be affected by diet, antibiotics,
+probiotics, prebiotics, or fecal microbiome transplant. In many
+cases, soft stool or diarrhea can be effectively managed with a diet
+change, by modifying speciﬁc ingredients, dietary fat, or ﬁber in-
+take.101 Using indiscriminate antibiotics for acute diarrhea is not
+recommended.108 Caution should be exercised when choosing a
+probiotic because there is variable quality control and efﬁcacy
+among supplements.109,110
+Opportunities and Resources to Leverage the Value of
+Proper Nutrition in Your Practice
+Proper nutrition is one of the most important factors in the
+management of health and disease in pets. Veterinary healthcare
+teams that understand and embrace clinical nutrition and dem-
+onstrate in-clinic behaviors consistent with that conviction will
+beneﬁt not only patients and clients but also their practice and the
+profession.
+Pet owners have access to vast information resources and are
+subsequently becoming more educated and bringing detailed
+questions to the healthcare team. This provides an excellent op-
+portunity for the veterinary team to properly educate the client.
+Integrating nutritional assessments into a practice requires com-
+mitment and engagement of the entire veterinary team. This dedi-
+cation and participation in developing a strong nutrition program
+will promote success, optimal pet health, the client-pet relationship,
+and a long-term client relationship with the practice. There are many
+beneﬁts to implementing a team approach to the practice mission
+and the veterinary team. The veterinary technician is poised to lead
+the initiative to provide nutritional care for all patients. Group effort
+increases efﬁciency by distributing workload and delivering an in-
+tegrated cohesive message about the importance of nutrition and the
+value of preventive care. When roles are delegated, everyone con-
+tributes to success and individual motivation increases to accomplish
+results.
+A Team Approach
+Providing optimal nutritional management to patients requires the
+entire practice team with whom the client interacts. Using the entire
+team increases morale, utilization, and revenue for the hospital. The
+client service team should facilitate the completion of a diet history
+form before the appointment. Veterinary technicians should assess
+the patient’s BCS, BW, and MCS and take a history from the pet
+owner including a nutritional history. This information should be
+relayed to the veterinarian, who uses it along with further ques-
+tioning, diagnostics, and the exam to make a nutritional recom-
+mendation. To ensure client adherence, the recommendation is
+supported and further explained to the client by the veterinary
+technician or assistant. This explanation is an educational process
+involving how the nutritional recommendation impacts the disease
+process and in turn the health and wellbeing of a patient, and it
+allows for questions from the client.
+Once a nutrient proﬁle, portion, and feeding schedule have been
+prescribed, the next steps toward success are follow-through by the
+veterinary healthcare team and accountability. An easy-to-implement
+program leverages the veterinary team to partner with the client to
+position the pet toward optimal health.
+In executing this approach, the client makes an appointment
+(before leaving the practice) for a weigh-in and a body composition–
+muscle composition assessment. A member of the practice team
+follows up with the client by phone or email within the ﬁrst couple
+of days. The client then returns for the subsequent visit, the pet is
+weighed, and the BCS-MCS is assessed and recorded in the medical
+record. The feeding plan is reviewed and veriﬁed with the client. The
+target weight is reviewed, and the goal is adjusted if needed.
+Questions from the client are encouraged and answered. Finally,
+dietary portioning is adjusted if needed and the next assessment
+appointment is scheduled.
+There are multiple ways to ﬁne-tune an accountability program
+to enhance its value to the client, to the veterinary healthcare team, to
+the patient, and ultimately to the practice. Some nuances to consider
+include:
+· Pair each patient with a speciﬁc team member. This creates
+continuity for the client, patient, and practice. It allows that
+174
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+team member to note the trend of the pet’s progress toward
+optimal body composition. The continuity of contact builds
+trust with the client, potentially reduces fear for the patient,
+and further bonds the client to the practice. This helps to set
+the practice apart in a crowded marketplace and enhances
+the role of the team member, allowing that person to con-
+tribute to the success of the practice and the practice’s nu-
+tritional goals.
+· Set boundaries or “rules” for this assessment and accountability
+program. For instance, a formal appointment should be on the
+clinic’s schedule and the value to the patient of checking in
+regularly explained to the client. Consider an appropriate in-
+terval for these visits. Four to 8 wk apart is reasonable. These
+assessments should stand independent of the pet’s wellness or
+preventive care appointments.
+· Consider creating a small incentive or “thank you” for the
+client. This acknowledges the client’s investment in helping
+their pet to be as healthy as possible.
+· Recognize that clients who involve their pets in a weight man-
+agement program enter the practice more frequently. This pro-
+vides multiple opportunities for the client to mention or a
+veterinary team member to recognize medical issues that re-
+quire attention. Any of these articulated concerns can lead to
+scheduling a formal appointment, allowing the practice team to
+catch and deal with a medical issue early before it progresses
+and expands into something more serious.
+Summary
+Nutrition is the foundation of pet health and wellbeing and should be
+a central component of every canine and feline patient’s healthcare
+plan. An objective nutritional assessment is the initial step in a
+systematic approach to nutritional management. When performed
+at each exam visit, the assessment considers such evolving factors as
+the patient’s age, health status, and lifestyle-related risk factors.
+Based on the assessment, patient-speciﬁc nutrition recommenda-
+tions can be made. Besides health maintenance, these recommen-
+dations often have speciﬁc therapeutic goals such as weight loss or
+dietary support of chronic or acute disease conditions.
+Client attitudes toward pet nutrition, informed by commercial
+or nonscientiﬁc information, are often based on individual biases and
+subjective but strongly held beliefs. For this reason, effective client
+communication is an important factor in achieving adherence with
+dietary recommendations. Nutrition conversations with clients
+should focus on messaging content as well as the communication
+process, with the goal of ensuring that the client has a positive
+perception of the practitioner’s nutritional recommendations. A key
+element of productive discussions on pet nutrition is to understand
+the client’s viewpoint on topics such as pet food choice, dietary
+rewards, and weight control.
+Integrating nutritional management as a vital part of the
+practice’s culture requires the commitment and engagement of the
+entire veterinary team. A uniﬁed approach to implementing an ef-
+fective nutrition program will promote optimal pet health, thera-
+peutic success, a strong veterinarian-client-pet relationship, and a
+long-term client association with the practice.
+The authors gratefully acknowledge the contribution of Mark Dana
+of Kanara Consulting Group, LLC, in the preparation of the guide-
+lines manuscript.
+REFERENCES
+1. Baldwin K, Barges J, Bufﬁngton T, et al. AAHA Nutritional Assessment
+Guidelines for Dogs and Cats. J Am Anim Hosp Assoc 2010;46:285–96.
+2. Brooks D, Churchill J, Fein K, et al. 2014 AAHA Weight Management
+Guidelines for Dogs and Cats 2014. J Am Anim Hosp Assoc 2014;50:1–11.
+3. WSAVA Nutritional Assessment Guidelines Task Force Members,
+Freeman L, Becvarova I, et al. WSAVA Nutritional Assessment Guide-
+lines. J Small Anim Pract 2011;52:385–96.
+4. American College of Veterinary Nutrition. ACVN Diet History Form.
+Available at: http://acvn.org/wp-content/uploads/2020/04/ACVN-Diet-
+History-Form-2020-FINAL_ﬁllable.pdf. Accessed May 20, 2020.
+5. World Small Animal Veterinary Association. Short Diet History Form.
+Available at: https://wsava.org/wp-content/uploads/2020/01/Diet-History-
+Form.pdf. Accessed May 20, 2020.
+6. Murphy M, German AJ, Cline MG. Establishing a weight management
+program in clinical practice. In: Cline MG, Murphy M, eds. Obesity in
+the Dog and Cat. 1st ed. Boca Raton (FL): CRC Press; 2019:133–61.
+7. Canine Body Condition Score. Available at: https://wsava.org/wp-content/
+uploads/2020/01/Body-Condition-Score-Dog.pdf. Accessed April 17, 2021.
+8. Feline Body Condition Score. Available at: https://wsava.org/wp-
+content/uploads/2020/02/Body-Condition-Score-Cat.pdf. Accessed October
+23, 2020.
+9. Laﬂamme D. Development and validation of a body condition score
+system for dogs. Canine Pract 1997;22:10–5.
+10. Laﬂamme D. Development and validation of a body condition score
+system for cats: a clinical tool. Feline Pract 1997;25:13–8.
+11. Bjornvad CR, Nielsen DH, Armstrong PJ, et al. Evaluation of a nine-
+point body condition scoring system in physically inactive pet cats. Am J
+Vet Res 2011;72:433–7.
+12. Body Condition Score. Available at: https://wsava.org/wp-content/
+uploads/2020/01/Muscle-Condition-Score-Chart-for-Dogs.pdf.
+Accessed October 23, 2020.
+13. Feline Body Condition Score. Available at: https://wsava.org/wp-content/
+uploads/2020/01/Muscle-Condition-Score-Chart-for-Cats.pdf. Accessed
+October 23, 2020.
+14. Freeman LM, Michel KE, Zanghi BM, et al. Evaluation of the use of
+muscle condition score and ultrasonographic measurements for as-
+sessment of muscle mass in dogs. Am J Vet Res 2019;80:595–600.
+15. Freeman LM, Michel KE, Zanghi BM, et al. Usefulness of muscle con-
+dition score and ultrasonographic measurements for assessment of muscle
+mass in cats with cachexia and sarcopenia. Am J Vet Res 2020;81:254–9.
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+175
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+16. Michel KE, Anderson W, Cupp C, et al. Correlation of a feline muscle
+mass score with body composition determined by dual-energy X-ray
+absorptiometry. Br J Nutr 2011;106(suppl 1):S57–9.
+17. Freeman LM. Cachexia and sarcopenia: emerging syndromes of im-
+portance in dogs and cats. J Vet Intern Med 2012;26:3–17.
+18. Witzel AL, Kirk CA, Henry GA, et al. Use of a novel morphometric
+method and body fat index system for estimation of body composition
+in overweight and obese dogs. J Am Vet Med Assoc 2014;244:1279–84.
+19. Witzel AL, Kirk CA, Henry GA, et al. Use of a morphometric method
+and body fat index system for estimation of body composition in
+overweight and obese cats. J Am Vet Med Assoc 2014;244:1285–90.
+20. Purina Veterinary Diets. Available at: https://www.proplanveterinar-
+ydiets.ca/wp-content/uploads/2016/04/PPPVD-Fecal-Scoring-Chart-EN-
+FINAL.pdf. Accessed April 19, 2021.
+21. The Waltham Faeces Scoring System. Available at: https://www.walth-
+am.com/sites/g/ﬁles/jydpyr1046/ﬁles/2020-05/waltham-scoring.pdf. Accessed
+April 19, 2021.
+22. Su DK, Murphy M, Hand A, et al. Impact of feeding method on overall
+activity of indoor, client-owned dogs. J Small Anim Pract 2019;60:438–43.
+23. Naik R, Witzel A, Albright JD, et al. Pilot study evaluating the effect of
+feeding method on overall activity of neutered indoor pet cats. J Vet
+Behav 2018;25:9–13.
+24. Clarke DL, Wrigglesworth D, Holmes KI, et al. Using environmental
+and feeding enrichment to facilitate feline weight loss. J Anim Physiol
+Anim Nutr 2005;89:427.
+25. Dantas LMS, Delgado MM, Johnson I, et al. Food puzzles for cats:
+feeding for physical and emotional wellbeing. J Feline Med Surg 2016;
+18:723–32.
+26. Association of American Feed Control Ofﬁcials. 2018 Ofﬁcial Publi-
+cation. Champaign (IL): Association of American Feed Control Ofﬁ-
+cials; 2018.
+27. World Small Animal Veterinary Association. Selecting the Best Food for
+your Pet. Available at: https://wsava.org/wp-content/uploads/2020/01/
+Selecting-the-Best-Food-for-your-Pet.pdf. Accessed May 20, 2020.
+28. Pet Nutrition Alliance. Dare to Ask Nutritional Comparison Manu-
+facturer Report. Available at: https://www.petnutritionalliance.org/
+chart/index.php/manufacturer-report. Accessed May 20, 2020.
+29. Center for Veterinary Medicine. Recalls & Withdrawals. FDA 2020.
+Available
+at:
+https://www.fda.gov/animal-veterinary/safety-health/re-
+calls-withdrawals. Accessed May 20, 2020.
+30. AAFCO. 2018 Ofﬁcial publication of the Association of American Feed
+Control Ofﬁcials; 2018.
+31. United States Department of Agriculture (USDA) Agriculture Research
+Service. FoodData Central. Available at: https://fdc.nal.usda.gov/.
+Accessed June 17, 2020.
+32. German AJ, Holden SL, Wiseman-Orr ML, et al. Quality of life is re-
+duced in obese dogs but improves after successful weight loss. Vet J
+2012;192:428–34.
+33. Yam PS, Butowski CF, Chitty JL, et al. Impact of canine overweight and
+obesity on health-related quality of life. Prev Vet Med 2016;127:64–9.
+34. Endenburg N, Soontararak S, Charoensuk C, et al. Quality of life and
+owner attitude to dog overweight and obesity in Thailand and the
+Netherlands. BMC Vet Res 2018;14:221.
+35. German AJ, Titcomb JM, Holden SL, et al. Cohort study of the success
+of controlled weight loss programs for obese dogs. J Vet Intern Med
+2015;29:1547–55.
+36. Vasconcellos RS, Borges NC, Gonçalves KNV, et al. Protein intake
+during weight loss inﬂuences the energy required for weight loss and
+maintenance in cats. J Nutr 2009;139:855–60.
+37. Smith G, Paster ER, Powers MY, et al. Lifelong diet restriction and
+radiographic evidence of osteoarthritis of the hip joint in dogs. J Am Vet
+Med Assoc 2006;229:690–3.
+38. Greco DS, Royschuk RA, Ogilvie GK, et al. The effect of levothyroxine
+treatment on resting energy expenditure of hypothyroid dogs. J Vet
+Intern Med 1998;12:7–10.
+39. Scarlett JM, Donoghue S. Associations between body condition and
+disease in cats. J Am Vet Med Assoc 1998;212:1725–31.
+40. Cho K-D, Paek J, Kang JH, et al. Serum adipokine concentrations in dogs
+with naturally occurring pituitary-dependent hyperadrenocorticism. J Vet
+Intern Med 2014;28:429–36.
+41. Slater MR, Robinson LE, Zoran DL, et al. Diet and exercise patterns in
+pet dogs. J Am Vet Med Assoc 1995;207:186–90.
+42. Zamansky A, van der Linden D, Hadar I, et al. Log my dog: perceived
+impact of dog activity tracking. Computer 2019;52:35–43.
+43. Martin L, Siliart B, Dumon H, et al. Leptin, body fat content and energy
+expenditure in intact and gonadectomized adult cats: a preliminary
+study. J Anim Physiol Anim Nutr 2001;85:195–9.
+44. Root MV, Johnston SD, Olson PN. Effect of prepuberal and postpuberal
+gonadectomy on heat production measured by indirect calorimetry in
+male and female domestic cats. Am J Vet Res 1996;57:371–4.
+45. Jeusette I, Detilleux J, Cuvelier C, et al. Ad libitum feeding following
+ovariectomy in female beagle dogs: effect on maintenance energy re-
+quirement and on blood metabolites. J Anim Physiol Anim Nutr 2004;
+88:117–21.
+46. Lund EM, Armstrong PJ, Kirk CA, et al. Prevalence and risk factors for
+obesity in adult dogs from private US veterinary practices. Int J Appl Res
+Vet Med 2006;4:177–86.
+47. Lund EM, Armstrong PJ, Kirk CA, et al. Prevalence and risk factors for
+obesity in adult cats from private US veterinary practices. Int J Appl Res
+Vet Med 2005;3:91.
+48. Adams VJ, Watson P, Carmichael S. Exceptional longevity and po-
+tential determinants of successful ageing in a cohort of 39 Labrador
+retrievers: results of a prospective longitudinal study. Acta Vet Scand
+2016;58:29.
+49. Laﬂamme DP, Martineau B, Jones B, et al. Effect of age on maintenance
+energy requirements and apparent digestibility of canine diets. Com-
+pend Contin Educ Small Animal Pract 2000;22:113.
+50. Divol G, Priymenko N. A new model for evaluating maintenance en-
+ergy requirements in dogs: allometric equation from 319 pet dogs. J
+Nutr Sci 2017;6:e53.
+51. Bermingham EN, Thomas DG, Cave NJ, et al. Energy requirements of
+adult dogs: a meta-analysis. PLoS One 2014;9:e109681.
+52. Speakman JR, van Acker A, Harper EJ. Age-related changes in the
+metabolism and body composition of three dog breeds and their re-
+lationship to life expectancy. Aging Cell 2003;2:265–75.
+53. Penell JC, Morgan DM, Watson P, et al. Body weight at 10 years of age
+and change in body composition between 8 and 10 years of age were
+related to survival in a longitudinal study of 39 Labrador retriever dogs.
+Acta Vet Scand 2019;61:42.
+54. Teshima E, Brunetto MA, Vasconcellos RS, et al. Nutrient digestibility,
+but not mineral absorption, is age-dependent in cats. J Anim Physiol
+Anim Nutr (Berl) 2010;94:e251–8.
+55. Perez-Camargo G. Cat nutrition: what is new in the old? Compend
+Contin Educ Pract Vet 2004;26:5–10.
+56. Taylor EJ, Adams C, Neville R. Some nutritional aspects of ageing in
+cats and dogs. Proc Nutr Soc 1995;54:645–56.
+57. Colliard L, Ancel J, Benet J-J, et al. Risk factors for obesity in dogs in
+France. J Nutr 2006;136(suppl 7):1951S–4S.
+176
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+58. Lund EM, Armstrong PJ, Kirk CA, et al. Health status and pop-
+ulation characteristics of dogs and cats examined at private veteri-
+nary practices in the United States. J Am Vet Med Assoc 1999;214:
+1336–41.
+59. Rollins AW, Murphy M, Moyers TD. Use of an automatic feeder for
+weight loss in multiple cat households: preliminary results [abstract]. J
+Anim Physiol Anim Nutr (Berl) 2020;104:405.
+60. Lambrecht KJ, Hardar BN, Bernardo TM. Preliminary results using
+home pet health technology in a multiple cat household weight man-
+agement program. Abstracts of the 20th AAVN Clinical Nutrition &
+Research Symposium [abstract]. J Anim Physiol Anim Nutr (Berl) 2020:
+104:1588.
+61. Porsani MYH, Teixeira FA, Amaral AR, et al. Factors associated with
+failure of dog’s weight loss programmes. Vet Med Sci 2020;6:299–305.
+62. Deagle G, Holden SL, Biourge V, et al. Long-term follow-up after
+weight management in obese cats. J Nutr Sci 2014;3:e25.
+63. German AJ, Holden SL, Morris PJ, et al. Long-term follow-up after
+weight management in obese dogs: the role of diet in preventing regain.
+Vet J 2012;192:65–70.
+64. American Animal Hospital Association. Compliance: taking quality care to
+the next level: a report of the 2009 AAHA compliance follow-up study.
+Lakewood (CO): American Animal Hospital Association; 2009:18. Available
+at: https://secure.aahanet.org/eweb/images/student/pdf/Compliance.pdf.
+65. des Courtis X, Wei A, Kass PH, et al. Inﬂuence of dietary protein level
+on body composition and energy expenditure in calorically restricted
+overweight cats. J Anim Physiol Anim Nutr (Berl) 2015;99(3):474–82.
+66. Blanchard G, Nguyen P, Gayet C, et al. Rapid weight loss with a high-
+protein low-energy diet allows the recovery of ideal body composition and
+insulin sensitivity in obese dogs. J Nutr 2004;134(suppl 8):2148S–50S.
+67. Weber M, Bissot T, Servet E, et al. A high-protein, high-ﬁber diet
+designed for weight loss improves satiety in dogs. J Vet Intern Med 2007;
+21:1203–8.
+68. Wei A, Fascetti AJ, Villaverde C, et al. Effect of water content in a
+canned food on voluntary food intake and body weight in cats. Am J Vet
+Res 2011;72:918–23.
+69. Kurtz S, Silverman J, Draper J. Teaching and Learning Communication
+Skills in Medicine. 2nd ed. Oxford (UK): Radcliffe.
+70. Tuckett D, Boulton M, Olson C, et al. Meeting between Experts: An
+Approach to Sharing Ideas in Medical Consultations. London: Tavistock
+Publications; 1985.
+71. MacMartin C, Wheat HC, Coe JB, et al. Effect of question design on
+dietary information solicited during veterinarian-client interactions in
+companion animal practice in Ontario, Canada. J Am Vet Med Assoc
+2015;246:1203–14.
+72. Coe JB, O’Connor R, MacMartin C, et al. Effects of three diet history
+questions on the amount of information gained from a sample of pet
+owners in Ontario, Canada. J Am Vet Med Assoc 2020;256:469–78.
+73. Kaplan JL, Stern JA, Fascetti AJ, et al. Taurine deﬁciency and dilated
+cardiomyopathy in golden retrievers fed commercial diets. PLoS One
+2018;13(12):e0209112.
+74. Adin D, DeFrancesco TC, Keene B, et al. Echocardiographic phenotype
+of canine dilated cardiomyopathy differs based on diet type. J Vet
+Cardiol 2019;21:1–9.
+75. Conway DMP, Saker KE. Consumer attitude toward the environmental
+sustainability of grain-free pet foods. Front Vet Sci 2018;5:170.
+76. Coe JB, Adams CL, Bonnett BN. A focus group study of veterinarians’
+and pet owners’ perceptions of the monetary aspects of veterinary care.
+J Am Vet Med Assoc 2007;234:1418–1424.
+77. American Animal Hospital Association. The Path to High-Quality Care.
+Practical Tips for Improving Compliance. Lakewood (CO): American
+Animal Hospital Association; 2003.
+78. Schleicher M, Cash SB, Freeman LM. Determinants of pet food pur-
+chasing decisions. Can Vet J 2019;60:644–50.
+79. Freeman LM, Stern JA, Fries R, et al. Diet-associated dilated cardio-
+myopathy in dogs: what do we know? J Am Vet Med Assoc 2018;253(11):
+1390–4.
+80. Coe JB, Adams CL, Bonnett BN. Prevalence and nature of cost dis-
+cussions during clinical appointments in companion animal practice. J
+Am Vet Med Assoc 2009;231:1510–8.
+81. Kanji N, Coe JB, Adams CL, et al. Effect of veterinarian-client-patient
+interactions on client adherence to dentistry and surgery recommen-
+dations in companion-animal practice. J Am Vet Med Assoc 2012;240:
+427–36.
+82. The European Food Information Council (EUFIC). The Determinants
+of Food Choice. Available at: https://www.euﬁc.org/en/healthy-living/
+article/the-determinants-of-food-choice. Accessed May 30, 2020.
+83. Boni SE. Anthropomorphism: how it affects the human-canine bond. J
+Appl Compan Anim Behav 2008;2:16–21.
+84. Simonsen JE, Fasenko GM, Lillywhite JM. The value-added dog food
+market: do dog owners prefer natural or organic dog foods? J Agric Sci
+2014;6:86–97.
+85. Morelli G, Bastianello S, Catellani P, et al. Raw meat-based diets for
+dogs: survey of owners’ motivations, attitudes and practices. BMC Vet
+Res 2019;15:74.
+86. Michel KE, Willoughby KN, Abood SK, et al. Attitudes of pet owners
+toward pet foods and feeding management of cats and dogs. J Am Vet
+Med Assoc 2008;233:1699–703.
+87. Parr JM, Remillard RL. Handling alternative dietary requests from pet
+owners. Vet Clin North Am Small Anim Pract 2014;44(4):667.
+88. Laﬂamme D, Izquierdo O, Eirmann L, et al. Myths and misperceptions
+about ingredients used in commercial pet foods. Vet Clin North Am
+Small Anim Pract 2014;44(4):689.
+89. Food and Drug Administration. FDA Investigation into Potential Link
+between Certain Diets and Canine Dilated Cardiomyopathy. Available at:
+https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-in-
+vestigation-potential-link-between-certain-diets-and-canine-dilated-car-
+diomyopathy. Accessed October 23, 2020.
+90. Backus RC, Cohen G, Pion PD, et al. Taurine deﬁciency in New-
+foundlands fed commercially available complete and balanced diets. J
+Am Vet Med Assoc 2003;223:1130–6.
+91. Vollmar C, Vollmar A, Keene BW, et al. Dilated cardiomyopathy in 151
+Irish wolfhounds: characteristic clinical ﬁndings, life expectancy and
+causes of death. Vet J 2019;245:15–21.
+92. Considine KM, Kelly AL, Fitzgerald GF, et al. High-pressure processing-
+effects on microbial food safety and food quality. FEMS Microbiol Lett
+2008;281(1):1–9.
+93. Larsen JA, Parks EM, Heinze CR, et al. Evaluation of recipes for home-
+prepared diets for dogs and cats with chronic kidney disease. J Am Vet
+Med Assoc 2012;240(5):532–8.
+94. Rudinsky AJ, Rowe JC, Parker VJ. Nutritional management of chronic
+enteropathies in dogs and cats. J Am Vet Med Assoc 2018;253(5):570–8.
+95. Heinze CR, Gomez FC, Freeman LM. Assessment of commercial diets
+and recipes for home-prepared diets recommended for dogs with
+cancer. J Am Vet Med Assoc 2012;241(11):1453–60.
+96. Stockman J, Fascetti AJ, Kass PH, et al. Evaluation of recipes of home-prepared
+maintenance diets for dogs. J Am Vet Med Assoc 2013;242(11):1500–5.
+2021 AAHA Nutrition and Weight Management Guidelines
+JAAHA.ORG
+177
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/
+97. Finley R, Ribble C, Aramini J, et al. The risk of salmonellae shedding by dogs fed
+Salmonella-contaminated commercial raw food diets. Can Vet J 2007;48:69–75.
+98. Johnson LN, Linder DE, Heinze CR, et al. Evaluation of owner expe-
+riences and adherence to home-cooked diet recipes for dogs. J Small
+Anim Pract 2016;57:23–7.
+99. American Animal Hospital Association. Raw Protein Diet. Available at:
+https://www.aaha.org/about-aaha/aaha-position-statements/raw-protein-
+diet/. Accessed October 23.2020.
+100. Davies RH, Lawes JR, Wales AD. Raw diets for dogs and cats: a review,
+with particular reference to microbiological hazards. J Small Anim Pract
+2019;60:329–39.
+101. van Bree FPJ, Bokken GCAM, Mineur R, et al. Zoonotic bacteria and par-
+asites found in raw meat-based diets for cats and dogs. Vet Rec 2018;182:50.
+102. Reimschuessel R, Grabenstein M, Guag J, et al. Multilaboratory survey to
+evaluate Salmonella prevalence in diarrheic and nondiarrheic dogs and cats in
+the United States between 2012 and 2014. J Clin Microbiol 2017;55(5):1350–68.
+103. Summers SC, Stockman J, Larsen JA, et al. Evaluation of phosphorus,
+calcium, and magnesium content in commercially available foods for-
+mulated for healthy cats. J Vet Intern Med 2020;34:266–73.
+104. Salt C, Morris PJ, German AJ, et al. Growth standard charts for monitoring
+bodyweight in dogs of different sizes. PLoS One 2017;12(9):e0182064.
+105. Larsen J. Feeding large-breed puppies. Compend Contin Educ Pract Vet
+2010;32(5):E1–4.
+106. Hutchinson D, Freeman LM, Schreiner KE, et al. Survey of opinions
+about nutritional requirements of senior dogs and analysis of nutrient
+proﬁles of commercially available diets for senior dogs. Intern J Appl Res
+Vet Med 2011;9:68–79.
+107. Barko PC, McMichael MA, Swanson KS, et al. The gastrointestinal
+microbiome: a review. J Vet Intern Med 2018;32(1):9–25.
+108. Marks SL, Rankin SC, Byrne BA, et al. Enteropathogenic bacteria in
+dogs and cats: diagnosis, epidemiology, treatment, and control. J Vet
+Intern Med 2011;25(6):1195–208.
+109. Weese JS, Martin H. Assessment of commercial probiotic bacterial
+contents and label accuracy. Can Vet J 2011;52(1):43–6.
+110. Dzanis DA. Regulatory aspects of diets, supplements, and nutraceut-
+icals. Clin Tech Small Anim Pract 1998;13(4):193–6.
+111. Gross KL, Jewell DE, Yamka RM, et al. Macronutrients. In: Hand MS,
+Thatcher CD, Remillard RL, et al., eds. Small Animal Clinical Nutrition.
+5th ed. Topeka (KS): Mark Morris Institute; 2010:61.
+178
+JAAHA
+|
+57:4
+Jul/Aug 2021
+Downloaded from https://jaaha.kglmeridian.com at 2026-07-12 via Open Access. Guidelines published open access in the Journal of the American Animal Hospital Association
+(JAAHA®) using the CC BY-NC-ND license https://creativecommons.org/licenses... https://creativecommons.org/licenses/by-nc-nd/4.0/

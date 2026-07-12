@@ -142,15 +142,48 @@ const Calculators = (() => {
   // ==========================================
   // 工具 3：宠物预产期推算
   // ==========================================
-  function calcPregnancy(type, matingDateStr) {
+  // Cat breed gestation data: Romagnoli et al. 2019 (JFMS)
+  const CAT_BREED_GESTATION = {
+    'norwegian': 65.7, // Norwegian Forest Cat
+    'mainecoon': 64.8, // Maine Coon
+    'persian': 64.6,   // Persian
+    'bengal': 64.2,    // Bengal
+    'other': 65.0,     // Default/average
+  };
+
+  function calcPregnancy(type, matingDateStr, catBreed, litterSize, dogSize) {
     if (!matingDateStr) return null;
 
     const matingDate = new Date(matingDateStr + 'T00:00:00');
     if (isNaN(matingDate.getTime())) return null;
 
-    const gestationDays = type === 'dog' ? 63 : 65;
+    // Base gestation from species
+    let gestationDays = type === 'dog' ? 63 : 65;
+
+    // Cat breed adjustment (Romagnoli 2019)
+    if (type === 'cat' && catBreed && CAT_BREED_GESTATION[catBreed]) {
+      gestationDays = CAT_BREED_GESTATION[catBreed];
+    }
+
+    // Litter size adjustment (Siena 2021, Beccaglia 2016)
+    // ±0.25 days per puppy/kitten from average (6-8 for dogs, 3-5 for cats)
+    if (litterSize && litterSize > 0) {
+      const avgLitter = type === 'dog' ? 7 : 4;
+      const adjustment = (avgLitter - litterSize) * 0.25;
+      gestationDays += adjustment;
+    }
+
+    // Dog size adjustment (Siena 2021)
+    // Large dogs with small litters: +1 day
+    if (type === 'dog' && dogSize === 'large' && litterSize && litterSize <= 4) {
+      gestationDays += 1;
+    }
+
+    // Round to nearest 0.1
+    gestationDays = Math.round(gestationDays * 10) / 10;
+
     const dueDate = new Date(matingDate);
-    dueDate.setDate(dueDate.getDate() + gestationDays);
+    dueDate.setDate(dueDate.getDate() + Math.round(gestationDays));
 
     const rangeStart = new Date(dueDate);
     rangeStart.setDate(rangeStart.getDate() - 2);
@@ -169,11 +202,13 @@ const Calculators = (() => {
       { day: 25, label: '第25-30天：B超可确认怀孕', icon: '🩻', status: daysSinceMating >= 25 ? 'done' : 'pending' },
       { day: 45, label: '第45天：X光可见胎儿骨骼', icon: '🦴', status: daysSinceMating >= 45 ? 'done' : 'pending' },
       { day: 58, label: '第58天：准备产房，减少应激', icon: '🏠', status: daysSinceMating >= 58 ? 'done' : daysSinceMating >= 50 ? 'warning' : 'pending' },
-      { day: gestationDays, label: '第' + gestationDays + '天：预产期！', icon: '🎯', status: daysSinceMating >= gestationDays ? 'done' : 'pending' },
+      { day: Math.round(gestationDays), label: '第' + gestationDays + '天：预产期！', icon: '🎯', status: daysSinceMating >= gestationDays ? 'done' : 'pending' },
     ];
 
     const isOverdue = daysSinceMating > gestationDays + 5;
     const isPastWindow = daysSinceMating > gestationDays + 2;
+
+    const breedAdjusted = (type === 'cat' && catBreed && catBreed !== 'other') || (litterSize && litterSize > 0);
 
     return {
       gestationDays,
@@ -187,6 +222,10 @@ const Calculators = (() => {
       isOverdue,
       isPastWindow,
       type,
+      breedAdjusted,
+      catBreed,
+      litterSize,
+      dogSize,
     };
   }
 

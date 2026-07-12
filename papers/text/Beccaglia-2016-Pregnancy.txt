@@ -1,0 +1,514 @@
+	
+wileyonlinelibrary.com/journal/rda
+Reprod Dom Anim 2016; 51 (Suppl. 1): 12–17
+12  |  © 2016 Blackwell Verlag GmbH
+DOI: 10.1111/rda.12782
+Contents
+Accurate prediction of delivery date in canine and feline allows a better management 
+of parturition, reducing the loss of neonates. This review evaluates the most common 
+methods adopted to accurately predict the day of delivery: determination of ovulation 
+and hormonal assays, first appearance of embryonic/foetal structures using ultra-
+sound or radiography, echographic measurement of extra-­foetal and foetal structures, 
+or evaluation of foetal flux and heart rate. Determination of ovulation and hormonal 
+assays at the time of breeding and close to pregnancy term is widely used to predict 
+parturition in dogs (Concannon et al. American Journal of Veterinary Research 44, 
+1983, 1819; Hayer et al. Journal of Reproduction and Fertility, Suppl. 47, 1993, 93; 
+Hase et al. Journal of Veterinary Medical Science, 62, 2000, 243; Kutzler et al. 
+Theriogenology, 60, 2003a, 1187). In cats, some studies have been carried out, but no 
+hormonal parameters for accurate prediction of parturition have been described so far 
+(Buff et al. Journal of Reproduction and Fertility, Suppl. 57, 2001, 187; De Haas van 
+Dorsser et al. Biology of Reproduction, 74, 2006, 1090; DiGangi et al. Journal of the 
+American Veterinary Medical Association, 237, 2010, 1267; Dehnhard et al. 
+Theriogenology, 77, 2012, 1088). Many studies suggested that gestational timing can 
+be obtained by ­observation using ultrasound or radiography of specific structures in 
+relation to the time of appearance during gestation (Concannon and Rendano American 
+Journal of Veterinary Research, 44, 1983, 1506; Rendano et al. Veterinary Radiology, 
+25, 1984, 132; Shille and Gontarek Journal of the American Veterinary Medical 
+Association, 187, 1985, 1021; Davidson et al. Veterinary Radiology, 27, 1986, 109; 
+England et al. Journal of Small Animal Practice, 31, 1990, 324; Yeager et al. American 
+Journal of Veterinary Research, 53, 1992, 342; Zambelli et al. Theriogenology, 57, 
+2002a, 1981; Zambelli et al. Journal of Feline Medicine and Surgery, 4, 2002b, 95; 
+Zambelli and Prati 2006; Lopate Theriogenology, 70, 2008, 397; Davidson and Baker 
+Topics in Companion Animal Medicine, 24, 2009, 55). Ultrasonographic measurement 
+of extra-­foetal and foetal structures is a common and accurate method for the predic-
+tion of parturition day during pregnancy, when specific formulae are used depending 
+on the ultrasonographic parameter, the species and, in canines, the size of the bitch 
+(Shille and Gontarek Journal of the American Veterinary Medical Association, 187, 
+1985, 1021; England et al. Journal of Small Animal Practice, 31, 1990, 324; Luvoni and 
+Grioni Journal of Small Animal Practice, 41, 2000, 292; Luvoni and Beccaglia 
+Reproduction in Domestic Animals, 41, 2006, 27; Lopate Theriogenology, 70, 2008, 
+397; Michel et al. Reproduction in Domestic Animals, 46, 2011, 926; Beccaglia and 
+1Ambulatorio Veterinario Beccaglia, Lissone, 
+MB, Italy
+2Dipartimento di Scienze Veterinarie per la 
+Salute, la Produzione Animale e la Sicurezza 
+Alimentare, Università degli Studi di Milano, 
+Milano, Italy
+Correspondence
+Michela Beccaglia, Ambulatorio Veterinario 
+Beccaglia, Lissone, MB, Italy.
+Email: michela.beccaglia@libero.it
+O R I G I N A L  A R T I C L E
+Determination of gestational time and prediction of parturition 
+in dogs and cats: an update
+M. Beccaglia1 | S. Alonge2 | C. Trovo’1 | G. C. Luvoni2
+    |  13
+Beccaglia et al.
+1 | INTRODUCTION
+Loss of newborns at the time of parturition, due to an incorrect de-
+livery management, can be considered both as a loss of pets and as 
+a subject of potential importance, when coming from highly selected 
+parents.
+Parturition is a critical event, and the possibility to accurately pre-
+dict it allows a better planning of breeder and veterinarian activity, for 
+assistance of the whelping female to reduce the peripartum losses of 
+offspring.
+In the last decades, many studies have been published regarding 
+the determination of gestational age and the prediction of delivery 
+date in dogs and cats.
+Methods proposed can be divided into four main groups:
+1.	 determination of ovulation and hormonal assays;
+2.	 first appearance of embryonic/foetal structures using ultrasono-
+graphic or radiographic examination;
+3.	 ultrasonographic measurement of extra-foetal or foetal structures;
+4.	 ultrasonographic evaluation of foetal flux or heart rate.
+2 | DETERMINATION OF OVULATION AND 
+HORMONAL ASSAYS
+In dogs, parturition occurs 65 ± 1 days after LH peak and 63 ± 1 days 
+after ovulation (Concannon, Whaley, Lein, & Wissler, 1983). However, 
+both the detection of LH peak and the ultrasonographic identification 
+of ovulation may be unpractical, because of the necessity of daily de-
+terminations (Hase, Hori, Kawakami, & Tsutsui, 2000; Hayer, Günzel-­
+Apel, Lüerssen, & Hoppen, 1993).
+Nevertheless, LH peak and ovulation can be indirectly determined 
+by progesterone rise. It has been demonstrated that serum proges-
+terone ranges between 2 and 3 ng/ml during LH peak and between 4 
+and 10 ng/ml during ovulation (Kutzler, Mohammed, Lamb, & Meyers-­
+Wallen, 2003a). Progesterone concentration decreases below 2 ng/
+ml approximately 24 hr before parturition (Concannon, Butler, Hansel, 
+Knight, & Hamilton, 1978), and it can be indirectly recognized by the 
+drop in body temperature (Geiser, Burfeind, Heuwieser, & Arlt, 2014; 
+Johnston, Root Kustritz, & Olson, 2001a).
+If compared with other domestic animals, in the physiology of 
+reproduction, cats are characterized as inducer ovulatory because 
+ovulation is induced by coitus and an unknown number of matings 
+is necessary to induce the LH peak; there is not the pre-­ovulatory 
+luteinization of the follicular granulosa cells, thus progesterone rises 
+only after the occurrence of ovulation. At term, progesterone con-
+centration declines only after parturition. For these reasons, in cats, 
+progesterone assay cannot be used neither during oestrus, nor close 
+to parturition to predict the day of ovulations and delivery date, re-
+spectively (Johnston, Root Kustritz, & Olson, 2001b).
+Measurement of relaxin hormone concentration has been used for 
+pregnancy diagnosis between 19 and 28 days after LH surge in dogs 
+and between 20 and 35 days after mating in cats (Buff, Fontbonne, 
+Lopez, Rauer, & Crevat, 2001; De Haas van Dorsser, Swanson, Lasano, 
+& Steinetz, 2006; DiGangi, Griffin, Levy, Smith, & Baker, 2010). 
+However, this does not allow an accurate gestational timing.
+In some wild felids, the determination of faecal prostaglandin 
+metabolite (PGFM) has been proposed for pregnancy diagnosis 
+between 35 and 41 days after mating. This metabolite increases in 
+concentration starting from 30 to 41 days after mating, it reaches 
+a peak (2.1 μg/g faeces and 7.8 μg/g faeces in sand cat and fishing 
+cat, respectively) 3–5 days before parturition and, after it begins 
+to decrease reaching basal level within few days after parturition 
+(Dehnhard et al., 2012). However, the use of PGFM levels to predict 
+delivery day might be unreliable because of normal variations during 
+gestation.
+In the canine species, the identification of the onset of dioestrus, 
+through daily vaginal cytology after mating, has been used to predict 
+the parturition. This occurs approximately 57 ± 1 days after the tran-
+sitional smear from a cytological pattern characterized by a high num-
+ber of keratinized cells to a pattern with predominance of basal and 
+parabasal cells and leucocytes (Concannon, 2000).
+3 | FIRST APPEARANCE OF 
+EMBRYONIC/FOETAL STRUCTURES 
+USING ULTRASONOGRAPHIC OR 
+RADIOGRAPHIC EXAMINATION
+Gestational timing can be based on the evaluation of the first appear-
+ance of specific embryonic and foetal structures using ultrasonogra-
+phy or radiography (Concannon & Rendano, 1983; Davidson, Nyland, 
+& Tsutsui, 1986; England, Allen, & Porter, 1990; Lopate, 2008; 
+Rendano, Lein, & Concannon, 1984; Shille & Gontarek, 1985; Yeager, 
+Mohammed, Meyers-­Wallen, Vannerson, & Concannon, 1992).
+Luvoni Reproduction in Domestic Animals, 47, 194, 2012). Recent studies demon-
+strated that in dogs, the imminence of parturition could be predicted by evaluating 
+foetal flux and foetal heart rate by ultrasound (Gil et al. Theriogenology, 82, 2014, 
+933; Giannico et al., Animal Reproduction Science, 154, 2015, 105). For an accurate 
+prediction of parturition date, the combination of different methods is desirable.
+ 14390531, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rda.12782, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+14  |    
+Beccaglia et al.
+In the canine species, the anechogenic gestational sac can be de-
+tected on day 18 after ovulation; the embryo, with heartbeat, is first 
+detected as an oblong structure apposed to the uterine wall in the 
+chorionic cavity on day 23.
+Between days 27 and 31 after ovulation, the embryo becomes bi-
+polar in shape and limb buds can be detected. The deep portion of 
+diencephalo-­telencephalic vesicle (DPTV), an anechogenic area in the 
+foetal head representing the thalamus and basal nuclei primordia, can 
+be first visualized between day 29 and 33.
+The first detected abdominal viscera are the stomach and the uri-
+nary bladder on day 29–33 and 31–35, respectively. The skeleton is 
+visualized as a hyperechoic structure on day 29–33 after ovulation, 
+and foetal movements are observed on day 32–34.
+On day 34–36, the abdomen and thorax are distinct; the lung is 
+hyperechoic, compared with the liver, that appears hypo-­echoic, com-
+pared with the rest of the abdomen on day 35–38. The kidneys are 
+first visualized on day 41–43 (Beccaglia & Luvoni, 2004).
+The bowel is considered the last organ to be identified by ultraso-
+nography in the canine foetus, around 57–63 days of gestation (Gil, 
+Garcia, & Froes, 2015). Even if the visualization of the bowel and the 
+identification of peristaltic contractions observed by ultrasound indi-
+cate the end of foetal organogenesis, authors agree that these features 
+should not be used as the sole parameters indicating that the foetus 
+is full term. Daily foetal monitoring combined with the evaluation of 
+oscillations of foetal heart rate is considered a more reliable predictor 
+of day of parturition (Gil et al., 2015).
+In felines, the first ultrasonographic pregnancy detection is as 
+early as 10 days after mating (Davidson & Baker, 2009; Zambelli, 
+Castagnetti, Belluzzi, & Bassi, 2002a; Zambelli, Caneppele, Bassi, & 
+Paladini, 2002b; Zambelli and Prati 2006). The embryo may be visual-
+ized around 14 days of pregnancy, and on day 17, it appears with the 
+characteristic C-­form. The first identification of urinary bladder and 
+stomach, kidney and bowel is, respectively, approximately 30, 39 and 
+40 days of gestation (Zambelli and Prati 2006).
+Determination of gestational age has been also attempted by 
+radiographic examination, through the identification of the degrees 
+of foetal mineralization and the first appearance of different foetal 
+skeletal structures (Haney, Levy, Newell, Graham, & Gorman, 2003; 
+Rendano, 1983; Rendano et al., 1984). The mineralization of struc-
+tures occurs earlier in cats than in dogs (Haney et al., 2003; Lopate, 
+2008) in which the bone structures characterized by the narrowest 
+period of mineralization are the humerus at 20 ± 1 day (range be-
+tween 20 and 24 days) and femur at 21 ± 1 day (range between 19 
+and 23 days) prior to parturition (Boyd, 1971). Some other bones, like 
+fibula, calcaneus and phalanges, mineralize only after birth. According 
+to the literature, radiographs can provide a rough estimate of gesta-
+tional age, but are not adequate to determine foetal maturity. A foetus 
+may be completely mineralized as early as 58 days after the LH surge, 
+but it would not survive if Caesarean section is performed at this stage 
+(Concannon, 2000; Rendano, 1983; Rendano et al., 1984).
+Moreover, the application of a proper technique and an adequate 
+patient restraint and preparation is of critical importance for a cor-
+rect evaluation of the radiography. A single lateral radiograph of the 
+abdomen is usually sufficient for pregnancy diagnosis and foetal count-
+ing, but a ventro-­dorsal radiograph is more suitable to evaluate gesta-
+tional age although with the aforementioned limitations (Concannon, 
+2000; Rendano, 1983; Rendano et al., 1984).
+4 | ULTRASONOGRAPHIC 
+MEASUREMENT OF EXTRA-­FOETAL OR 
+FOETAL STRUCTURES
+Ultrasonographic measurement of extra-­foetal and foetal structures 
+is a common and accurate method for the prediction of delivery date 
+during pregnancy, even when the time of ovulation is unknown. 
+During the first half of gestation (between 19 and 37 days after LH 
+peak), measurements of gestational sac diameter (inner chorionic cav-
+ity, ICC or outer uterine diameter, OUD) or foetal crown-­rump length 
+(CRL) can easily be obtained. In the second half of pregnancy (after 
+37 days), foetal measurements of the biparietal diameter (BP) and body 
+diameter (BD) can be used to predict the delivery date (England et al., 
+1990; Lopate, 2008; Luvoni & Beccaglia, 2006; Luvoni & Grioni, 2000; 
+Michel, Spörri, Ohlerth, & Reichler, 2011; Shille & Gontarek, 1985).
+From days 35 to 58, the deep portion of the foetal diencephalo-­
+telencephalic vesicle (DPTV) can be recognized as a symmetric 
+anechoic area viewed on sagittal midline of the foetal head and its 
+measurement could be useful to determine the gestational age 
+(Beccaglia, Faustini, & Luvoni, 2008; Beccaglia & Luvoni, 2004).
+An accurate gestational timing in the first and second half of preg-
+nancy is provided by ICC and BP parameters, respectively (Kutzler, 
+Yeager, Mohammed, & Meyers-­Wallen, 2003b; Lopate, 2008; Luvoni 
+& Beccaglia, 2006; Michel et al., 2011).
+Specific formulae for ICC and BP are available for dogs of small (up 
+to 10 kg) and medium size (11–25 kg) (Luvoni & Grioni, 2000). Some 
+authors (Kutzler et al., 2003b) proposed the application in large size 
+breeds of the equations elaborated for medium size dogs, using a cor-
+rection factor (−2 days for bitches weighting > 40 kg) to increase the 
+accuracy. The ICC and BP formulae for medium size dogs resulted in 
+a good accuracy when applied to giant bitches (Socha, Janowski, & 
+Bancerz-­Kisiel, 2015).
+Prediction of delivery date by measurement of ICC and BP diam-
+eter is also possible in queens, and no differentiation based on body 
+weight (i.e. small size breeds vs large size breeds) or phenotype (i.e. 
+brachycephalic vs dolichocephalic) has been elaborated (Beccaglia & 
+Luvoni, 2012).
+The maximum accuracy of the prediction is obtained when species-­
+specific (canine or feline) and, in bitches, when size-­related formulae 
+(small and medium size) are used. The following equations are those 
+previously published (Beccaglia & Luvoni, 2012; Beccaglia et al., 2008; 
+Luvoni & Grioni, 2000) and daily used by the authors of the present 
+review to obtain the days before parturition (DBP):
+For bitches:
+ICC in small size bitches: DBP = (mm – 68.68)/1.53;
+ICC in medium size bitches: DBP = (mm – 82.13)/1.8;
+ 14390531, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rda.12782, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+    |  15
+Beccaglia et al.
+BP in small size bitches: DBP = (mm – 25.11)/0.61;
+BP in medium size bitches: DBP = (mm – 29.18)/0.7;
+For queens:
+ICC in queens: DBP = (mm – 62.03)/1.1;
+BP in queens: DBP = (mm – 23.39)/0.47.
+Although ICC and BP are both highly accurate for the prediction of 
+delivery date, the accuracy can be affected by some elements:
+•	 gestational period in which the examination is performed. The estima-
+tion of gestational age in dogs is more precise during early preg-
+nancy (before 35 days of gestation), than afterwards (England et al., 
+1990; Kim, Travis, & Meyers-Wallen, 2007; Kutzler et al., 2003b).
+In our previous study, we demonstrated that at week 5 of gestation 
+in dogs and in cats, both ICC and BP are equally accurate at ±2 days (ICC: 
+85.9%; BP: 95.2%) (Beccaglia & Luvoni, 2012). The BP measurement main-
+tains a high accuracy ±1 day (78.9%) up to week 6 of pregnancy; afterwards, 
+a gradual decrease in accuracy is observed, but a good accuracy ±2 days 
+(85.3%) is still maintained until week 8. Close to term (week 9) the accu-
+racy ±1 day and ±2 days of the prediction obtained with BP measurement 
+decreases to 50.9% and 69.8%, respectively (Beccaglia & Luvoni, 2012).
+•	 litter size. In dogs, the accuracy obtained by ICC measurement is not 
+affected by the number of embryonic vesicles. For the BP, a higher 
+accuracy is obtained in normal litter size (2–6 pups and 5–9 pups 
+in small and medium size dogs, respectively) than in small and large 
+litters (Beccaglia & Luvoni, 2006). Recently, Gatel, Rault, Chalvet-
+Monfray, Saunders, and Buff (2015) proposed a formula for pre-
+dicting delivery day in cats based on measurement of foetal femur 
+length or biparietal diameter, taking into consideration also litter 
+size, maternal body weight and maternal age. The study demon-
+strated that these parameters might affect the gestational length: 
+larger litters, longer femurs and older queens are associated with 
+shorter duration of pregnancy. In addition, the queen’s weight 
+­before mating affects time to parturition, with heavier queens ­having 
+longer gestation (Gatel et al., 2015).
+•	 breed variations. Some breed variations in gestational length have been 
+suggested, with German Shepherd (Okkens, Hekerman, De Vogel, & Van 
+Haaften, 1993; Okkens et al., 2001) and Hound dogs (Eilts, Davidson, 
+Thompson, Paccamonti, & Kappel, 2005) characterized by short preg-
+nancies, and West Highland White Terriers showing long gestation 
+lengths (Okkens et al., 1993, 2001). In Drever bitches, when litter size 
+exceeds the average for the breed (pups per litter 6.81 ± 2.11), each 
+additional puppy reduces gestation length by 0.25 day, and 0.25 day 
+should be added to the due date for each puppy below breed average 
+(Bobic Gavrilovic, Andersson, & Linde Forsberg, 2007).
+Some authors proposed the elaboration of breed-­specific formulae 
+to further increase the accuracy of the prediction of the day of parturi-
+tion (Groppetti, Vegetti, Bronzo, & Pecile, 2015).
+Although in cats the overall mean gestation length is 65.1 days 
+with 90.2% of values occurring between 63 and 67 days, some breeds 
+like Oriental Shorthair and Siamese might show longer gestation 
+(about 66 days), than others breeds like Korat (63 days) (Sparkes et al., 
+2006). Differently, Musters, de Gier, Kooistra, and Okkens (2011), 
+using data from a questionnaire sent to breeders, observed that length 
+of gestation is not influenced by breed group and parity, whereas it is 
+increased in small litters.
+5 | ULTRASONOGRAPHIC EVALUATION OF 
+HEART RATE OR FOETAL FLUX
+In human medicine, it is known that a variation in foetal heart rate 
+(FHR) is connected to antepartum uterine contraction (Nageotte, 
+2015).
+In the canine species, it has been reported that FHR should be 
+greater than 220 beats per minute (bpm), with FHR between 180 
+and 220 bpm indicate moderate foetal distress and values less than 
+180 bpm indicate severe foetal distress (Zone & Wanke, 2001).
+Recently, Gil, Garcia, Giannico, & Froes, 2014 observed that a 
+variation of foetal heart rate occurs close to parturition. Although 
+the precise moment of FHR variation could not be easily ascer-
+tained, an increment of FHR approximately 72 hr before parturition 
+and an involvement of all foetuses within 6–1 hr antepartum, with a 
+drop in FHR from 200–220 to 160–180 bpm, have been detected. 
+However, because of the high number of Caesarean operations per-
+formed in this study and the lack of a tocodynamometric evaluation 
+of the uterus, further observations are required for defining the close 
+relationship between the parturition stage and the FHR trends.
+In dogs, the evaluation of foetal fluxes close to delivery and the 
+analysis of their modifications to predict the imminent parturition 
+were the aims of a recent study (Giannico, Gil, Garcia, & Froes, 2015). 
+It has been proved that when umbilical artery resistivity index (RI) is 
+less than 0.7 in all foetuses, the delivery will occur within 12 hr. As 
+foetal distress could affect this value, the FHR variations should be 
+measured at the same time.
+6 | CONCLUSIONS
+Predicting parturition day has important practical applications, and 
+for this purpose, a variety of methods can be used. Among these, 
+indirect determinations of ovulation time at breeding in dogs and 
+ultrasonographic measurements of extra-­foetal and foetal struc-
+tures in dogs and cats allow an accurate prediction of delivery, 
+and the combination of different methods further increases its 
+accuracy.
+AUTHOR CONTRIBUTIONS
+All authors contributed to collect and analyse the data. MB drafted the 
+study. All authors have approved the final version.
+ 14390531, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rda.12782, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+16  |    
+Beccaglia et al.
+CONFLICT OF INTEREST
+None of the authors of this article has a financial or personal rela-
+tionship with other people or organizations that could inappropriately 
+influence or bias the content of the study.
+REFERENCES
+Beccaglia, M., Faustini, M., & Luvoni, G. C. (2008). Ultrasonographic study 
+of deep portion of diencephalo-­telencephalic vesicle for the determi-
+nation of gestational age of the canine foetus. Reproduction in Domestic 
+Animals, 43, 367–370.
+Beccaglia, M., & Luvoni, G. C. (2004). Ultrasonographic study during preg-
+nancy of the growth of an encephalic portion in the canine foetus. 
+Veterinary Research Communications, 28, 161–164.
+Beccaglia, M., & Luvoni, G. C. (2006). Comparison of the accuracy of two 
+ultrasonographic measurements in predicting the parturition date in 
+the bitch. Journal of Small Animal Practice, 47, 670–673.
+Beccaglia, M., & Luvoni, G. C. (2012). Prediction of parturition in dogs and 
+cats: Accuracy at different gestational ages. Reproduction in Domestic 
+Animals, 47(Suppl 6), 194–196.
+Bobic Gavrilovic, B., Andersson, K., & Linde Forsberg, C. (2007) 
+Reproductive patterns in the domestic dog – A retrospective study of 
+the Drever breed. International M.Sc. Thesis. University of Uppsala, 
+Sweden; p. 68, 21–43.
+Boyd, J. S. (1971). The radiographic identification of the various stages of preg-
+nancy in the domestic cat. Journal of Small Animal Practice, 12, 501–506.
+Buff, S., Fontbonne, A., Lopez, P., Rauer, M., & Crevat, D. (2001). Circulating 
+relaxin concentrations in pregnant and nonpregnant bitches: Evaluation 
+of a new enzymeimmunoassay for determination of pregnancy. Journal 
+of Reproduction and Fertility, (Suppl 57), 187–191.
+Concannon, P. W. (2000) Canine pregnancy: Predicting parturition and tim-
+ing events of gestation. In P. W. Concannon, G. England, J. VerstegenIII 
+& C. Linde-Forsberg (Eds.), Recent advances in small animal reproduction. 
+Ithaca, NY: International Veterinary Information Service. [A1202.0500 
+(http://www.ivis.org)].
+Concannon, P. W., Butler, W. R., Hansel, W., Knight, P. J., & Hamilton, J. 
+M. (1978). Parturition and lactation in the bitch: Serum progesterone, 
+cortisol and prolactin. Biology of Reproduction, 19, 1113–1118.
+Concannon, P. W., & Rendano, V. (1983). Radiographic diagnosis of canine 
+pregnancy: Onset of fetal skeletal radiopacity in relation to times of 
+breeding, preovulatory luteinizing hormone release, and parturition. 
+American Journal of Veterinary Research, 44, 1506–1511.
+Concannon, P. W., Whaley, S., Lein, D., & Wissler, R. (1983). Canine gesta-
+tion length: Variation related to time of mating and fertile life of sperm. 
+American Journal of Veterinary Research, 44, 1819–1821.
+Davidson, A. P., & Baker, T. W. (2009). Reproductive ultra-­sound of the 
+bitch and queen. Topics in Companion Animal Medicine, 24, 55–63.
+Davidson, A. P., Nyland, T. G., & Tsutsui, T. (1986). Pregnancy diagnosis with 
+ultrasound in the domestic cat. Veterinary Radiology, 27, 109–114.
+De Haas van Dorsser, FJ, Swanson, W. F., Lasano, S., & Steinetz, B. G. 
+(2006). Development, validation, and application of a urinary relaxin 
+radioimmunoassay for the diagnosis and monitoring of pregnancy in 
+felids. Biology of Reproduction, 74, 1090–1095.
+Dehnhard, M., Finkenwirth, C., Crosier, A., Penfold, L., Ringleb, J., & 
+Jewgenow, K. (2012). Using PGFM (13,14-­dihydro-­15-­keto-­prostaglan
+din F2α) as a non-­invasive pregnancy marker for felids. Theriogenology, 
+77, 1088–1099.
+DiGangi, B. A., Griffin, B., Levy, J. K., Smith, B. F., & Baker, H. J. (2010). Use of 
+a commercially available relaxin test for detection of pregnancy in cats. 
+Journal of the American Veterinary Medical Association, 237, 1267–1274.
+Eilts, B. E., Davidson, A. P., Thompson, R. A., Paccamonti, D. L., & Kappel, 
+D. G. (2005). Factors influencing gestation length in the bitch. 
+Theriogenology, 64, 242–251.
+England, G. C. W., Allen, W. E., & Porter, D. J. (1990). Studies on canine 
+pregnancy using B-­mode ultrasound: Development of the conceptus 
+and determination of gestational age. Journal of Small Animal Practice, 
+31, 324–329.
+Gatel, L., Rault, D., Chalvet-Monfray, K., Saunders, J., & Buff, S. (2015). 
+Prediction of Parturition Time in Queens using Radiography and 
+Ultrasonography. Anatomia Histologia and Embryologia, 44, 241–246.
+Geiser, B., Burfeind, O., Heuwieser, W., & Arlt, S. (2014). Prediction of par-
+turition in bitches utilizing continuous vaginal temperature measure-
+ment. Reproduction in Domestic Animals, 49, 109–114.
+Giannico, A. T., Gil, E. M., Garcia, D. A., & Froes, T. R. (2015). The use of 
+Doppler evaluation of the canine umbilical artery in prediction of deliv-
+ery time and fetal distress. Animal Reproduction Science, 154, 105–112.
+Gil, E. M., Garcia, D. A., & Froes, T. R. (2015). In utero development of the 
+fetal intestine: Sonographic evaluation and correlation with gestational 
+age and fetal maturity in dogs. Theriogenology, 84, 875–879.
+Gil, E. M., Garcia, D. A., Giannico, A. T., & Froes, T. R. (2014). Canine fetal 
+heart rate: Do accelerations or decelerations predict the parturition 
+day in bitches? Theriogenology, 82, 933–941.
+Groppetti, D., Vegetti, F., Bronzo, V., & Pecile, A. (2015). Breed-­specific fetal 
+biometry and factors affecting the prediction of whelping date in the 
+German shepherd dog. Animal Reproduction Science, 152, 117–122.
+Haney, D. R., Levy, J. K., Newell, S. M., Graham, J. P., & Gorman, S. P. (2003). Use 
+of fetal skeletal mineralization for prediction of parturition date in cats. 
+Journal of the American Veterinary Medical Association, 223, 1614–1616.
+Hase, M., Hori, T., Kawakami, E., & Tsutsui, T. (2000). Plasma LH and pro-
+gesterone levels before and after ovulation and observation of ovar-
+ian follicles by ultrasonographic diagnosis system in dogs. Journal of 
+Veterinary Medical Science, 62, 243–248.
+Hayer, P., Günzel-Apel, A. R., Lüerssen, D., & Hoppen, H. O. (1993). 
+Ultrasonographic monitoring of follicular development, ovulation and 
+the early luteal phase in the bitch. Journal of Reproduction and Fertility, 
+(Suppl 47), 93–100.
+Johnston, S. D., Root Kustritz, M. V. & Olson, P. N. S. (2001a). Canine par-
+turition – eutocia and dystocia. In S. D. Johnston, M. V. RootKustritz, 
+& P. N. S. Olson (Eds.), Canine and feline theriogenology (pp. 105–128). 
+Philadelphia: WB Saunders.
+Johnston, S. D., Root Kustritz, M. V., & Olson, P. N. S. (2001b). Feline preg-
+nancy. In S. D. Johnston, M. V. Root Kustritz & P. N. S. Olson (Eds.), 
+Canine and feline theriogenology (pp. 414–430). Philadelphia: WB 
+Saunder.
+Kim, Y., Travis, A. J., & Meyers-Wallen, V. N. (2007). Parturition prediction 
+and timing of canine pregnancy. Theriogenology, 68, 1177–1182.
+Kutzler, M. A., Mohammed, H. O., Lamb, S. V., & Meyers-Wallen, V. N. 
+(2003a). Accuracy of canine parturition date prediction from the initial 
+rise in preovulatory progesterone concentration. Theriogenology, 60, 
+1187–1196.
+Kutzler, M. A., Yeager, A. E., Mohammed, H. O., & Meyers-Wallen, V. N. 
+(2003b). Accuracy of canine parturition date prediction using fetal 
+measurements obtained by ultrasonography. Theriogenology, 60, 
+1309–1317.
+Lopate, C. (2008). Estimation of gestational age and assessment of ­canine 
+fetal maturation using radiology and ultrasonography: A review. 
+Theriogenology, 70, 397–402.
+Luvoni, G. C., & Beccaglia, M. (2006). The prediction of parturition date in 
+canine pregnancy. Reproduction in Domestic Animals, 41, 27–32.
+Luvoni, G. C., & Grioni, A. (2000). Determination of gestational age in 
+medium and small size bitches using ultrasonographic fetal measure-
+ments. Journal of Small Animal Practice, 41, 292–294.
+Michel, E., Spörri, M., Ohlerth, S., & Reichler, I. (2011). Prediction of par-
+turition date in the bitch and queen. Reproduction in Domestic Animals, 
+46, 926–932.
+Musters, J., de Gier, J., Kooistra, H. S., & Okkens, A. C. (2011). Questionnaire-­
+based survey of parturition in the queen. Theriogenology, 75, 
+1596–1601.
+ 14390531, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rda.12782, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+    |  17
+Beccaglia et al.
+Nageotte, M. P. (2015). Fetal heart rate monitoring. Seminars in Fetal & 
+Neonatal Medicine, 20, 144–148.
+Okkens, A. C., Hekerman, T. W. M., De Vogel, J. W. A., & Van Haaften, B. 
+(1993). Influence of litter size and breed on variation in length of gesta-
+tion in the dog. Veterinary Quarterly, 15, 160–161.
+Okkens, A. C., Teunissen, J. M., Van Osch, W., Van Den Brom, W. E., 
+Dieleman, S. J., & Kooistra, H. S. (2001). Influence of litter size and 
+breed on the duration of gestation in dogs. Journal of Reproduction and 
+Fertility, (Suppl 57), 193–197.
+Rendano, V. T. (1983). Radiographic evaluation of fetal development in the 
+bitch and fetal death in the bitch and queen, vol. VIII. In R. W. Kirk (Ed.), 
+Current veterinary therapy (pp. 947–952). Philadelphia: WB Saunders.
+Rendano, V. T., Lein, D. H., & Concannon, P. W. (1984). Radiographic eval-
+uation of prenatal development in the Beagle: Correlation with time of 
+breeding, LH release, and parturition. Veterinary Radiology, 25, 132–141.
+Shille, V. M., & Gontarek, J. (1985). The use of ultrasonography for preg-
+nancy diagnosis in the bitch. Journal of the American Veterinary Medical 
+Association, 187, 1021–1025.
+Socha, P., Janowski, T., & Bancerz-Kisiel, A. (2015). Ultrasonographic fetom-
+etry formulas of inner chorionic cavity diameter and biparietal diameter 
+for medium-­sized dogs can be used in giant breeds. Theriogenology, 84, 
+779–783.
+Sparkes, A. H., Rogers, K., Henley, W. E., Gunn-Moore, D. A., May, J. M., 
+Gruffydd-Jones, T. J., & Bessant, C. (2006). A questionnaire-­based 
+study of gestation, parturition and neonatal mortality in pedigree 
+breeding cats in the UK. Journal of Feline Medicine and Surgery, 8, 
+145–157.
+Yeager, A. E., Mohammed, H. O., Meyers-Wallen, V., Vannerson, L., & 
+Concannon, P. W. (1992). Ultrasonographic appearance of the uterus, 
+placenta, fetus, and fetal membranes throughout accurately timed 
+pregnancy in Beagles. American Journal of Veterinary Research, 53, 
+342–351.
+Zambelli, D., Caneppele, B., Bassi, S., & Paladini, C. (2002b). Ultrasound 
+aspects of fetal and extrafetal structures in pregnant cats. Journal of 
+Feline Medicine and Surgery, 4, 95–106.
+Zambelli, D., Castagnetti, C., Belluzzi, S., & Bassi, S. (2002a). Correlation 
+between the age of the conceptus and various ultrasonographic mea-
+surements during the first 30 days of pregnancy in domestic cats (Felis 
+catus). Theriogenology, 57, 1981–1987.
+Zambelli, D., & Prati, F. (2006). Ultrasonography for pregnancy diagnosis 
+and evaluation in queens. Theriogenology, 66, 135–144.
+Zone, M. A., & Wanke, M. M. (2001). Diagnosis of canine fetal health 
+by ultrasonography. Journal of Reproduction and Fertility, (Suppl 57), 
+215–219.
+ 14390531, 2016, S1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rda.12782, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

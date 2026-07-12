@@ -44,6 +44,44 @@
       <div class="input-error-text hidden" id="matingError">请选择配种日期</div>
     </div>
 
+    <!-- Cat breed (only for cats, Romagnoli 2019) -->
+    <div class="input-group" id="catBreedGroup" style="display:none;">
+      <label for="catBreed">猫咪品种</label>
+      <select class="input" id="catBreed">
+        <option value="other">不确定 / 其他品种（默认65天）</option>
+        <option value="norwegian">挪威森林猫（约65.7天）</option>
+        <option value="mainecoon">缅因猫（约64.8天）</option>
+        <option value="persian">波斯猫（约64.6天）</option>
+        <option value="bengal">孟加拉猫（约64.2天）</option>
+      </select>
+      <div class="input-hint">Romagnoli et al. 2019, JFMS</div>
+    </div>
+
+    <!-- Dog size (for dogs, Siena 2021) -->
+    <div class="input-group" id="dogSizeGroup">
+      <label for="dogSize">母犬体型</label>
+      <select class="input" id="dogSize">
+        <option value="medium" selected>中型犬 (10-25kg，默认)</option>
+        <option value="small">小型犬 (&lt;10kg)</option>
+        <option value="large">大型犬 (&gt;25kg)</option>
+      </select>
+      <div class="input-hint">Siena & Milani 2021, Animals — 大型犬小窝产孕期可能延长1天</div>
+    </div>
+
+    <!-- Litter size (Siena 2021, Beccaglia 2016) -->
+    <div class="input-group">
+      <label for="litterSize">预估窝产仔数（选填）</label>
+      <select class="input" id="litterSize">
+        <option value="0">不确定 / 不调整</option>
+        <option value="1">1-2 只（孕期可能延长 ~1.5 天）</option>
+        <option value="3">3-4 只</option>
+        <option value="5">5-7 只（平均窝产）</option>
+        <option value="8">8-10 只</option>
+        <option value="11">11+ 只（孕期可能缩短 ~1 天）</option>
+      </select>
+      <div class="input-hint">Siena & Milani 2021 / Beccaglia et al. 2016 — 每偏离平均1只调整约0.25天</div>
+    </div>
+
     <button class="btn btn-primary" onclick="calculatePreg()" style="width:100%;">推算预产期</button>
 
     <div id="pregResult" class="result-panel hidden">
@@ -131,11 +169,20 @@ document.getElementById('pregTypeTabs').addEventListener('click',function(e){
   const t=e.target.closest('.toggle-tab');if(!t)return;
   this.querySelectorAll('.toggle-tab').forEach(b=>b.classList.remove('active'));
   t.classList.add('active');document.getElementById('pregType').value=t.dataset.type;
+  toggleBreedInputs(t.dataset.type);
 });
+
+function toggleBreedInputs(type){
+  document.getElementById('catBreedGroup').style.display=type==='cat'?'':'none';
+  document.getElementById('dogSizeGroup').style.display=type==='dog'?'':'none';
+}
 
 function calculatePreg(){
   const type=document.getElementById('pregType').value;
   const dateStr=document.getElementById('matingDate').value;
+  const catBreed=type==='cat'?document.getElementById('catBreed').value:null;
+  const litterSize=parseInt(document.getElementById('litterSize').value)||0;
+  const dogSize=type==='dog'?document.getElementById('dogSize').value:null;
 
   document.getElementById('pregResult').classList.add('hidden');
   document.getElementById('pregError').classList.add('hidden');
@@ -145,7 +192,7 @@ function calculatePreg(){
   const matingDate=new Date(dateStr+'T00:00:00');
   if(matingDate>new Date()){document.getElementById('pregError').classList.remove('hidden');document.getElementById('pregErrorMsg').textContent='配种日期不能是未来日期';return;}
 
-  const result=Calculators.calcPregnancy(type,dateStr);
+  const result=Calculators.calcPregnancy(type,dateStr,catBreed,litterSize,dogSize);
   if(!result)return;
 
   if(result.isOverdue){
@@ -154,8 +201,16 @@ function calculatePreg(){
     document.getElementById('pregResult').classList.remove('hidden');
   }
 
-  document.getElementById('pregDue').textContent=Calculators.formatDate(result.dueDate);
-  document.getElementById('pregWindow').textContent='预产窗口：'+Calculators.formatDate(result.rangeStart)+' ~ '+Calculators.formatDate(result.rangeEnd);
+  // Show breed adjustment note
+  let dueLabel=Calculators.formatDate(result.dueDate);
+  let windowLabel='预产窗口：'+Calculators.formatDate(result.rangeStart)+' ~ '+Calculators.formatDate(result.rangeEnd);
+  if(result.breedAdjusted){
+    dueLabel+=' *';
+    windowLabel+=' *';
+  }
+
+  document.getElementById('pregDue').textContent=dueLabel;
+  document.getElementById('pregWindow').textContent=windowLabel;
   document.getElementById('pregTotal').textContent=result.gestationDays;
   document.getElementById('pregDay').textContent=Math.min(result.daysSinceMating,result.gestationDays);
 
@@ -178,6 +233,19 @@ function calculatePreg(){
     else if(m.day===result.daysSinceMating||(result.daysSinceMating===result.gestationDays&&m.day===result.gestationDays)){cls='timeline-active';symbol='📍';}
     return '<li><span class="timeline-icon '+cls+'">'+symbol+'</span><span>'+m.label+'</span></li>';
   }).join('');
+
+  // Breed/litter adjustment note
+  if(result.breedAdjusted){
+    let note='* 基于品种和窝产仔数调整（';
+    let details=[];
+    if(result.catBreed&&result.catBreed!=='other'){
+      const names={norwegian:'挪威森林猫65.7天',mainecoon:'缅因猫64.8天',persian:'波斯猫64.6天',bengal:'孟加拉猫64.2天'};
+      details.push(names[result.catBreed]||'');
+    }
+    if(result.litterSize>0)details.push('窝产'+result.litterSize+'只');
+    note+=details.join('，')+'）';
+    document.getElementById('pregTimeline').insertAdjacentHTML('afterend','<p style="font-size:0.75rem;color:var(--text-muted);margin-top:4px;">'+note+' | Romagnoli 2019 / Siena 2021</p>');
+  }
 
   document.getElementById('pregResult').classList.remove('hidden');
 }
