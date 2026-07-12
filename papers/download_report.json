@@ -1,0 +1,95 @@
+{
+  "success": [
+    {
+      "id": "freeman2013",
+      "label": "Freeman-2013-生食风险-JAVMA",
+      "chars": 66634
+    }
+  ],
+  "manual": [
+    {
+      "id": "promislow2020",
+      "label": "Promislow-2020-评论-CellSystems",
+      "doi": "10.1016/j.cels.2020.07.007",
+      "pmid": "32681033"
+    },
+    {
+      "id": "kraus2013",
+      "label": "Kraus-2013-犬体型寿命-AmNat",
+      "doi": "10.1086/669665",
+      "pmid": "23535614"
+    },
+    {
+      "id": "dasilva2023",
+      "label": "daSilva-2023-犬寿命进化-AmNat",
+      "doi": "10.1086/724384",
+      "pmid": ""
+    },
+    {
+      "id": "kleiber1947",
+      "label": "Kleiber-1947-代谢率定律-PhysiolRev",
+      "doi": "10.1152/physrev.1947.27.4.511",
+      "pmid": ""
+    },
+    {
+      "id": "aaha2021",
+      "label": "AAHA-2021-犬猫营养指南-JAAHA",
+      "doi": "10.5326/JAAHA-MS-7232",
+      "pmid": "34228790"
+    },
+    {
+      "id": "brooks2014",
+      "label": "Brooks-2014-AAHA体重管理-JAAHA",
+      "doi": "10.5326/JAAHA-MS-6331",
+      "pmid": ""
+    },
+    {
+      "id": "lyu2025",
+      "label": "Lyu-2025-生食综述-AnimalsMDPI",
+      "doi": "",
+      "pmid": ""
+    },
+    {
+      "id": "beccaglia2016",
+      "label": "Beccaglia-2016-犬猫孕期综述-ReprodDomestAnim",
+      "doi": "10.1111/rda.12782",
+      "pmid": "27670935"
+    },
+    {
+      "id": "concannon1983",
+      "label": "Concannon-1983-犬孕期-AmJVetRes",
+      "doi": "",
+      "pmid": "6685438"
+    },
+    {
+      "id": "lamm2012",
+      "label": "Lamm-2012-犬猫妊娠-VetClinNAm",
+      "doi": "10.1016/j.cvsm.2012.01.010",
+      "pmid": ""
+    },
+    {
+      "id": "siena2021",
+      "label": "Siena-2021-犬分娩预测-AnimalsMDPI",
+      "doi": "10.3390/ani11030878",
+      "pmid": ""
+    },
+    {
+      "id": "squires2024",
+      "label": "Squires-2024-WSAVA疫苗指南-JSmallAnimPract",
+      "doi": "10.1111/jsap.13718",
+      "pmid": "38568777"
+    },
+    {
+      "id": "day2016",
+      "label": "Day-2016-WSAVA疫苗旧版-JSmallAnimPract",
+      "doi": "10.1111/jsap.2_12431",
+      "pmid": ""
+    },
+    {
+      "id": "esccap2022",
+      "label": "ESCCAP-2022-体外寄生虫指南",
+      "doi": "",
+      "pmid": ""
+    }
+  ]
+}

@@ -1,0 +1,1241 @@
+JAVMA, Vol 243, No. 11, December 1, 2013 
+Vet Med Today: Timely Topics in Nutrition 
+1549
+T
+he feeding of RMBDs to dogs and cats has received 
+increasing attention in recent years. The American 
+Animal Hospital Association,1 AVMA,2 and Canadian 
+Veterinary Medical Association3 have adopted statements 
+discouraging the inclusion of raw or undercooked animal-
+source protein in dog and cat diets. The Delta Society’s Pet 
+Partners Program expressed concern that pets in a therapy 
+animal program could be shedding pathogens in the pres-
+ence of immunocompromised humans and other at-risk 
+human populations. Therefore, they adopted in 2010 a 
+policy that precludes animals that eat RMBDs from par-
+ticipating in their therapy animal program.4 For each of 
+the organizations, the primary reason indicated to oppose 
+feeding of an RMBD was that potential pathogen contami-
+nation of the uncooked meat causes health risks to the pet 
+fed the diet as well as to other pets, human family mem-
+bers, and members of the public in contact with the pet. 
+These statements did not address other potential prob-
+lems of RMBDs, such as potential nutritional imbalances 
+or other safety issues of the diets (eg, feeding bones); they 
+also did not address the reasons people want to feed these 
+diets or potential beneﬁts of this type of diet.
+A major problem in the discussion about potential risks 
+and beneﬁts of RMBDs is the paucity of good data from high-
+quality studies. Information on nutritional risk or beneﬁt is 
+often from low-quality studies (testimonials, case series, or 
+poor-quality cohort and case-controlled studies).5 The evi-
+dence for infectious disease risks when feeding RMBDs is of 
+better quality and quantity, but few studies have been con-
+ducted to compare the risk of feeding RMBDs with that of 
+feeding commercial foods,6 and no reports have been pub-
+lished on evaluation of the long-term risks and beneﬁts of 
+feeding RMBDs. The lack of consensus and paucity of good 
+data can make it difﬁcult for veterinarians to provide in-
+formed feeding recommendations to dog and cat owners. 
+Current knowledge about the risks and beneﬁts 
+of raw meat–based diets for dogs and cats
+Lisa M. Freeman, DVM, PhD, DACVN; Marjorie L. Chandler, DVM, MS, DACVN, DACVIM;  
+Beth A. Hamper, DVM, PhD, DACVN; Lisa P. Weeth, DVM, DACVN
+The intent of the information reported here is 
+to provide a balanced review of the issue of feeding 
+RMBDs, types of RMBDs, reasons these diets are fed, 
+and potential beneﬁts and risks associated with feeding 
+of RMBDs. The information will also highlight areas in 
+which additional research is needed to better delineate 
+beneﬁts and risks. 
+Deﬁnition of RMBDs
+Raw meat–based diets are those that include un-
+cooked ingredients derived from domesticated or wild-
+caught food animal species and that are fed to dogs or 
+cats living in home environments. These ingredients can 
+include skeletal muscles, internal organs, and bones from 
+mammals, ﬁsh, or poultry as well as unpasteurized milk 
+and uncooked eggs. Raw meat–based diets can be divided 
+into 2 main categories: commercial and home-prepared. 
+The most common forms of commercial RMBDs 
+are fresh, frozen, and freeze-dried diets intended to be 
+nutritionally complete and balanced. These diets are of-
+ten formulated to meet values listed in the AAFCO Dog 
+or Cat Food Nutrient Proﬁles, and individual diets may 
+meet values listed for adult maintenance, growth and 
+gestation-lactation, or all life stages. However, some of 
+these foods may be labeled as intended for intermittent 
+or supplemental feeding only, which means that they 
+are not nutritionally complete and balanced. Commer-
+cial RMBDs typically are created from recipes devel-
+oped by or for a company marketing a speciﬁc brand 
+of pet food; these commercial RMBDs are made in large 
+quantities in pet food manufacturing facilities or in-
+dustrial kitchens, then packaged into smaller volumes 
+for purchase and feeding by pet owners. In addition to 
+the fresh, frozen, and freeze-dried commercial diets, 
+another less common form of RMBD is a carbohydrate 
+premix that includes grains, vitamins, and minerals and 
+is intended to have a raw meat protein source added by 
+the pet owner to provide a complete diet. 
+Timely Topics in Nutrition
+ABBREVIATIONS
+AAFCO  
+Association of American Feed Control Ofﬁcials
+BARF 
+Biologically appropriate raw food 
+RMBD  
+Raw meat–based diet
+In cooperation with
+From the Department of Clinical Sciences, Cummings School of Veteri-
+nary Medicine, Tufts University, North Grafton, MA 01536 (Freeman); 
+Royal (Dick) School of Veterinary Studies, University of Edinburgh, 
+Midlothian, EH25 9RG, Scotland (Chandler); the Department of Small 
+Animal Clinical Sciences, College of Veterinary Medicine, University of 
+Tennessee, Knoxville, TN 37996 (Hamper); and Red Bank Veterinary 
+Hospital, 197 Hance Ave, Tinton Falls, NJ 07724 (Weeth). 
+The authors thank Drs. Dottie Laﬂamme, Nicholas Cave, and David 
+Dzanis for technical assistance.
+Address correspondence to Dr. Freeman (lisa.freeman@tufts.edu).
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+1550 
+Vet Med Today: Timely Topics in Nutrition 
+JAVMA, Vol 243, No. 11, December 1, 2013
+In contrast, home-prepared RMBDs include a va-
+riety of highly publicized feeding regimens, such as 
+BARF (originally deﬁned as bones and raw food but 
+currently referred to as biologically appropriate raw 
+food by supporters),7 the Ultimate Diet,8 and the Vol-
+hard Diet.9 Published recommendations for feeding of 
+RMBDs are typically based on opinion and have not 
+been subjected to rigorous peer review. However, a va-
+riety of other recipes and programs for home-prepared 
+RMBDs have been developed by general practice vet-
+erinarians, trainers, breeders, and owners. Many of the 
+home-prepared RMBDs include by-products (ie, bones 
+and internal organs), even though these ingredients an-
+ecdotally appear to be avoided by some owners because 
+of misperceptions about what they are (or are not). 
+Some commercial foods are now marketed speciﬁcally 
+as having no by-products. Also, whereas commercial 
+RMBDs are often developed to meet AAFCO nutrient 
+guidelines and are intended (when fed exclusively) to 
+provide sole-source nutrition for a speciﬁc life stage of 
+dogs and cats, home-prepared RMBDs are often based 
+on a rotation of ingredients with the belief that this ro-
+tational variety will provide (over a prolonged period) 
+a complement of essential amino acids, fatty acids, vita-
+mins, and minerals to pets.7–9
+Finally, there are a variety of raw dried or freeze-
+dried pet treats that have bacterial risks similar to those 
+for RMBDs. These include products such as rawhide 
+chews, pig ears, and cattle hooves that have been com-
+mercially available for many years but that have now 
+been expanded to include hearts, tracheas, and bull or 
+steer penises (eg, bully or pizzle sticks). Most of the 
+freeze-dried treats (eg, freeze-dried liver treats) are raw. 
+It has been found in multiple studies10–14 that there is 
+a substantial risk for contamination of these products 
+with Salmonella spp and other bacteria, and outbreaks 
+of salmonellosis in humans have been reported.10–12 
+These products should also be mentioned when dis-
+cussing the issues of risks for raw meat–based products.
+Owner Motivation for Feeding RMBDs
+Proponents of feeding commercial or home-prepared 
+RMBDs often claim nutritional superiority of these diets 
+and important health beneﬁts. Many claims of beneﬁts are 
+largely unproven and not based on scientiﬁc evidence, but 
+they appear plausible to well-intending pet owners who 
+want to feed a diet that will optimize health and wellness 
+of their pets. Anecdotal beneﬁts for RMBDs include bet-
+ter palatability of these diets, cleaner teeth from chewing 
+bones as a part of these diets, a shiny coat, and owner 
+perception that they are providing their pet with a more 
+natural diet.
+Furthermore, it may be challenging for owners to 
+comprehend the effects of medical procedures, treat-
+ments, and disease processes, but provision of food is 
+an easily attainable aspect by which they can directly 
+inﬂuence the care and well-being of their animals. 
+What to feed their pets can be just as important, and 
+sometimes more important, than what owners them-
+selves eat. Many pet owners care for their animals as 
+they would a human family member, and the act of 
+feeding for some owners is a way of enhancing and re-
+inforcing the human-animal bond. Owners want to do 
+what is best for their pets, including feeding their pets 
+properly, but the pet food marketplace is confusing and 
+complicated with many opposing viewpoints. Some of 
+the most passionate arguments surrounding pet health 
+and well-being concern the feeding of RMBDs. 
+A founding premise in popular lay publications and 
+on the Internet regarding RMBDs is that these are the 
+diets that wild, nondomesticated dog and cat species ate 
+during their evolution into pets, which may provide an 
+important rationale for some owners to feed these diets 
+to their dogs and cats.7,8 Cats have remained obligate 
+carnivores during domestication, and their natural diet 
+includes a range of small prey species such as mam-
+mals, reptiles, birds, and insects that can be hunted, 
+captured, and eaten by the cats. Conversely, dogs have 
+adapted to eating an omnivorous diet and can consume 
+a variety of plant and animal products to meet their es-
+sential nutrient requirements. However, both cats and 
+dogs are able to digest and metabolize many nutrients 
+provided from plant-based ingredients.15 Additionally, 
+dogs have undergone an incredible variety of selection 
+pressures resulting in large phenotypic differences from 
+their ancestors and among current breeds.16,17 In fact, it 
+was reported18 that there are 36 regions of the genome 
+that differ between dogs and wolves, 10 of which play a 
+critical role in starch digestion and fat metabolism. The 
+authors of that study18 conclude that these genetic dif-
+ferences in the genome between dogs and wolves and 
+hence the ability to digest starch and fat constituted a 
+crucial step in the early domestication of dogs. There-
+fore, even if the typical diet eaten by a wild, nondo-
+mesticated dog or cat can be considered optimal for re-
+production and survival in those animals, in which the 
+lifespan is typically quite short, these diets may not be 
+optimal for domestic dogs and cats living in a home en-
+vironment, with owners who anticipate that their pets 
+will have long and healthy lives.
+The term natural has a speciﬁc deﬁnition accord-
+ing to the AAFCO.19 Natural products cannot contain 
+chemically synthesized ingredients, except for trace 
+nutrients, the presence of which must be declared (eg, 
+a label indicating natural with added vitamins, miner-
+als, and other trace nutrients). Nonetheless, the term 
+natural is used by the pet food industry and pet own-
+ers in numerous ways and to imply a variety of proper-
+ties. Despite the difﬁculty in use of the term natural, 
+some pet owners believe there is a disparity between 
+commercial dry extruded and moist diets and RMBDs. 
+Some authors have suggested that physical and heat 
+processing, rendering, and inclusion of by-products or 
+chemically synthesized additives and preservatives are 
+unhealthy and, in some cases, may cause disease.7,9,20 
+The 2007 pet food recall because of melamine contami-
+nation and the associated morbidity and fatalities also 
+brought pet food safety to the forefront. Anecdotally, 
+there appears to be a growing number of consumers 
+who are suspicious of large pet food manufacturers. 
+Additionally, recalls of commercial pet foods for bacte-
+rial contamination, mycotoxicosis, thiamine deﬁciency, 
+and vitamin D toxicosis are evidence that feeding com-
+mercial dry extruded and moist pet foods is not com-
+pletely without risk.21–25
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+JAVMA, Vol 243, No. 11, December 1, 2013 
+Vet Med Today: Timely Topics in Nutrition 
+1551
+Finally, proponents of feeding RMBDs claim health 
+beneﬁts for the diets, such as improvement in coat and 
+skin; elimination of breath, body, and fecal odor; im-
+provement in energy, behavior, and immunity; and a 
+reduction in medical conditions including allergies, ar-
+thritis, pancreatitis, dental disease, and parasitism.7–9,26 
+Although changes may be anecdotally reported by pet 
+owners and veterinarians, potential health beneﬁts 
+have not undergone scientiﬁc evaluation. Investigators 
+in a recent study27 found indications of lower calcium 
+excretion in urine of dogs eating a commercial RMBD, 
+compared with excretion in dogs eating a commercial 
+dry extruded diet, which suggested a beneﬁt of RMBDs 
+for dogs prone to calcium oxalate urolithiasis. Howev-
+er, the RMBD contained half as much calcium, less than 
+a third as much sodium, and considerably more water 
+than did the dry extruded diet, so it is difﬁcult to inter-
+pret the importance of these results. Further research 
+regarding all reported health claims is warranted. 
+Effects of Cooking on Digestibility
+Proponents often claim that one of the beneﬁts of 
+RMBDs is increased digestibility because essential en-
+zymes are not destroyed by cooking. Although most 
+dogs and cats do not require exogenous enzymes, stud-
+ies28–30 have found improvements of food digestibility in 
+animals fed RMBDs. Digestibility of RMBDs versus dry 
+extruded diets was examined in exotic felids.28,29 Inves-
+tigators in 1 study29 found that RMBDs had signiﬁcantly 
+higher digestibility for crude protein, but not for fat, 
+energy, or dry matter. In the other study,28 investigators 
+found numerically higher amounts of dry matter, energy, 
+and protein in RMBDs, but a statistical comparison was 
+not performed. Decreased digestibility in cooked foods 
+is believed to be the result of effects of heat processing 
+on proteins and amino acids.31–33 A study30 that involved 
+domestic cats also found signiﬁcantly higher energy 
+(8.0% higher) and macronutrient (4.6% to 14.3% high-
+er) digestibility of an RMBD, compared with digestibil-
+ity for a dry extruded diet. The modest improvements 
+in digestibility for the RMBD, compared with the dry 
+extruded diet, may be related to positive effects of the 
+RMBD on digestibility, negative effects of extruded diets 
+in general, or negative effects of the speciﬁc extruded 
+diet used in the study. In that same study30 of domestic 
+cats, there was no signiﬁcant difference in digestibility 
+between feeding of the RMBD before and after it had 
+been heated in a microwave to ≥ 71°C (≥ 160°F). 
+Proteins and amino acids undergo substantial 
+physical changes during processing associated with 
+the manufacture of pet foods. Processing conditions, 
+which primarily involve application of heat but also 
+can include pressure and water content, can have vari-
+able effects on protein digestibility and amino acid 
+bioavailability. The effects depend on the ingredients, 
+temperature, and type of processing (eg, canning, ex-
+trusion used in the production of most commercial dry 
+pet foods, and freezing or freeze-drying that would be 
+performed with commercial RMBDs). In addition, food 
+proteins can react with other food components such as 
+sugars, fats, oxidizing agents, acids, alkalies, polyphe-
+nols, and food additives. Heat processing during the 
+manufacture of dry extruded or moist pet foods typi-
+cally results in the denaturing of proteins and loss of 
+secondary and tertiary protein structure. Processing 
+can increase bioavailability of proteins through col-
+lagen breakdown and an increase in exposure to an 
+animal’s digestive enzymes, but it also can negatively 
+affect amino acids through proteolysis, protein cross-
+linking, amino acid racemization, protein-polyphenol 
+reactions, oxidative reactions, and browning or Mail-
+lard reactions.34 The Maillard reaction accounts for the 
+most important losses of amino acids.35 
+Although conventional heat processing can have 
+negative effects on animal tissue proteins, heat process-
+ing improves the bioavailability of some plant proteins 
+secondary to denaturing of antinutritional factors. For 
+example, legumes contain trypsin and chymotrypsin 
+inhibitors that impair protein digestion and reduce pro-
+tein bioavailability.36 Heat processing denatures these 
+inhibitors and therefore increases protein bioavailability.
+Improved digestibility results in less digesta in the 
+colon with less fecal matter. Decreased fecal output has 
+been found in a study29 of feral cats and in experiments 
+conducted by one of the authors (BAH). Decreased fe-
+cal output is perceived as a beneﬁt by some owners. Al-
+though nondigestible carbohydrates in the form of ﬁber 
+are beneﬁcial to the host,37 undigested dietary protein 
+results in increased amounts of colonic compounds 
+such as ammonia, phenols, indoles, and amines, which 
+can play a role in diseases, such as colorectal cancer.38 
+The authors are not aware of any reported studies on 
+the potential harmful effects of undigested dietary pro-
+tein on colonic health in dogs or cats. 
+Heterocyclic amines are compounds formed when 
+muscle meat is cooked with a high temperature. Ex-
+posure to high concentrations (eg, milligram/gram of 
+food) of these compounds has been associated with 
+cancer in research animals.39 Concentrations found in 
+both pet and human foods are much lower (nanograms/
+gram of food), but these concentrations still may have 
+mutagenic activity.40 The cumulative effects of these 
+compounds on genomic instability and increased sensi-
+tivity to tumor promotion in pets and humans require 
+investigation. 
+Another frequently cited beneﬁt when feeding 
+RMBDs is an improvement in immune function. In ex-
+periments conducted by one of the authors (BAH), do-
+mestic cats fed an RMBD for 10 weeks had a signiﬁcant 
+increase in lymphocyte and immunoglobulin produc-
+tion, whereas there were no signiﬁcant changes over 
+the study period for cats fed a cooked commercial moist 
+diet. In those experiments, it was also found that cats 
+fed the RMBD were fecal shedders of Salmonella spp. 
+Higher amounts of exposure to microbes and microbial 
+degradation products, exposure to pathogens, changes 
+in intestinal microﬂora, or nutritional differences in the 
+diets may have stimulated the immune response de-
+tected for cats fed the RMBD. However, potential health 
+beneﬁts and effects of long-term feeding of RMBDs 
+have not been critically evaluated.
+Although there is evidence for improved digestibil-
+ity of proteins in RMBDs, compared with digestibility of 
+proteins in extruded diets, the clinical effects of this dif-
+ference are unclear and require further study. Effects of 
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+1552 
+Vet Med Today: Timely Topics in Nutrition 
+JAVMA, Vol 243, No. 11, December 1, 2013
+processing for some commercial RMBDs (eg, freeze-dried 
+or carbohydrate premixes) are also not fully understood. 
+In addition, one of the potential effects attributable to 
+differences in processing is an alteration of the gastroin-
+testinal microbiome. Research is needed on differences 
+in the gastrointestinal biome between dogs and cats that 
+are fed RMBDs versus extruded foods (and compared 
+with results for dogs and cats fed home-cooked diets 
+and canned diets as well as effects among various types 
+of RMBDs). The function and role of chronic exposure 
+to bacteria in metabolism and immune function also 
+should be the focus of future studies.
+Health Risks
+A number of studies have revealed important con-
+cerns about nutritional imbalances when RMBDs are 
+not formulated properly, health risks to animals, and 
+public health concerns.
+Health risks to pets—Health risks to pets fed 
+RMBDs include nutritional concerns, safety concerns, 
+and other health risks.
+NUTRITIONAL CONCERNS
+A US study41 in 2001 revealed that all of the home-
+prepared and commercial RMBDs tested (3 home-pre-
+pared and 2 commercial RMBDs) had multiple nutri-
+tional imbalances, some of which could have important 
+adverse effects on the health of the animals. Examples 
+included a calcium-to-phosphorus ratio of 0.20, vita-
+min A and E concentrations below the minimum de-
+tectable value, and a vitamin D concentration nearly 
+twice the AAFCO maximum amount.41 Authors of a 
+case report42 of a growing dog fed an RMBD (a com-
+mercial carbohydrate premix plus raw ground beef pre-
+pared in accordance with instructions on the package 
+label) reported that the nutritionally unbalanced diet 
+resulted in vitamin D–dependent rickets type I and nu-
+tritional secondary hyperparathyroidism. In a recent 
+study43 in Europe, investigators calculated amounts of 
+12 nutrients (eg, calcium, phosphorus, and vitamin A) 
+for 95 homemade RMBDs being fed to dogs, as reported 
+by the owners. In that study,43 57 (60%) diets had major 
+nutritional imbalances. Therefore, there is concern that 
+both commercial and homemade RMBDs may have im-
+portant nutrient deﬁciencies and excesses. In addition, 
+even if these diets meet the minimum nutrient amounts 
+and do not exceed maximum amounts, they may not 
+provide an optimal nutrient proﬁle. For example, many 
+RMBDs are high in fat, compared with the fat content 
+of typical dry extruded or moist pet foods. This may 
+improve coat glossiness as perceived by owners, but it 
+may also cause mild to severe gastrointestinal issues in 
+some animals or increase the risk for obesity in others 
+because it is easy to overfeed high-fat diets. 
+Whether a pet’s diet includes raw meat or bones, 
+there are a number of concerns regarding all home-pre-
+pared pet foods. It can be difﬁcult to formulate a nutri-
+tionally balanced home-prepared diet. Investigators in 
+3 studies44–46 have evaluated the nutritional balance of 
+commonly available home-prepared diet recipes. In the 
+2 studies44,45 on animals with medical conditions, 94 
+recipes were evaluated and none had adequate concen-
+trations of all essential nutrients. In one of these stud-
+ies,46 investigators evaluated 200 recipes for healthy 
+dogs, and 190 (95%) recipes had at least 1 essential nu-
+trient below AAFCO minimums and 167 (84%) recipes 
+had multiple deﬁciencies.
+SAFETY RISKS
+In addition to nutritional concerns about RMBDs, 
+other safety issues related to RMBDs are of major im-
+portance, particularly risks of contamination with 
+pathogens.47 Raw meat, whether sold for human con-
+sumption, inclusion in commercial RMBDs, or inclu-
+sion in dry extruded or moist pet foods, can be con-
+taminated with a variety of pathogens. Although care 
+is used during processing, meat from healthy food 
+animals intended for human consumption may acquire 
+bacterial contamination from the hide, feathers, or vis-
+cera during slaughter, evisceration, or processing and 
+packing.48 A variety of potential pathogens are pres-
+ent in raw meat, including meat intended for human 
+consumption, with Salmonella spp having received the 
+most attention for companion animal species and their 
+owners.47,48 Because freezing and freeze-drying do not 
+destroy all of these pathogens, both home-prepared and 
+commercial RMBDs are at risk of being contaminated 
+with these and other pathogens. 
+Several reports6,49–53 have been published on the 
+presence of Salmonella spp and other pathogens in 
+commercial and home-prepared RMBDs. Prevalence 
+rates for contamination with Salmonella spp in com-
+mercial RMBDs ranged from 20% to 48%.6,50,51 Recently, 
+a Salmonella prevalence rate of 21% for 166 commercial 
+RMBD samples was reported,51 and 18 Salmonella sero-
+types isolated from those samples were resistant to 12 
+of 16 antimicrobials tested. It is important to mention 
+that commercial dry extruded foods can also become 
+contaminated with Salmonella spp and other patho-
+gens. For example, there was a pet food recall when 
+dry extruded pet foods from a single manufacturing 
+plant were linked to 29 human patients identiﬁed with 
+Salmonella enterica serovar Schwarzengrund infections 
+between 2006 and 2008.54
+Home-prepared RMBDs were evaluated in 1 study49 
+in which 8 of 10 home-prepared raw chicken–based di-
+ets fed to pet dogs had positive results when cultured 
+for Salmonella spp, whereas none of the commercial dry 
+extruded diets yielded Salmonella spp. In addition, there 
+are reports53,55–58 of racing Greyhounds, sled dogs, guard 
+dogs, and cats with Salmonella infections attributable to 
+consumption of contaminated raw meat, including re-
+ports of dogs and cats that died from Salmonella-related 
+sepsis. It is not surprising to ﬁnd high rates of contami-
+nation with Salmonella spp in home-prepared RMBDs 
+because high rates of contamination with Salmonella spp 
+can be found for raw meats sold for human consump-
+tion. Rates of contamination with Salmonella spp differ 
+among studies59–63 but range from 21% to 44% of chick-
+en samples purchased from retail locations throughout 
+North America. Rates of contamination with Salmonella 
+spp are lower for beef and pork intended for human con-
+sumption, ranging from 3.5% to 4%.64,65
+Contamination of RMBDs with other bacteria and 
+pathogens has also been evaluated. Contamination of 
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+JAVMA, Vol 243, No. 11, December 1, 2013 
+Vet Med Today: Timely Topics in Nutrition 
+1553
+RMBDs with Escherichia coli was evaluated in 2 stud-
+ies.6,41 Nontype-speciﬁc E coli was found in 143 of 240 
+(60%) commercial RMBDs but in only 8 of 24 (33%) 
+commercial dry extruded diets and 2 of 24 (8%) com-
+mercial cooked moist diets.6 A 2001 study41 revealed 
+that 1 of 5 RMBDs tested (both commercial and home-
+prepared diets) was contaminated with E coli O157:H7. 
+Investigators in another study50 found a prevalence of 
+20% for contamination of commercial RMBDs with 
+Clostridium spp. Other health risks indicated in case 
+reports or case series of animals eating RMBDs include 
+contamination with Campylobacter jejuni52 or Toxoplas-
+ma gondii42,66–68 and increased numbers of infections at-
+tributable to Echinococcus multilocularis,69 although the 
+latter infection was in dogs fed raw viscera from wild 
+animals and is geographically limited. Meat intended 
+for human consumption is commonly contaminated 
+with a variety of pathogens, including Campylobacter 
+spp (prevalence of 29% to 74% in chicken)59,60,63 and 
+Listeria spp (prevalence of 15% to 34% in chicken and 
+25% to 52% in beef and pork)60,63,70 Therefore, home-
+prepared RMBDs made with meats intended for human 
+consumption are at high risk for contamination and can 
+infect both pets and humans. 
+Proponents of home-prepared diets, including 
+RMBDs, often cite recalls of commercially available 
+dry extruded and moist diets because of bacterial and 
+chemical contamination as a reason that pets should 
+not be fed those types of diets. Contamination of some 
+commercial pet foods with melamine-cyanuric acid in 
+2007 resulted in dogs and cats with acute kidney in-
+jury.71 That episode was caused by the supplier deliber-
+ately adulterating a human-grade food ingredient that 
+was also used in pet food. In response, in part, to this 
+tragedy, the FDA Amendments Act of 2007 was passed 
+to strengthen the food recall process, and food safety 
+legislation has been further strengthened by the FDA 
+Food Safety Modernization Act that went into effect in 
+2012.72 A recall is a method of removing or correcting 
+consumer products that are in violation of regulations 
+administered by the FDA. Although those pieces of leg-
+islation grant the FDA mandatory authority to initiate a 
+recall in the future, recalls of pet food currently are ini-
+tiated voluntarily by a pet food manufacturer, although 
+the FDA can request a manufacturer to initiate a recall. 
+The FDA Amendments Act of 2007 requires that manu-
+facturers submit a report to the FDA no later than 24 
+hours after determining that there is a reasonable prob-
+ability that the use of or exposure to the food will cause 
+serious adverse health consequences to or the death 
+of animals (or humans), which constitutes a potential 
+class 1 recall.71,72
+Of 28 recalls and safety alerts because of conﬁrmed 
+or potential contamination of commercially available 
+pet foods with Salmonella spp in 2011 and 2012, 17 
+were for dry extruded pet foods, 1 was for a raw food 
+intended for cats, and 11 were for raw or insufﬁciently 
+processed treats, especially raw pig ears.22 The relatively 
+low rate of recalls of commercial RMBDs may be be-
+cause consumers or veterinarians do not associate ill-
+nesses with potential contamination, there is lack of 
+rigorous quality-control testing by manufacturers, or 
+there is a low prevalence of this feeding regimen in 
+the overall pet population and a more limited market 
+share for commercial RMBDs than for dry extruded and 
+moist cooked diets. It is difﬁcult to make an accurate 
+risk assessment from these data because the percentage 
+of pet owners who feed RMBDs (commercial or home 
+prepared) is not known. Investigators of a 2008 study73 
+on the feeding practices of pet owners in Australia and 
+the United States found bones or raw foods were pro-
+vided as part of the main meal to 16.2% of dogs and 
+9.6% of cats, and another 7.4% of dogs and 0.9% of cats 
+received raw meat or bones as a treat or snack at least 
+once a week. However, it is important to mention that 
+these data were collected prior to the pet food recall 
+of 2007; thus, these percentages may differ if the sur-
+vey were conducted today. In a study14 that involved 
+a survey conducted in 2011, 10.8% of 791 pet own-
+ers from 44 US states and 6 countries who responded 
+fed a commercial or home-prepared RMBD as a major 
+component of their pet’s diet, and 32.9% fed a home-
+prepared or commercial RMBD as some component of 
+their pet’s diet.
+Although commercial RMBDs and ingredients are 
+covered by FDA regulations and can be recalled if con-
+tamination or other problems are detected, the feeding 
+of contaminated home-prepared RMBDs that include 
+foods intended for human consumption may go unde-
+tected because foodborne illnesses in dogs and cats are 
+rarely tracked unless associated with human disease. 
+There are no data on the number of dogs and cats fed 
+human foods that have been recalled, nor the number 
+of dogs and cats that have become ill after eating a con-
+taminated human food. Although data are available on 
+the number of recalls, the lack of data on recalls be-
+cause of contamination of commercial and home-pre-
+pared RMBDs does not mean that such diets are safe.
+To assess the true risks associated with feeding 
+RMBDs, research is warranted to provide information 
+that will lead to a better understanding of the potential 
+health consequences of contamination from RMBDs for 
+all those at risk (ie, the dog or cat that eats the food, 
+other animals in the household [or in a kennel, cat-
+tery, or clinic], and humans exposed to those animals, 
+to the RMBDs, and to the animals’ feces). Although the 
+gastrointestinal tracts of dogs and cats are shorter in 
+comparison with that of humans,74 there is no evidence 
+that a shorter gastrointestinal tract prevents infection 
+with Salmonella spp or other pathogens. Gastric and 
+intestinal pH do not appear to be signiﬁcantly differ-
+ent between humans and dogs.75 It is clear that dogs 
+and cats can carry Salmonella organisms, but even if 
+future studies ﬁnd an increase in resistance to clinical 
+salmonellosis, there have been numerous reports53,55–58 
+documenting that salmonellosis can occur in both dogs 
+and cats. The prevalence of contamination found in the 
+studies conducted to date suggests that contamination 
+rates of RMBDs are much higher than would be indi-
+cated on the basis of the number of recalls, so a better 
+understanding of the potential risks is important. 
+Some RMBD manufacturers currently use high  
+hydrostatic pressure processing (also called high-pres-
+sure pasteurization) in an attempt to reduce risks of 
+pathogens in commercial RMBDs. Although this pro-
+cess can reduce the numbers of many pathogens, it 
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+1554 
+Vet Med Today: Timely Topics in Nutrition 
+JAVMA, Vol 243, No. 11, December 1, 2013
+usually does not completely eliminate them, and bacte-
+ria and viruses differ in their susceptibility to this pro-
+cess.76,77 In addition, there is the potential for the devel-
+opment of resistance to high-pressure pasteurization by 
+bacteria and viruses.77,78 Therefore, further research is 
+needed on the efﬁcacy of this processing method for re-
+ducing the risk from pathogens in commercial RMBDs. 
+Because home-prepared RMBDs are not subject to test-
+ing or regulatory oversight, pet owners should be ad-
+vised of the risks, from pathogens as well as nutritional 
+imbalances, associated with these types of diets. 
+OTHER HEALTH ISSUES
+In addition to the previously mentioned health prob-
+lems, RMBDs that contain bones (eg, the BARF diet) can 
+potentially result in fractured teeth and gastrointestinal 
+injury. Bones can cause obstruction or perforation of 
+the esophagus, stomach, small intestine, or colon. 
+Bone foreign bodies were present in 30% to 80% of 
+dogs and cats with esophageal foreign bodies.79–82 
+Those who promote the feeding of raw bones claim 
+that there are fewer problems with raw bones than 
+with cooked bones7; however, to our knowledge, the 
+frequency of obstruction or perforation with raw ver-
+sus cooked bones has not been evaluated. Research is 
+needed to better understand the frequency of these 
+complications. 
+Another potential adverse health effect associated 
+with RMBDs was identiﬁed in a recent report.83 Authors 
+of that report83 identiﬁed and described 12 dogs with el-
+evations in serum thyroxine concentration (6 of which 
+had clinical signs of hyperthyroidism) caused by eat-
+ing an RMBD. All dogs had thyroxine concentrations 
+within the reference range after the diet was changed. 
+Even in otherwise healthy dogs and cats eating 
+RMBDs, serum biochemical values may deviate from 
+laboratory reference ranges. Serum albumin and cho-
+lesterol concentrations were higher than the reference 
+ranges in cats fed an RMBD, compared with concentra-
+tions for those fed dry extruded diets.30 In a studya in 
+dogs, those eating an RMBD had signiﬁcantly higher 
+concentrations of BUN and serum creatinine and a 
+higher Hct, compared with results for control dogs that 
+were assumed to be eating commercial dry extruded di-
+ets or moist pet food diets. 
+Health risks for people—As previously men-
+tioned, raw meats, whether intended for consumption 
+by humans or pets, are frequently contaminated with 
+microorganisms. The most common of these are E coli, 
+Salmonella spp, Clostridium spp, Campylobacter spp, 
+and Listeria spp.47,59–65,84,85 In addition, raw meats fre-
+quently carry parasites such as T gondii and, less fre-
+quently, many other parasites that can infect humans 
+or pets.48,66–68,86–88 In addition to the health risks these 
+pathogens pose for pets, environmental contamination 
+caused by shedding of these organisms by pets is a risk 
+factor for infection of humans.
+It is estimated that salmonellosis affects 1.3 mil-
+lion humans/y in the United States, with the cause most 
+commonly linked to contaminated poultry products.89 
+Salmonella organisms can frequently live as a transient 
+member of the intestinal microﬂora without causing ill-
+ness; thus, a human or pet can be a carrier. Direct con-
+tact with infected or carrier animals or their feces is a 
+risk factor for salmonellosis in humans,47,85,89,90 and sev-
+eral studies49,57,91,92 have found that dogs eating RMBDs 
+are at risk for shedding Salmonella spp in their feces. 
+Results of these studies49,57,91,92 indicate that between 
+3% and 50% of dogs fed RMBDs intermittently or as a 
+primary diet shed Salmonella organisms in their feces. 
+The large variation may be related to whether the diets 
+were home prepared or commercial and the prevalence 
+of contamination of the diets. In 1 study,92 investigators 
+found that when a single meal of a contaminated com-
+mercial RMBD was fed, 7 of 16 dogs shed Salmonella 
+spp in their feces for up to 7 days. 
+Other bacteria also can be of concern for humans 
+who might be exposed to pets shedding bacteria. In a 
+study91 of dogs fed RMBDs over a 1-year period, the 
+point prevalence rate for extended-spectrum cepha-
+losporinase E coli in the feces was up to 45%. Inves-
+tigators in another study93 reported on 16 pathogenic 
+Yersinia enterocolitica 4/O:3 isolates cultured from the 
+feces of 5 dogs and 2 cats in Finland over a 1-year pe-
+riod; 5 of the animals were known to have eaten raw 
+pork. Although the authors are not aware of any stud-
+ies conducted to evaluate fecal shedding of other E coli 
+or Clostridium spp in pets eating raw meats or RMBDs, 
+the high prevalence of contamination of raw meats and 
+RMBDs makes this of major concern for humans ex-
+posed to pets eating these diets. 
+Toxoplasma gondii can be acquired from raw or  
+undercooked meats or from environmental exposure, 
+including contaminated soil or feces. Toxoplasmosis 
+is of greatest danger to people with compromised im-
+mune function and to pregnant women and the de-
+veloping fetus. Toxoplasmosis in a fetus can result in 
+mental retardation, blindness, epilepsy, and death. It 
+can cause severe encephalitis and death in immuno-
+suppressed individuals.94 Although the prevalence of  
+T gondii in retail meats sold in the United States is low, 
+it is sufﬁcient to induce active toxoplasmosis in cats fed 
+raw food samples.68 Toxoplasmosis can be passed from 
+cats to humans through exposure to oocysts in the cats’ 
+feces. The consumption of raw meat signiﬁcantly in-
+creases the seroprevalence of T gondii in cats.95,96 Cats 
+that spend time outdoors, hunt prey, or eat raw meat 
+are more likely to shed oocysts. Such cats can increase 
+the zoonotic risk to their owners, and cats allowed to 
+roam and defecate in gardens or sandboxes may pose 
+a risk to a broader range of people in the surrounding 
+neighborhoods.94
+The potential risk for human disease has been 
+clearly documented. However, further research is need-
+ed to quantify the actual risk and prevalence of disease 
+associated with feeding RMBDs to pet dogs and cats. 
+Clinical Recommendations
+Whether as a means to reinforce the human-animal 
+bond or in response to concerns about the production 
+of commercial dry extruded and moist diets, commer-
+cial and home-prepared RMBDs have grown in popu-
+larity over the past decade. Proponents of RMBDs claim 
+that they are a safe and natural way to promote ani-
+mal wellness; these claims are made without long-term 
+supportive evidence and largely ignore the potential 
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+JAVMA, Vol 243, No. 11, December 1, 2013 
+Vet Med Today: Timely Topics in Nutrition 
+1555
+life-threatening consequences to pets and their human 
+caregivers when contaminated RMBDs are fed. 
+When comparing various types of RMBDs, some 
+general assumptions can be made by veterinary practi-
+tioners regarding both commercial and home-prepared 
+RMBDs. Fresh, frozen, and freeze-dried raw animal 
+products are palatable to both dogs and cats and are 
+readily consumed when offered. These types of diets of-
+ten include higher amounts of protein and fat, with rela-
+tively low total carbohydrate and dietary ﬁber amounts, 
+than are typically found in commercial dry extruded 
+and moist foods. Pets often consume RMBDs without 
+developing any health problems, but sometimes even 
+healthy adult dogs and cats can develop adverse effects, 
+ranging from relatively benign effects (eg, increased co-
+lonic fermentation and gas production with higher pro-
+tein intakes) to more overtly life-threatening concerns 
+(eg, higher fat diet fed to an animal with a history of 
+pancreatitis), as a result of consumption of these diets. 
+Additionally, raw meat has an inherent risk of bacterial 
+and parasitic contamination, and animals that consume 
+RMBDs may pose a risk to other pets and people in 
+the household and surrounding community, including 
+veterinarians and veterinary support staff. All individu-
+als are at risk for infection, but high-risk humans and 
+companion animals should be of particular concern. 
+This includes those who are ill as well as those who are 
+immunocompromised, young, elderly, pregnant, or lac-
+tating. Veterinarians may wish to consider instituting 
+procedures regarding pets that eat RMBDs to ensure the 
+safety of other pets and the veterinary staff. These poli-
+cies should take into consideration the potential legal 
+implications,97 that there is a period of fecal shedding 
+after eating a contaminated RMBD (up to 7 days),92 and 
+that common cleaning and disinfection practices do not 
+eliminate Salmonella contamination from food bowls.98 
+If a commercial RMBD is formulated to meet AAFCO 
+nutrient guidelines for a particular life stage (ie, growth-
+reproduction or adult maintenance) of a dog or cat, there 
+should be minimal risk of nutritional inadequacy. How-
+ever, few manufacturers of raw diets conduct AAFCO 
+feeding trials or digestibility studies on ﬁnished products, 
+and manufacturers differ with regard to their attention to 
+quality-control procedures. Thus, the assumption that 
+these diets are truly complete and balanced for long-
+term feeding relies heavily on the expertise of the indi-
+vidual formulating the original recipe and expectations 
+about the stability and degradation of dietary nutrients. 
+If these diets are manufactured in accordance with cur-
+rent FDA regulations for handling of foods and require-
+ments for microbial testing during food manufacturing 
+and storage,99 there should be minimal risk of exposure 
+to foodborne pathogens. However, variation in quali-
+ty-control testing practices or inadequate testing con-
+ducted by a manufacturer of a raw food may allow for 
+introduction of pathogens into pet-owning households. 
+Although the FDA has provided a safety guidance doc-
+ument for the manufacturers of RMBDs, manufacturers 
+are not legally required to comply with these guidelines 
+if an alternative approach meets applicable statutes and 
+regulations.99
+In contrast, home-prepared RMBDs rely heavily 
+on each particular recipe or feeding program as well as 
+the pet owner’s interpretation of and compliance with 
+published recommendations, understanding of nutri-
+ent requirements for dogs and cats, and understanding 
+of the nutritional value of individual ingredients. On 
+the basis of published diet reviews,41,43–46 most home-
+prepared diets (both raw and cooked) are deﬁcient in 1 
+or more essential fatty acids, vitamins, or minerals or a 
+combination thereof. Although the perceived beneﬁts of 
+home-prepared diets may be reinforced daily to owners 
+through a pet’s appetite or coat quality, nutrient deﬁcien-
+cies and excesses in adult animals are insidious and can 
+lead to long-term complications if not detected and cor-
+rected. In young growing animals and pregnant or lactat-
+ing animals, nutrient deﬁciencies and excesses can cause 
+severe and sometimes life-threatening complications. 
+Additional studies are needed to provide information 
+that will allow a better understanding of the long-term 
+health effects of RMBDs for dogs and cats. In the absence 
+of reported studies, an animal eating a home-prepared 
+diet (raw or cooked) should undergo an annual physical 
+examination and health screening, which should include 
+serum biochemical analysis (with thyroxine concentra-
+tions), hematologic analysis, and urinalysis. Results of 
+routine hematologic analysis and urinalysis will provide 
+veterinary practitioners with a general overview of an 
+animal’s health status, but they will not enable practitio-
+ners to identify speciﬁc nutrient deﬁciencies or excesses. 
+Thus, owners should be cautioned that nutritionally re-
+lated disease can mimic other forms of chronic illness. A 
+complete diet history (including all foods, treats, table 
+foods, supplement-type products, and foods used to ad-
+minister medications) should be obtained from owners 
+at each visit to be able to assess their pet, accurately in-
+terpret the results of laboratory tests, and make appro-
+priate recommendations.100,101 Even when the primary 
+food fed to a pet is not raw, other components of the 
+diet (eg, pet treats such as pig ears, rawhides, or bully 
+sticks; foods intended for human consumption; or foods 
+used to administer medications) may be raw and carry 
+the same inherent risks.
+Owners that elect to feed a commercial or home-
+prepared RMBD should be counseled on the risks to 
+themselves and their pets as a result of this feeding 
+strategy, and the conversation should be documented 
+in the medical record. For commercial foods (regard-
+less of whether they are raw, dry extruded, or moist), it 
+is important to be aware that there is wide variation in 
+quality-control standards among manufacturers of raw 
+or cooked commercial pet foods. Recommendations 
+for selection of a commercial pet food have been sum-
+marized (Appendix). Unfortunately, the necessary in-
+formation may not be apparent from reading a label or 
+advertisements. However, asking manufacturers about 
+these topics can be enlightening and useful for selecting 
+a food that is of high quality and not just the one with 
+the best marketing. For home-prepared diets (whether 
+raw or cooked), the authors also strongly recommend 
+consulting with a board-certiﬁed veterinary nutritionist 
+to ensure that the owners are using a safe and nutrition-
+ally balanced recipe. Additional resources, including a 
+list of board-certiﬁed veterinary nutritionists, can be 
+found on the website of the American College of Vet-
+erinary Nutrition.b 
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+1556 
+Vet Med Today: Timely Topics in Nutrition 
+JAVMA, Vol 243, No. 11, December 1, 2013
+a. 
+Wynn SG, Bartges JW, Dodd WJ. Routine laboratory parameters 
+in healthy dogs fed raw food diets (abstr), in Proceedings. Am 
+Acad Vet Nutr Clin Nutr Res Symp 2003;10.
+b. 
+American College of Veterinary Nutrition website. Available at: 
+www.acvn.org. Accessed Aug 11, 2013.
+References
+1. 
+American Animal Hospital Association website. Raw protein 
+diet position statement. Available at: www.aahanet.org/Library/
+Raw_Food_Diet.aspx. Accessed Aug 11, 2013.
+2. 
+AVMA website. Raw or undercooked animal-source protein in 
+cat and dog diets. Available at: www.avma.org/KB/Policies/Pages/
+Raw-or-Undercooked-Animal-Source-Protein-in-Cat-and-Dog-
+Diets.aspx. Accessed Aug 11, 2013.
+3. 
+Canadian Veterinary Medical Association website. CVMA poli-
+cy on raw or undercooked animal-source protein in cat and dog 
+diets. Available at: www.cvma.net/doc.asp?id=21753. Accessed 
+Aug 11, 2013.
+4. 
+Pet Partners website. Raw protein diet policy. Available at: www.
+petpartners.org/rawdiet. Accessed Aug 11, 2013.
+5. 
+Schlesinger DP, Joffe DJ. Raw food diets in companion animals: 
+a critical review. Can Vet J 2011;52:50–54.
+6. 
+Strohmeyer RA, Morley PS, Hyatt DR, et al. Evaluation of bac-
+terial and protozoal contamination of commercially available 
+raw meat diets for dogs. J Am Vet Med Assoc 2006;228:537–
+542.
+7. 
+Billinghurst I. Give your dog a bone: the practical commonsense 
+way to feed dogs for a long healthy life. Alexandria, NSW, Austra-
+lia: Bridge Printery Ian Billinghurst, 1993.
+8. 
+Schultze KR, ed. Natural nutrition for dogs and cats: the ultimate 
+diet. Carlsbad, Calif: Hay House Inc, 1998.
+9. 
+Volhard W, Brown KL. The holistic guide for a healthy dog. New 
+York: Howell Book House, 1995.
+10. Pitout JD, Reisbig MD, Mulvey M, et al. Association between 
+handling of pet treats and infection with Salmonella enterica se-
+rotype Newport expressing the AmpC beta-lactamase, CMY-2.  
+J Clin Microbiol 2003;41:4578–4582.
+11. Clark C, Cunningham J, Ahmed R, et al. Characterization of 
+Salmonella associated with pig ear dog treats in Canada. J Clin 
+Microbiol 2001;39:3962–3968.
+12. White DG, Datta A, McDermott P, et al. Antimicrobial sus-
+ceptibility and genetic relatedness of Salmonella serovars iso-
+lated from animal-derived dog treats in the USA. J Antimicrobial  
+Chemother 2003;52:860–863.
+13. Finley R, Reid-Smith R, Ribble C, et al. The occurrence and 
+antimicrobial sensitivity of salmonellae isolated from com-
+mercially available pig ear pet treats. Zoonoses Public Health 
+2008;55:455–461.
+14. Freeman LM, Janecko N, Weese JS. Nutritional and microbial 
+analysis of bully sticks and survey of opinions about pet treats. 
+Can Vet J 2013;54:50–54.
+15. de-Oliveira LD, Carcioﬁ AC, Oliveira MC, et al. Effects of six 
+carbohydrate sources on diet digestibility and postprandial 
+glucose and insulin response in cats. J Anim Sci 2008;86:2237–
+2246.
+16. Hazewinkel H, Vandenbrom W, Vantklooster A, et al. Calcium 
+metabolism in Great Dane dogs fed diets with various calcium 
+and phosphorus levels. J Nutr 1991;121:S99–S106.
+17. Meyer H, Zentek J, Habernoll H, et al. Digestibility and compat-
+ibility of mixed diets and faecal consistency in different breeds 
+of dog. Zentralbl Veterinarmed A 1999;46:155–165.
+18.  Axelsson E, Ratnakumar A, Arendt M-L, et al. The genomic sig-
+nature of dog domestication reveals adaptation to a starch-rich 
+diet. Nature 2013;495;360–364. 
+19. Association of American Feed Control Ofﬁcials. Ofﬁcial publica-
+tion. Oxford, Ind: Association of American Feed Control Ofﬁ-
+cials, 2012.
+20. Nestle M, Nesheim M. Feed your pet right: the authoritative guide 
+to feeding your dog and cat. New York: Free Press, 2010.
+21. FDA website. Pet food recall products list. Available at: www.fda.
+gov/AnimalVeterinary/SafetyHealth/RecallsWithdrawals/default.
+htm. Accessed Aug 11, 2013.
+22. FDA website. Recalls, market withdrawals, & safety alerts. 
+Available at: www.fda.gov/safety/recalls/default.htm. Accessed 
+Aug 11, 2013.
+23. Steel RJS. Thiamine deﬁciency in a cat associated with the 
+preservation of “pet meat” with sulphur dioxide. Aust Vet J 
+1997;75:719–721.
+24. Boermans HJ, Leung MCK. Mycotoxins and the pet food indus-
+try: toxicological evidence and risk assessment. Int J Food Micro-
+biol 2007;119:95–102.
+25. Morita T, Awakura T, Shimada A, et al. Vitamin-D toxicosis in 
+cats: natural outbreak and experimental study. J Vet Med Sci 
+1995;57:831–837.
+26. Bernard MT. Raising cats naturally: how to care for your cat the 
+way nature intended. Sandy, Utah: Aardvark Global Pub, 2004.
+27. Dijcker JC, Hagen-Plantinga A, Everts H, et al. Dietary and ani-
+mal-related factors associate with the rate of urinary oxalate and 
+calcium excretion in dogs and cats. Vet Rec 2012;171:46. 
+28. Crissey SD, Swanson JA, Lintzenich BA, et al. Use of a raw meat-
+based diet or a dry kibble diet for sand cats (Felis margarita).  
+J Anim Sci 1997;75:2154–2160.
+29. Vester BM, Burke SL, Liu KJ, et al. Inﬂuence of feeding raw 
+or extruded feline diets on nutrient digestibility and nitro-
+gen metabolism of African wildcats (Felis lybica). Zoo Biol 
+2010;29:676–686.
+30. Kerr KR, Vester Boler BM, Morris CL, et al. Apparent total 
+tract energy and macronutrient digestibility and fecal fermen-
+tative end-product concentrations of domestic cats fed ex-
+truded, raw beef-based, and cooked beef-based diets. J Anim Sci 
+2012;90:515–522.
+31. Hendriks WH, Emmens MM, Trass B, et al. Heat processing 
+changes the protein quality of canned cat foods as measured by 
+a rat bioassay. J Anim Sci 1999;77:669–676.
+32. Williams PA, Hodgkinson SM, Rutherfurd SM, et al. Lysine 
+content in canine diets can be severely heat damaged. J Nutr 
+2006;136:1998S–2000S.
+33. Rutherfurd SM, Rutherfurd-Markwick KJ, Moughan PJ. Avail-
+able (ileal digestible reactive) lysine in selected pet foods. J Agric 
+Food Chem 2007;55:3517–3522.
+34. Meade SJ, Reid EA, Gerrard JA. The impact of processing on 
+the nutritional quality of food proteins. JAOAC 2005;88:904–
+922.
+35. Friedman M. Food browning and its prevention: an overview.  
+J Agric Food Chem 1996;44:631–653.
+36. Damodaran S. Amino acids, peptides and proteins. In: Fennema 
+OR, ed. Food chemistry. 3rd ed. New York: Marcel Dekker Inc, 
+1996;321–429.
+37. National Research Council Ad Hoc Committee on Dogs and 
+Cats. In: Nutrient requirements of dogs and cats. Washington, DC: 
+National Academies Press, 2006.
+38. Larsson SC, Wolk A. Meat consumption and risk of colorec-
+tal cancer: a meta-analysis of prospective studies. Intl J Cancer 
+2006;119:2657–2664.
+39. Sugimura T, Wakabayashi K, Nakagama H, et al. Heterocyclic 
+amines: mutagens/carcinogens produced during cooking of 
+meat and ﬁsh. Cancer Sci 2004;95:290–299.
+40. Knize MG, Salmon CP, Felton JS. Mutagenic activity and het-
+erocyclic amine carcinogens in commercial pet foods. Mutat Res 
+2003;539:195–201.
+41. Freeman LM, Michel KE. Evaluation of raw food diets (Erratum 
+published in J Am Vet Med Assoc 2001;218:1716). J Am Vet Med 
+Assoc 2001;218:705–709.
+42. Taylor MB, Geiger DA, Saker KE, et al. Diffuse osteopenia and 
+myelopathy in a puppy fed a diet composed of an organic pre-
+mix and raw ground beef. J Am Vet Med Assoc 2009;234:1041–
+1048.
+43. Dillitzer N, Becker N, Kienzle E. Intake of minerals, trace ele-
+ments and vitamins in bone and raw food rations in adults dogs. 
+Br J Nutr 2011;106:S53–S56.
+44. Larsen JA, Parks EM, Heinze CR, et al. Evaluation of recipes 
+for home-prepared diets for dogs and cats with chronic kidney 
+disease. J Am Vet Med Assoc 2012;240:532–538.
+45. Heinze CR, Gomez FC, Freeman LM. Assessment of commer-
+cial diets and recipes for home-prepared diets recommended for 
+dogs with cancer. J Am Vet Med Assoc 2012;241:1453–1460.
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+JAVMA, Vol 243, No. 11, December 1, 2013 
+Vet Med Today: Timely Topics in Nutrition 
+1557
+46.  Stockman J, Fascetti AJ, Kass PH, et al. Evaluation of recipes of 
+home-prepared maintenance diets for dogs. J Am Vet Med Assoc 
+2013;242:1500–1505.
+47. KuKanich KS. Update on Salmonella spp contamination of pet 
+food, treats, and nutritional products and safe feeding recom-
+mendations. J Am Vet Med Assoc 2011;238:1430–1434.
+48. LeJeune JT, Hancock DD. Public health concerns associ-
+ated with feeding raw meat diets to dogs. J Am Vet Med Assoc 
+2001;219:1222–1225.
+49. Joffe DJ, Schlesinger DP. Preliminary assessment of the risk of 
+Salmonella infection in dogs fed raw chicken diets. Can Vet J 
+2002;43:441–442.
+50. Weese JS, Rousseau J, Arroyo L. Bacteriological evaluation of 
+commercial canine and feline raw diets. Can Vet J 2005;46:513–
+516.
+51. Finley R, Reid-Smith R, Ribble C, et al. The occurrence and an-
+timicrobial susceptibility of Salmonellae isolated from commer-
+cially available canine raw food diets in three Canadian cities. 
+Zoonoses Public Health 2008;55:462–469.
+52. Lenz J, Joffe D, Kauffman M, et al. Perceptions, practices, and 
+consequences associated with foodborne pathogens and the 
+feeding of raw meat to dogs. Can Vet J 2009;50:637–643.
+53. Selmi M, Stefanelli S, Bilei S, et al. Contaminated commer-
+cial dehydrated food as source of multiple Salmonella sero-
+types outbreak in a municipal kennel in Tuscany. Vet Italiana 
+2011;47:183–190.
+54. Behravesh CB, Ferraro A, Deasy M, et al. Human Salmonella 
+infections linked to contaminated dry dog and cat food, 2006–
+2008. Pediatrics 2010;126:477–483.
+55. Chengappa MM, Staats J, Oberst RD, et al. Prevalence of Salmo-
+nella in raw meat used in diets of racing Greyhounds. J Vet Diagn 
+Invest 1993;5:372–377.
+56. Stiver SL, Frazier KS, Mauel MJ, et al. Septicemic salmonel-
+losis in two cats fed a raw-meat diet. J Am Anim Hosp Assoc 
+2003;39:538–542.
+57. Leonard EK, Pearl DL, Finley RL, et al. Evaluation of pet-related 
+management factors and the risk of Salmonella spp. carriage in 
+pet dogs from volunteer households in Ontario (2005–2006). 
+Zoonoses Public Health 2011;58:140–149.
+58. Morley PS, Strohmeyer RA, Tankson JD, et al. Evaluation of the 
+association between feeding raw meat and Salmonella enterica 
+infections at a Greyhound breeding facility. J Am Vet Med Assoc 
+2006;228:1524–1532. 
+59. Cui S, Ge B, Zheng J, et al. Prevalence and antimicrobial resis-
+tance of Campylobacter spp and Salmonella serovars in organic 
+chicken from Maryland retail stores. Appl Environ Microbiol 
+2005;71:4108–4111.
+60. Bohaychuk VM, Gensler GE, King RK, et al. Occurrence of 
+pathogens in raw and ready-to-eat meat and poultry products 
+collected from the retail marketplace in Edmonton, Alberta, 
+Canada. J Food Prot 2006;69:2176–2182.
+61. M’ikanatha NM, Sandt CH, Localio AR, et al. Multidrug-resis-
+tant Salmonella isolates from retail chicken meat compared with 
+human clinical isolates. Foodborne Pathog Dis 2010;7:929–934.
+62. Lestari SI, Han F, Wang F, et al. Prevalence and antimicrobial resis-
+tance of Salmonella serovars in conventional and organic chicken 
+from Louisiana retail stores. J Food Prot 2009;72:1165–1172.
+63. Cook A, Odumeru J, Lee S, et al. Campylobacter, Salmonella, 
+Listeria monocytogenes, verotoxigenic Escherichia coli, and Esch-
+erichia coli prevalence, enumeration, and subtypes on retail 
+chicken breasts with and without skin. J Food Prot 2012;75:34–
+40.
+64. Zhao T, Foyle MP, Fedorka-Cray PJ, et al. Occurrence of Salmo-
+nella enterica serotype Typhimurium DT104A in retail ground 
+beef. J Food Prot 2002;65:403–407.
+65. Mollenkopf DF, Kleinhenz KE, Funk JA, et al. Salmonella en-
+terica and Escherichia coli harboring blaCMY in retail beef and 
+pork products. Foodborne Pathog Dis 2011;8:333–336.
+66. Smielewska-Los E, Rypula K, Pacon J. The inﬂuence of feeding 
+and maintenance system on the occurrence of Toxoplasma gondii 
+infections in dogs. Pol J Vet Sci 2002;5:231–234. 
+67. Lopes AP, Cardoso L, Rodrigues M. Serological survey of Toxo-
+plasma gondii infection in domestic cats from northeastern Por-
+tugal. Vet Parasitol 2008;155:184–189. 
+68. Dubey JP, Hill DE, Jones JL, et al. Prevalence of viable Toxo-
+plasma gondii in beef, chicken, and pork from retail meat stores 
+in the United States: risk assessment to consumers. J Parasitol 
+2005;91:1082–1093.
+69. Antolova D, Reiterova K Miterpakova M, et al. The ﬁrst ﬁnd-
+ing of Echinococcus multilocularis in dogs in Slovakia: an emerg-
+ing risk for spreading of infection. Zoonoses Public Health 
+2009;56:53–58. 
+70. Pao S, Ettinger MR. Comparison of the microbial quality of 
+ground beef and ground beef patties from Internet and local re-
+tail markets. J Food Prot 2009;72:1722–1726.
+71. Rumbeiha W, Morrison J. A review of class I and class II pet food 
+recalls involving chemical contaminants from 1996 to 2008.  
+J Med Toxicol 2011;7:60–66.
+72. FDA website. FDA Amendments Act (FDAAA) of 2007. 
+Available at: www.fda.gov/regulatoryinformation/legislation/ 
+federalfooddrugandcosmeticactfdcact/signiﬁcantamendments 
+tothefdcact/foodanddrugadministrationamendmentsactof2007/
+default.htm. Accessed Aug 11, 2013.
+73. LaFlamme DP, Abood SK, Fascetti AJ, et al. Pet feeding practices 
+of dog and cat owners in the United States and Australia. J Am 
+Vet Med Assoc 2008;232:687–694.
+74.  Michel KE, Freeman L. Nutritional requirements across the 
+species. In: Rolandelli RH, Bankhead R, Boullata JI, et al, eds. 
+Clinical nutrition: enteral and tube feeding. 4th ed. Philadelphia: 
+Elsevier Saunders, 2005;43–54.
+75.  Dressman JB. Comparison of canine and human gastrointestinal 
+physiology. Pharm Res 1986;3:123–131.
+76.  Aymerich T, Picouet PA, Monfort JM. Decontamination tech-
+nologies for meat products. Meat Sci 2008;78:114–129.
+77.  Baert L, Debevere J, Uyttendaele M. The efﬁcacy of preservation 
+methods to inactivate foodborne viruses. Intl J Food Microbiol 
+2009;131:83–94.
+78.  Vanlint D, Rutten N, Michiels CW, et al. Emergence and stability 
+of high-pressure resistance in different food-borne pathogens. 
+Appl Environ Microbiol 2012;78:3234–3241.
+79. Rousseau A, Prittie J, Broussard JD, et al. Incidence and char-
+acterization of esophagitis following esophageal foreign body 
+removal in dogs: 60 cases (1999–2003). J Vet Emerg Crit Care 
+2007;17:159–163.
+80. Gianella P, Pfammatter NS, Burgener IA. Oesophageal and gas-
+tric endoscopic foreign body removal: complications and follow 
+up of 102 dogs. J Small Anim Pract 2009;50:649–654. 
+81. Frowde PE, Battersby IA, Whitley NT, et al. Oesophageal dis-
+ease in 33 cats. J Feline Med Surg 2011;13:564–596.
+82. Thompson HC, Cortes Y, Gannon K, et al. Esophageal foreign 
+bodies in dogs: 34 cases (2004–2009). J Vet Emerg Crit Care 
+2012;22:253–261.
+83. Köhler B, Stengel C, Neiger-Casas R. Dietary hyperthyroidism 
+in dogs. J Small Anim Pract 2012;53:182–184.
+84. Thibodeau A, Fravalo P, Laurent-Lewandowski L, et al. Pres-
+ence and characterization of Campylobacter jejuni in organically 
+raised chicken in Quebec. Can J Vet Res 2011;75:298–307.
+85. Finley R, Reid-Smith R, Weese JS. Human health implications 
+of Salmonella-contaminated natural pet treats and raw pet food. 
+Clin Infect Dis 2006;42:686–691.
+86. Aspinall TV, Marlee D, Hyde JE, et al. Prevalence of Toxoplasma 
+gondii in commercial meat products as monitored by polymerase 
+chain reaction—food for thought? Int J Parasitol 2002;32:1193–
+1199.
+87. Dorny P, Praet N, Deckers N, et al. Emerging food-borne para-
+sites. Vet Parasitol 2009;163:196–206.
+88. Dubey JP, Rajendran C, Ferreira LR, et al. High prevalence and 
+genotypes of Toxoplasma gondii isolated from goats from a re-
+tail meat store, destined for human consumption in the United 
+States. Int J Parasitol 2011;41:827–833.
+89. Callaway TR, Edrington TS, Anderson RC, et al. Gastrointesti-
+nal microbial ecology and the safety of our food supply as re-
+lated to Salmonella. J Anim Sci 2008;86:E163–E172.
+90. Sato Y, Mori T, Koyama T, et al. Salmonella virchow infection 
+in an infant transmitted by household dogs. J Vet Med Sci 
+2000;62:767–769.
+91. Lefebvre SL, Reid-Smith R, Boerlin P, et al. Evaluation of the 
+risk of shedding salmonellae and other potential pathogens by 
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC
+1558 
+Vet Med Today: Timely Topics in Nutrition 
+JAVMA, Vol 243, No. 11, December 1, 2013
+therapy dogs fed raw diets in Ontario and Alberta. Zoonoses Pub-
+lic Health 2008;55:470–480.
+92. Finley R, Ribble C, Aramini J, et al. The risk of salmonellae 
+shedding by dogs fed Salmonella-contaminated commercial raw 
+food diets. Can Vet J 2007;48:69–75.
+93. Fredricksson-Ahomaa M, Korte T, Korkeala H. Transmission of 
+Yersinia enterocolitica 4/O:3 to pets via contaminated pork. Lett 
+Appl Microbiol 2001;32:375–378.
+94. Jones JL, Kruszon-Moran D, Wilson M, et al. Toxoplasma gondii 
+infection in the United States: seroprevalence and risk factors. 
+Am J Epidemiol 2001;154:357–365.
+95. Jokelainen P, Simola O, Rantanen E, et al. Feline toxoplasmosis 
+in Finland: cross-sectional epidemiological study and case se-
+ries study. J Vet Diagn Invest 2012;24:1115–1124.
+96. Opsteegh M, Haveman R, Swart AN, et al. Seroprevalence and 
+risk factors for Toxoplasma gondii infection in domestic cats in 
+The Netherlands. Prev Vet Med 2012;104:317–326.
+97. Babcock S, Marsh AE, Lin J, et al. Legal implications of zoonoses 
+for clinical veterinarians. J Am Vet Med Assoc 2008;233:1556–
+1562.
+98. Weese JS, Rousseau J. Survival of Salmonella Copenhagen in 
+food bowls following contamination with experimentally in-
+oculated raw meat: effects of time, cleaning, and disinfection. 
+Can Vet J 2006;47:887–889. 
+99. FDA Center for Veterinary Medicine website. Guidance for 
+industry #122. Manufacture and labeling of raw meat foods 
+for companion and captive noncompanion carnivores and 
+omnivores. Available at: www.fda.gov/downloads/animalvet-
+erinary/guidancecomplianceenforcement/guidanceforindustry/
+ucm052662.pdf. Accessed Aug 11, 2013.
+100. Baldwin K, Bartges J, Bufﬁngton T, et al. AAHA nutritional as-
+sessment guidelines for dogs and cats. J Am Anim Hosp Assoc 
+2010:46:285–296.
+101. WSAVA Nutritional Assessment Guidelines Taskforce Members, 
+Freeman L, Becvarova I, Cave N, et al. WSAVA Nutritional As-
+sessment Guidelines. J Small Anim Pract 2011;52:385–396.
+Appendix
+Recommendations for selecting a commercially available pet food. 
+1. The manufacturer should employ at least 1 full-time qualiﬁed nutritionist. Appropriate qualiﬁcations are a PhD in animal nutrition or board-
+certiﬁcation by the American College of Veterinary Nutrition or European College of Veterinary Comparative Nutrition. 
+2. The manufacturer should test its diets with AAFCO feeding trials. If AAFCO feeding trials are not conducted, the manufacturer should, at a 
+minimum, ensure that diets meet AAFCO nutrient proﬁles through analysis of the ﬁnished product.
+3. The manufacturer should own the plant or plants where the food is manufactured.
+4. The manufacturer should practice strict quality-control measures. Examples include certiﬁcation of a manufacturer’s procedures (eg, Global 
+Food Safety Initiative, Hazard Analysis and Critical Control Points, or American Feeding Industry Association); testing ingredients and end-
+products for nutrient content, pathogens, and aﬂatoxins; materials risk assessments; and supplier audits.
+5. The manufacturer should be able to provide a complete nutrient analysis for any dog or cat food of interest (not only the guaranteed analysis, 
+which is listed on the label, but the average [typical] analysis as well). The manufacturer should be able to provide exact values for all 
+nutrients. This should ideally be provided on an energy basis (ie, grams per 100 kilocalories or grams per 1,000 kilocalories), rather than on an 
+as-fed or dry-matter basis, which does not account for the variation in energy density among foods.
+6. The manufacturer should be able to provide the number of calories for any food on any requested weight or volume basis (eg, per gram, per 
+pound, per cup, or per liter).
+7. The manufacturer should conduct and publish research in peer-reviewed journals.
+Recommendations are on the basis of information included in the nutritional assessment guidelines published by the American Animal Hospital 
+Association100 and the World Small Animal Veterinary Association.101 
+Brought to you by Fox Valley Technical College  | Unauthenticated | Downloaded 07/12/26 05:08 AM UTC

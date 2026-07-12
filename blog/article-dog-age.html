@@ -73,12 +73,15 @@
         </table>
       </div>
       <p>如表所示：1岁犬在表观遗传水平已等效人类31岁——完美解释了1岁犬的性成熟现象。而10岁后新公式与旧规则结果逐渐接近，符合临床实际。</p>
+
+      <p><strong>重要研究局限：</strong>Wang等人的研究<strong>仅纳入拉布拉多寻回犬</strong>（104只）。作者在讨论部分明确指出——"不同品种的犬寿命差异巨大，可能产生不同的年龄转换函数"<sup>[1]</sup>。因此，上述公式直接适用于中型犬（如拉布拉多），对小型犬和大型犬的换算需结合其他体型-寿命研究进行修正（见下节）。</p>
     </section>
 
     <section class="content-section">
-      <h2>体型效应：为什么大型犬老得更快？</h2>
-      <p>上述公式基于中型犬（拉布拉多）。Wang等人明确指出，模型可推广至其他品种但需考虑品种间寿命差异<sup>[1]</sup>。在哺乳动物中，体型与寿命通常正相关（大象>人类>小鼠），而犬类恰好相反——这是"犬类寿命悖论"。</p>
-      <p>Kraus等人（2013）基于74个犬种的大规模数据分析表明，体型每增加2倍，死亡风险增加约35%<sup>[3]</sup>。当前主流假说认为：大型犬品种的人工选择导致生长发育速率极度加速、细胞分裂次数增加，伴随更高的氧化应激和端粒损耗。因此我们在计算工具中对小型犬（<10kg）和大型犬（>25kg）分别引入约±2人类年的体型修正。</p>
+      <h2>体型效应：独立于表观遗传公式的补充研究</h2>
+      <p><strong>Wang 2020的表观遗传公式仅基于拉布拉多（中型犬）。</strong>该研究团队在讨论中明确指出："不同品种的犬寿命差异巨大，可能产生不同的年龄转换函数"<sup>[1]</sup>。要校正体型差异，需要借助独立的大规模流行病学研究。</p>
+      <p>Kraus等人（2013）在《The American Naturalist》发表的研究，分析了74个犬种、56,637只个体的死亡率数据，发现体型是犬类寿命的最强预测因子——大型犬的<strong>老化速率</strong>显著快于小型犬<sup>[3]</sup>。这一发现被da Silva & Cross（2023）进一步确认：在使用系统发育对照后，体型-寿命的反比关系依然成立，且主要原因是大型犬更高的<strong>年龄依赖性癌症死亡率</strong><sup>[4]</sup>。</p>
+      <p>基于上述两项独立于Wang 2020的研究，我们在计算工具中对不同体型做了如下估算（非Wang原文数据）：</p>
       <div class="table-wrap">
         <table>
           <thead><tr><th>狗狗年龄</th><th>小型犬（<10kg）</th><th>中型犬（10–25kg）</th><th>大型犬（>25kg）</th></tr></thead>
@@ -115,14 +118,20 @@
       <ol style="font-size:0.8125rem;color:var(--text-secondary);line-height:1.8;">
         <li><strong>Wang T, Ma J, Hogan AN, et al.</strong> Quantitative Translation of Dog-to-Human Aging by Conserved Remodeling of the DNA Methylome. <em>Cell Systems</em>. 2020;11(2):176-185.e6. <a href="https://doi.org/10.1016/j.cels.2020.06.006" target="_blank" rel="noopener">DOI:10.1016/j.cels.2020.06.006</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/32619550/" target="_blank" rel="noopener">PMID:32619550</a> · Cell Press (IF: 9.4)</li>
         <li><strong>Promislow DEL.</strong> From Dog Days to Human Years. <em>Cell Systems</em>. 2020;11(2):105-106. <a href="https://doi.org/10.1016/j.cels.2020.07.007" target="_blank" rel="noopener">DOI:10.1016/j.cels.2020.07.007</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/32681033/" target="_blank" rel="noopener">PMID:32681033</a></li>
-        <li><strong>Kraus C, Pavard S, Promislow DEL.</strong> The Size–Life Span Trade-Off Decomposed: Why Large Dogs Die Young. <em>The American Naturalist</em>. 2013;181(4):492-505. <a href="https://doi.org/10.1086/669665" target="_blank" rel="noopener">DOI:10.1086/669665</a> · 74犬种大规模数据分析</li>
+        <li><strong>Kraus C, Pavard S, Promislow DEL.</strong> The Size–Life Span Trade-Off Decomposed: Why Large Dogs Die Young. <em>The American Naturalist</em>. 2013;181(4):492-505. <a href="https://doi.org/10.1086/669665" target="_blank" rel="noopener">DOI:10.1086/669665</a> · 74犬种/56,637只犬死亡率数据分析</li>
+        <li><strong>da Silva J, Cross B.</strong> Dog Life Spans and the Evolution of Aging. <em>The American Naturalist</em>. 2023;201(6):E140-E152. <a href="https://doi.org/10.1086/724384" target="_blank" rel="noopener">DOI:10.1086/724384</a> · 系统发育对照验证体型-寿命关系</li>
         <li><strong>AAHA/AAFP.</strong> Feline Life Stage Guidelines. <em>J Feline Med Surg</em>. 2010;12:43-54. <a href="https://doi.org/10.1016/j.jfms.2009.12.006" target="_blank" rel="noopener">DOI:10.1016/j.jfms.2009.12.006</a></li>
         <li><strong>Squires RA, Crawford C, Marcondes M, Whitley N (WSAVA VGG).</strong> 2024 Guidelines for the Vaccination of Dogs and Cats. <em>J Small Anim Pract</em>. 2024;65(5):277-316. <a href="https://doi.org/10.1111/jsap.13718" target="_blank" rel="noopener">DOI:10.1111/jsap.13718</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/38568777/" target="_blank" rel="noopener">PMID:38568777</a> · 2024年重大更新版</li>
         <li><strong>Salt C, Morris PJ, Wilson D, Lund EM, German AJ.</strong> Association between life span and body condition in neutered client-owned dogs. <em>J Vet Intern Med</em>. 2019;33(1):89-99. <a href="https://doi.org/10.1111/jvim.15367" target="_blank" rel="noopener">DOI:10.1111/jvim.15367</a></li>
       </ol>
 
-      <h3>交叉验证</h3>
-      <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:0;">本文核心公式来源于Cell Press子刊《Cell Systems》（IF: 9.4）同行评审原著论文，已被PubMed Central全文收录、被引>500次（截至2026.7）。体型-寿命关系得到Kraus等人独立大规模数据分析的交叉验证。生命阶段划分参考AAHA指南和WSAVA 2024最新疫苗指南，均为截至本文更新时（2026年7月）的最新版本。</p>
+      <h3>交叉验证与来源透明说明</h3>
+      <p style="font-size:0.8125rem;color:var(--text-secondary);margin-bottom:0;">
+        <strong>表观遗传公式（16×ln+31）：</strong>来源于Wang等人2020年发表于Cell Press子刊《Cell Systems》（IF: 9.4）的同行评审原著论文，基于104只拉布拉多寻回犬的DNA甲基化数据，已被PubMed Central全文收录、被引>500次（截至2026.7），并在小鼠中成功验证。<br><br>
+        <strong>体型修正（小型犬/大型犬调整）：</strong>非Wang原文数据，而是基于Kraus等人（2013, 74犬种/56,637只犬）和da Silva & Cross（2023, 系统发育对照）两项独立大规模研究的科学推断。Wang本人明确指出拉布拉多数据可能与其它品种不同。<br><br>
+        <strong>生命阶段划分：</strong>参考AAHA犬类生命阶段指南和WSAVA 2024最新疫苗指南。<br><br>
+        ⚠️ 猫的年龄换算基于AAHA/AAFP临床指南（2010），目前尚无猫的公开表观遗传时钟研究。本文所有内容均为截至2026年7月的最新版本。
+      </p>
     </section>
 
     <p style="margin-top:var(--space-lg);text-align:center;">
