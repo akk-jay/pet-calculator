@@ -414,33 +414,6 @@ select.input {
   padding-right: 36px;
 }
 
-/* --- Toggle Tabs --- */
-.toggle-tabs {
-  display: flex;
-  gap: 0;
-  margin-bottom: var(--space-sm);
-  border-radius: var(--radius-full);
-  overflow: hidden;
-  border: 1px solid var(--border);
-  width: fit-content;
-}
-.toggle-tab {
-  padding: 8px 20px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  background: var(--bg-card);
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: all 0.15s ease;
-  border: none;
-  font-family: var(--font-body);
-  min-height: 40px;
-}
-.toggle-tab.active {
-  background: var(--accent);
-  color: #fff;
-}
-
 /* --- Result Display --- */
 .result-panel {
   background: var(--bg-footer);
@@ -946,6 +919,69 @@ tr:last-child td { border-bottom: none; }
   overflow-wrap: break-word;
   word-break: break-word;
   line-height: 1.6;
+}
+
+/* --- Inline form row (consistent mobile/desktop) --- */
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.input-row .input {
+  flex: 1;
+  min-width: 0;
+}
+.input-suffix {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+.input-slider {
+  width: 100%;
+  margin-top: 10px;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--border);
+  border-radius: 3px;
+  outline: none;
+}
+.input-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  border: none;
+}
+
+/* --- Toggle tabs --- */
+.toggle-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: var(--space-sm);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.toggle-tab {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border: none;
+  font-family: var(--font-body);
+  text-align: center;
+  min-height: 44px;
+}
+.toggle-tab.active {
+  background: var(--accent);
+  color: #fff;
 }
 
 /* --- Utility --- */
