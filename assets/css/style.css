@@ -116,6 +116,11 @@ p { margin-bottom: var(--space-sm); }
 }
 .nav-brand:hover { color: var(--text-primary); }
 .nav-logo { width: 22px; height: 22px; flex-shrink: 0; }
+.nav-logo-img { height: 32px; width: auto; display: block; flex-shrink: 0; }
+
+@media (min-width: 480px) {
+  .nav-logo-img { height: 36px; }
+}
 .nav-links {
   display: flex;
   gap: 10px;
@@ -133,7 +138,7 @@ p { margin-bottom: var(--space-sm); }
 @media (max-width: 420px) {
   .nav { padding: 0 8px; }
   .nav-brand { font-size: 0.75rem; gap: 3px; }
-  .nav-logo { width: 20px; height: 20px; }
+  .nav-logo-img { height: 26px; }
   .nav-links { gap: 6px; }
   .nav-links a { font-size: 0.75rem; }
 }
