@@ -115,11 +115,25 @@ p { margin-bottom: var(--space-sm); }
   min-width: 0;
 }
 .nav-brand:hover { color: var(--text-primary); }
-.nav-logo { width: 22px; height: 22px; flex-shrink: 0; }
-.nav-logo-img { height: 32px; width: auto; display: block; flex-shrink: 0; }
+.nav-brand-text {
+  font-family: 'Noto Serif SC', 'Georgia', 'Songti SC', serif;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #3D3D3D;
+  white-space: nowrap;
+}
+.nav-brand-cn {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  letter-spacing: 2px;
+  margin-left: 3px;
+  color: #C4A882;
+}
 
 @media (min-width: 480px) {
-  .nav-logo-img { height: 36px; }
+  .nav-brand-text { font-size: 1.25rem; }
+  .nav-brand-cn { font-size: 0.9375rem; }
 }
 .nav-links {
   display: flex;
@@ -138,7 +152,8 @@ p { margin-bottom: var(--space-sm); }
 @media (max-width: 420px) {
   .nav { padding: 0 8px; }
   .nav-brand { font-size: 0.75rem; gap: 3px; }
-  .nav-logo-img { height: 26px; }
+  .nav-brand-text { font-size: 0.875rem; }
+.nav-brand-cn { font-size: 0.6875rem; }
   .nav-links { gap: 6px; }
   .nav-links a { font-size: 0.75rem; }
 }
@@ -147,7 +162,8 @@ p { margin-bottom: var(--space-sm); }
 
 @media (min-width: 480px) {
   .nav-brand { font-size: 1.125rem; }
-  .nav-logo { width: 28px; height: 28px; }
+  .nav-brand-text { font-size: 1.25rem; }
+.nav-brand-cn { font-size: 0.9375rem; }
   .nav-links { gap: var(--space-md); }
   .nav-links a { font-size: 0.875rem; }
 }
