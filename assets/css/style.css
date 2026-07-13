@@ -115,6 +115,12 @@ p { margin-bottom: var(--space-sm); }
   min-width: 0;
 }
 .nav-brand:hover { color: var(--text-primary); }
+.nav-logo-icon {
+  height: 28px;
+  width: auto;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
 .nav-brand-text {
   font-family: 'Noto Serif SC', 'Georgia', 'Songti SC', serif;
   font-size: 1.0625rem;
@@ -152,8 +158,9 @@ p { margin-bottom: var(--space-sm); }
 @media (max-width: 420px) {
   .nav { padding: 0 8px; }
   .nav-brand { font-size: 0.75rem; gap: 3px; }
-  .nav-brand-text { font-size: 0.875rem; }
-.nav-brand-cn { font-size: 0.6875rem; }
+  .nav-logo-icon { height: 22px; }
+.nav-brand-text { font-size: 0.75rem; }
+.nav-brand-cn { font-size: 0.625rem; }
   .nav-links { gap: 6px; }
   .nav-links a { font-size: 0.75rem; }
 }
